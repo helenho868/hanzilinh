@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HanziLinh - Ôn tập tiếng Trung và luyện thi HSK</title>
+<meta name="description" content="HanziLinh: học từ vựng, luyện đề và ôn tập tiếng Trung theo từng cấp HSK 1 đến 6.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif+SC:wght@600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html" aria-label="HanziLinh, trang chủ">
+    <span class="seal" aria-hidden="true">灵</span>
+    <span class="brand-name">HanziLinh</span>
+  </a>
+  <nav aria-label="Menu chính">
+    <a href="#cap-do">Cấp độ HSK</a>
+    <a href="#cong-cu">Công cụ học</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Học tiếng Trung từng chữ, từng cấp HSK</h1>
+      <p>Ôn từ vựng, làm bài trắc nghiệm và luyện đề theo đúng cấp độ của bạn. Miễn phí, học được trên điện thoại.</p>
+      <div class="cta">
+        <a class="btn primary" href="#cap-do">Chọn cấp độ để bắt đầu</a>
+        <a class="btn" href="#cong-cu">Xem các công cụ học</a>
+      </div>
+    </div>
+    <div class="hero-char" aria-hidden="true">
+      <span class="big">学</span>
+      <span class="read">xué</span>
+      <span class="mean">học</span>
+    </div>
+  </section>
+
+  <section id="cap-do" class="block">
+    <h2>Chọn cấp độ HSK</h2>
+    <p class="lead">Số từ là tổng số từ cần biết ở cấp đó, theo chuẩn HSK 2.0.</p>
+    <ul class="levels" id="levels"></ul>
+  </section>
+
+  <section id="cong-cu" class="block">
+    <h2>Công cụ học</h2>
+    <p class="lead">Các mục dưới đây sẽ được thêm dần. Mục nào đã sẵn sàng sẽ có nút mở.</p>
+    <ul class="tools" id="tools"></ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
