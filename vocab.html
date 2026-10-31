@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Từ vựng HSK - HanziLinh</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif+SC:wght@600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/vocab.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html" aria-label="HanziLinh, trang chủ">
+    <span class="seal" aria-hidden="true">灵</span>
+    <span class="brand-name">HanziLinh</span>
+  </a>
+  <nav aria-label="Menu chính">
+    <a href="index.html#cap-do">Cấp độ HSK</a>
+    <a href="index.html#cong-cu">Công cụ học</a>
+  </nav>
+</header>
+
+<main class="narrow">
+  <h1 id="title">Từ vựng HSK</h1>
+  <p class="lead" id="info">Đang tải dữ liệu...</p>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="t1" aria-selected="true" type="button">Thẻ từ vựng</button>
+    <button class="tab" role="tab" id="t2" aria-selected="false" type="button">Danh sách</button>
+  </div>
+
+  <section id="p1">
+    <div class="panel">
+      <p class="meta"><span id="fcount"></span><span id="fknown"></span></p>
+      <button class="fc" id="fc" type="button" aria-label="Thẻ từ vựng, bấm để lật">
+        <span class="zh" id="fz"></span>
+        <span class="back"><span class="py" id="fp"></span><span class="vi" id="fv"></span></span>
+        <span class="hint">Bấm vào thẻ để xem phiên âm và nghĩa</span>
+      </button>
+      <div class="row">
+        <button class="btn2" id="spk" type="button">Nghe phát âm</button>
+        <button class="btn2" id="shuf" type="button">Trộn thẻ</button>
+        <button class="btn2" id="onlyNew" type="button" aria-pressed="false">Chỉ từ chưa thuộc</button>
+      </div>
+      <div class="row">
+        <button class="btn2" id="no" type="button">Chưa thuộc</button>
+        <button class="btn2 p" id="yes" type="button">Đã thuộc</button>
+      </div>
+      <div class="row">
+        <button class="btn2" id="prev" type="button">Thẻ trước</button>
+        <button class="btn2" id="nxt" type="button">Thẻ sau</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="p2" class="hide">
+    <input class="search" id="q" type="search" placeholder="Tìm theo chữ Hán, phiên âm hoặc nghĩa" aria-label="Tìm từ">
+    <ul class="list" id="list"></ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
+</footer>
+
+<script src="js/vocab.js"></script>
+</body>
+</html>

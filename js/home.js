@@ -21,13 +21,16 @@
 
   var tl = document.getElementById("tools");
   TOOLS.forEach(function (t) {
-    var li = el("li", "tool");
-    li.appendChild(el("span", "ic", t.ic));
+    var li = el("li");
+    var card = el(t.ready && t.href ? "a" : "div", "tool");
+    if (t.ready && t.href) card.href = t.href;
+    card.appendChild(el("span", "ic", t.ic));
     var box = el("div");
     box.appendChild(el("h3", "", t.name));
     box.appendChild(el("p", "", t.desc));
-    box.appendChild(el("span", "state", t.ready ? "Sẵn sàng" : "Sắp có"));
-    li.appendChild(box);
+    box.appendChild(el("span", "state", t.ready ? "Vào học" : "Sắp có"));
+    card.appendChild(box);
+    li.appendChild(card);
     tl.appendChild(li);
   });
 })();

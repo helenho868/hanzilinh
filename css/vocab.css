@@ -1,0 +1,27 @@
+.narrow{max-width:680px;padding-bottom:40px}
+.narrow h1{font-size:1.7rem;margin:12px 0 4px}
+.tabs{display:flex;gap:6px;margin:0 0 16px;border-bottom:1px solid var(--line)}
+.tab{font:inherit;font-weight:600;background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;color:var(--mute);cursor:pointer}
+.tab[aria-selected="true"]{color:var(--jade);border-bottom-color:var(--jade)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 16px}
+.meta{font-size:.88rem;color:var(--mute);margin:0 0 10px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.fc{display:block;width:100%;min-height:220px;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:inherit;cursor:pointer;padding:18px;text-align:center}
+.fc .zh{font-family:"Noto Serif SC","Songti SC",serif;font-weight:900;font-size:4rem;color:var(--jade);line-height:1.2;display:block}
+.fc .back{display:none}
+.fc.flip .back{display:block}
+.fc.flip .hint{display:none}
+.py{font-size:1.35rem;font-weight:600;display:block;margin-top:4px}
+.vi{font-size:1.1rem;display:block;margin-top:4px}
+.hint{color:var(--mute);font-size:.88rem;display:block;margin-top:14px}
+.row{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.btn2{font:inherit;font-weight:600;flex:1;min-width:110px;padding:12px;border:1.5px solid var(--jade);border-radius:10px;background:transparent;color:var(--jade);cursor:pointer}
+.btn2.p,.btn2[aria-pressed="true"]{background:var(--jade);color:var(--jade-ink)}
+.search{width:100%;font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);margin-bottom:12px}
+.list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.list li{display:grid;grid-template-columns:5.5em 1fr;gap:4px 12px;align-items:baseline;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+.list .h{font-family:"Noto Serif SC","Songti SC",serif;font-weight:700;font-size:1.3rem}
+.list .p{color:var(--jade);font-weight:600}
+.list .m{grid-column:2;color:var(--mute)}
+.list li.known{background:var(--jade-soft)}
+.empty{color:var(--mute);padding:16px 0}
+.hide{display:none!important}
