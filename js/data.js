@@ -7,7 +7,7 @@ var LEVELS = [
   { id: 2, zh: "二级", words: 300, words3: 500, new3: 200, has2: false, ready: true, href: "vocab.html?level=2" },
   { id: 3, zh: "三级", words: 600, words3: 1000, new3: 500, has2: false, ready: true, href: "vocab.html?level=3" },
   { id: 4, zh: "四级", words: 1200, words3: 2000, new3: 1000, has2: false, ready: true, href: "vocab.html?level=4" },
-  { id: 5, zh: "五级", words: 2500, ready: false, href: "" },
+  { id: 5, zh: "五级", words: 2500, words3: 3600, new3: 1600, has2: false, ready: true, href: "vocab.html?level=5" },
   { id: 6, zh: "六级", words: 5000, ready: false, href: "" }
 ];
 
