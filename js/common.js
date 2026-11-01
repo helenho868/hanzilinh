@@ -36,7 +36,11 @@
   HL.bestKey = function () {
     return "hanzilinh_best_hsk" + HL.level + (HL.std === "2" ? "" : "_v3");
   };
-  HL.label = function () { return "HSK " + HL.level + " (chuẩn " + HL.std + ".0)"; };
+  HL.levelName = function (id) {
+    for (var i = 0; i < LEVELS.length; i++) if (LEVELS[i].id === id) return LEVELS[i].name || String(id);
+    return String(id);
+  };
+  HL.label = function () { return "HSK " + HL.levelName(HL.level) + " (chuẩn " + HL.std + ".0)"; };
 
   /* Vẽ hai nút chọn chuẩn 3.0 / 2.0 vào phần tử có id đã cho. */
   HL.renderStdChips = function (id) {
@@ -65,7 +69,7 @@
     box.innerHTML = "";
     LEVELS.filter(function (l) { return l.ready; }).forEach(function (l) {
       var b = document.createElement("button");
-      b.type = "button"; b.className = "chip"; b.textContent = "HSK " + l.id;
+      b.type = "button"; b.className = "chip"; b.textContent = "HSK " + (l.name || l.id);
       b.setAttribute("aria-pressed", l.id === HL.level ? "true" : "false");
       b.onclick = function () {
         if (l.id === HL.level) return;

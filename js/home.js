@@ -11,7 +11,7 @@
     var li = el("li");
     var card = el(l.ready ? "a" : "div", "level" + (l.ready ? "" : " soon"));
     if (l.ready) card.href = l.href;
-    card.appendChild(el("span", "lv", "HSK " + l.id));
+    card.appendChild(el("span", "lv", "HSK " + (l.name || l.id)));
     card.appendChild(el("span", "zh", "HSK" + l.zh));
     var wt;
     if (l.words3 && l.has2 === false) {

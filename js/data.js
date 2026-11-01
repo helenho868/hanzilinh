@@ -8,7 +8,8 @@ var LEVELS = [
   { id: 3, zh: "三级", words: 600, words3: 1000, new3: 500, has2: false, ready: true, href: "vocab.html?level=3" },
   { id: 4, zh: "四级", words: 1200, words3: 2000, new3: 1000, has2: false, ready: true, href: "vocab.html?level=4" },
   { id: 5, zh: "五级", words: 2500, words3: 3600, new3: 1600, has2: false, ready: true, href: "vocab.html?level=5" },
-  { id: 6, zh: "六级", words: 5000, words3: 5400, new3: 1800, has2: false, ready: true, href: "vocab.html?level=6" }
+  { id: 6, zh: "六级", words: 5000, words3: 5400, new3: 1800, has2: false, ready: true, href: "vocab.html?level=6" },
+  { id: 7, name: "7–9", zh: "七至九级", words: 11000, words3: 11000, new3: 5600, has2: false, ready: true, href: "vocab.html?level=7" }
 ];
 
 /* Các công cụ học. ready: true khi đã làm xong. */
