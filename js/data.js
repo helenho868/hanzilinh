@@ -1,8 +1,8 @@
 /* Dữ liệu dùng chung cho cả trang.
-   Số từ là tổng số từ theo chuẩn HSK 2.0.
+   words: số từ theo chuẩn HSK 2.0. words3: số từ theo chuẩn HSK 3.0 (nếu đã có dữ liệu).
    ready: true khi cấp độ đã có nội dung, href là đường dẫn đến trang của cấp đó. */
 var LEVELS = [
-  { id: 1, zh: "一级", words: 150,  ready: true,  href: "vocab.html?level=1" },
+  { id: 1, zh: "一级", words: 150, words3: 300, ready: true, href: "vocab.html?level=1" },
   { id: 2, zh: "二级", words: 300,  ready: false, href: "" },
   { id: 3, zh: "三级", words: 600,  ready: false, href: "" },
   { id: 4, zh: "四级", words: 1200, ready: false, href: "" },

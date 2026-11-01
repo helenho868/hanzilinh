@@ -22,6 +22,7 @@
 
 <main class="narrow">
   <h1 id="title">Từ vựng HSK</h1>
+  <div class="chips std" id="stdChips" role="group" aria-label="Chuẩn HSK"></div>
   <p class="lead" id="info">Đang tải dữ liệu...</p>
 
   <div class="tabs" role="tablist">
@@ -34,11 +35,21 @@
       <p class="meta"><span id="fcount"></span><span id="fknown"></span></p>
       <button class="fc" id="fc" type="button" aria-label="Thẻ từ vựng, bấm để lật">
         <span class="zh" id="fz"></span>
-        <span class="back"><span class="py" id="fp"></span><span class="vi" id="fv"></span></span>
+        <span class="back">
+          <span class="em" id="fe" aria-hidden="true"></span>
+          <span class="py" id="fp"></span>
+          <span class="vi" id="fv"></span>
+          <span class="ex hide" id="fx">
+            <span class="exz" id="fxz"></span>
+            <span class="exp" id="fxp"></span>
+            <span class="exv" id="fxv"></span>
+          </span>
+        </span>
         <span class="hint">Bấm vào thẻ để xem phiên âm và nghĩa</span>
       </button>
       <div class="row">
         <button class="btn2" id="spk" type="button">Nghe phát âm</button>
+        <button class="btn2 hide" id="spkx" type="button">Nghe câu ví dụ</button>
         <button class="btn2" id="shuf" type="button">Trộn thẻ</button>
         <button class="btn2" id="onlyNew" type="button" aria-pressed="false">Chỉ từ chưa thuộc</button>
       </div>
@@ -58,13 +69,14 @@
     <ul class="list" id="list"></ul>
   </section>
 
-  <p class="next-step"><a class="btn2 p linkbtn" id="toQuiz" href="quiz.html?level=1">Học xong rồi? Làm bài kiểm tra</a></p>
+  <p class="next-step"><a class="btn2 p linkbtn" id="toQuiz" href="quiz.html?level=1&std=3">Học xong rồi? Làm bài kiểm tra</a></p>
 </main>
 
 <footer class="foot">
   <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
 </footer>
 
+<script src="js/common.js"></script>
 <script src="js/vocab.js"></script>
 </body>
 </html>

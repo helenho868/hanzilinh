@@ -24,6 +24,18 @@
 .list .m{grid-column:2;color:var(--mute)}
 .list li.known{background:var(--jade-soft)}
 .empty{color:var(--mute);padding:16px 0}
+.chips.std{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px}
+.chips .chip{font:inherit;font-size:.92rem;padding:7px 16px;border:1.5px solid var(--line);border-radius:22px;background:var(--card);color:var(--ink);cursor:pointer}
+.chips .chip[aria-pressed="true"]{background:var(--jade);border-color:var(--jade);color:var(--jade-ink)}
+.em{display:block;font-size:2.6rem;line-height:1.2;margin-bottom:2px}
+.ex{display:block;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.exz{display:block;font-family:"Noto Serif SC","Songti SC",serif;font-size:1.25rem}
+.exp{display:block;color:var(--jade);font-size:.95rem}
+.exv{display:block;color:var(--mute);font-size:.95rem}
+.list .x{grid-column:2;display:block;margin-top:4px;padding-top:6px;border-top:1px dashed var(--line)}
+.list .xz{display:block;font-family:"Noto Serif SC","Songti SC",serif;font-size:1.05rem}
+.list .xp{display:block;color:var(--jade);font-size:.9rem}
+.list .xv{display:block;color:var(--mute);font-size:.9rem}
 .next-step{margin:24px 0 0}
 .linkbtn{display:block;text-align:center;text-decoration:none}
 .hide{display:none!important}

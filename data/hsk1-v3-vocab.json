@@ -1,0 +1,1794 @@
+{
+ "level": 1,
+ "standard": "HSK 3.0",
+ "count": 300,
+ "withExamples": 50,
+ "words": [
+  {
+   "hanzi": "爱",
+   "pinyin": "ài",
+   "vi": "yêu, thích",
+   "emoji": "❤️",
+   "ex": {
+    "zh": "我爱我的妈妈。",
+    "py": "Wǒ ài wǒ de māma.",
+    "vi": "Tôi yêu mẹ của tôi."
+   }
+  },
+  {
+   "hanzi": "八",
+   "pinyin": "bā",
+   "vi": "tám",
+   "emoji": "8️⃣",
+   "ex": {
+    "zh": "我有八本书。",
+    "py": "Wǒ yǒu bā běn shū.",
+    "vi": "Tôi có tám quyển sách."
+   }
+  },
+  {
+   "hanzi": "吧",
+   "pinyin": "ba",
+   "vi": "nhé, đi (trợ từ)",
+   "ex": {
+    "zh": "我们去吧。",
+    "py": "Wǒmen qù ba.",
+    "vi": "Chúng ta đi thôi."
+   }
+  },
+  {
+   "hanzi": "爸爸",
+   "pinyin": "bàba",
+   "vi": "bố, ba",
+   "emoji": "👨",
+   "ex": {
+    "zh": "我爸爸是医生。",
+    "py": "Wǒ bàba shì yīshēng.",
+    "vi": "Bố tôi là bác sĩ."
+   }
+  },
+  {
+   "hanzi": "百",
+   "pinyin": "bǎi",
+   "vi": "trăm",
+   "emoji": "💯",
+   "ex": {
+    "zh": "这个杯子一百块。",
+    "py": "Zhège bēizi yì bǎi kuài.",
+    "vi": "Cái cốc này một trăm đồng."
+   }
+  },
+  {
+   "hanzi": "白天",
+   "pinyin": "báitiān",
+   "vi": "ban ngày",
+   "emoji": "☀️",
+   "ex": {
+    "zh": "白天我在学校。",
+    "py": "Báitiān wǒ zài xuéxiào.",
+    "vi": "Ban ngày tôi ở trường."
+   }
+  },
+  {
+   "hanzi": "半",
+   "pinyin": "bàn",
+   "vi": "nửa",
+   "ex": {
+    "zh": "现在是三点半。",
+    "py": "Xiànzài shì sān diǎn bàn.",
+    "vi": "Bây giờ là ba giờ rưỡi."
+   }
+  },
+  {
+   "hanzi": "包子",
+   "pinyin": "bāozi",
+   "vi": "bánh bao",
+   "ex": {
+    "zh": "我早上吃包子。",
+    "py": "Wǒ zǎoshang chī bāozi.",
+    "vi": "Buổi sáng tôi ăn bánh bao."
+   }
+  },
+  {
+   "hanzi": "杯子",
+   "pinyin": "bēizi",
+   "vi": "cái cốc",
+   "emoji": "🥛",
+   "ex": {
+    "zh": "这个杯子很漂亮。",
+    "py": "Zhège bēizi hěn piàoliang.",
+    "vi": "Cái cốc này rất đẹp."
+   }
+  },
+  {
+   "hanzi": "本",
+   "pinyin": "běn",
+   "vi": "quyển (lượng từ)",
+   "emoji": "📖",
+   "ex": {
+    "zh": "我有一本汉语书。",
+    "py": "Wǒ yǒu yì běn Hànyǔ shū.",
+    "vi": "Tôi có một quyển sách tiếng Trung."
+   }
+  },
+  {
+   "hanzi": "边",
+   "pinyin": "biān",
+   "vi": "bên, phía",
+   "ex": {
+    "zh": "请坐这边。",
+    "py": "Qǐng zuò zhèbiān.",
+    "vi": "Mời ngồi phía này."
+   }
+  },
+  {
+   "hanzi": "病",
+   "pinyin": "bìng",
+   "vi": "bệnh",
+   "emoji": "🤒",
+   "ex": {
+    "zh": "他病了。",
+    "py": "Tā bìng le.",
+    "vi": "Anh ấy bị ốm rồi."
+   }
+  },
+  {
+   "hanzi": "不",
+   "pinyin": "bù",
+   "vi": "không",
+   "emoji": "🚫",
+   "ex": {
+    "zh": "我不喝茶。",
+    "py": "Wǒ bù hē chá.",
+    "vi": "Tôi không uống trà."
+   }
+  },
+  {
+   "hanzi": "不客气",
+   "pinyin": "bú kèqi",
+   "vi": "đừng khách sáo",
+   "ex": {
+    "zh": "谢谢！不客气。",
+    "py": "Xièxie! Bú kèqi.",
+    "vi": "Cảm ơn! Đừng khách sáo."
+   }
+  },
+  {
+   "hanzi": "不要",
+   "pinyin": "búyào",
+   "vi": "đừng, không muốn",
+   "ex": {
+    "zh": "你不要去。",
+    "py": "Nǐ búyào qù.",
+    "vi": "Bạn đừng đi."
+   }
+  },
+  {
+   "hanzi": "菜",
+   "pinyin": "cài",
+   "vi": "món ăn, rau",
+   "emoji": "🥗",
+   "ex": {
+    "zh": "妈妈做的菜很好吃。",
+    "py": "Māma zuò de cài hěn hǎochī.",
+    "vi": "Món mẹ nấu rất ngon."
+   }
+  },
+  {
+   "hanzi": "茶",
+   "pinyin": "chá",
+   "vi": "trà",
+   "emoji": "🍵",
+   "ex": {
+    "zh": "我喜欢喝茶。",
+    "py": "Wǒ xǐhuan hē chá.",
+    "vi": "Tôi thích uống trà."
+   }
+  },
+  {
+   "hanzi": "唱",
+   "pinyin": "chàng",
+   "vi": "hát",
+   "emoji": "🎤",
+   "ex": {
+    "zh": "她喜欢唱歌。",
+    "py": "Tā xǐhuan chàng gē.",
+    "vi": "Cô ấy thích hát."
+   }
+  },
+  {
+   "hanzi": "超市",
+   "pinyin": "chāoshì",
+   "vi": "siêu thị",
+   "emoji": "🛒",
+   "ex": {
+    "zh": "我去超市买水果。",
+    "py": "Wǒ qù chāoshì mǎi shuǐguǒ.",
+    "vi": "Tôi đi siêu thị mua hoa quả."
+   }
+  },
+  {
+   "hanzi": "车",
+   "pinyin": "chē",
+   "vi": "xe",
+   "emoji": "🚗",
+   "ex": {
+    "zh": "他的车很大。",
+    "py": "Tā de chē hěn dà.",
+    "vi": "Xe của anh ấy rất to."
+   }
+  },
+  {
+   "hanzi": "吃",
+   "pinyin": "chī",
+   "vi": "ăn",
+   "emoji": "🍽️",
+   "ex": {
+    "zh": "我想吃米饭。",
+    "py": "Wǒ xiǎng chī mǐfàn.",
+    "vi": "Tôi muốn ăn cơm."
+   }
+  },
+  {
+   "hanzi": "穿",
+   "pinyin": "chuān",
+   "vi": "mặc",
+   "emoji": "👕",
+   "ex": {
+    "zh": "她今天穿新衣服。",
+    "py": "Tā jīntiān chuān xīn yīfu.",
+    "vi": "Hôm nay cô ấy mặc quần áo mới."
+   }
+  },
+  {
+   "hanzi": "出租车",
+   "pinyin": "chūzūchē",
+   "vi": "taxi",
+   "emoji": "🚕",
+   "ex": {
+    "zh": "我坐出租车去医院。",
+    "py": "Wǒ zuò chūzūchē qù yīyuàn.",
+    "vi": "Tôi đi taxi đến bệnh viện."
+   }
+  },
+  {
+   "hanzi": "大",
+   "pinyin": "dà",
+   "vi": "to, lớn",
+   "ex": {
+    "zh": "这个苹果很大。",
+    "py": "Zhège píngguǒ hěn dà.",
+    "vi": "Quả táo này rất to."
+   }
+  },
+  {
+   "hanzi": "打电话",
+   "pinyin": "dǎ diànhuà",
+   "vi": "gọi điện thoại",
+   "emoji": "📞",
+   "ex": {
+    "zh": "我给妈妈打电话。",
+    "py": "Wǒ gěi māma dǎ diànhuà.",
+    "vi": "Tôi gọi điện cho mẹ."
+   }
+  },
+  {
+   "hanzi": "大家",
+   "pinyin": "dàjiā",
+   "vi": "mọi người",
+   "emoji": "👥",
+   "ex": {
+    "zh": "大家好！",
+    "py": "Dàjiā hǎo!",
+    "vi": "Chào mọi người!"
+   }
+  },
+  {
+   "hanzi": "到",
+   "pinyin": "dào",
+   "vi": "đến",
+   "ex": {
+    "zh": "我八点到学校。",
+    "py": "Wǒ bā diǎn dào xuéxiào.",
+    "vi": "Tám giờ tôi đến trường."
+   }
+  },
+  {
+   "hanzi": "大学",
+   "pinyin": "dàxué",
+   "vi": "đại học",
+   "emoji": "🏫",
+   "ex": {
+    "zh": "他在大学学习汉语。",
+    "py": "Tā zài dàxué xuéxí Hànyǔ.",
+    "vi": "Anh ấy học tiếng Trung ở đại học."
+   }
+  },
+  {
+   "hanzi": "大学生",
+   "pinyin": "dàxuéshēng",
+   "vi": "sinh viên đại học",
+   "emoji": "🎓",
+   "ex": {
+    "zh": "她是大学生。",
+    "py": "Tā shì dàxuéshēng.",
+    "vi": "Cô ấy là sinh viên đại học."
+   }
+  },
+  {
+   "hanzi": "的",
+   "pinyin": "de",
+   "vi": "của (trợ từ)",
+   "ex": {
+    "zh": "这是我的书。",
+    "py": "Zhè shì wǒ de shū.",
+    "vi": "Đây là sách của tôi."
+   }
+  },
+  {
+   "hanzi": "第",
+   "pinyin": "dì",
+   "vi": "thứ (số thứ tự)",
+   "ex": {
+    "zh": "今天是第一天。",
+    "py": "Jīntiān shì dì yī tiān.",
+    "vi": "Hôm nay là ngày thứ nhất."
+   }
+  },
+  {
+   "hanzi": "店",
+   "pinyin": "diàn",
+   "vi": "cửa hàng",
+   "emoji": "🏪",
+   "ex": {
+    "zh": "那儿有一个店。",
+    "py": "Nàr yǒu yí gè diàn.",
+    "vi": "Ở đó có một cửa hàng."
+   }
+  },
+  {
+   "hanzi": "点",
+   "pinyin": "diǎn",
+   "vi": "giờ; chút",
+   "emoji": "🕘",
+   "ex": {
+    "zh": "现在九点。",
+    "py": "Xiànzài jiǔ diǎn.",
+    "vi": "Bây giờ là chín giờ."
+   }
+  },
+  {
+   "hanzi": "电话",
+   "pinyin": "diànhuà",
+   "vi": "điện thoại",
+   "emoji": "☎️",
+   "ex": {
+    "zh": "你的电话是多少？",
+    "py": "Nǐ de diànhuà shì duōshao?",
+    "vi": "Số điện thoại của bạn là bao nhiêu?"
+   }
+  },
+  {
+   "hanzi": "电脑",
+   "pinyin": "diànnǎo",
+   "vi": "máy tính",
+   "emoji": "💻",
+   "ex": {
+    "zh": "我的电脑很新。",
+    "py": "Wǒ de diànnǎo hěn xīn.",
+    "vi": "Máy tính của tôi rất mới."
+   }
+  },
+  {
+   "hanzi": "电视",
+   "pinyin": "diànshì",
+   "vi": "ti vi",
+   "emoji": "📺",
+   "ex": {
+    "zh": "他在看电视。",
+    "py": "Tā zài kàn diànshì.",
+    "vi": "Anh ấy đang xem ti vi."
+   }
+  },
+  {
+   "hanzi": "电影",
+   "pinyin": "diànyǐng",
+   "vi": "phim",
+   "emoji": "🎬",
+   "ex": {
+    "zh": "我喜欢看电影。",
+    "py": "Wǒ xǐhuan kàn diànyǐng.",
+    "vi": "Tôi thích xem phim."
+   }
+  },
+  {
+   "hanzi": "电影院",
+   "pinyin": "diànyǐngyuàn",
+   "vi": "rạp chiếu phim",
+   "emoji": "🎥",
+   "ex": {
+    "zh": "我们去电影院吧。",
+    "py": "Wǒmen qù diànyǐngyuàn ba.",
+    "vi": "Chúng ta đến rạp chiếu phim đi."
+   }
+  },
+  {
+   "hanzi": "弟弟",
+   "pinyin": "dìdi",
+   "vi": "em trai",
+   "emoji": "👦",
+   "ex": {
+    "zh": "我弟弟八岁。",
+    "py": "Wǒ dìdi bā suì.",
+    "vi": "Em trai tôi tám tuổi."
+   }
+  },
+  {
+   "hanzi": "东西",
+   "pinyin": "dōngxi",
+   "vi": "đồ vật",
+   "emoji": "🛍️",
+   "ex": {
+    "zh": "我去商店买东西。",
+    "py": "Wǒ qù shāngdiàn mǎi dōngxi.",
+    "vi": "Tôi đi cửa hàng mua đồ."
+   }
+  },
+  {
+   "hanzi": "都",
+   "pinyin": "dōu",
+   "vi": "đều, tất cả",
+   "ex": {
+    "zh": "我们都是学生。",
+    "py": "Wǒmen dōu shì xuésheng.",
+    "vi": "Chúng tôi đều là học sinh."
+   }
+  },
+  {
+   "hanzi": "读",
+   "pinyin": "dú",
+   "vi": "đọc",
+   "ex": {
+    "zh": "请读这个字。",
+    "py": "Qǐng dú zhège zì.",
+    "vi": "Hãy đọc chữ này."
+   }
+  },
+  {
+   "hanzi": "对",
+   "pinyin": "duì",
+   "vi": "đúng",
+   "emoji": "✅",
+   "ex": {
+    "zh": "对，我是学生。",
+    "py": "Duì, wǒ shì xuésheng.",
+    "vi": "Đúng, tôi là học sinh."
+   }
+  },
+  {
+   "hanzi": "对不起",
+   "pinyin": "duìbuqǐ",
+   "vi": "xin lỗi",
+   "ex": {
+    "zh": "对不起，我来晚了。",
+    "py": "Duìbuqǐ, wǒ lái wǎn le.",
+    "vi": "Xin lỗi, tôi đến muộn rồi."
+   }
+  },
+  {
+   "hanzi": "多",
+   "pinyin": "duō",
+   "vi": "nhiều",
+   "ex": {
+    "zh": "这儿有很多人。",
+    "py": "Zhèr yǒu hěn duō rén.",
+    "vi": "Ở đây có rất nhiều người."
+   }
+  },
+  {
+   "hanzi": "多少",
+   "pinyin": "duōshao",
+   "vi": "bao nhiêu",
+   "emoji": "💰",
+   "ex": {
+    "zh": "这个多少钱？",
+    "py": "Zhège duōshao qián?",
+    "vi": "Cái này bao nhiêu tiền?"
+   }
+  },
+  {
+   "hanzi": "读书",
+   "pinyin": "dúshū",
+   "vi": "đọc sách, học",
+   "emoji": "📚",
+   "ex": {
+    "zh": "他在家读书。",
+    "py": "Tā zài jiā dúshū.",
+    "vi": "Anh ấy đọc sách ở nhà."
+   }
+  },
+  {
+   "hanzi": "二",
+   "pinyin": "èr",
+   "vi": "hai",
+   "emoji": "2️⃣",
+   "ex": {
+    "zh": "我有二十本书。",
+    "py": "Wǒ yǒu èrshí běn shū.",
+    "vi": "Tôi có hai mươi quyển sách."
+   }
+  },
+  {
+   "hanzi": "儿子",
+   "pinyin": "érzi",
+   "vi": "con trai",
+   "emoji": "👨‍👦",
+   "ex": {
+    "zh": "他有一个儿子。",
+    "py": "Tā yǒu yí gè érzi.",
+    "vi": "Anh ấy có một người con trai."
+   }
+  },
+  {
+   "hanzi": "饭",
+   "pinyin": "fàn",
+   "vi": "cơm; bữa ăn",
+   "emoji": "🍚",
+   "ex": {
+    "zh": "我们在家吃饭。",
+    "py": "Wǒmen zài jiā chī fàn.",
+    "vi": "Chúng tôi ăn cơm ở nhà."
+   }
+  },
+  {
+   "hanzi": "饭店",
+   "pinyin": "fàndiàn",
+   "vi": "nhà hàng, khách sạn"
+  },
+  {
+   "hanzi": "房间",
+   "pinyin": "fángjiān",
+   "vi": "căn phòng"
+  },
+  {
+   "hanzi": "非常",
+   "pinyin": "fēicháng",
+   "vi": "rất, vô cùng"
+  },
+  {
+   "hanzi": "飞机",
+   "pinyin": "fēijī",
+   "vi": "máy bay"
+  },
+  {
+   "hanzi": "分",
+   "pinyin": "fēn",
+   "vi": "phút"
+  },
+  {
+   "hanzi": "分钟",
+   "pinyin": "fēnzhōng",
+   "vi": "phút"
+  },
+  {
+   "hanzi": "高兴",
+   "pinyin": "gāoxìng",
+   "vi": "vui, vui mừng"
+  },
+  {
+   "hanzi": "个",
+   "pinyin": "gè",
+   "vi": "cái, người (lượng từ)"
+  },
+  {
+   "hanzi": "歌",
+   "pinyin": "gē",
+   "vi": "bài hát"
+  },
+  {
+   "hanzi": "哥哥",
+   "pinyin": "gēge",
+   "vi": "anh trai"
+  },
+  {
+   "hanzi": "给",
+   "pinyin": "gěi",
+   "vi": "cho, đưa"
+  },
+  {
+   "hanzi": "公司",
+   "pinyin": "gōngsī",
+   "vi": "công ty"
+  },
+  {
+   "hanzi": "工作",
+   "pinyin": "gōngzuò",
+   "vi": "công việc; làm việc"
+  },
+  {
+   "hanzi": "狗",
+   "pinyin": "gǒu",
+   "vi": "chó"
+  },
+  {
+   "hanzi": "贵",
+   "pinyin": "guì",
+   "vi": "đắt"
+  },
+  {
+   "hanzi": "国",
+   "pinyin": "guó",
+   "vi": "nước, quốc gia"
+  },
+  {
+   "hanzi": "还",
+   "pinyin": "hái",
+   "vi": "vẫn, còn; cũng"
+  },
+  {
+   "hanzi": "孩子",
+   "pinyin": "háizi",
+   "vi": "con, trẻ em"
+  },
+  {
+   "hanzi": "汉语",
+   "pinyin": "Hànyǔ",
+   "vi": "tiếng Hán, tiếng Trung"
+  },
+  {
+   "hanzi": "汉字",
+   "pinyin": "Hànzì",
+   "vi": "chữ Hán"
+  },
+  {
+   "hanzi": "号",
+   "pinyin": "hào",
+   "vi": "số; ngày (trong tháng)"
+  },
+  {
+   "hanzi": "好",
+   "pinyin": "hǎo",
+   "vi": "tốt, hay"
+  },
+  {
+   "hanzi": "好吃",
+   "pinyin": "hǎochī",
+   "vi": "ngon"
+  },
+  {
+   "hanzi": "好看",
+   "pinyin": "hǎokàn",
+   "vi": "đẹp, dễ nhìn"
+  },
+  {
+   "hanzi": "好听",
+   "pinyin": "hǎotīng",
+   "vi": "hay, dễ nghe"
+  },
+  {
+   "hanzi": "好玩儿",
+   "pinyin": "hǎowánr",
+   "vi": "vui, thú vị"
+  },
+  {
+   "hanzi": "和",
+   "pinyin": "hé",
+   "vi": "và, với"
+  },
+  {
+   "hanzi": "喝",
+   "pinyin": "hē",
+   "vi": "uống"
+  },
+  {
+   "hanzi": "很",
+   "pinyin": "hěn",
+   "vi": "rất"
+  },
+  {
+   "hanzi": "后",
+   "pinyin": "hòu",
+   "vi": "sau"
+  },
+  {
+   "hanzi": "会",
+   "pinyin": "huì",
+   "vi": "biết (làm gì); sẽ"
+  },
+  {
+   "hanzi": "回",
+   "pinyin": "huí",
+   "vi": "về, trở lại"
+  },
+  {
+   "hanzi": "火车",
+   "pinyin": "huǒchē",
+   "vi": "tàu hỏa"
+  },
+  {
+   "hanzi": "几",
+   "pinyin": "jǐ",
+   "vi": "mấy"
+  },
+  {
+   "hanzi": "家",
+   "pinyin": "jiā",
+   "vi": "nhà; gia đình"
+  },
+  {
+   "hanzi": "件",
+   "pinyin": "jiàn",
+   "vi": "cái, chiếc (lượng từ cho áo, việc)"
+  },
+  {
+   "hanzi": "见",
+   "pinyin": "jiàn",
+   "vi": "gặp"
+  },
+  {
+   "hanzi": "叫",
+   "pinyin": "jiào",
+   "vi": "gọi; tên là"
+  },
+  {
+   "hanzi": "饺子",
+   "pinyin": "jiǎozi",
+   "vi": "sủi cảo"
+  },
+  {
+   "hanzi": "家人",
+   "pinyin": "jiārén",
+   "vi": "người nhà"
+  },
+  {
+   "hanzi": "鸡蛋",
+   "pinyin": "jīdàn",
+   "vi": "trứng gà"
+  },
+  {
+   "hanzi": "姐姐",
+   "pinyin": "jiějie",
+   "vi": "chị gái"
+  },
+  {
+   "hanzi": "今年",
+   "pinyin": "jīnnián",
+   "vi": "năm nay"
+  },
+  {
+   "hanzi": "今天",
+   "pinyin": "jīntiān",
+   "vi": "hôm nay"
+  },
+  {
+   "hanzi": "九",
+   "pinyin": "jiǔ",
+   "vi": "chín"
+  },
+  {
+   "hanzi": "觉得",
+   "pinyin": "juéde",
+   "vi": "cảm thấy, nghĩ rằng"
+  },
+  {
+   "hanzi": "开",
+   "pinyin": "kāi",
+   "vi": "mở; lái (xe)"
+  },
+  {
+   "hanzi": "开车",
+   "pinyin": "kāichē",
+   "vi": "lái xe"
+  },
+  {
+   "hanzi": "看",
+   "pinyin": "kàn",
+   "vi": "nhìn, xem"
+  },
+  {
+   "hanzi": "看病",
+   "pinyin": "kànbìng",
+   "vi": "đi khám bệnh"
+  },
+  {
+   "hanzi": "看见",
+   "pinyin": "kànjiàn",
+   "vi": "nhìn thấy"
+  },
+  {
+   "hanzi": "课",
+   "pinyin": "kè",
+   "vi": "bài học, tiết học"
+  },
+  {
+   "hanzi": "可以",
+   "pinyin": "kěyǐ",
+   "vi": "có thể, được phép"
+  },
+  {
+   "hanzi": "口",
+   "pinyin": "kǒu",
+   "vi": "miệng; người (lượng từ thành viên gia đình)"
+  },
+  {
+   "hanzi": "块",
+   "pinyin": "kuài",
+   "vi": "đồng (đơn vị tiền)"
+  },
+  {
+   "hanzi": "来",
+   "pinyin": "lái",
+   "vi": "đến"
+  },
+  {
+   "hanzi": "老师",
+   "pinyin": "lǎoshī",
+   "vi": "thầy giáo, cô giáo"
+  },
+  {
+   "hanzi": "了",
+   "pinyin": "le",
+   "vi": "rồi (trợ từ)"
+  },
+  {
+   "hanzi": "冷",
+   "pinyin": "lěng",
+   "vi": "lạnh"
+  },
+  {
+   "hanzi": "两",
+   "pinyin": "liǎng",
+   "vi": "hai (đứng trước lượng từ)"
+  },
+  {
+   "hanzi": "里面",
+   "pinyin": "lǐmiàn",
+   "vi": "bên trong"
+  },
+  {
+   "hanzi": "零",
+   "pinyin": "líng",
+   "vi": "không (số 0)"
+  },
+  {
+   "hanzi": "六",
+   "pinyin": "liù",
+   "vi": "sáu"
+  },
+  {
+   "hanzi": "吗",
+   "pinyin": "ma",
+   "vi": "không? (trợ từ nghi vấn)"
+  },
+  {
+   "hanzi": "买",
+   "pinyin": "mǎi",
+   "vi": "mua"
+  },
+  {
+   "hanzi": "卖",
+   "pinyin": "mài",
+   "vi": "bán"
+  },
+  {
+   "hanzi": "妈妈",
+   "pinyin": "māma",
+   "vi": "mẹ"
+  },
+  {
+   "hanzi": "忙",
+   "pinyin": "máng",
+   "vi": "bận"
+  },
+  {
+   "hanzi": "猫",
+   "pinyin": "māo",
+   "vi": "mèo"
+  },
+  {
+   "hanzi": "没关系",
+   "pinyin": "méi guānxi",
+   "vi": "không sao"
+  },
+  {
+   "hanzi": "妹妹",
+   "pinyin": "mèimei",
+   "vi": "em gái"
+  },
+  {
+   "hanzi": "没事",
+   "pinyin": "méishì",
+   "vi": "không sao"
+  },
+  {
+   "hanzi": "没有",
+   "pinyin": "méiyǒu",
+   "vi": "không có"
+  },
+  {
+   "hanzi": "们",
+   "pinyin": "men",
+   "vi": "hậu tố số nhiều"
+  },
+  {
+   "hanzi": "面包",
+   "pinyin": "miànbāo",
+   "vi": "bánh mì"
+  },
+  {
+   "hanzi": "面条儿",
+   "pinyin": "miàntiáor",
+   "vi": "mì sợi"
+  },
+  {
+   "hanzi": "米饭",
+   "pinyin": "mǐfàn",
+   "vi": "cơm"
+  },
+  {
+   "hanzi": "明年",
+   "pinyin": "míngnián",
+   "vi": "năm sau"
+  },
+  {
+   "hanzi": "明天",
+   "pinyin": "míngtiān",
+   "vi": "ngày mai"
+  },
+  {
+   "hanzi": "名字",
+   "pinyin": "míngzi",
+   "vi": "tên"
+  },
+  {
+   "hanzi": "哪",
+   "pinyin": "nǎ",
+   "vi": "nào"
+  },
+  {
+   "hanzi": "那",
+   "pinyin": "nà",
+   "vi": "kia, đó"
+  },
+  {
+   "hanzi": "那边",
+   "pinyin": "nàbiān",
+   "vi": "phía kia"
+  },
+  {
+   "hanzi": "哪个",
+   "pinyin": "nǎge",
+   "vi": "cái nào"
+  },
+  {
+   "hanzi": "那个",
+   "pinyin": "nàge",
+   "vi": "cái kia"
+  },
+  {
+   "hanzi": "哪里",
+   "pinyin": "nǎlǐ",
+   "vi": "ở đâu"
+  },
+  {
+   "hanzi": "那里",
+   "pinyin": "nàlǐ",
+   "vi": "ở đó"
+  },
+  {
+   "hanzi": "男",
+   "pinyin": "nán",
+   "vi": "nam"
+  },
+  {
+   "hanzi": "男朋友",
+   "pinyin": "nánpéngyou",
+   "vi": "bạn trai"
+  },
+  {
+   "hanzi": "哪儿",
+   "pinyin": "nǎr",
+   "vi": "ở đâu"
+  },
+  {
+   "hanzi": "那儿",
+   "pinyin": "nàr",
+   "vi": "ở đó"
+  },
+  {
+   "hanzi": "哪些",
+   "pinyin": "nǎxiē",
+   "vi": "những cái nào"
+  },
+  {
+   "hanzi": "那些",
+   "pinyin": "nàxiē",
+   "vi": "những cái kia"
+  },
+  {
+   "hanzi": "呢",
+   "pinyin": "ne",
+   "vi": "thì sao? (trợ từ)"
+  },
+  {
+   "hanzi": "能",
+   "pinyin": "néng",
+   "vi": "có thể"
+  },
+  {
+   "hanzi": "你",
+   "pinyin": "nǐ",
+   "vi": "bạn, anh, chị"
+  },
+  {
+   "hanzi": "年",
+   "pinyin": "nián",
+   "vi": "năm"
+  },
+  {
+   "hanzi": "你好",
+   "pinyin": "nǐhǎo",
+   "vi": "xin chào"
+  },
+  {
+   "hanzi": "你们",
+   "pinyin": "nǐmen",
+   "vi": "các bạn"
+  },
+  {
+   "hanzi": "您",
+   "pinyin": "nín",
+   "vi": "ngài, ông, bà (trang trọng)"
+  },
+  {
+   "hanzi": "牛奶",
+   "pinyin": "niúnǎi",
+   "vi": "sữa bò"
+  },
+  {
+   "hanzi": "女",
+   "pinyin": "nǚ",
+   "vi": "nữ"
+  },
+  {
+   "hanzi": "女儿",
+   "pinyin": "nǚ'ér",
+   "vi": "con gái"
+  },
+  {
+   "hanzi": "女朋友",
+   "pinyin": "nǚpéngyou",
+   "vi": "bạn gái"
+  },
+  {
+   "hanzi": "女士",
+   "pinyin": "nǚshì",
+   "vi": "bà, quý bà"
+  },
+  {
+   "hanzi": "朋友",
+   "pinyin": "péngyou",
+   "vi": "bạn bè"
+  },
+  {
+   "hanzi": "便宜",
+   "pinyin": "piányi",
+   "vi": "rẻ"
+  },
+  {
+   "hanzi": "漂亮",
+   "pinyin": "piàoliang",
+   "vi": "đẹp"
+  },
+  {
+   "hanzi": "苹果",
+   "pinyin": "píngguǒ",
+   "vi": "quả táo"
+  },
+  {
+   "hanzi": "七",
+   "pinyin": "qī",
+   "vi": "bảy"
+  },
+  {
+   "hanzi": "前",
+   "pinyin": "qián",
+   "vi": "trước"
+  },
+  {
+   "hanzi": "千",
+   "pinyin": "qiān",
+   "vi": "nghìn"
+  },
+  {
+   "hanzi": "钱",
+   "pinyin": "qián",
+   "vi": "tiền"
+  },
+  {
+   "hanzi": "起床",
+   "pinyin": "qǐchuáng",
+   "vi": "ngủ dậy"
+  },
+  {
+   "hanzi": "请",
+   "pinyin": "qǐng",
+   "vi": "mời; xin"
+  },
+  {
+   "hanzi": "请问",
+   "pinyin": "qǐngwèn",
+   "vi": "xin hỏi"
+  },
+  {
+   "hanzi": "去",
+   "pinyin": "qù",
+   "vi": "đi"
+  },
+  {
+   "hanzi": "去年",
+   "pinyin": "qùnián",
+   "vi": "năm ngoái"
+  },
+  {
+   "hanzi": "热",
+   "pinyin": "rè",
+   "vi": "nóng"
+  },
+  {
+   "hanzi": "人",
+   "pinyin": "rén",
+   "vi": "người"
+  },
+  {
+   "hanzi": "认识",
+   "pinyin": "rènshi",
+   "vi": "quen biết"
+  },
+  {
+   "hanzi": "日",
+   "pinyin": "rì",
+   "vi": "ngày; mặt trời"
+  },
+  {
+   "hanzi": "三",
+   "pinyin": "sān",
+   "vi": "ba"
+  },
+  {
+   "hanzi": "上",
+   "pinyin": "shàng",
+   "vi": "trên; lên"
+  },
+  {
+   "hanzi": "上班",
+   "pinyin": "shàngbān",
+   "vi": "đi làm"
+  },
+  {
+   "hanzi": "商店",
+   "pinyin": "shāngdiàn",
+   "vi": "cửa hàng"
+  },
+  {
+   "hanzi": "上课",
+   "pinyin": "shàngkè",
+   "vi": "vào học, lên lớp"
+  },
+  {
+   "hanzi": "上午",
+   "pinyin": "shàngwǔ",
+   "vi": "buổi sáng"
+  },
+  {
+   "hanzi": "上学",
+   "pinyin": "shàngxué",
+   "vi": "đi học"
+  },
+  {
+   "hanzi": "少",
+   "pinyin": "shǎo",
+   "vi": "ít"
+  },
+  {
+   "hanzi": "谁",
+   "pinyin": "shéi",
+   "vi": "ai"
+  },
+  {
+   "hanzi": "生病",
+   "pinyin": "shēngbìng",
+   "vi": "bị ốm"
+  },
+  {
+   "hanzi": "什么",
+   "pinyin": "shénme",
+   "vi": "cái gì"
+  },
+  {
+   "hanzi": "事",
+   "pinyin": "shì",
+   "vi": "việc"
+  },
+  {
+   "hanzi": "十",
+   "pinyin": "shí",
+   "vi": "mười"
+  },
+  {
+   "hanzi": "是",
+   "pinyin": "shì",
+   "vi": "là"
+  },
+  {
+   "hanzi": "时候",
+   "pinyin": "shíhou",
+   "vi": "lúc, khi"
+  },
+  {
+   "hanzi": "时间",
+   "pinyin": "shíjiān",
+   "vi": "thời gian"
+  },
+  {
+   "hanzi": "手机",
+   "pinyin": "shǒujī",
+   "vi": "điện thoại di động"
+  },
+  {
+   "hanzi": "书",
+   "pinyin": "shū",
+   "vi": "sách"
+  },
+  {
+   "hanzi": "书店",
+   "pinyin": "shūdiàn",
+   "vi": "hiệu sách"
+  },
+  {
+   "hanzi": "水",
+   "pinyin": "shuǐ",
+   "vi": "nước"
+  },
+  {
+   "hanzi": "睡",
+   "pinyin": "shuì",
+   "vi": "ngủ"
+  },
+  {
+   "hanzi": "水果",
+   "pinyin": "shuǐguǒ",
+   "vi": "hoa quả"
+  },
+  {
+   "hanzi": "睡觉",
+   "pinyin": "shuìjiào",
+   "vi": "ngủ"
+  },
+  {
+   "hanzi": "说",
+   "pinyin": "shuō",
+   "vi": "nói"
+  },
+  {
+   "hanzi": "说话",
+   "pinyin": "shuōhuà",
+   "vi": "nói chuyện"
+  },
+  {
+   "hanzi": "四",
+   "pinyin": "sì",
+   "vi": "bốn"
+  },
+  {
+   "hanzi": "岁",
+   "pinyin": "suì",
+   "vi": "tuổi"
+  },
+  {
+   "hanzi": "他",
+   "pinyin": "tā",
+   "vi": "anh ấy"
+  },
+  {
+   "hanzi": "她",
+   "pinyin": "tā",
+   "vi": "cô ấy"
+  },
+  {
+   "hanzi": "它",
+   "pinyin": "tā",
+   "vi": "nó"
+  },
+  {
+   "hanzi": "太",
+   "pinyin": "tài",
+   "vi": "quá, rất"
+  },
+  {
+   "hanzi": "他们",
+   "pinyin": "tāmen",
+   "vi": "họ, các anh ấy"
+  },
+  {
+   "hanzi": "她们",
+   "pinyin": "tāmen",
+   "vi": "họ, các cô ấy"
+  },
+  {
+   "hanzi": "它们",
+   "pinyin": "tāmen",
+   "vi": "chúng nó"
+  },
+  {
+   "hanzi": "天",
+   "pinyin": "tiān",
+   "vi": "ngày; trời"
+  },
+  {
+   "hanzi": "天气",
+   "pinyin": "tiānqì",
+   "vi": "thời tiết"
+  },
+  {
+   "hanzi": "听",
+   "pinyin": "tīng",
+   "vi": "nghe"
+  },
+  {
+   "hanzi": "听见",
+   "pinyin": "tīngjiàn",
+   "vi": "nghe thấy"
+  },
+  {
+   "hanzi": "同学",
+   "pinyin": "tóngxué",
+   "vi": "bạn học"
+  },
+  {
+   "hanzi": "外",
+   "pinyin": "wài",
+   "vi": "ngoài"
+  },
+  {
+   "hanzi": "外边",
+   "pinyin": "wàibian",
+   "vi": "bên ngoài"
+  },
+  {
+   "hanzi": "晚",
+   "pinyin": "wǎn",
+   "vi": "muộn"
+  },
+  {
+   "hanzi": "玩",
+   "pinyin": "wán",
+   "vi": "chơi"
+  },
+  {
+   "hanzi": "晚饭",
+   "pinyin": "wǎnfàn",
+   "vi": "bữa tối"
+  },
+  {
+   "hanzi": "晚上",
+   "pinyin": "wǎnshang",
+   "vi": "buổi tối"
+  },
+  {
+   "hanzi": "喂",
+   "pinyin": "wèi",
+   "vi": "alo, này"
+  },
+  {
+   "hanzi": "问",
+   "pinyin": "wèn",
+   "vi": "hỏi"
+  },
+  {
+   "hanzi": "问题",
+   "pinyin": "wèntí",
+   "vi": "câu hỏi; vấn đề"
+  },
+  {
+   "hanzi": "我",
+   "pinyin": "wǒ",
+   "vi": "tôi"
+  },
+  {
+   "hanzi": "我们",
+   "pinyin": "wǒmen",
+   "vi": "chúng tôi, chúng ta"
+  },
+  {
+   "hanzi": "五",
+   "pinyin": "wǔ",
+   "vi": "năm"
+  },
+  {
+   "hanzi": "午饭",
+   "pinyin": "wǔfàn",
+   "vi": "bữa trưa"
+  },
+  {
+   "hanzi": "下",
+   "pinyin": "xià",
+   "vi": "dưới; xuống"
+  },
+  {
+   "hanzi": "下班",
+   "pinyin": "xiàbān",
+   "vi": "tan làm"
+  },
+  {
+   "hanzi": "下课",
+   "pinyin": "xiàkè",
+   "vi": "tan học"
+  },
+  {
+   "hanzi": "想",
+   "pinyin": "xiǎng",
+   "vi": "muốn; nhớ"
+  },
+  {
+   "hanzi": "先生",
+   "pinyin": "xiānsheng",
+   "vi": "ông, ngài; chồng"
+  },
+  {
+   "hanzi": "现在",
+   "pinyin": "xiànzài",
+   "vi": "bây giờ"
+  },
+  {
+   "hanzi": "小",
+   "pinyin": "xiǎo",
+   "vi": "nhỏ, bé"
+  },
+  {
+   "hanzi": "小朋友",
+   "pinyin": "xiǎopéngyou",
+   "vi": "em bé, bạn nhỏ"
+  },
+  {
+   "hanzi": "小时",
+   "pinyin": "xiǎoshí",
+   "vi": "giờ đồng hồ"
+  },
+  {
+   "hanzi": "小学",
+   "pinyin": "xiǎoxué",
+   "vi": "tiểu học"
+  },
+  {
+   "hanzi": "小学生",
+   "pinyin": "xiǎoxuéshēng",
+   "vi": "học sinh tiểu học"
+  },
+  {
+   "hanzi": "下午",
+   "pinyin": "xiàwǔ",
+   "vi": "buổi chiều"
+  },
+  {
+   "hanzi": "下雨",
+   "pinyin": "xiàyǔ",
+   "vi": "trời mưa"
+  },
+  {
+   "hanzi": "些",
+   "pinyin": "xiē",
+   "vi": "một số, một vài"
+  },
+  {
+   "hanzi": "写",
+   "pinyin": "xiě",
+   "vi": "viết"
+  },
+  {
+   "hanzi": "谢谢",
+   "pinyin": "xièxie",
+   "vi": "cảm ơn"
+  },
+  {
+   "hanzi": "喜欢",
+   "pinyin": "xǐhuan",
+   "vi": "thích"
+  },
+  {
+   "hanzi": "新",
+   "pinyin": "xīn",
+   "vi": "mới"
+  },
+  {
+   "hanzi": "星期",
+   "pinyin": "xīngqī",
+   "vi": "tuần, thứ"
+  },
+  {
+   "hanzi": "星期日",
+   "pinyin": "xīngqīrì",
+   "vi": "chủ nhật"
+  },
+  {
+   "hanzi": "星期天",
+   "pinyin": "xīngqītiān",
+   "vi": "chủ nhật"
+  },
+  {
+   "hanzi": "休息",
+   "pinyin": "xiūxi",
+   "vi": "nghỉ ngơi"
+  },
+  {
+   "hanzi": "学",
+   "pinyin": "xué",
+   "vi": "học"
+  },
+  {
+   "hanzi": "雪",
+   "pinyin": "xuě",
+   "vi": "tuyết"
+  },
+  {
+   "hanzi": "学生",
+   "pinyin": "xuésheng",
+   "vi": "học sinh, sinh viên"
+  },
+  {
+   "hanzi": "学习",
+   "pinyin": "xuéxí",
+   "vi": "học tập"
+  },
+  {
+   "hanzi": "学校",
+   "pinyin": "xuéxiào",
+   "vi": "trường học"
+  },
+  {
+   "hanzi": "要",
+   "pinyin": "yào",
+   "vi": "muốn, cần"
+  },
+  {
+   "hanzi": "也",
+   "pinyin": "yě",
+   "vi": "cũng"
+  },
+  {
+   "hanzi": "一",
+   "pinyin": "yī",
+   "vi": "một"
+  },
+  {
+   "hanzi": "一半",
+   "pinyin": "yíbàn",
+   "vi": "một nửa"
+  },
+  {
+   "hanzi": "一点儿",
+   "pinyin": "yìdiǎnr",
+   "vi": "một chút"
+  },
+  {
+   "hanzi": "衣服",
+   "pinyin": "yīfu",
+   "vi": "quần áo"
+  },
+  {
+   "hanzi": "医生",
+   "pinyin": "yīshēng",
+   "vi": "bác sĩ"
+  },
+  {
+   "hanzi": "一下",
+   "pinyin": "yíxià",
+   "vi": "một chút, thử"
+  },
+  {
+   "hanzi": "一些",
+   "pinyin": "yìxiē",
+   "vi": "một vài"
+  },
+  {
+   "hanzi": "医院",
+   "pinyin": "yīyuàn",
+   "vi": "bệnh viện"
+  },
+  {
+   "hanzi": "椅子",
+   "pinyin": "yǐzi",
+   "vi": "cái ghế"
+  },
+  {
+   "hanzi": "有",
+   "pinyin": "yǒu",
+   "vi": "có"
+  },
+  {
+   "hanzi": "有的",
+   "pinyin": "yǒude",
+   "vi": "có (người, cái)"
+  },
+  {
+   "hanzi": "有点儿",
+   "pinyin": "yǒudiǎnr",
+   "vi": "hơi, một chút"
+  },
+  {
+   "hanzi": "有些",
+   "pinyin": "yǒuxiē",
+   "vi": "một số"
+  },
+  {
+   "hanzi": "雨",
+   "pinyin": "yǔ",
+   "vi": "mưa"
+  },
+  {
+   "hanzi": "元",
+   "pinyin": "yuán",
+   "vi": "đồng, tệ"
+  },
+  {
+   "hanzi": "月",
+   "pinyin": "yuè",
+   "vi": "tháng"
+  },
+  {
+   "hanzi": "再",
+   "pinyin": "zài",
+   "vi": "lại, nữa"
+  },
+  {
+   "hanzi": "在",
+   "pinyin": "zài",
+   "vi": "ở, tại"
+  },
+  {
+   "hanzi": "再见",
+   "pinyin": "zàijiàn",
+   "vi": "tạm biệt"
+  },
+  {
+   "hanzi": "早",
+   "pinyin": "zǎo",
+   "vi": "sớm"
+  },
+  {
+   "hanzi": "早饭",
+   "pinyin": "zǎofàn",
+   "vi": "bữa sáng"
+  },
+  {
+   "hanzi": "早上",
+   "pinyin": "zǎoshang",
+   "vi": "buổi sáng sớm"
+  },
+  {
+   "hanzi": "怎么",
+   "pinyin": "zěnme",
+   "vi": "thế nào, làm sao"
+  },
+  {
+   "hanzi": "怎么样",
+   "pinyin": "zěnmeyàng",
+   "vi": "thế nào, ra sao"
+  },
+  {
+   "hanzi": "找",
+   "pinyin": "zhǎo",
+   "vi": "tìm"
+  },
+  {
+   "hanzi": "这",
+   "pinyin": "zhè",
+   "vi": "này, đây"
+  },
+  {
+   "hanzi": "这边",
+   "pinyin": "zhèbiān",
+   "vi": "phía này"
+  },
+  {
+   "hanzi": "这个",
+   "pinyin": "zhège",
+   "vi": "cái này"
+  },
+  {
+   "hanzi": "这里",
+   "pinyin": "zhèlǐ",
+   "vi": "ở đây"
+  },
+  {
+   "hanzi": "真",
+   "pinyin": "zhēn",
+   "vi": "thật, thật sự"
+  },
+  {
+   "hanzi": "正在",
+   "pinyin": "zhèngzài",
+   "vi": "đang"
+  },
+  {
+   "hanzi": "这儿",
+   "pinyin": "zhèr",
+   "vi": "ở đây"
+  },
+  {
+   "hanzi": "这些",
+   "pinyin": "zhèxiē",
+   "vi": "những cái này"
+  },
+  {
+   "hanzi": "只",
+   "pinyin": "zhī",
+   "vi": "con (lượng từ cho động vật)"
+  },
+  {
+   "hanzi": "知道",
+   "pinyin": "zhīdào",
+   "vi": "biết"
+  },
+  {
+   "hanzi": "中国",
+   "pinyin": "Zhōngguó",
+   "vi": "Trung Quốc"
+  },
+  {
+   "hanzi": "中文",
+   "pinyin": "Zhōngwén",
+   "vi": "tiếng Trung"
+  },
+  {
+   "hanzi": "中午",
+   "pinyin": "zhōngwǔ",
+   "vi": "buổi trưa"
+  },
+  {
+   "hanzi": "中学",
+   "pinyin": "zhōngxué",
+   "vi": "trung học"
+  },
+  {
+   "hanzi": "中学生",
+   "pinyin": "zhōngxuéshēng",
+   "vi": "học sinh trung học"
+  },
+  {
+   "hanzi": "住",
+   "pinyin": "zhù",
+   "vi": "ở, sống"
+  },
+  {
+   "hanzi": "桌子",
+   "pinyin": "zhuōzi",
+   "vi": "cái bàn"
+  },
+  {
+   "hanzi": "字",
+   "pinyin": "zì",
+   "vi": "chữ"
+  },
+  {
+   "hanzi": "做",
+   "pinyin": "zuò",
+   "vi": "làm"
+  },
+  {
+   "hanzi": "坐",
+   "pinyin": "zuò",
+   "vi": "ngồi"
+  },
+  {
+   "hanzi": "做饭",
+   "pinyin": "zuòfàn",
+   "vi": "nấu cơm"
+  },
+  {
+   "hanzi": "昨天",
+   "pinyin": "zuótiān",
+   "vi": "hôm qua"
+  }
+ ]
+}

@@ -1,10 +1,8 @@
 (function () {
   var $ = function (id) { return document.getElementById(id); };
-  var params = new URLSearchParams(location.search);
-  var level = parseInt(params.get("level"), 10) || 1;
-  var KEY = "hanzilinh_known_hsk" + level;
+  var KEY = HL.knownKey();
 
-  var all = [], deck = [], ci = 0, known = {}, onlyNew = false;
+  var all = [], deck = [], ci = 0, known = {}, onlyNew = false, shuffled = false;
 
   try { (JSON.parse(localStorage.getItem(KEY) || "[]")).forEach(function (k) { known[k] = 1; }); } catch (e) {}
   function save() { try { localStorage.setItem(KEY, JSON.stringify(Object.keys(known))); } catch (e) {} }
@@ -16,11 +14,24 @@
   function knownCount() { return all.filter(function (w) { return known[w.hanzi]; }).length; }
 
   /* ---- Thẻ ---- */
+  function setBack(d) {
+    $("fe").textContent = d.emoji || "";
+    $("fe").classList.toggle("hide", !d.emoji);
+    $("fp").textContent = d.pinyin;
+    $("fv").textContent = d.vi;
+    var ex = $("fx");
+    $("spkx").classList.toggle("hide", !(d.ex && "speechSynthesis" in window));
+    if (d.ex) {
+      $("fxz").textContent = d.ex.zh; $("fxp").textContent = d.ex.py; $("fxv").textContent = d.ex.vi;
+      ex.classList.remove("hide");
+    } else {
+      ex.classList.add("hide");
+    }
+  }
   function card() {
     if (!deck.length) {
       $("fz").textContent = "完";
-      $("fp").textContent = "";
-      $("fv").textContent = "Bạn đã thuộc hết các từ";
+      setBack({ pinyin: "", vi: "Bạn đã thuộc hết các từ" });
       $("fc").classList.add("flip");
       $("fcount").textContent = "Không còn thẻ";
       $("fknown").textContent = "Đã thuộc " + knownCount() + " / " + all.length;
@@ -28,19 +39,17 @@
     }
     var d = deck[ci];
     $("fz").textContent = d.hanzi;
-    $("fp").textContent = d.pinyin;
-    $("fv").textContent = d.vi;
+    setBack(d);
     $("fc").classList.remove("flip");
     $("fcount").textContent = "Thẻ " + (ci + 1) + " / " + deck.length;
     $("fknown").textContent = "Đã thuộc " + knownCount() + " / " + all.length;
   }
   function go(n) { if (!deck.length) return; ci = (ci + n + deck.length) % deck.length; card(); }
-  function rebuild(keepShuffle) {
+  function rebuild(doShuffle) {
     var base = onlyNew ? all.filter(function (w) { return !known[w.hanzi]; }) : all;
-    deck = keepShuffle ? shuffle(base) : base.slice();
+    deck = doShuffle ? shuffle(base) : base.slice();
     ci = 0; card();
   }
-  var shuffled = false;
 
   $("fc").onclick = function () { this.classList.toggle("flip"); };
   $("nxt").onclick = function () { go(1); };
@@ -60,18 +69,22 @@
     onlyNew = !onlyNew; this.setAttribute("aria-pressed", onlyNew); rebuild(shuffled);
   };
   if (!("speechSynthesis" in window)) { $("spk").classList.add("hide"); }
-  $("spk").onclick = function () {
-    if (!deck.length) return;
+  function speak(text) {
     try {
-      var u = new SpeechSynthesisUtterance(deck[ci].hanzi);
+      var u = new SpeechSynthesisUtterance(text);
       u.lang = "zh-CN"; u.rate = 0.8;
       speechSynthesis.cancel(); speechSynthesis.speak(u);
     } catch (e) {}
-  };
+  }
+  $("spk").onclick = function () { if (deck.length) speak(deck[ci].hanzi); };
+  $("spkx").onclick = function () { if (deck.length && deck[ci].ex) speak(deck[ci].ex.zh); };
 
   /* ---- Danh sách ---- */
   function norm(s) {
     return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d");
+  }
+  function mk(tag, cls, text) {
+    var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e;
   }
   function renderList() {
     var q = norm($("q").value.trim());
@@ -79,16 +92,19 @@
     var shown = all.filter(function (w) {
       return !q || w.hanzi.indexOf(q) >= 0 || norm(w.pinyin).indexOf(q) >= 0 || norm(w.vi).indexOf(q) >= 0;
     });
-    if (!shown.length) {
-      var e = document.createElement("li"); e.className = "empty"; e.textContent = "Không tìm thấy từ nào.";
-      ul.appendChild(e); return;
-    }
+    if (!shown.length) { ul.appendChild(mk("li", "empty", "Không tìm thấy từ nào.")); return; }
     shown.forEach(function (w) {
-      var li = document.createElement("li");
-      if (known[w.hanzi]) li.className = "known";
-      [["h", w.hanzi], ["p", w.pinyin], ["m", w.vi]].forEach(function (x) {
-        var s = document.createElement("span"); s.className = x[0]; s.textContent = x[1]; li.appendChild(s);
-      });
+      var li = mk("li", known[w.hanzi] ? "known" : "");
+      li.appendChild(mk("span", "h", (w.emoji ? w.emoji + " " : "") + w.hanzi));
+      li.appendChild(mk("span", "p", w.pinyin));
+      li.appendChild(mk("span", "m", w.vi));
+      if (w.ex) {
+        var x = mk("span", "x");
+        x.appendChild(mk("span", "xz", w.ex.zh));
+        x.appendChild(mk("span", "xp", w.ex.py));
+        x.appendChild(mk("span", "xv", w.ex.vi));
+        li.appendChild(x);
+      }
       ul.appendChild(li);
     });
   }
@@ -105,14 +121,16 @@
   $("t2").onclick = function () { tab(2); };
 
   /* ---- Tải dữ liệu ---- */
-  $("title").textContent = "Từ vựng HSK " + level;
-  $("toQuiz").href = "quiz.html?level=" + level;
-  document.title = "Từ vựng HSK " + level + " - HanziLinh";
-  fetch("data/hsk" + level + "-vocab.json")
+  HL.renderStdChips("stdChips");
+  $("title").textContent = "Từ vựng " + HL.label();
+  document.title = "Từ vựng " + HL.label() + " - HanziLinh";
+  $("toQuiz").href = "quiz.html?level=" + HL.level + "&std=" + HL.std;
+  fetch(HL.dataUrl())
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {
       all = d.words;
-      $("info").textContent = d.count + " từ, theo chuẩn " + d.standard + ". Tiến độ được lưu trên trình duyệt của bạn.";
+      var withEx = d.words.filter(function (w) { return w.ex; }).length;
+      $("info").textContent = d.count + " từ, theo chuẩn " + d.standard + ". Đã có câu ví dụ cho " + withEx + " từ, các từ còn lại sẽ được thêm dần. Tiến độ được lưu trên trình duyệt của bạn.";
       rebuild(false); renderList();
     })
     .catch(function () {

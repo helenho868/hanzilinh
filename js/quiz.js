@@ -1,9 +1,7 @@
 (function () {
   var $ = function (id) { return document.getElementById(id); };
-  var params = new URLSearchParams(location.search);
-  var level = parseInt(params.get("level"), 10) || 1;
-  var KNOWN_KEY = "hanzilinh_known_hsk" + level;
-  var BEST_KEY = "hanzilinh_best_hsk" + level;
+  var KNOWN_KEY = HL.knownKey();
+  var BEST_KEY = HL.bestKey();
 
   var words = [];
   var cfg = { count: 10, type: "mix" };
@@ -178,14 +176,15 @@
     window.scrollTo(0, 0);
   };
 
-  $("title").textContent = "Luyện đề từ vựng HSK " + level;
-  document.title = "Luyện đề từ vựng HSK " + level + " - HanziLinh";
-  $("toCards").href = "vocab.html?level=" + level;
-  fetch("data/hsk" + level + "-vocab.json")
+  HL.renderStdChips("stdChips");
+  $("title").textContent = "Luyện đề từ vựng " + HL.label();
+  document.title = "Luyện đề từ vựng " + HL.label() + " - HanziLinh";
+  $("toCards").href = "vocab.html?level=" + HL.level + "&std=" + HL.std;
+  fetch(HL.dataUrl())
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {
       words = d.words;
-      $("info").textContent = "Đề tạo ngẫu nhiên từ " + d.count + " từ HSK " + level + ". Mỗi lần làm là một đề khác.";
+      $("info").textContent = "Đề tạo ngẫu nhiên từ " + d.count + " từ theo chuẩn " + d.standard + ". Mỗi lần làm là một đề khác.";
       $("setup").classList.remove("hide"); showBest();
     })
     .catch(function () {
