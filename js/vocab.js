@@ -54,6 +54,13 @@
   $("fc").onclick = function () { this.classList.toggle("flip"); };
   $("nxt").onclick = function () { go(1); };
   $("prev").onclick = function () { go(-1); };
+  /* Phím mũi tên trái/phải để lùi/tiến khi đang ở tab thẻ và không gõ vào ô tìm kiếm. */
+  document.addEventListener("keydown", function (e) {
+    if ($("p1").classList.contains("hide")) return;
+    var t = e.target && e.target.tagName;
+    if (t === "INPUT" || t === "TEXTAREA") return;
+    if (e.key === "ArrowRight") { go(1); } else if (e.key === "ArrowLeft") { go(-1); }
+  });
   $("yes").onclick = function () {
     if (!deck.length) return;
     known[deck[ci].hanzi] = 1; save();

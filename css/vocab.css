@@ -23,8 +23,10 @@
 .ctrl.tools{margin-top:10px}
 .ctrl.tools .btn2{flex:none;padding:5px 12px;font-size:.8rem;border-radius:16px}
 .ctrl.main .btn2{padding:8px 10px;font-size:.9rem;border-radius:8px}
-.ctrl.nav .btn2{padding:6px 10px;font-size:.82rem;border-radius:8px;border-color:var(--line);color:var(--mute)}
-.ctrl.nav .btn2:hover{border-color:var(--jade);color:var(--jade)}
+.ctrl.nav{justify-content:center;gap:12px}
+.arrow{display:grid;place-items:center;width:64px;height:40px;padding:0;border:1.5px solid var(--line);border-radius:20px;background:var(--card);color:var(--jade);cursor:pointer}
+.arrow:hover{border-color:var(--jade);background:var(--jade-soft)}
+.arrow:focus-visible{outline:3px solid var(--jade);outline-offset:2px}
 .search{width:100%;font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);margin-bottom:12px}
 .list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
 .list li{display:grid;grid-template-columns:5.5em 1fr;gap:4px 12px;align-items:baseline;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
