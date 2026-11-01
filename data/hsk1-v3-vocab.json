@@ -2,7 +2,7 @@
  "level": 1,
  "standard": "HSK 3.0",
  "count": 300,
- "withExamples": 50,
+ "withExamples": 100,
  "words": [
   {
    "hanzi": "爱",
@@ -543,252 +543,541 @@
   {
    "hanzi": "饭店",
    "pinyin": "fàndiàn",
-   "vi": "nhà hàng, khách sạn"
+   "vi": "nhà hàng, khách sạn",
+   "emoji": "🏨",
+   "ex": {
+    "zh": "这个饭店很大。",
+    "py": "Zhège fàndiàn hěn dà.",
+    "vi": "Nhà hàng này rất lớn."
+   }
   },
   {
    "hanzi": "房间",
    "pinyin": "fángjiān",
-   "vi": "căn phòng"
+   "vi": "căn phòng",
+   "emoji": "🛏️",
+   "ex": {
+    "zh": "我的房间很小。",
+    "py": "Wǒ de fángjiān hěn xiǎo.",
+    "vi": "Phòng của tôi rất nhỏ."
+   }
   },
   {
    "hanzi": "非常",
    "pinyin": "fēicháng",
-   "vi": "rất, vô cùng"
+   "vi": "rất, vô cùng",
+   "ex": {
+    "zh": "今天非常冷。",
+    "py": "Jīntiān fēicháng lěng.",
+    "vi": "Hôm nay rất lạnh."
+   }
   },
   {
    "hanzi": "飞机",
    "pinyin": "fēijī",
-   "vi": "máy bay"
+   "vi": "máy bay",
+   "emoji": "✈️",
+   "ex": {
+    "zh": "他坐飞机去北京。",
+    "py": "Tā zuò fēijī qù Běijīng.",
+    "vi": "Anh ấy đi máy bay đến Bắc Kinh."
+   }
   },
   {
    "hanzi": "分",
    "pinyin": "fēn",
-   "vi": "phút"
+   "vi": "phút",
+   "ex": {
+    "zh": "现在是九点十分。",
+    "py": "Xiànzài shì jiǔ diǎn shí fēn.",
+    "vi": "Bây giờ là chín giờ mười phút."
+   }
   },
   {
    "hanzi": "分钟",
    "pinyin": "fēnzhōng",
-   "vi": "phút"
+   "vi": "phút",
+   "emoji": "⏱️",
+   "ex": {
+    "zh": "我五分钟后回来。",
+    "py": "Wǒ wǔ fēnzhōng hòu huílái.",
+    "vi": "Năm phút nữa tôi quay lại."
+   }
   },
   {
    "hanzi": "高兴",
    "pinyin": "gāoxìng",
-   "vi": "vui, vui mừng"
+   "vi": "vui, vui mừng",
+   "emoji": "😊",
+   "ex": {
+    "zh": "认识你，我很高兴。",
+    "py": "Rènshi nǐ, wǒ hěn gāoxìng.",
+    "vi": "Quen biết bạn, tôi rất vui."
+   }
   },
   {
    "hanzi": "个",
    "pinyin": "gè",
-   "vi": "cái, người (lượng từ)"
+   "vi": "cái, người (lượng từ)",
+   "ex": {
+    "zh": "我有两个朋友。",
+    "py": "Wǒ yǒu liǎng gè péngyou.",
+    "vi": "Tôi có hai người bạn."
+   }
   },
   {
    "hanzi": "歌",
    "pinyin": "gē",
-   "vi": "bài hát"
+   "vi": "bài hát",
+   "emoji": "🎵",
+   "ex": {
+    "zh": "这个歌很好听。",
+    "py": "Zhège gē hěn hǎotīng.",
+    "vi": "Bài hát này rất hay."
+   }
   },
   {
    "hanzi": "哥哥",
    "pinyin": "gēge",
-   "vi": "anh trai"
+   "vi": "anh trai",
+   "emoji": "👨",
+   "ex": {
+    "zh": "我哥哥在北京工作。",
+    "py": "Wǒ gēge zài Běijīng gōngzuò.",
+    "vi": "Anh trai tôi làm việc ở Bắc Kinh."
+   }
   },
   {
    "hanzi": "给",
    "pinyin": "gěi",
-   "vi": "cho, đưa"
+   "vi": "cho, đưa",
+   "emoji": "🎁",
+   "ex": {
+    "zh": "我给你一杯茶。",
+    "py": "Wǒ gěi nǐ yì bēi chá.",
+    "vi": "Tôi đưa bạn một cốc trà."
+   }
   },
   {
    "hanzi": "公司",
    "pinyin": "gōngsī",
-   "vi": "công ty"
+   "vi": "công ty",
+   "emoji": "🏢",
+   "ex": {
+    "zh": "他在一个大公司工作。",
+    "py": "Tā zài yí gè dà gōngsī gōngzuò.",
+    "vi": "Anh ấy làm việc ở một công ty lớn."
+   }
   },
   {
    "hanzi": "工作",
    "pinyin": "gōngzuò",
-   "vi": "công việc; làm việc"
+   "vi": "công việc; làm việc",
+   "emoji": "💼",
+   "ex": {
+    "zh": "你做什么工作？",
+    "py": "Nǐ zuò shénme gōngzuò?",
+    "vi": "Bạn làm công việc gì?"
+   }
   },
   {
    "hanzi": "狗",
    "pinyin": "gǒu",
-   "vi": "chó"
+   "vi": "chó",
+   "emoji": "🐶",
+   "ex": {
+    "zh": "我家有一只狗。",
+    "py": "Wǒ jiā yǒu yì zhī gǒu.",
+    "vi": "Nhà tôi có một con chó."
+   }
   },
   {
    "hanzi": "贵",
    "pinyin": "guì",
-   "vi": "đắt"
+   "vi": "đắt",
+   "emoji": "💸",
+   "ex": {
+    "zh": "这件衣服太贵了。",
+    "py": "Zhè jiàn yīfu tài guì le.",
+    "vi": "Cái áo này đắt quá."
+   }
   },
   {
    "hanzi": "国",
    "pinyin": "guó",
-   "vi": "nước, quốc gia"
+   "vi": "nước, quốc gia",
+   "emoji": "🌏",
+   "ex": {
+    "zh": "你是哪国人？",
+    "py": "Nǐ shì nǎ guó rén?",
+    "vi": "Bạn là người nước nào?"
+   }
   },
   {
    "hanzi": "还",
    "pinyin": "hái",
-   "vi": "vẫn, còn; cũng"
+   "vi": "vẫn, còn; cũng",
+   "ex": {
+    "zh": "他还在学校。",
+    "py": "Tā hái zài xuéxiào.",
+    "vi": "Anh ấy vẫn còn ở trường."
+   }
   },
   {
    "hanzi": "孩子",
    "pinyin": "háizi",
-   "vi": "con, trẻ em"
+   "vi": "con, trẻ em",
+   "emoji": "🧒",
+   "ex": {
+    "zh": "她有两个孩子。",
+    "py": "Tā yǒu liǎng gè háizi.",
+    "vi": "Cô ấy có hai đứa con."
+   }
   },
   {
    "hanzi": "汉语",
    "pinyin": "Hànyǔ",
-   "vi": "tiếng Hán, tiếng Trung"
+   "vi": "tiếng Hán, tiếng Trung",
+   "emoji": "🇨🇳",
+   "ex": {
+    "zh": "我在学习汉语。",
+    "py": "Wǒ zài xuéxí Hànyǔ.",
+    "vi": "Tôi đang học tiếng Trung."
+   }
   },
   {
    "hanzi": "汉字",
    "pinyin": "Hànzì",
-   "vi": "chữ Hán"
+   "vi": "chữ Hán",
+   "ex": {
+    "zh": "这个汉字怎么读？",
+    "py": "Zhège Hànzì zěnme dú?",
+    "vi": "Chữ Hán này đọc thế nào?"
+   }
   },
   {
    "hanzi": "号",
    "pinyin": "hào",
-   "vi": "số; ngày (trong tháng)"
+   "vi": "số; ngày (trong tháng)",
+   "emoji": "📅",
+   "ex": {
+    "zh": "今天几号？",
+    "py": "Jīntiān jǐ hào?",
+    "vi": "Hôm nay là ngày mấy?"
+   }
   },
   {
    "hanzi": "好",
    "pinyin": "hǎo",
-   "vi": "tốt, hay"
+   "vi": "tốt, hay",
+   "emoji": "👍",
+   "ex": {
+    "zh": "你好吗？我很好。",
+    "py": "Nǐ hǎo ma? Wǒ hěn hǎo.",
+    "vi": "Bạn khỏe không? Tôi rất khỏe."
+   }
   },
   {
    "hanzi": "好吃",
    "pinyin": "hǎochī",
-   "vi": "ngon"
+   "vi": "ngon",
+   "emoji": "😋",
+   "ex": {
+    "zh": "这个菜很好吃。",
+    "py": "Zhège cài hěn hǎochī.",
+    "vi": "Món này rất ngon."
+   }
   },
   {
    "hanzi": "好看",
    "pinyin": "hǎokàn",
-   "vi": "đẹp, dễ nhìn"
+   "vi": "đẹp, dễ nhìn",
+   "emoji": "✨",
+   "ex": {
+    "zh": "这个电影很好看。",
+    "py": "Zhège diànyǐng hěn hǎokàn.",
+    "vi": "Bộ phim này rất hay."
+   }
   },
   {
    "hanzi": "好听",
    "pinyin": "hǎotīng",
-   "vi": "hay, dễ nghe"
+   "vi": "hay, dễ nghe",
+   "emoji": "🎶",
+   "ex": {
+    "zh": "她的名字很好听。",
+    "py": "Tā de míngzi hěn hǎotīng.",
+    "vi": "Tên của cô ấy rất hay."
+   }
   },
   {
    "hanzi": "好玩儿",
    "pinyin": "hǎowánr",
-   "vi": "vui, thú vị"
+   "vi": "vui, thú vị",
+   "emoji": "🎡",
+   "ex": {
+    "zh": "这里很好玩儿。",
+    "py": "Zhèlǐ hěn hǎowánr.",
+    "vi": "Ở đây rất vui."
+   }
   },
   {
    "hanzi": "和",
    "pinyin": "hé",
-   "vi": "và, với"
+   "vi": "và, với",
+   "ex": {
+    "zh": "我和他是同学。",
+    "py": "Wǒ hé tā shì tóngxué.",
+    "vi": "Tôi và anh ấy là bạn học."
+   }
   },
   {
    "hanzi": "喝",
    "pinyin": "hē",
-   "vi": "uống"
+   "vi": "uống",
+   "emoji": "🥤",
+   "ex": {
+    "zh": "你想喝什么？",
+    "py": "Nǐ xiǎng hē shénme?",
+    "vi": "Bạn muốn uống gì?"
+   }
   },
   {
    "hanzi": "很",
    "pinyin": "hěn",
-   "vi": "rất"
+   "vi": "rất",
+   "ex": {
+    "zh": "她很漂亮。",
+    "py": "Tā hěn piàoliang.",
+    "vi": "Cô ấy rất đẹp."
+   }
   },
   {
    "hanzi": "后",
    "pinyin": "hòu",
-   "vi": "sau"
+   "vi": "sau",
+   "ex": {
+    "zh": "下课后我回家。",
+    "py": "Xiàkè hòu wǒ huí jiā.",
+    "vi": "Sau khi tan học tôi về nhà."
+   }
   },
   {
    "hanzi": "会",
    "pinyin": "huì",
-   "vi": "biết (làm gì); sẽ"
+   "vi": "biết (làm gì); sẽ",
+   "ex": {
+    "zh": "我会说汉语。",
+    "py": "Wǒ huì shuō Hànyǔ.",
+    "vi": "Tôi biết nói tiếng Trung."
+   }
   },
   {
    "hanzi": "回",
    "pinyin": "huí",
-   "vi": "về, trở lại"
+   "vi": "về, trở lại",
+   "emoji": "🔙",
+   "ex": {
+    "zh": "我下午回家。",
+    "py": "Wǒ xiàwǔ huí jiā.",
+    "vi": "Buổi chiều tôi về nhà."
+   }
   },
   {
    "hanzi": "火车",
    "pinyin": "huǒchē",
-   "vi": "tàu hỏa"
+   "vi": "tàu hỏa",
+   "emoji": "🚆",
+   "ex": {
+    "zh": "火车几点到？",
+    "py": "Huǒchē jǐ diǎn dào?",
+    "vi": "Mấy giờ tàu hỏa đến?"
+   }
   },
   {
    "hanzi": "几",
    "pinyin": "jǐ",
-   "vi": "mấy"
+   "vi": "mấy",
+   "ex": {
+    "zh": "你家有几个人？",
+    "py": "Nǐ jiā yǒu jǐ gè rén?",
+    "vi": "Nhà bạn có mấy người?"
+   }
   },
   {
    "hanzi": "家",
    "pinyin": "jiā",
-   "vi": "nhà; gia đình"
+   "vi": "nhà; gia đình",
+   "emoji": "🏠",
+   "ex": {
+    "zh": "我家在北京。",
+    "py": "Wǒ jiā zài Běijīng.",
+    "vi": "Nhà tôi ở Bắc Kinh."
+   }
   },
   {
    "hanzi": "件",
    "pinyin": "jiàn",
-   "vi": "cái, chiếc (lượng từ cho áo, việc)"
+   "vi": "cái, chiếc (lượng từ cho áo, việc)",
+   "emoji": "👔",
+   "ex": {
+    "zh": "我买了一件衣服。",
+    "py": "Wǒ mǎi le yí jiàn yīfu.",
+    "vi": "Tôi đã mua một cái áo."
+   }
   },
   {
    "hanzi": "见",
    "pinyin": "jiàn",
-   "vi": "gặp"
+   "vi": "gặp",
+   "emoji": "🤝",
+   "ex": {
+    "zh": "明天见！",
+    "py": "Míngtiān jiàn!",
+    "vi": "Ngày mai gặp nhé!"
+   }
   },
   {
    "hanzi": "叫",
    "pinyin": "jiào",
-   "vi": "gọi; tên là"
+   "vi": "gọi; tên là",
+   "ex": {
+    "zh": "我叫小明。",
+    "py": "Wǒ jiào Xiǎo Míng.",
+    "vi": "Tôi tên là Tiểu Minh."
+   }
   },
   {
    "hanzi": "饺子",
    "pinyin": "jiǎozi",
-   "vi": "sủi cảo"
+   "vi": "sủi cảo",
+   "emoji": "🥟",
+   "ex": {
+    "zh": "我们晚上吃饺子。",
+    "py": "Wǒmen wǎnshang chī jiǎozi.",
+    "vi": "Tối nay chúng tôi ăn sủi cảo."
+   }
   },
   {
    "hanzi": "家人",
    "pinyin": "jiārén",
-   "vi": "người nhà"
+   "vi": "người nhà",
+   "emoji": "👨‍👩‍👧",
+   "ex": {
+    "zh": "我爱我的家人。",
+    "py": "Wǒ ài wǒ de jiārén.",
+    "vi": "Tôi yêu người nhà của tôi."
+   }
   },
   {
    "hanzi": "鸡蛋",
    "pinyin": "jīdàn",
-   "vi": "trứng gà"
+   "vi": "trứng gà",
+   "emoji": "🥚",
+   "ex": {
+    "zh": "我早上吃一个鸡蛋。",
+    "py": "Wǒ zǎoshang chī yí gè jīdàn.",
+    "vi": "Buổi sáng tôi ăn một quả trứng."
+   }
   },
   {
    "hanzi": "姐姐",
    "pinyin": "jiějie",
-   "vi": "chị gái"
+   "vi": "chị gái",
+   "emoji": "👩",
+   "ex": {
+    "zh": "我姐姐是老师。",
+    "py": "Wǒ jiějie shì lǎoshī.",
+    "vi": "Chị gái tôi là giáo viên."
+   }
   },
   {
    "hanzi": "今年",
    "pinyin": "jīnnián",
-   "vi": "năm nay"
+   "vi": "năm nay",
+   "emoji": "🗓️",
+   "ex": {
+    "zh": "我今年二十岁。",
+    "py": "Wǒ jīnnián èrshí suì.",
+    "vi": "Năm nay tôi hai mươi tuổi."
+   }
   },
   {
    "hanzi": "今天",
    "pinyin": "jīntiān",
-   "vi": "hôm nay"
+   "vi": "hôm nay",
+   "emoji": "📆",
+   "ex": {
+    "zh": "今天天气很好。",
+    "py": "Jīntiān tiānqì hěn hǎo.",
+    "vi": "Hôm nay thời tiết rất đẹp."
+   }
   },
   {
    "hanzi": "九",
    "pinyin": "jiǔ",
-   "vi": "chín"
+   "vi": "chín",
+   "emoji": "9️⃣",
+   "ex": {
+    "zh": "我家有九口人。",
+    "py": "Wǒ jiā yǒu jiǔ kǒu rén.",
+    "vi": "Nhà tôi có chín người."
+   }
   },
   {
    "hanzi": "觉得",
    "pinyin": "juéde",
-   "vi": "cảm thấy, nghĩ rằng"
+   "vi": "cảm thấy, nghĩ rằng",
+   "emoji": "💭",
+   "ex": {
+    "zh": "我觉得汉语很好玩儿。",
+    "py": "Wǒ juéde Hànyǔ hěn hǎowánr.",
+    "vi": "Tôi thấy tiếng Trung rất thú vị."
+   }
   },
   {
    "hanzi": "开",
    "pinyin": "kāi",
-   "vi": "mở; lái (xe)"
+   "vi": "mở; lái (xe)",
+   "emoji": "🔓",
+   "ex": {
+    "zh": "请开门。",
+    "py": "Qǐng kāi mén.",
+    "vi": "Xin hãy mở cửa."
+   }
   },
   {
    "hanzi": "开车",
    "pinyin": "kāichē",
-   "vi": "lái xe"
+   "vi": "lái xe",
+   "emoji": "🚘",
+   "ex": {
+    "zh": "爸爸开车去公司。",
+    "py": "Bàba kāichē qù gōngsī.",
+    "vi": "Bố lái xe đến công ty."
+   }
   },
   {
    "hanzi": "看",
    "pinyin": "kàn",
-   "vi": "nhìn, xem"
+   "vi": "nhìn, xem",
+   "emoji": "👀",
+   "ex": {
+    "zh": "我在看书。",
+    "py": "Wǒ zài kàn shū.",
+    "vi": "Tôi đang đọc sách."
+   }
   },
   {
    "hanzi": "看病",
    "pinyin": "kànbìng",
-   "vi": "đi khám bệnh"
+   "vi": "đi khám bệnh",
+   "emoji": "🩺",
+   "ex": {
+    "zh": "我去医院看病。",
+    "py": "Wǒ qù yīyuàn kànbìng.",
+    "vi": "Tôi đến bệnh viện khám bệnh."
+   }
   },
   {
    "hanzi": "看见",
