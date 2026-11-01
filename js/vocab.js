@@ -130,7 +130,9 @@
     .then(function (d) {
       all = d.words;
       var withEx = d.words.filter(function (w) { return w.ex; }).length;
-      $("info").textContent = d.count + " từ, theo chuẩn " + d.standard + ". Đã có câu ví dụ cho " + withEx + " từ, các từ còn lại sẽ được thêm dần. Tiến độ được lưu trên trình duyệt của bạn.";
+      var exText = withEx === d.count ? "Mỗi từ đều có câu ví dụ."
+        : withEx ? "Đã có câu ví dụ cho " + withEx + " từ, các từ còn lại sẽ được thêm dần." : "";
+      $("info").textContent = d.count + " từ, theo chuẩn " + d.standard + ". " + exText + " Tiến độ được lưu trên trình duyệt của bạn.";
       rebuild(false); renderList();
     })
     .catch(function () {
