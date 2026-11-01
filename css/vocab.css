@@ -24,4 +24,6 @@
 .list .m{grid-column:2;color:var(--mute)}
 .list li.known{background:var(--jade-soft)}
 .empty{color:var(--mute);padding:16px 0}
+.next-step{margin:24px 0 0}
+.linkbtn{display:block;text-align:center;text-decoration:none}
 .hide{display:none!important}

@@ -106,6 +106,7 @@
 
   /* ---- Tải dữ liệu ---- */
   $("title").textContent = "Từ vựng HSK " + level;
+  $("toQuiz").href = "quiz.html?level=" + level;
   document.title = "Từ vựng HSK " + level + " - HanziLinh";
   fetch("data/hsk" + level + "-vocab.json")
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })

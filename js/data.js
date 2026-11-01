@@ -13,7 +13,7 @@ var LEVELS = [
 /* Các công cụ học. ready: true khi đã làm xong. */
 var TOOLS = [
   { ic: "词", name: "Từ vựng",         desc: "Thẻ từ vựng theo cấp HSK, đánh dấu từ đã thuộc.", ready: true, href: "vocab.html?level=1" },
-  { ic: "题", name: "Luyện đề",        desc: "Trắc nghiệm từ vựng và ngữ pháp, có chấm điểm và giải thích.", ready: false },
+  { ic: "题", name: "Luyện đề",        desc: "Trắc nghiệm từ vựng, có chấm điểm và giải thích.", ready: true, href: "quiz.html?level=1" },
   { ic: "填", name: "Điền chỗ trống",  desc: "Kéo thả từ vào chỗ trống trong câu.", ready: false },
   { ic: "话", name: "Hội thoại",       desc: "Đoạn hội thoại ngắn theo chủ đề quen thuộc.", ready: false },
   { ic: "读", name: "Đọc hiểu",        desc: "Đoạn văn từ dễ đến khó kèm câu hỏi.", ready: false },

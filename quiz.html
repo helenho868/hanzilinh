@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luyện đề từ vựng HSK - HanziLinh</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif+SC:wght@600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/vocab.css">
+<link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html" aria-label="HanziLinh, trang chủ">
+    <span class="seal" aria-hidden="true">灵</span>
+    <span class="brand-name">HanziLinh</span>
+  </a>
+  <nav aria-label="Menu chính">
+    <a href="index.html#cap-do">Cấp độ HSK</a>
+    <a href="index.html#cong-cu">Công cụ học</a>
+  </nav>
+</header>
+
+<main class="narrow">
+  <h1 id="title">Luyện đề từ vựng HSK</h1>
+  <p class="lead" id="info">Đang tải dữ liệu...</p>
+
+  <section id="setup" class="panel hide">
+    <p class="lbl">Số câu hỏi</p>
+    <div class="chips" id="countChips" role="group" aria-label="Số câu hỏi">
+      <button class="chip" type="button" data-v="10" aria-pressed="true">10 câu</button>
+      <button class="chip" type="button" data-v="20" aria-pressed="false">20 câu</button>
+      <button class="chip" type="button" data-v="30" aria-pressed="false">30 câu</button>
+    </div>
+    <p class="lbl">Dạng câu hỏi</p>
+    <div class="chips" id="typeChips" role="group" aria-label="Dạng câu hỏi">
+      <button class="chip" type="button" data-v="mix" aria-pressed="true">Hỗn hợp</button>
+      <button class="chip" type="button" data-v="mean" aria-pressed="false">Chữ Hán sang nghĩa</button>
+      <button class="chip" type="button" data-v="pinyin" aria-pressed="false">Chữ Hán sang phiên âm</button>
+      <button class="chip" type="button" data-v="hanzi" aria-pressed="false">Nghĩa sang chữ Hán</button>
+    </div>
+    <label class="check"><input type="checkbox" id="prefNew"> Ưu tiên từ tôi chưa thuộc (theo thẻ từ vựng)</label>
+    <p class="best" id="best"></p>
+    <button class="btn2 p full" id="start" type="button">Bắt đầu làm bài</button>
+  </section>
+
+  <section id="play" class="hide">
+    <div class="bar" aria-hidden="true"><i id="prog"></i></div>
+    <p class="meta"><span id="qcount"></span><span id="qscore"></span></p>
+    <div class="panel">
+      <p class="qtype" id="qtype"></p>
+      <p class="qmain" id="qmain"></p>
+      <div class="opts" id="opts"></div>
+      <div id="fb" class="fb hide" aria-live="polite"></div>
+      <button class="btn2 p full hide" id="next" type="button"></button>
+    </div>
+  </section>
+
+  <section id="result" class="panel hide">
+    <p class="score" id="sc"></p>
+    <p class="msg" id="ms"></p>
+    <div id="rv"></div>
+    <div class="row">
+      <button class="btn2 p" id="again" type="button">Làm đề mới</button>
+      <a class="btn2 linkbtn" href="vocab.html?level=1" id="toCards">Ôn lại thẻ từ vựng</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
+</footer>
+
+<script src="js/quiz.js"></script>
+</body>
+</html>

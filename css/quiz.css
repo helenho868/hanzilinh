@@ -1,0 +1,36 @@
+.lbl{font-weight:700;margin:16px 0 8px}
+.lbl:first-child{margin-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:.95rem;padding:8px 16px;border:1.5px solid var(--line);border-radius:22px;background:var(--card);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--jade);border-color:var(--jade);color:var(--jade-ink)}
+.check{display:flex;align-items:center;gap:10px;margin:18px 0 4px;color:var(--ink);cursor:pointer}
+.check input{width:18px;height:18px;accent-color:var(--jade)}
+.best{color:var(--mute);font-size:.9rem;margin:10px 0 16px;min-height:1.4em}
+.full{width:100%;flex:none}
+.linkbtn{display:inline-block;text-align:center;text-decoration:none}
+
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-bottom:8px}
+.bar i{display:block;height:100%;width:0;background:var(--jade);transition:width .3s}
+.qtype{color:var(--mute);font-size:.92rem;margin:0 0 6px;text-align:center}
+.qmain{font-size:1.3rem;font-weight:600;text-align:center;margin:0 0 18px;line-height:1.35}
+.qmain.zh{font-family:"Noto Serif SC","Songti SC",serif;font-weight:900;font-size:3.6rem;color:var(--jade);line-height:1.2}
+.opts{display:grid;gap:10px}
+.opt{font:inherit;text-align:left;padding:13px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);cursor:pointer;font-size:1.05rem}
+.opt.zh{font-family:"Noto Serif SC","Songti SC",serif;font-size:1.5rem;text-align:center}
+.opt:hover:not(:disabled){border-color:var(--jade)}
+.opt.ok{background:var(--jade-soft);border-color:var(--jade);font-weight:600}
+.opt.no{background:#F8E0DB;border-color:#A8341F;color:#14201C}
+.opt:disabled{cursor:default}
+.fb{margin-top:14px;padding:12px 14px;border-radius:10px;font-size:.95rem}
+.fb.ok{background:var(--jade-soft)}
+.fb.no{background:#F8E0DB;color:#14201C}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .opt.no,:root:not([data-theme="light"]) .fb.no{background:#3A1F1A;border-color:#FF8E7A;color:#E8F0ED}}
+:root[data-theme="dark"] .opt.no,:root[data-theme="dark"] .fb.no{background:#3A1F1A;border-color:#FF8E7A;color:#E8F0ED}
+.score{font-size:3rem;font-weight:700;text-align:center;margin:0;color:var(--jade)}
+.msg{text-align:center;margin:4px 0 16px}
+.rev{border-top:1px solid var(--line);padding:12px 0}
+.rev p{margin:2px 0}
+.rev .h{font-family:"Noto Serif SC","Songti SC",serif;font-weight:700;font-size:1.2rem}
+.revhead{font-weight:700;margin:8px 0 0}
+#next{margin-top:14px}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
