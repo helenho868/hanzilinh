@@ -36,6 +36,11 @@
 .list .xz{display:block;font-family:"Noto Serif SC","Songti SC",serif;font-size:1.05rem}
 .list .xp{display:block;color:var(--jade);font-size:.9rem}
 .list .xv{display:block;color:var(--mute);font-size:.9rem}
+.list .acts{grid-column:2;display:flex;gap:8px;margin-top:6px;flex-wrap:wrap}
+.say{font:inherit;font-size:.85rem;font-weight:600;color:var(--jade);background:transparent;border:1.5px solid var(--jade);border-radius:16px;padding:4px 14px;cursor:pointer}
+.say:hover{background:var(--jade-soft)}
+.say:focus-visible{outline:3px solid var(--jade);outline-offset:2px}
+.voice-note{background:var(--jade-soft);border-radius:10px;padding:10px 14px;font-size:.9rem;margin:0 0 12px}
 .next-step{margin:24px 0 0}
 .linkbtn{display:block;text-align:center;text-decoration:none}
 .hide{display:none!important}

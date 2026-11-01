@@ -20,7 +20,7 @@
     $("fp").textContent = d.pinyin;
     $("fv").textContent = d.vi;
     var ex = $("fx");
-    $("spkx").classList.toggle("hide", !(d.ex && "speechSynthesis" in window));
+    $("spkx").classList.toggle("hide", !(d.ex && canSpeak));
     if (d.ex) {
       $("fxz").textContent = d.ex.zh; $("fxp").textContent = d.ex.py; $("fxv").textContent = d.ex.vi;
       ex.classList.remove("hide");
@@ -68,13 +68,33 @@
   $("onlyNew").onclick = function () {
     onlyNew = !onlyNew; this.setAttribute("aria-pressed", onlyNew); rebuild(shuffled);
   };
-  if (!("speechSynthesis" in window)) { $("spk").classList.add("hide"); }
+  var canSpeak = !!window.speechSynthesis && typeof window.SpeechSynthesisUtterance !== "undefined";
+  if (!canSpeak) { $("spk").classList.add("hide"); }
+  function zhVoice() {
+    try {
+      var vs = speechSynthesis.getVoices() || [];
+      for (var k = 0; k < vs.length; k++) if (/^zh/i.test(vs[k].lang)) return vs[k];
+    } catch (e) {}
+    return null;
+  }
   function speak(text) {
+    if (!canSpeak) return;
     try {
       var u = new SpeechSynthesisUtterance(text);
       u.lang = "zh-CN"; u.rate = 0.8;
+      var v = zhVoice(); if (v) u.voice = v;
       speechSynthesis.cancel(); speechSynthesis.speak(u);
     } catch (e) {}
+  }
+  /* Nếu thiết bị đã tải xong danh sách giọng đọc mà không có giọng tiếng Trung, báo cho học viên. */
+  function voiceNote() {
+    var n = $("voiceNote"); if (!n || !canSpeak) return;
+    var vs = []; try { vs = speechSynthesis.getVoices() || []; } catch (e) {}
+    n.classList.toggle("hide", !(vs.length && !zhVoice()));
+  }
+  if (canSpeak) {
+    voiceNote();
+    try { speechSynthesis.addEventListener("voiceschanged", voiceNote); } catch (e) {}
   }
   $("spk").onclick = function () { if (deck.length) speak(deck[ci].hanzi); };
   $("spkx").onclick = function () { if (deck.length && deck[ci].ex) speak(deck[ci].ex.zh); };
@@ -105,10 +125,28 @@
         x.appendChild(mk("span", "xv", w.ex.vi));
         li.appendChild(x);
       }
+      if (canSpeak) {
+        var a = mk("span", "acts");
+        var b1 = mk("button", "say", "Nghe từ");
+        b1.type = "button"; b1.setAttribute("data-say", w.hanzi);
+        b1.setAttribute("aria-label", "Nghe từ " + w.hanzi);
+        a.appendChild(b1);
+        if (w.ex) {
+          var b2 = mk("button", "say", "Nghe câu");
+          b2.type = "button"; b2.setAttribute("data-say", w.ex.zh);
+          b2.setAttribute("aria-label", "Nghe câu ví dụ của từ " + w.hanzi);
+          a.appendChild(b2);
+        }
+        li.appendChild(a);
+      }
       ul.appendChild(li);
     });
   }
   $("q").oninput = renderList;
+  $("list").addEventListener("click", function (e) {
+    var b = e.target.closest ? e.target.closest("button[data-say]") : null;
+    if (b) speak(b.getAttribute("data-say"));
+  });
 
   /* ---- Tab ---- */
   function tab(n) {
