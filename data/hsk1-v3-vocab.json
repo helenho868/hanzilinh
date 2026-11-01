@@ -1186,13 +1186,13 @@
    }
   },
   {
-   "hanzi": "里面",
-   "pinyin": "lǐmiàn",
-   "vi": "bên trong",
+   "hanzi": "里",
+   "pinyin": "lǐ",
+   "vi": "trong, bên trong",
    "emoji": "📦",
    "ex": {
-    "zh": "杯子里面有水。",
-    "py": "Bēizi lǐmiàn yǒu shuǐ.",
+    "zh": "杯子里有水。",
+    "py": "Bēizi lǐ yǒu shuǐ.",
     "vi": "Trong cốc có nước."
    }
   },
