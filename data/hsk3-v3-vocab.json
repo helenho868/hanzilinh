@@ -12,7 +12,7 @@
    "emoji": "👩",
    "ex": {
     "zh": "阿姨在我家住了三天。",
-    "py": "Āyí zài wǒ jiāzhù le sāntiān。",
+    "py": "Āyí zài wǒ jiā zhù le sān tiān.",
     "vi": "Dì đã ở nhà tôi ba ngày."
    }
   },
@@ -23,7 +23,7 @@
    "emoji": "📏",
    "ex": {
     "zh": "他比我矮。",
-    "py": "Tā bǐ wǒ ǎi。",
+    "py": "Tā bǐ wǒ ǎi.",
     "vi": "Anh ấy thấp hơn tôi."
    }
   },
@@ -34,7 +34,7 @@
    "emoji": "💑",
    "ex": {
     "zh": "他的爱人是老师。",
-    "py": "Tā de àirén shì lǎoshī。",
+    "py": "Tā de àirén shì lǎoshī.",
     "vi": "Vợ của anh ấy là giáo viên."
    }
   },
@@ -45,7 +45,7 @@
    "emoji": "🤫",
    "ex": {
     "zh": "图书馆里很安静。",
-    "py": "Túshūguǎn lǐ hěn ānjìng。",
+    "py": "Túshūguǎn lǐ hěn ānjìng.",
     "vi": "Trong thư viện rất yên tĩnh."
    }
   },
@@ -56,7 +56,7 @@
    "emoji": "🛡️",
    "ex": {
     "zh": "坐飞机很安全。",
-    "py": "Zuòfēijī hěn ānquán。",
+    "py": "Zuò fēi jī hěn ānquán.",
     "vi": "Đi máy bay rất an toàn."
    }
   },
@@ -67,7 +67,7 @@
    "emoji": "🤲",
    "ex": {
     "zh": "请把书放在桌子上。",
-    "py": "Qǐng bǎ shū fàngzài zhuōzi shàng。",
+    "py": "Qǐng bǎ shū fàng zài zhuōzi shàng.",
     "vi": "Xin hãy đặt sách lên bàn."
    }
   },
@@ -78,7 +78,7 @@
    "emoji": "📦",
    "ex": {
     "zh": "我们一起搬东西吧。",
-    "py": "Wǒmen yìqǐ bāndōngxī ba。",
+    "py": "Wǒmen yìqǐ bān dōng xī ba.",
     "vi": "Chúng ta cùng chuyển đồ nhé."
    }
   },
@@ -89,7 +89,7 @@
    "emoji": "🏫",
    "ex": {
     "zh": "我们的班级有四十个人。",
-    "py": "Wǒmen de bānjí yǒu sìshígè rén。",
+    "py": "Wǒmen de bānjí yǒu sì shí gè rén.",
     "vi": "Lớp chúng tôi có bốn mươi người."
    }
   },
@@ -100,7 +100,7 @@
    "emoji": "🚚",
    "ex": {
     "zh": "他们明天搬家。",
-    "py": "Tāmen míngtiān bānjiā。",
+    "py": "Tāmen míngtiān bānjiā.",
     "vi": "Ngày mai họ chuyển nhà."
    }
   },
@@ -111,7 +111,7 @@
    "emoji": "🛠️",
    "ex": {
     "zh": "这件事怎么办？",
-    "py": "Zhèjiàn shì zěnmebàn？",
+    "py": "Zhè jiàn shì zěnmebàn?",
     "vi": "Việc này xử lý thế nào?"
    }
   },
@@ -122,7 +122,7 @@
    "emoji": "💡",
    "ex": {
     "zh": "我有一个好办法。",
-    "py": "Wǒ yǒu yígè hǎo bànfǎ。",
+    "py": "Wǒ yǒu yí gè hǎo bànfǎ.",
     "vi": "Tôi có một cách hay."
    }
   },
@@ -133,7 +133,7 @@
    "emoji": "🏢",
    "ex": {
     "zh": "老师在办公室里。",
-    "py": "Lǎoshī zài bàngōngshì lǐ。",
+    "py": "Lǎoshī zài bàngōngshì lǐ.",
     "vi": "Thầy giáo đang ở trong văn phòng."
    }
   },
@@ -144,7 +144,7 @@
    "emoji": "⏳",
    "ex": {
     "zh": "我等了半天。",
-    "py": "Wǒ děng le bàntiān。",
+    "py": "Wǒ děng le bàntiān.",
     "vi": "Tôi đã đợi rất lâu."
    }
   },
@@ -155,7 +155,7 @@
    "emoji": "🤝",
    "ex": {
     "zh": "谢谢你的帮助。",
-    "py": "Xièxiè nǐ de bāngzhù。",
+    "py": "Xièxiè nǐ de bāngzhù.",
     "vi": "Cảm ơn sự giúp đỡ của bạn."
    }
   },
@@ -166,7 +166,7 @@
    "emoji": "😋",
    "ex": {
     "zh": "我吃饱了。",
-    "py": "Wǒ chībǎo le。",
+    "py": "Wǒ chī bǎo le.",
     "vi": "Tôi ăn no rồi."
    }
   },
@@ -177,7 +177,7 @@
    "emoji": "📰",
    "ex": {
     "zh": "爷爷每天看报纸。",
-    "py": "Yéyé měitiān kàn bàozhǐ。",
+    "py": "Yéyé měi tiān kàn bàozhǐ.",
     "vi": "Ông nội ngày nào cũng đọc báo."
    }
   },
@@ -188,7 +188,7 @@
    "emoji": "⬆️",
    "ex": {
     "zh": "学校在我家北面。",
-    "py": "Xuéxiào zài wǒjiā běimiàn。",
+    "py": "Xuéxiào zài wǒ jiā běi miàn.",
     "vi": "Trường học ở phía bắc nhà tôi."
    }
   },
@@ -199,7 +199,7 @@
    "emoji": "🧭",
    "ex": {
     "zh": "北方的冬天很冷。",
-    "py": "Běifāng de dōngtiān hěn lěng。",
+    "py": "Běifāng de dōngtiān hěn lěng.",
     "vi": "Mùa đông miền bắc rất lạnh."
    }
   },
@@ -210,7 +210,7 @@
    "emoji": "↩️",
    "ex": {
     "zh": "我的书被他拿走了。",
-    "py": "Wǒ de shū bèi tā názǒu le。",
+    "py": "Wǒ de shū bèi tā ná zǒu le.",
     "vi": "Sách của tôi bị anh ấy lấy đi rồi."
    }
   },
@@ -221,7 +221,7 @@
    "emoji": "📝",
    "ex": {
     "zh": "上课时我写笔记。",
-    "py": "Shàngkèshí wǒ xiě bǐjì。",
+    "py": "Shàng kè shí wǒ xiě bǐjì.",
     "vi": "Khi học tôi ghi chép bài."
    }
   },
@@ -232,7 +232,7 @@
    "emoji": "⚖️",
    "ex": {
     "zh": "这个比较贵。",
-    "py": "Zhège bǐjiào guì。",
+    "py": "Zhège bǐjiào guì.",
     "vi": "Cái này tương đối đắt."
    }
   },
@@ -243,7 +243,7 @@
    "emoji": "💻",
    "ex": {
     "zh": "他的笔记本电脑很新。",
-    "py": "Tā de bǐjìběndiànnǎo hěn xīn。",
+    "py": "Tā de bǐ jì běn diàn nǎo hěn xīn.",
     "vi": "Chiếc máy tính xách tay của anh ấy rất mới."
    }
   },
@@ -254,7 +254,7 @@
    "emoji": "➕",
    "ex": {
     "zh": "我喜欢运动，比如跑步。",
-    "py": "Wǒ xǐhuān yùndòng， bǐrú pǎobù。",
+    "py": "Wǒ xǐhuān yùndòng, bǐrú pǎobù.",
     "vi": "Tôi thích thể thao, ví dụ như chạy bộ."
    }
   },
@@ -265,7 +265,7 @@
    "emoji": "🏆",
    "ex": {
     "zh": "明天有足球比赛。",
-    "py": "Míngtiān yǒu zúqiúbǐsài。",
+    "py": "Míngtiān yǒu zú qiú bǐ sài.",
     "vi": "Ngày mai có trận bóng đá."
    }
   },
@@ -276,7 +276,7 @@
    "emoji": "❗",
    "ex": {
     "zh": "你必须早点睡。",
-    "py": "Nǐ bìxū zǎodiǎn shuì。",
+    "py": "Nǐ bìxū zǎo diǎn shuì.",
     "vi": "Bạn phải đi ngủ sớm."
    }
   },
@@ -287,7 +287,7 @@
    "emoji": "🔄",
    "ex": {
     "zh": "天气变冷了。",
-    "py": "Tiānqì biànlěng le。",
+    "py": "Tiānqì biàn lěng le.",
     "vi": "Thời tiết trở lạnh rồi."
    }
   },
@@ -298,7 +298,7 @@
    "emoji": "🔁",
    "ex": {
     "zh": "这本书我看了两遍。",
-    "py": "Zhè běnshū wǒ kàn le liǎngbiàn。",
+    "py": "Zhè běn shū wǒ kàn le liǎng biàn.",
     "vi": "Cuốn sách này tôi đã đọc hai lần."
    }
   },
@@ -309,7 +309,7 @@
    "emoji": "🦋",
    "ex": {
     "zh": "水变成了冰。",
-    "py": "Shuǐ biànchéng le bīng。",
+    "py": "Shuǐ biànchéng le bīng.",
     "vi": "Nước biến thành đá."
    }
   },
@@ -320,7 +320,7 @@
    "emoji": "📈",
    "ex": {
     "zh": "这个城市变化很大。",
-    "py": "Zhège chéngshì biànhuàhěndà。",
+    "py": "Zhège chéngshì biàn huà hěn dà.",
     "vi": "Thành phố này thay đổi rất nhiều."
    }
   },
@@ -331,7 +331,7 @@
    "emoji": "🎭",
    "ex": {
     "zh": "孩子们在表演。",
-    "py": "Háizi men zài biǎoyǎn。",
+    "py": "Háizi men zài biǎoyǎn.",
     "vi": "Bọn trẻ đang biểu diễn."
    }
   },
@@ -342,7 +342,7 @@
    "emoji": "🔀",
    "ex": {
     "zh": "你还要别的吗？",
-    "py": "Nǐ háiyào biéde ma？",
+    "py": "Nǐ hái yào biéde ma?",
     "vi": "Bạn còn muốn thứ khác không?"
    }
   },
@@ -353,7 +353,7 @@
    "emoji": "👥",
    "ex": {
     "zh": "别人说得对。",
-    "py": "Biérén shuōdéduì。",
+    "py": "Biérén shuō dé duì.",
     "vi": "Người khác nói đúng."
    }
   },
@@ -364,7 +364,7 @@
    "emoji": "🏨",
    "ex": {
     "zh": "这个宾馆离车站很近。",
-    "py": "Zhège bīnguǎn lí chēzhàn hěnjìn。",
+    "py": "Zhège bīnguǎn lí chēzhàn hěn jìn.",
     "vi": "Nhà khách này rất gần bến xe."
    }
   },
@@ -375,7 +375,7 @@
    "emoji": "🧊",
    "ex": {
     "zh": "杯子里有冰。",
-    "py": "Bēizi lǐ yǒu bīng。",
+    "py": "Bēizi lǐ yǒu bīng.",
     "vi": "Trong cốc có đá."
    }
   },
@@ -386,7 +386,7 @@
    "emoji": "🍦",
    "ex": {
     "zh": "孩子们喜欢吃冰激凌。",
-    "py": "Háizi men xǐhuān chī bīngjīlíng。",
+    "py": "Háizi men xǐhuān chī bīngjīlíng.",
     "vi": "Bọn trẻ thích ăn kem."
    }
   },
@@ -397,7 +397,7 @@
    "emoji": "🧊",
    "ex": {
     "zh": "牛奶在冰箱里。",
-    "py": "Niúnǎi zài bīngxiāng lǐ。",
+    "py": "Niúnǎi zài bīngxiāng lǐ.",
     "vi": "Sữa ở trong tủ lạnh."
    }
   },
@@ -408,7 +408,7 @@
    "emoji": "🤒",
    "ex": {
     "zh": "医院里有很多病人。",
-    "py": "Yīyuàn lǐ yǒu hěnduō bìngrén。",
+    "py": "Yīyuàn lǐ yǒu hěn duō bìngrén.",
     "vi": "Trong bệnh viện có rất nhiều bệnh nhân."
    }
   },
@@ -419,7 +419,7 @@
    "emoji": "➕",
    "ex": {
     "zh": "他不但会说汉语，而且会写。",
-    "py": "Tā bùdàn huì shuō hànyǔ， érqiě huì xiě。",
+    "py": "Tā bùdàn huì shuō hànyǔ, érqiě huì xiě.",
     "vi": "Anh ấy không những biết nói tiếng Hán mà còn biết viết."
    }
   },
@@ -430,7 +430,7 @@
    "emoji": "🔍",
    "ex": {
     "zh": "我的手表不见了。",
-    "py": "Wǒ de shǒubiǎo bújiàn le。",
+    "py": "Wǒ de shǒubiǎo bújiàn le.",
     "vi": "Đồng hồ của tôi biến mất rồi."
    }
   },
@@ -441,7 +441,7 @@
    "emoji": "🙅",
    "ex": {
     "zh": "不用谢。",
-    "py": "Bùyòngxiè。",
+    "py": "Bù yòng xiè.",
     "vi": "Không cần cảm ơn."
    }
   },
@@ -452,7 +452,7 @@
    "emoji": "🔀",
    "ex": {
     "zh": "我们的爱好不同。",
-    "py": "Wǒmen de àihào bùtóng。",
+    "py": "Wǒmen de àihào bùtóng.",
     "vi": "Sở thích của chúng tôi khác nhau."
    }
   },
@@ -463,7 +463,7 @@
    "emoji": "🕑",
    "ex": {
     "zh": "他不久就回来了。",
-    "py": "Tā bùjiǔ jiù huílái le。",
+    "py": "Tā bùjiǔ jiù huílái le.",
     "vi": "Chẳng bao lâu anh ấy đã quay lại."
    }
   },
@@ -474,7 +474,7 @@
    "emoji": "🚫",
    "ex": {
     "zh": "这样不行。",
-    "py": "Zhèyàng bùxíng。",
+    "py": "Zhèyàng bùxíng.",
     "vi": "Như vậy không được."
    }
   },
@@ -485,7 +485,7 @@
    "emoji": "⏰",
    "ex": {
     "zh": "我十点才起床。",
-    "py": "Wǒ shídiǎn cái qǐchuáng。",
+    "py": "Wǒ shí diǎn cái qǐchuáng.",
     "vi": "Mười giờ tôi mới dậy."
    }
   },
@@ -496,7 +496,7 @@
    "emoji": "📋",
    "ex": {
     "zh": "请给我菜单。",
-    "py": "Qǐng gěi wǒ càidān。",
+    "py": "Qǐng gěi wǒ càidān.",
     "vi": "Xin cho tôi thực đơn."
    }
   },
@@ -507,7 +507,7 @@
    "emoji": "🙋",
    "ex": {
     "zh": "你参加比赛吗？",
-    "py": "Nǐ cānjiā bǐsài ma？",
+    "py": "Nǐ cānjiā bǐsài ma?",
     "vi": "Bạn có tham gia cuộc thi không?"
    }
   },
@@ -518,7 +518,7 @@
    "emoji": "🌱",
    "ex": {
     "zh": "草是绿色的。",
-    "py": "Cǎoshì lǜsè de。",
+    "py": "Cǎo shì lǜsè de.",
     "vi": "Cỏ có màu xanh lá."
    }
   },
@@ -529,7 +529,7 @@
    "emoji": "🌿",
    "ex": {
     "zh": "孩子们在草地上玩。",
-    "py": "Háizi men zài cǎodì shàng wán。",
+    "py": "Háizi men zài cǎo dì shàng wán.",
     "vi": "Bọn trẻ chơi trên bãi cỏ."
    }
   },
@@ -540,7 +540,7 @@
    "emoji": "🏢",
    "ex": {
     "zh": "我家在十二层。",
-    "py": "Wǒjiā zài shíèr céng。",
+    "py": "Wǒ jiā zài shí èr céng.",
     "vi": "Nhà tôi ở tầng mười hai."
    }
   },
@@ -551,7 +551,7 @@
    "emoji": "🔎",
    "ex": {
     "zh": "我想查一下这个词。",
-    "py": "Wǒxiǎngchá yīxià zhège cí。",
+    "py": "Wǒ xiǎng chá yīxià zhège cí.",
     "vi": "Tôi muốn tra từ này."
    }
   },
@@ -562,7 +562,7 @@
    "emoji": "👎",
    "ex": {
     "zh": "他的汉语不差。",
-    "py": "Tā de hànyǔ bùchà。",
+    "py": "Tā de hànyǔ bù chà.",
     "vi": "Tiếng Hán của anh ấy không kém."
    }
   },
@@ -573,7 +573,7 @@
    "emoji": "🤏",
    "ex": {
     "zh": "我们差不多高。",
-    "py": "Wǒmen chàbuduō gāo。",
+    "py": "Wǒmen chàbuduō gāo.",
     "vi": "Chúng tôi cao gần như nhau."
    }
   },
@@ -584,7 +584,7 @@
    "emoji": "👅",
    "ex": {
     "zh": "你尝一下这个菜。",
-    "py": "Nǐ cháng yīxià zhège cài。",
+    "py": "Nǐ cháng yīxià zhège cài.",
     "vi": "Bạn nếm thử món này đi."
    }
   },
@@ -595,7 +595,7 @@
    "emoji": "🔁",
    "ex": {
     "zh": "我常去图书馆。",
-    "py": "Wǒchángqù túshūguǎn。",
+    "py": "Wǒ cháng qù túshūguǎn.",
     "vi": "Tôi thường đến thư viện."
    }
   },
@@ -606,7 +606,7 @@
    "emoji": "👀",
    "ex": {
     "zh": "这是常见的问题。",
-    "py": "Zhèshì chángjiàn de wèntí。",
+    "py": "Zhè shì chángjiàn de wèntí.",
     "vi": "Đây là vấn đề thường gặp."
    }
   },
@@ -617,7 +617,7 @@
    "emoji": "📚",
    "ex": {
     "zh": "这是常用的词。",
-    "py": "Zhèshì chángyòng de cí。",
+    "py": "Zhè shì chángyòng de cí.",
     "vi": "Đây là từ thường dùng."
    }
   },
@@ -628,7 +628,7 @@
    "emoji": "🔂",
    "ex": {
     "zh": "他常常迟到。",
-    "py": "Tā chángcháng chídào。",
+    "py": "Tā chángcháng chídào.",
     "vi": "Anh ấy thường xuyên đến muộn."
    }
   },
@@ -639,7 +639,7 @@
    "emoji": "👔",
    "ex": {
     "zh": "他穿着白色衬衫。",
-    "py": "Tā chuānzhe báisè chènshān。",
+    "py": "Tā chuān zhe báisè chènshān.",
     "vi": "Anh ấy mặc áo sơ mi trắng."
    }
   },
@@ -650,7 +650,7 @@
    "emoji": "💯",
    "ex": {
     "zh": "他的成绩很好。",
-    "py": "Tā de chéngjì hěn hǎo。",
+    "py": "Tā de chéngjì hěn hǎo.",
     "vi": "Thành tích của cậu ấy rất tốt."
    }
   },
@@ -661,7 +661,7 @@
    "emoji": "🏙️",
    "ex": {
     "zh": "北京是大城市。",
-    "py": "Běijīng shì dàchéngshì。",
+    "py": "Běijīng shì dà chéng shì.",
     "vi": "Bắc Kinh là thành phố lớn."
    }
   },
@@ -672,7 +672,7 @@
    "emoji": "⏰",
    "ex": {
     "zh": "对不起，我迟到了。",
-    "py": "Duìbùqǐ， wǒ chídào le。",
+    "py": "Duìbùqǐ, wǒ chídào le.",
     "vi": "Xin lỗi, tôi đến muộn."
    }
   },
@@ -683,7 +683,7 @@
    "emoji": "🚀",
    "ex": {
     "zh": "我们八点出发。",
-    "py": "Wǒmen bādiǎn chūfā。",
+    "py": "Wǒmen bā diǎn chūfā.",
     "vi": "Tám giờ chúng ta xuất phát."
    }
   },
@@ -694,7 +694,7 @@
    "emoji": "👶",
    "ex": {
     "zh": "我在北京出生。",
-    "py": "Wǒ zài běijīng chūshēng。",
+    "py": "Wǒ zài Běijīng chūshēng.",
     "vi": "Tôi sinh ra ở Bắc Kinh."
    }
   },
@@ -705,7 +705,7 @@
    "emoji": "🏥",
    "ex": {
     "zh": "他明天可以出院。",
-    "py": "Tā míngtiān kěyǐ chūyuàn。",
+    "py": "Tā míngtiān kěyǐ chūyuàn.",
     "vi": "Ngày mai anh ấy có thể xuất viện."
    }
   },
@@ -716,7 +716,7 @@
    "emoji": "🎒",
    "ex": {
     "zh": "我哥哥在读初中。",
-    "py": "Wǒ gēgē zàidú chūzhōng。",
+    "py": "Wǒ gēgē zài dú chūzhōng.",
     "vi": "Anh trai tôi đang học trung học cơ sở."
    }
   },
@@ -727,7 +727,7 @@
    "emoji": "➖",
    "ex": {
     "zh": "除了他，大家都来了。",
-    "py": "Chúle tā， dàjiā dōu lái le。",
+    "py": "Chúle tā, dàjiā dōu lái le.",
     "vi": "Ngoài anh ấy ra, mọi người đều đến rồi."
    }
   },
@@ -738,7 +738,7 @@
    "emoji": "🚢",
    "ex": {
     "zh": "我们坐船去那儿。",
-    "py": "Wǒmen zuòchuánqù nàér。",
+    "py": "Wǒmen zuò chuán qù nàér.",
     "vi": "Chúng tôi đi thuyền đến đó."
    }
   },
@@ -749,7 +749,7 @@
    "emoji": "🌸",
    "ex": {
     "zh": "春天花开了。",
-    "py": "Chūntiān huākāi le。",
+    "py": "Chūntiān huā kāi le.",
     "vi": "Mùa xuân hoa nở rồi."
    }
   },
@@ -760,7 +760,7 @@
    "emoji": "📖",
    "ex": {
     "zh": "我买了一本汉语词典。",
-    "py": "Wǒ mǎi le yīběn hànyǔ cídiǎn。",
+    "py": "Wǒ mǎi le yī běn hànyǔ cídiǎn.",
     "vi": "Tôi đã mua một cuốn từ điển tiếng Hán."
    }
   },
@@ -771,7 +771,7 @@
    "emoji": "🧠",
    "ex": {
     "zh": "这个孩子很聪明。",
-    "py": "Zhège háizi hěn cōngmíng。",
+    "py": "Zhège háizi hěn cōngmíng.",
     "vi": "Đứa trẻ này rất thông minh."
    }
   },
@@ -782,7 +782,7 @@
    "emoji": "🧹",
    "ex": {
     "zh": "我在打扫房间。",
-    "py": "Wǒ zài dǎsǎo fángjiān。",
+    "py": "Wǒ zài dǎsǎo fángjiān.",
     "vi": "Tôi đang dọn phòng."
    }
   },
@@ -793,7 +793,7 @@
    "emoji": "🗓️",
    "ex": {
     "zh": "你打算去哪儿？",
-    "py": "Nǐ dǎsuàn qù nǎér？",
+    "py": "Nǐ dǎsuàn qù nǎér?",
     "vi": "Bạn định đi đâu?"
    }
   },
@@ -804,7 +804,7 @@
    "emoji": "🤔",
    "ex": {
     "zh": "他大概三十岁。",
-    "py": "Tā dàgài sānshísuì。",
+    "py": "Tā dàgài sān shí suì.",
     "vi": "Anh ấy khoảng ba mươi tuổi."
    }
   },
@@ -815,7 +815,7 @@
    "emoji": "🧑",
    "ex": {
     "zh": "大人和孩子都来了。",
-    "py": "Dàrén hé háizi dōu lái le。",
+    "py": "Dàrén hé háizi dōu lái le.",
     "vi": "Cả người lớn và trẻ em đều đến rồi."
    }
   },
@@ -826,7 +826,7 @@
    "emoji": "📐",
    "ex": {
     "zh": "这件衣服大小合适。",
-    "py": "Zhèjiàn yīfú dàxiǎo héshì。",
+    "py": "Zhè jiàn yīfú dàxiǎo héshì.",
     "vi": "Chiếc áo này cỡ vừa vặn."
    }
   },
@@ -837,7 +837,7 @@
    "emoji": "🐼",
    "ex": {
     "zh": "大熊猫喜欢吃草。",
-    "py": "Dàxióngmāo xǐhuān chī cǎo。",
+    "py": "Dàxióngmāo xǐhuān chī cǎo.",
     "vi": "Gấu trúc thích ăn cỏ."
    }
   },
@@ -848,7 +848,7 @@
    "emoji": "🧥",
    "ex": {
     "zh": "天冷了，穿上大衣。",
-    "py": "Tiānlěng le， chuān shàng dàyī。",
+    "py": "Tiān lěng le, chuān shàng dàyī.",
     "vi": "Trời lạnh rồi, mặc áo khoác vào."
    }
   },
@@ -859,7 +859,7 @@
    "emoji": "🎒",
    "ex": {
     "zh": "别忘了带伞。",
-    "py": "Biéwàngle dàisǎn。",
+    "py": "Bié wàng le dài sǎn.",
     "vi": "Đừng quên mang ô."
    }
   },
@@ -870,7 +870,7 @@
    "emoji": "😟",
    "ex": {
     "zh": "别担心，没问题。",
-    "py": "Bié dānxīn， méi wèntí。",
+    "py": "Bié dānxīn, méi wèntí.",
     "vi": "Đừng lo, không sao đâu."
    }
   },
@@ -881,7 +881,7 @@
    "emoji": "🎂",
    "ex": {
     "zh": "这个蛋糕很甜。",
-    "py": "Zhège dàngāo hěntián。",
+    "py": "Zhège dàngāo hěn tián.",
     "vi": "Chiếc bánh này rất ngọt."
    }
   },
@@ -892,7 +892,7 @@
    "emoji": "👍",
    "ex": {
     "zh": "当然可以。",
-    "py": "Dāngrán kěyǐ。",
+    "py": "Dāngrán kěyǐ.",
     "vi": "Đương nhiên là được."
    }
   },
@@ -903,7 +903,7 @@
    "emoji": "🌍",
    "ex": {
     "zh": "到处都是人。",
-    "py": "Dàochù dōu shì rén。",
+    "py": "Dàochù dōu shì rén.",
     "vi": "Chỗ nào cũng có người."
    }
   },
@@ -914,7 +914,7 @@
    "emoji": "🏅",
    "ex": {
     "zh": "他得了第一名。",
-    "py": "Tā dé le dìyìmíng。",
+    "py": "Tā dé le dì yì míng.",
     "vi": "Anh ấy giành được hạng nhất."
    }
   },
@@ -925,7 +925,7 @@
    "emoji": "🎁",
    "ex": {
     "zh": "我得到了一个礼物。",
-    "py": "Wǒ dédào le yígè lǐwù。",
+    "py": "Wǒ dédào le yí gè lǐwù.",
     "vi": "Tôi đã nhận được một món quà."
    }
   },
@@ -936,7 +936,7 @@
    "emoji": "⚽",
    "ex": {
     "zh": "他得分了！",
-    "py": "Tā défēn le！",
+    "py": "Tā défēn le!",
     "vi": "Anh ấy ghi điểm rồi!"
    }
   },
@@ -947,7 +947,7 @@
    "emoji": "💬",
    "ex": {
     "zh": "你不去的话，我也不去。",
-    "py": "Nǐ bù qù dehuà， wǒ yě bù qù。",
+    "py": "Nǐ bù qù dehuà, wǒ yě bù qù.",
     "vi": "Nếu bạn không đi thì tôi cũng không đi."
    }
   },
@@ -958,7 +958,7 @@
    "emoji": "⚠️",
    "ex": {
     "zh": "我得走了。",
-    "py": "Wǒ dé zǒu le。",
+    "py": "Wǒ dé zǒu le.",
     "vi": "Tôi phải đi rồi."
    }
   },
@@ -969,7 +969,7 @@
    "emoji": "💡",
    "ex": {
     "zh": "请把灯关了。",
-    "py": "Qǐng bǎ dēngguān le。",
+    "py": "Qǐng bǎ dēng guān le.",
     "vi": "Xin hãy tắt đèn."
    }
   },
@@ -980,7 +980,7 @@
    "emoji": "🌍",
    "ex": {
     "zh": "这里的地很大。",
-    "py": "Zhèlǐ de dì hěndà。",
+    "py": "Zhèlǐ de dì hěn dà.",
     "vi": "Đất ở đây rất rộng."
    }
   },
@@ -991,7 +991,7 @@
    "emoji": "📍",
    "ex": {
     "zh": "开会的地点在哪儿？",
-    "py": "Kāihuì de dìdiǎn zài nǎér？",
+    "py": "Kāihuì de dìdiǎn zài nǎér?",
     "vi": "Địa điểm họp ở đâu?"
    }
   },
@@ -1002,7 +1002,7 @@
    "emoji": "🏞️",
    "ex": {
     "zh": "这是个好地方。",
-    "py": "Zhè shì gè hǎo dìfāng。",
+    "py": "Zhè shì gè hǎo dìfāng.",
     "vi": "Đây là một nơi tốt."
    }
   },
@@ -1013,7 +1013,7 @@
    "emoji": "🗺️",
    "ex": {
     "zh": "我们看一下地图吧。",
-    "py": "Wǒmen kàn yīxià dìtú ba。",
+    "py": "Wǒmen kàn yīxià dìtú ba.",
     "vi": "Chúng ta xem bản đồ một chút nhé."
    }
   },
@@ -1024,7 +1024,7 @@
    "emoji": "⚡",
    "ex": {
     "zh": "手机没电了。",
-    "py": "Shǒujī méidiàn le。",
+    "py": "Shǒujī méi diàn le.",
     "vi": "Điện thoại hết pin rồi."
    }
   },
@@ -1035,7 +1035,7 @@
    "emoji": "🛗",
    "ex": {
     "zh": "我们坐电梯上去。",
-    "py": "Wǒmen zuòdiàntī shàngqù。",
+    "py": "Wǒmen zuò diàn tī shàngqù.",
     "vi": "Chúng ta đi thang máy lên."
    }
   },
@@ -1046,7 +1046,7 @@
    "emoji": "📱",
    "ex": {
     "zh": "我喜欢看电子书。",
-    "py": "Wǒ xǐhuān kàn diànzishū。",
+    "py": "Wǒ xǐhuān kàn diànzishū.",
     "vi": "Tôi thích đọc sách điện tử."
    }
   },
@@ -1057,7 +1057,7 @@
    "emoji": "😱",
    "ex": {
     "zh": "我的钱包丢了。",
-    "py": "Wǒ de qiánbāo diū le。",
+    "py": "Wǒ de qián bāo diū le.",
     "vi": "Ví của tôi bị mất rồi."
    }
   },
@@ -1068,7 +1068,7 @@
    "emoji": "➡️",
    "ex": {
     "zh": "太阳从东边出来。",
-    "py": "Tàiyáng cóng dōngbiān chūlái。",
+    "py": "Tàiyáng cóng dōng biān chūlái.",
     "vi": "Mặt trời mọc ở phía đông."
    }
   },
@@ -1079,7 +1079,7 @@
    "emoji": "↗️",
    "ex": {
     "zh": "他来自中国东北。",
-    "py": "Tā láizì zhōngguó dōngběi。",
+    "py": "Tā láizì Zhōngguó dōngběi.",
     "vi": "Anh ấy đến từ vùng đông bắc Trung Quốc."
    }
   },
@@ -1090,7 +1090,7 @@
    "emoji": "🌅",
    "ex": {
     "zh": "东方的文化很有意思。",
-    "py": "Dōngfāng de wénhuà hěn yǒuyìsi。",
+    "py": "Dōngfāng de wénhuà hěn yǒuyìsi.",
     "vi": "Văn hóa phương đông rất thú vị."
    }
   },
@@ -1101,7 +1101,7 @@
    "emoji": "↘️",
    "ex": {
     "zh": "学校在公园的东南。",
-    "py": "Xuéxiào zài gōngyuán de dōngnán。",
+    "py": "Xuéxiào zài gōngyuán de dōngnán.",
     "vi": "Trường học ở phía đông nam công viên."
    }
   },
@@ -1112,7 +1112,7 @@
    "emoji": "⛄",
    "ex": {
     "zh": "冬天很冷。",
-    "py": "Dōngtiān hěn lěng。",
+    "py": "Dōngtiān hěn lěng.",
     "vi": "Mùa đông rất lạnh."
    }
   },
@@ -1123,7 +1123,7 @@
    "emoji": "🧩",
    "ex": {
     "zh": "他懂得很多。",
-    "py": "Tā dǒngde hěnduō。",
+    "py": "Tā dǒngde hěn duō.",
     "vi": "Anh ấy hiểu biết rất nhiều."
    }
   },
@@ -1134,7 +1134,7 @@
    "emoji": "🐘",
    "ex": {
     "zh": "我喜欢动物。",
-    "py": "Wǒ xǐhuān dòngwù。",
+    "py": "Wǒ xǐhuān dòngwù.",
     "vi": "Tôi thích động vật."
    }
   },
@@ -1145,7 +1145,7 @@
    "emoji": "🦁",
    "ex": {
     "zh": "周末我们去动物园。",
-    "py": "Zhōumò wǒmen qù dòngwùyuán。",
+    "py": "Zhōumò wǒmen qù dòngwùyuán.",
     "vi": "Cuối tuần chúng ta đi sở thú."
    }
   },
@@ -1156,7 +1156,7 @@
    "emoji": "✂️",
    "ex": {
     "zh": "她的头发很短。",
-    "py": "Tā de tóufà hěn duǎn。",
+    "py": "Tā de tóufà hěn duǎn.",
     "vi": "Tóc của cô ấy rất ngắn."
    }
   },
@@ -1167,7 +1167,7 @@
    "emoji": "🩳",
    "ex": {
     "zh": "夏天他穿短裤。",
-    "py": "Xiàtiān tā chuān duǎnkù。",
+    "py": "Xiàtiān tā chuān duǎnkù.",
     "vi": "Mùa hè anh ấy mặc quần đùi."
    }
   },
@@ -1178,7 +1178,7 @@
    "emoji": "📜",
    "ex": {
     "zh": "这段话我不懂。",
-    "py": "Zhèduànhuà wǒ bù dǒng。",
+    "py": "Zhè duàn huà wǒ bù dǒng.",
     "vi": "Đoạn văn này tôi không hiểu."
    }
   },
@@ -1189,7 +1189,7 @@
    "emoji": "🏋️",
    "ex": {
     "zh": "我每天早上锻炼。",
-    "py": "Wǒ měitiān zǎoshàng duànliàn。",
+    "py": "Wǒ měi tiān zǎoshàng duànliàn.",
     "vi": "Sáng nào tôi cũng tập thể dục."
    }
   },
@@ -1200,7 +1200,7 @@
    "emoji": "🗨️",
    "ex": {
     "zh": "请听这段对话。",
-    "py": "Qǐng tīng zhèduàn duìhuà。",
+    "py": "Qǐng tīng zhè duàn duìhuà.",
     "vi": "Xin hãy nghe đoạn hội thoại này."
    }
   },
@@ -1211,7 +1211,7 @@
    "emoji": "🍚",
    "ex": {
     "zh": "我饿了，想吃饭。",
-    "py": "Wǒ è le， xiǎng chīfàn。",
+    "py": "Wǒ è le, xiǎng chī fàn.",
     "vi": "Tôi đói rồi, muốn ăn cơm."
    }
   },
@@ -1222,7 +1222,7 @@
    "emoji": "➕",
    "ex": {
     "zh": "这个菜好吃，而且便宜。",
-    "py": "Zhège cài hǎochī， érqiě piányi。",
+    "py": "Zhège cài hǎochī, érqiě piányi.",
     "vi": "Món này ngon mà lại rẻ."
    }
   },
@@ -1233,7 +1233,7 @@
    "emoji": "👂",
    "ex": {
     "zh": "他的耳朵很大。",
-    "py": "Tā de ěrduǒ hěndà。",
+    "py": "Tā de ěrduǒ hěn dà.",
     "vi": "Tai của anh ấy rất to."
    }
   },
@@ -1244,7 +1244,7 @@
    "emoji": "🎧",
    "ex": {
     "zh": "他用耳机听音乐。",
-    "py": "Tā yòng ěrjī tīng yīnyuè。",
+    "py": "Tā yòng ěrjī tīng yīnyuè.",
     "vi": "Anh ấy dùng tai nghe để nghe nhạc."
    }
   },
@@ -1255,7 +1255,7 @@
    "emoji": "📤",
    "ex": {
     "zh": "我给你发一个邮件。",
-    "py": "Wǒ gěi nǐ fā yígè yóujiàn。",
+    "py": "Wǒ gěi nǐ fā yí gè yóujiàn.",
     "vi": "Tôi gửi cho bạn một thư điện tử."
    }
   },
@@ -1266,7 +1266,7 @@
    "emoji": "🌡️",
    "ex": {
     "zh": "我发烧了。",
-    "py": "Wǒ fāshāo le。",
+    "py": "Wǒ fāshāo le.",
     "vi": "Tôi bị sốt rồi."
    }
   },
@@ -1277,7 +1277,7 @@
    "emoji": "💥",
    "ex": {
     "zh": "发生了什么事？",
-    "py": "Fāshēng le shénme shì？",
+    "py": "Fāshēng le shénme shì?",
     "vi": "Đã xảy ra chuyện gì?"
    }
   },
@@ -1288,7 +1288,7 @@
    "emoji": "🔦",
    "ex": {
     "zh": "我发现钱包不见了。",
-    "py": "Wǒ fāxiàn qiánbāo bújiàn le。",
+    "py": "Wǒ fāxiàn qián bāo bújiàn le.",
     "vi": "Tôi phát hiện ví không thấy đâu."
    }
   },
@@ -1299,7 +1299,7 @@
    "emoji": "📈",
    "ex": {
     "zh": "这个城市发展得很快。",
-    "py": "Zhège chéngshì fāzhǎn dé hěnkuài。",
+    "py": "Zhège chéngshì fāzhǎn dé hěn kuài.",
     "vi": "Thành phố này phát triển rất nhanh."
    }
   },
@@ -1310,7 +1310,7 @@
    "emoji": "🆗",
    "ex": {
     "zh": "坐地铁很方便。",
-    "py": "Zuòdìtiě hěn fāngbiàn。",
+    "py": "Zuò dì tiě hěn fāngbiàn.",
     "vi": "Đi tàu điện ngầm rất tiện."
    }
   },
@@ -1321,7 +1321,7 @@
    "emoji": "🍜",
    "ex": {
     "zh": "我晚饭吃了方便面。",
-    "py": "Wǒ wǎnfàn chī le fāngbiànmiàn。",
+    "py": "Wǒ wǎnfàn chī le fāngbiànmiàn.",
     "vi": "Bữa tối tôi đã ăn mì ăn liền."
    }
   },
@@ -1332,7 +1332,7 @@
    "emoji": "🧪",
    "ex": {
     "zh": "学汉语有什么好方法？",
-    "py": "Xué hànyǔ yǒu shénme hǎo fāngfǎ？",
+    "py": "Xué hànyǔ yǒu shénme hǎo fāngfǎ?",
     "vi": "Học tiếng Hán có phương pháp nào hay?"
    }
   },
@@ -1343,7 +1343,7 @@
    "emoji": "🧭",
    "ex": {
     "zh": "你走错方向了。",
-    "py": "Nǐ zǒu cuò fāngxiàng le。",
+    "py": "Nǐ zǒu cuò fāngxiàng le.",
     "vi": "Bạn đi nhầm hướng rồi."
    }
   },
@@ -1354,7 +1354,7 @@
    "emoji": "🏠",
    "ex": {
     "zh": "他们买了新房子。",
-    "py": "Tāmen mǎi le xīnfángzi。",
+    "py": "Tāmen mǎi le xīn fáng zi.",
     "vi": "Họ đã mua nhà mới."
    }
   },
@@ -1365,7 +1365,7 @@
    "emoji": "📥",
    "ex": {
     "zh": "我把书放在包里。",
-    "py": "Wǒ bǎ shū fàngzài bāo lǐ。",
+    "py": "Wǒ bǎ shū fàng zài bāo lǐ.",
     "vi": "Tôi để sách vào trong cặp."
    }
   },
@@ -1376,7 +1376,7 @@
    "emoji": "🏖️",
    "ex": {
     "zh": "下个星期放假。",
-    "py": "Xiàgèxīngqī fàngjià。",
+    "py": "Xià gè xīng qī fàngjià.",
     "vi": "Tuần sau được nghỉ."
    }
   },
@@ -1387,7 +1387,7 @@
    "emoji": "😌",
    "ex": {
     "zh": "你放心，我会来的。",
-    "py": "Nǐ fàngxīn， wǒhuì lái de。",
+    "py": "Nǐ fàngxīn, wǒ huì lái de.",
     "vi": "Bạn yên tâm, tôi sẽ đến."
    }
   },
@@ -1398,7 +1398,7 @@
    "emoji": "🔔",
    "ex": {
     "zh": "我们四点放学。",
-    "py": "Wǒmen sìdiǎn fàngxué。",
+    "py": "Wǒmen sì diǎn fàngxué.",
     "vi": "Bốn giờ chúng tôi tan học."
    }
   },
@@ -1409,7 +1409,7 @@
    "emoji": "↔️",
    "ex": {
     "zh": "他们不想分开。",
-    "py": "Tāmen bùxiǎng fēnkāi。",
+    "py": "Tāmen bù xiǎng fēnkāi.",
     "vi": "Họ không muốn xa nhau."
    }
   },
@@ -1420,7 +1420,7 @@
    "emoji": "🌬️",
    "ex": {
     "zh": "今天风很大。",
-    "py": "Jīntiān fēng hěndà。",
+    "py": "Jīntiān fēng hěn dà.",
     "vi": "Hôm nay gió rất lớn."
    }
   },
@@ -1431,7 +1431,7 @@
    "emoji": "✉️",
    "ex": {
     "zh": "我写了一封信。",
-    "py": "Wǒ xiě le yīfēngxìn。",
+    "py": "Wǒ xiě le yī fēng xìn.",
     "vi": "Tôi đã viết một bức thư."
    }
   },
@@ -1442,7 +1442,7 @@
    "emoji": "👫",
    "ex": {
     "zh": "他们是一对夫妻。",
-    "py": "Tāmen shì yīduì fūqī。",
+    "py": "Tāmen shì yī duì fūqī.",
     "vi": "Họ là một cặp vợ chồng."
    }
   },
@@ -1453,7 +1453,7 @@
    "emoji": "🛎️",
    "ex": {
     "zh": "这里的服务很好。",
-    "py": "Zhèlǐ de fúwù hěn hǎo。",
+    "py": "Zhèlǐ de fúwù hěn hǎo.",
     "vi": "Dịch vụ ở đây rất tốt."
    }
   },
@@ -1464,7 +1464,7 @@
    "emoji": "📍",
    "ex": {
     "zh": "附近有一个公园。",
-    "py": "Fùjìn yǒu yígè gōngyuán。",
+    "py": "Fùjìn yǒu yí gè gōngyuán.",
     "vi": "Gần đây có một công viên."
    }
   },
@@ -1475,7 +1475,7 @@
    "emoji": "📚",
    "ex": {
     "zh": "明天考试，我在复习。",
-    "py": "Míngtiān kǎoshì， wǒ zài fùxí。",
+    "py": "Míngtiān kǎoshì, wǒ zài fùxí.",
     "vi": "Ngày mai thi, tôi đang ôn bài."
    }
   },
@@ -1486,7 +1486,7 @@
    "emoji": "⏰",
    "ex": {
     "zh": "你该睡觉了。",
-    "py": "Nǐ gāi shuìjiào le。",
+    "py": "Nǐ gāi shuìjiào le.",
     "vi": "Bạn nên đi ngủ rồi."
    }
   },
@@ -1497,7 +1497,7 @@
    "emoji": "✨",
    "ex": {
     "zh": "房间很干净。",
-    "py": "Fángjiān hěn gānjìng。",
+    "py": "Fángjiān hěn gānjìng.",
     "vi": "Căn phòng rất sạch sẽ."
    }
   },
@@ -1508,7 +1508,7 @@
    "emoji": "🤩",
    "ex": {
     "zh": "我对音乐很感兴趣。",
-    "py": "Wǒ duì yīnyuè hěngǎnxìngqù。",
+    "py": "Wǒ duì yīnyuè hěn gǎn xìng qù.",
     "vi": "Tôi rất hứng thú với âm nhạc."
    }
   },
@@ -1519,7 +1519,7 @@
    "emoji": "😊",
    "ex": {
     "zh": "我感到很高兴。",
-    "py": "Wǒ gǎndào hěn gāoxìng。",
+    "py": "Wǒ gǎndào hěn gāoxìng.",
     "vi": "Tôi cảm thấy rất vui."
    }
   },
@@ -1530,7 +1530,7 @@
    "emoji": "🤧",
    "ex": {
     "zh": "我感冒了，头疼。",
-    "py": "Wǒ gǎnmào le， tóuténg。",
+    "py": "Wǒ gǎnmào le, tóu téng.",
     "vi": "Tôi bị cảm, đau đầu."
    }
   },
@@ -1541,7 +1541,7 @@
    "emoji": "🧰",
    "ex": {
     "zh": "你在干什么？",
-    "py": "Nǐ zài gànshénme？",
+    "py": "Nǐ zài gàn shén me?",
     "vi": "Bạn đang làm gì thế?"
    }
   },
@@ -1552,7 +1552,7 @@
    "emoji": "🆕",
    "ex": {
     "zh": "我刚到家。",
-    "py": "Wǒgāng dào jiā。",
+    "py": "Wǒ gāng dào jiā.",
     "vi": "Tôi vừa về đến nhà."
    }
   },
@@ -1563,7 +1563,7 @@
    "emoji": "🕐",
    "ex": {
     "zh": "刚才谁来了？",
-    "py": "Gāngcái shuí lái le？",
+    "py": "Gāngcái shuí lái le?",
     "vi": "Vừa nãy ai đến vậy?"
    }
   },
@@ -1574,7 +1574,7 @@
    "emoji": "🆕",
    "ex": {
     "zh": "他刚刚出门。",
-    "py": "Tā gānggāng chūmén。",
+    "py": "Tā gānggāng chūmén.",
     "vi": "Anh ấy vừa mới ra khỏi nhà."
    }
   },
@@ -1585,7 +1585,7 @@
    "emoji": "🚄",
    "ex": {
     "zh": "坐高铁去北京很快。",
-    "py": "Zuò gāotiě qù běijīng hěnkuài。",
+    "py": "Zuò gāotiě qù Běijīng hěn kuài.",
     "vi": "Đi tàu cao tốc đến Bắc Kinh rất nhanh."
    }
   },
@@ -1596,7 +1596,7 @@
    "emoji": "📑",
    "ex": {
     "zh": "根据地图，我们走错了。",
-    "py": "Gēnjù dìtú， wǒmen zǒucuò le。",
+    "py": "Gēnjù dìtú, wǒmen zǒu cuò le.",
     "vi": "Theo bản đồ thì chúng ta đi nhầm rồi."
    }
   },
@@ -1607,7 +1607,7 @@
    "emoji": "⬆️",
    "ex": {
     "zh": "今天比昨天更冷。",
-    "py": "Jīntiān bǐ zuótiān gèng lěng。",
+    "py": "Jīntiān bǐ zuótiān gèng lěng.",
     "vi": "Hôm nay lạnh hơn hôm qua."
    }
   },
@@ -1618,7 +1618,7 @@
    "emoji": "⚖️",
    "ex": {
     "zh": "我五十公斤。",
-    "py": "Wǒ wǔshí gōngjīn。",
+    "py": "Wǒ wǔ shí gōngjīn.",
     "vi": "Tôi nặng năm mươi ki-lô-gam."
    }
   },
@@ -1629,7 +1629,7 @@
    "emoji": "🌳",
    "ex": {
     "zh": "我们去公园玩吧。",
-    "py": "Wǒmen qù gōngyuán wánba。",
+    "py": "Wǒmen qù gōngyuán wán ba.",
     "vi": "Chúng ta đến công viên chơi nhé."
    }
   },
@@ -1640,7 +1640,7 @@
    "emoji": "📆",
    "ex": {
     "zh": "工作日我很忙。",
-    "py": "Gōngzuòrì wǒ hěn máng。",
+    "py": "Gōngzuòrì wǒ hěn máng.",
     "vi": "Ngày làm việc tôi rất bận."
    }
   },
@@ -1651,7 +1651,7 @@
    "emoji": "📖",
    "ex": {
     "zh": "奶奶给孩子讲故事。",
-    "py": "Nǎinǎi gěi háizi jiǎnggùshì。",
+    "py": "Nǎinǎi gěi háizi jiǎng gù shì.",
     "vi": "Bà kể chuyện cho cháu."
    }
   },
@@ -1662,7 +1662,7 @@
    "emoji": "🌪️",
    "ex": {
     "zh": "外面在刮风。",
-    "py": "Wàimiàn zài guāfēng。",
+    "py": "Wàimiàn zài guā fēng.",
     "vi": "Bên ngoài đang có gió."
    }
   },
@@ -1673,7 +1673,7 @@
    "emoji": "🔌",
    "ex": {
     "zh": "出门时请关灯。",
-    "py": "Chūménshí qǐng guāndēng。",
+    "py": "Chū mén shí qǐng guān dēng.",
     "vi": "Khi ra ngoài xin hãy tắt đèn."
    }
   },
@@ -1684,7 +1684,7 @@
    "emoji": "📴",
    "ex": {
     "zh": "上课时请关机。",
-    "py": "Shàngkèshí qǐng guānjī。",
+    "py": "Shàng kè shí qǐng guānjī.",
     "vi": "Khi học xin hãy tắt máy."
    }
   },
@@ -1695,7 +1695,7 @@
    "emoji": "🔗",
    "ex": {
     "zh": "我们的关系很好。",
-    "py": "Wǒmen de guānxì hěn hǎo。",
+    "py": "Wǒmen de guānxì hěn hǎo.",
     "vi": "Quan hệ của chúng tôi rất tốt."
    }
   },
@@ -1706,7 +1706,7 @@
    "emoji": "❤️",
    "ex": {
     "zh": "谢谢你的关心。",
-    "py": "Xièxiè nǐ de guānxīn。",
+    "py": "Xièxiè nǐ de guānxīn.",
     "vi": "Cảm ơn sự quan tâm của bạn."
    }
   },
@@ -1717,7 +1717,7 @@
    "emoji": "📎",
    "ex": {
     "zh": "这是一本关于历史的书。",
-    "py": "Zhèshì yīběn guānyú lìshǐ de shū。",
+    "py": "Zhè shì yī běn guānyú lìshǐ de shū.",
     "vi": "Đây là một cuốn sách về lịch sử."
    }
   },
@@ -1728,7 +1728,7 @@
    "emoji": "👁️",
    "ex": {
     "zh": "大家都很关注这件事。",
-    "py": "Dàjiā dōu hěn guānzhù zhèjiàn shì。",
+    "py": "Dàjiā dōu hěn guānzhù zhè jiàn shì.",
     "vi": "Mọi người đều rất quan tâm việc này."
    }
   },
@@ -1739,7 +1739,7 @@
    "emoji": "🏳️",
    "ex": {
     "zh": "中国是一个大国家。",
-    "py": "Zhōngguó shì yígè dà guójiā。",
+    "py": "Zhōngguó shì yí gè dà guójiā.",
     "vi": "Trung Quốc là một quốc gia lớn."
    }
   },
@@ -1750,7 +1750,7 @@
    "emoji": "🎊",
    "ex": {
     "zh": "过节时我们回家。",
-    "py": "Guòjié shí wǒmen huíjiā。",
+    "py": "Guòjié shí wǒmen huí jiā.",
     "vi": "Dịp lễ chúng tôi về nhà."
    }
   },
@@ -1761,7 +1761,7 @@
    "emoji": "⏪",
    "ex": {
     "zh": "过去的事别想了。",
-    "py": "Guòqù de shìbié xiǎng le。",
+    "py": "Guòqù de shì bié xiǎng le.",
     "vi": "Chuyện đã qua đừng nghĩ nữa."
    }
   },
@@ -1772,7 +1772,7 @@
    "emoji": "🌊",
    "ex": {
     "zh": "我喜欢去海边玩。",
-    "py": "Wǒ xǐhuān qù hǎibiān wán。",
+    "py": "Wǒ xǐhuān qù hǎi biān wán.",
     "vi": "Tôi thích ra biển chơi."
    }
   },
@@ -1783,7 +1783,7 @@
    "emoji": "😨",
    "ex": {
     "zh": "我害怕黑。",
-    "py": "Wǒ hàipà hēi。",
+    "py": "Wǒ hàipà hēi.",
     "vi": "Tôi sợ bóng tối."
    }
   },
@@ -1794,7 +1794,7 @@
    "emoji": "🔢",
    "ex": {
     "zh": "桌子上有好多书。",
-    "py": "Zhuōzi shàng yǒu hǎoduō shū。",
+    "py": "Zhuōzi shàng yǒu hǎoduō shū.",
     "vi": "Trên bàn có rất nhiều sách."
    }
   },
@@ -1805,7 +1805,7 @@
    "emoji": "🕰️",
    "ex": {
     "zh": "我们好久没见了。",
-    "py": "Wǒmen hǎojiǔméi jiàn le。",
+    "py": "Wǒmen hǎo jiǔ méi jiàn le.",
     "vi": "Lâu lắm rồi chúng ta không gặp."
    }
   },
@@ -1816,7 +1816,7 @@
    "emoji": "🤨",
    "ex": {
     "zh": "他好像不高兴。",
-    "py": "Tā hǎoxiàng bù gāoxìng。",
+    "py": "Tā hǎoxiàng bù gāoxìng.",
     "vi": "Hình như anh ấy không vui."
    }
   },
@@ -1827,7 +1827,7 @@
    "emoji": "🔢",
    "ex": {
     "zh": "你的电话号码是多少？",
-    "py": "Nǐ de diànhuàhàomǎ shì duōshǎo？",
+    "py": "Nǐ de diàn huà hào mǎ shì duōshǎo?",
     "vi": "Số điện thoại của bạn là bao nhiêu?"
    }
   },
@@ -1838,7 +1838,7 @@
    "emoji": "🏞️",
    "ex": {
     "zh": "河里有很多鱼。",
-    "py": "Hélǐ yǒu hěnduō yú。",
+    "py": "Hé lǐ yǒu hěn duō yú.",
     "vi": "Dưới sông có rất nhiều cá."
    }
   },
@@ -1849,7 +1849,7 @@
    "emoji": "✅",
    "ex": {
     "zh": "这双鞋很合适。",
-    "py": "Zhèshuāngxié hěn héshì。",
+    "py": "Zhè shuāng xié hěn héshì.",
     "vi": "Đôi giày này rất vừa."
    }
   },
@@ -1860,7 +1860,7 @@
    "emoji": "🧑‍🏫",
    "ex": {
     "zh": "老师在黑板上写字。",
-    "py": "Lǎoshī zài hēibǎn shàng xiězì。",
+    "py": "Lǎoshī zài hēibǎn shàng xiě zì.",
     "vi": "Thầy giáo viết chữ lên bảng."
    }
   },
@@ -1871,7 +1871,7 @@
    "emoji": "🚦",
    "ex": {
     "zh": "前面有红绿灯。",
-    "py": "Qiánmiàn yǒu hónglǜdēng。",
+    "py": "Qiánmiàn yǒu hónglǜdēng.",
     "vi": "Phía trước có đèn giao thông."
    }
   },
@@ -1882,7 +1882,7 @@
    "emoji": "⏭️",
    "ex": {
     "zh": "后来他没来。",
-    "py": "Hòulái tā méilái。",
+    "py": "Hòulái tā méi lái.",
     "vi": "Sau đó anh ấy không đến."
    }
   },
@@ -1893,7 +1893,7 @@
    "emoji": "📅",
    "ex": {
     "zh": "我后年去北京。",
-    "py": "Wǒhòu nián qù běijīng。",
+    "py": "Wǒ hòunián qù Běijīng.",
     "vi": "Năm kia tôi sẽ đi Bắc Kinh."
    }
   },
@@ -1904,7 +1904,7 @@
    "emoji": "📅",
    "ex": {
     "zh": "后天是我的生日。",
-    "py": "Hòutiān shì wǒ de shēngrì。",
+    "py": "Hòutiān shì wǒ de shēngrì.",
     "vi": "Ngày kia là sinh nhật của tôi."
    }
   },
@@ -1915,7 +1915,7 @@
    "emoji": "🛂",
    "ex": {
     "zh": "出国要带护照。",
-    "py": "Chūguó yào dài hùzhào。",
+    "py": "Chūguó yào dài hùzhào.",
     "vi": "Ra nước ngoài phải mang hộ chiếu."
    }
   },
@@ -1926,7 +1926,7 @@
    "emoji": "🏡",
    "ex": {
     "zh": "他家有一个大花园。",
-    "py": "Tājiā yǒu yígè dà huāyuán。",
+    "py": "Tā jiā yǒu yí gè dà huāyuán.",
     "vi": "Nhà anh ấy có một khu vườn hoa lớn."
    }
   },
@@ -1937,7 +1937,7 @@
    "emoji": "🧑‍🎨",
    "ex": {
     "zh": "他是一位有名的画家。",
-    "py": "Tā shì yīwèi yǒumíng de huàjiā。",
+    "py": "Tā shì yī wèi yǒumíng de huàjiā.",
     "vi": "Ông ấy là một họa sĩ nổi tiếng."
    }
   },
@@ -1948,7 +1948,7 @@
    "emoji": "👏",
    "ex": {
     "zh": "欢迎你来我家。",
-    "py": "Huānyíng nǐ lái wǒjiā。",
+    "py": "Huānyíng nǐ lái wǒ jiā.",
     "vi": "Chào mừng bạn đến nhà tôi."
    }
   },
@@ -1959,7 +1959,7 @@
    "emoji": "💱",
    "ex": {
     "zh": "我明天还你钱。",
-    "py": "Wǒ míngtiān hái nǐ qián。",
+    "py": "Wǒ míngtiān hái nǐ qián.",
     "vi": "Ngày mai tôi trả tiền cho bạn."
    }
   },
@@ -1970,7 +1970,7 @@
    "emoji": "🌲",
    "ex": {
     "zh": "这里的环境很好。",
-    "py": "Zhèlǐ de huánjìng hěn hǎo。",
+    "py": "Zhèlǐ de huánjìng hěn hǎo.",
     "vi": "Môi trường ở đây rất tốt."
    }
   },
@@ -1981,7 +1981,7 @@
    "emoji": "🔁",
    "ex": {
     "zh": "我想换一个房间。",
-    "py": "Wǒ xiǎng huàn yígè fángjiān。",
+    "py": "Wǒ xiǎng huàn yí gè fángjiān.",
     "vi": "Tôi muốn đổi một phòng khác."
    }
   },
@@ -1992,7 +1992,7 @@
    "emoji": "🟡",
    "ex": {
     "zh": "她喜欢黄色的衣服。",
-    "py": "Tā xǐhuān huángsè de yīfú。",
+    "py": "Tā xǐhuān huángsè de yīfú.",
     "vi": "Cô ấy thích quần áo màu vàng."
    }
   },
@@ -2003,7 +2003,7 @@
    "emoji": "🙋",
    "ex": {
     "zh": "请回答我的问题。",
-    "py": "Qǐng huídá wǒ de wèntí。",
+    "py": "Qǐng huídá wǒ de wèntí.",
     "vi": "Xin hãy trả lời câu hỏi của tôi."
    }
   },
@@ -2014,7 +2014,7 @@
    "emoji": "🗣️",
    "ex": {
     "zh": "他会开车。",
-    "py": "Tāhuì kāichē。",
+    "py": "Tā huì kāichē.",
     "vi": "Anh ấy biết lái xe."
    }
   },
@@ -2025,7 +2025,7 @@
    "emoji": "🧑‍💼",
    "ex": {
     "zh": "明天上午有会议。",
-    "py": "Míngtiān shàngwǔ yǒu huìyì。",
+    "py": "Míngtiān shàngwǔ yǒu huìyì.",
     "vi": "Sáng mai có cuộc họp."
    }
   },
@@ -2036,7 +2036,7 @@
    "emoji": "➗",
    "ex": {
     "zh": "你喝茶或咖啡？",
-    "py": "Nǐ hēchá huò kāfēi？",
+    "py": "Nǐ hē chá huò kāfēi?",
     "vi": "Bạn uống trà hay cà phê?"
    }
   },
@@ -2047,7 +2047,7 @@
    "emoji": "🔀",
    "ex": {
     "zh": "周末我看书或者看电影。",
-    "py": "Zhōumò wǒ kànshū huòzhě kàn diànyǐng。",
+    "py": "Zhōumò wǒ kàn shū huòzhě kàn diànyǐng.",
     "vi": "Cuối tuần tôi đọc sách hoặc xem phim."
    }
   },
@@ -2058,7 +2058,7 @@
    "emoji": "🐔",
    "ex": {
     "zh": "他家养了十只鸡。",
-    "py": "Tā jiāyǎng le shízhǐ jī。",
+    "py": "Tā jiā yǎng le shí zhǐ jī.",
     "vi": "Nhà anh ấy nuôi mười con gà."
    }
   },
@@ -2069,7 +2069,7 @@
    "emoji": "🤏",
    "ex": {
     "zh": "我几乎每天都跑步。",
-    "py": "Wǒ jīhū měitiān dōu pǎobù。",
+    "py": "Wǒ jīhū měi tiān dōu pǎobù.",
     "vi": "Tôi gần như ngày nào cũng chạy bộ."
    }
   },
@@ -2080,7 +2080,7 @@
    "emoji": "🚪",
    "ex": {
     "zh": "这是一个好机会。",
-    "py": "Zhèshì yígè hǎo jīhuì。",
+    "py": "Zhè shì yí gè hǎo jīhuì.",
     "vi": "Đây là một cơ hội tốt."
    }
   },
@@ -2091,7 +2091,7 @@
    "emoji": "💯",
    "ex": {
     "zh": "这个地方好极了。",
-    "py": "Zhège dìfāng hǎojíle。",
+    "py": "Zhège dìfāng hǎo jí le.",
     "vi": "Nơi này tuyệt vời cực kỳ."
    }
   },
@@ -2102,7 +2102,7 @@
    "emoji": "🏃",
    "ex": {
     "zh": "别急，慢慢说。",
-    "py": "Biéjí， mànmànshuō。",
+    "py": "Bié jí, màn màn shuō.",
     "vi": "Đừng vội, cứ nói từ từ."
    }
   },
@@ -2113,7 +2113,7 @@
    "emoji": "✍️",
    "ex": {
     "zh": "我把电话号码记下来。",
-    "py": "Wǒ bǎ diànhuàhàomǎ jìxiàlái。",
+    "py": "Wǒ bǎ diàn huà hào mǎ jì xià lái.",
     "vi": "Tôi ghi số điện thoại lại."
    }
   },
@@ -2124,7 +2124,7 @@
    "emoji": "🍂",
    "ex": {
     "zh": "一年有四季。",
-    "py": "Yīnián yǒu sìjì。",
+    "py": "Yī nián yǒu sìjì.",
     "vi": "Một năm có bốn mùa."
    }
   },
@@ -2135,7 +2135,7 @@
    "emoji": "🍁",
    "ex": {
     "zh": "你喜欢哪个季节？",
-    "py": "Nǐ xǐhuān nǎge jìjié？",
+    "py": "Nǐ xǐhuān nǎge jìjié?",
     "vi": "Bạn thích mùa nào?"
    }
   },
@@ -2146,7 +2146,7 @@
    "emoji": "➕",
    "ex": {
     "zh": "一加二是三。",
-    "py": "Yījiā èr shì sān。",
+    "py": "Yī jiā èr shì sān.",
     "vi": "Một cộng hai bằng ba."
    }
   },
@@ -2157,7 +2157,7 @@
    "emoji": "🏝️",
    "ex": {
     "zh": "假期我想去旅游。",
-    "py": "Jiàqī wǒ xiǎng qù lǚyóu。",
+    "py": "Jiàqī wǒ xiǎng qù lǚyóu.",
     "vi": "Kỳ nghỉ tôi muốn đi du lịch."
    }
   },
@@ -2168,7 +2168,7 @@
    "emoji": "💪",
    "ex": {
     "zh": "他每天坚持跑步。",
-    "py": "Tā měitiān jiānchí pǎobù。",
+    "py": "Tā měi tiān jiānchí pǎobù.",
     "vi": "Ngày nào anh ấy cũng kiên trì chạy bộ."
    }
   },
@@ -2179,7 +2179,7 @@
    "emoji": "🩺",
    "ex": {
     "zh": "医生在检查身体。",
-    "py": "Yīshēng zài jiǎnchá shēntǐ。",
+    "py": "Yīshēng zài jiǎnchá shēntǐ.",
     "vi": "Bác sĩ đang kiểm tra cơ thể."
    }
   },
@@ -2190,7 +2190,7 @@
    "emoji": "🟢",
    "ex": {
     "zh": "这个题很简单。",
-    "py": "Zhège tí hěn jiǎndān。",
+    "py": "Zhège tí hěn jiǎndān.",
     "vi": "Câu hỏi này rất đơn giản."
    }
   },
@@ -2201,7 +2201,7 @@
    "emoji": "🎟️",
    "ex": {
     "zh": "请在这儿检票。",
-    "py": "Qǐng zài zhèér jiǎnpiào。",
+    "py": "Qǐng zài zhèér jiǎnpiào.",
     "vi": "Xin hãy soát vé ở đây."
    }
   },
@@ -2212,7 +2212,7 @@
    "emoji": "🍎",
    "ex": {
     "zh": "身体健康最重要。",
-    "py": "Shēntǐjiànkāng zuì zhòngyào。",
+    "py": "Shēn tǐ jiàn kāng zuì zhòngyào.",
     "vi": "Sức khỏe là quan trọng nhất."
    }
   },
@@ -2223,7 +2223,7 @@
    "emoji": "🤝",
    "ex": {
     "zh": "我们明天见面吧。",
-    "py": "Wǒmen míngtiān jiànmiàn ba。",
+    "py": "Wǒmen míngtiān jiànmiàn ba.",
     "vi": "Ngày mai chúng ta gặp nhau nhé."
    }
   },
@@ -2234,7 +2234,7 @@
    "emoji": "🎤",
    "ex": {
     "zh": "老师在讲课。",
-    "py": "Lǎoshī zài jiǎngkè。",
+    "py": "Lǎoshī zài jiǎng kè.",
     "vi": "Thầy giáo đang giảng bài."
    }
   },
@@ -2245,7 +2245,7 @@
    "emoji": "📐",
    "ex": {
     "zh": "这张纸有四个角。",
-    "py": "Zhè zhāngzhǐ yǒu sìgè jiǎo。",
+    "py": "Zhè zhāng zhǐ yǒu sì gè jiǎo.",
     "vi": "Tờ giấy này có bốn góc."
    }
   },
@@ -2256,7 +2256,7 @@
    "emoji": "🦶",
    "ex": {
     "zh": "我的脚很疼。",
-    "py": "Wǒ de jiǎo hěn téng。",
+    "py": "Wǒ de jiǎo hěn téng.",
     "vi": "Chân tôi rất đau."
    }
   },
@@ -2267,7 +2267,7 @@
    "emoji": "🤲",
    "ex": {
     "zh": "我去机场接朋友。",
-    "py": "Wǒ qù jīchǎng jiē péngyǒu。",
+    "py": "Wǒ qù jīchǎng jiē péngyǒu.",
     "vi": "Tôi ra sân bay đón bạn."
    }
   },
@@ -2278,7 +2278,7 @@
    "emoji": "🛍️",
    "ex": {
     "zh": "这条街上有很多商店。",
-    "py": "Zhè tiáo jiēshàng yǒu hěnduō shāngdiàn。",
+    "py": "Zhè tiáo jiē shàng yǒu hěn duō shāngdiàn.",
     "vi": "Trên con phố này có rất nhiều cửa hàng."
    }
   },
@@ -2289,7 +2289,7 @@
    "emoji": "📍",
    "ex": {
     "zh": "这节课很有意思。",
-    "py": "Zhèjié kè hěn yǒuyìsi。",
+    "py": "Zhè jié kè hěn yǒuyìsi.",
     "vi": "Tiết học này rất thú vị."
    }
   },
@@ -2300,7 +2300,7 @@
    "emoji": "💒",
    "ex": {
     "zh": "他们明年结婚。",
-    "py": "Tāmen míngnián jiéhūn。",
+    "py": "Tāmen míngnián jiéhūn.",
     "vi": "Sang năm họ kết hôn."
    }
   },
@@ -2311,7 +2311,7 @@
    "emoji": "📺",
    "ex": {
     "zh": "这个节目很好看。",
-    "py": "Zhège jiémù hěn hǎokàn。",
+    "py": "Zhège jiémù hěn hǎokàn.",
     "vi": "Chương trình này rất hay."
    }
   },
@@ -2322,7 +2322,7 @@
    "emoji": "🎉",
    "ex": {
     "zh": "春节是中国的节日。",
-    "py": "Chūnjié shì zhōngguó de jiérì。",
+    "py": "Chūn jié shì Zhōngguó de jiérì.",
     "vi": "Tết Âm lịch là ngày lễ của Trung Quốc."
    }
   },
@@ -2333,7 +2333,7 @@
    "emoji": "🏁",
    "ex": {
     "zh": "会议结束了。",
-    "py": "Huìyì jiéshù le。",
+    "py": "Huìyì jiéshù le.",
     "vi": "Cuộc họp kết thúc rồi."
    }
   },
@@ -2344,7 +2344,7 @@
    "emoji": "🔧",
    "ex": {
     "zh": "问题已经解决了。",
-    "py": "Wèntí yǐjīng jiějué le。",
+    "py": "Wèntí yǐjīng jiějué le.",
     "vi": "Vấn đề đã được giải quyết."
    }
   },
@@ -2355,7 +2355,7 @@
    "emoji": "👭",
    "ex": {
     "zh": "她有两个姐妹。",
-    "py": "Tā yǒu liǎnggè jiěmèi。",
+    "py": "Tā yǒu liǎng gè jiěmèi.",
     "vi": "Cô ấy có hai chị em gái."
    }
   },
@@ -2366,7 +2366,7 @@
    "emoji": "🤲",
    "ex": {
     "zh": "我想借你的词典。",
-    "py": "Wǒ xiǎng jiè nǐ de cídiǎn。",
+    "py": "Wǒ xiǎng jiè nǐ de cídiǎn.",
     "vi": "Tôi muốn mượn từ điển của bạn."
    }
   },
@@ -2377,7 +2377,7 @@
    "emoji": "⚖️",
    "ex": {
     "zh": "这个西瓜五斤。",
-    "py": "Zhège xīguā wǔjīn。",
+    "py": "Zhège xīguā wǔ jīn.",
     "vi": "Quả dưa hấu này năm cân."
    }
   },
@@ -2388,7 +2388,7 @@
    "emoji": "🛤️",
    "ex": {
     "zh": "我每天经过这个公园。",
-    "py": "Wǒ měitiān jīngguò zhège gōngyuán。",
+    "py": "Wǒ měi tiān jīngguò zhège gōngyuán.",
     "vi": "Ngày nào tôi cũng đi qua công viên này."
    }
   },
@@ -2399,7 +2399,7 @@
    "emoji": "👔",
    "ex": {
     "zh": "经理在开会。",
-    "py": "Jīnglǐ zài kāihuì。",
+    "py": "Jīnglǐ zài kāihuì.",
     "vi": "Giám đốc đang họp."
    }
   },
@@ -2410,7 +2410,7 @@
    "emoji": "⌛",
    "ex": {
     "zh": "你等了很久吗？",
-    "py": "Nǐ děng le hěn jiǔ ma？",
+    "py": "Nǐ děng le hěn jiǔ ma?",
     "vi": "Bạn đợi lâu lắm à?"
    }
   },
@@ -2421,7 +2421,7 @@
    "emoji": "🍷",
    "ex": {
     "zh": "他不喝酒。",
-    "py": "Tā bù hējiǔ。",
+    "py": "Tā bù hē jiǔ.",
     "vi": "Anh ấy không uống rượu."
    }
   },
@@ -2432,7 +2432,7 @@
    "emoji": "🕸️",
    "ex": {
     "zh": "这是一本旧书。",
-    "py": "Zhèshì yīběn jiùshū。",
+    "py": "Zhè shì yī běn jiù shū.",
     "vi": "Đây là một cuốn sách cũ."
    }
   },
@@ -2443,7 +2443,7 @@
    "emoji": "💬",
    "ex": {
     "zh": "请你再说一句。",
-    "py": "Qǐng nǐ zàishuō yījù。",
+    "py": "Qǐng nǐ zài shuō yī jù.",
     "vi": "Xin bạn nói thêm một câu."
    }
   },
@@ -2454,7 +2454,7 @@
    "emoji": "📝",
    "ex": {
     "zh": "这个句子很长。",
-    "py": "Zhège jùzi hěnzhǎng。",
+    "py": "Zhège jùzi hěn zhǎng.",
     "vi": "Câu này rất dài."
    }
   },
@@ -2465,7 +2465,7 @@
    "emoji": "✅",
    "ex": {
     "zh": "我决定去北京学习。",
-    "py": "Wǒ juédìng qù běijīng xuéxí。",
+    "py": "Wǒ juédìng qù Běijīng xuéxí.",
     "vi": "Tôi quyết định đến Bắc Kinh học."
    }
   },
@@ -2476,7 +2476,7 @@
    "emoji": "💳",
    "ex": {
     "zh": "请给我你的卡。",
-    "py": "Qǐng gěi wǒ nǐ de kǎ。",
+    "py": "Qǐng gěi wǒ nǐ de kǎ.",
     "vi": "Xin hãy đưa thẻ của bạn cho tôi."
    }
   },
@@ -2487,7 +2487,7 @@
    "emoji": "🌺",
    "ex": {
     "zh": "我家的花园开花了。",
-    "py": "Wǒjiā de huāyuán kāihuā le。",
+    "py": "Wǒ jiā de huāyuán kāihuā le.",
     "vi": "Vườn hoa nhà tôi nở hoa rồi."
    }
   },
@@ -2498,7 +2498,7 @@
    "emoji": "🧑‍💼",
    "ex": {
     "zh": "他们在办公室开会。",
-    "py": "Tāmen zài bàngōngshì kāihuì。",
+    "py": "Tāmen zài bàngōngshì kāihuì.",
     "vi": "Họ đang họp trong văn phòng."
    }
   },
@@ -2509,7 +2509,7 @@
    "emoji": "🔛",
    "ex": {
     "zh": "电脑开机很慢。",
-    "py": "Diànnǎo kāijī hěn màn。",
+    "py": "Diànnǎo kāijī hěn màn.",
     "vi": "Máy tính khởi động rất chậm."
    }
   },
@@ -2520,7 +2520,7 @@
    "emoji": "😄",
    "ex": {
     "zh": "今天我很开心。",
-    "py": "Jīntiān wǒ hěn kāixīn。",
+    "py": "Jīntiān wǒ hěn kāixīn.",
     "vi": "Hôm nay tôi rất vui."
    }
   },
@@ -2531,7 +2531,7 @@
    "emoji": "👀",
    "ex": {
     "zh": "看来他不会来了。",
-    "py": "Kànlái tā búhuì lái le。",
+    "py": "Kànlái tā bú huì lái le.",
     "vi": "Xem ra anh ấy sẽ không đến nữa."
    }
   },
@@ -2542,7 +2542,7 @@
    "emoji": "☝️",
    "ex": {
     "zh": "这个菜可好吃了。",
-    "py": "Zhège cài kě hǎochī le。",
+    "py": "Zhège cài kě hǎochī le.",
     "vi": "Món này ngon lắm đấy."
    }
   },
@@ -2553,7 +2553,7 @@
    "emoji": "🥤",
    "ex": {
     "zh": "我渴了，想喝水。",
-    "py": "Wǒkě le， xiǎng hēshuǐ。",
+    "py": "Wǒ kě le, xiǎng hē shuǐ.",
     "vi": "Tôi khát rồi, muốn uống nước."
    }
   },
@@ -2564,7 +2564,7 @@
    "emoji": "🥰",
    "ex": {
     "zh": "这只小狗很可爱。",
-    "py": "Zhè zhǐ xiǎogǒu hěn kěài。",
+    "py": "Zhè zhǐ xiǎo gǒu hěn kěài.",
     "vi": "Chú chó nhỏ này rất đáng yêu."
    }
   },
@@ -2575,7 +2575,7 @@
    "emoji": "↔️",
    "ex": {
     "zh": "我想去，可是没有时间。",
-    "py": "Wǒ xiǎng qù， kěshì méiyǒu shíjiān。",
+    "py": "Wǒ xiǎng qù, kěshì méiyǒu shíjiān.",
     "vi": "Tôi muốn đi nhưng không có thời gian."
    }
   },
@@ -2586,7 +2586,7 @@
    "emoji": "🕒",
    "ex": {
     "zh": "现在是三点一刻。",
-    "py": "Xiànzài shì sāndiǎn yīkè。",
+    "py": "Xiànzài shì sān diǎn yī kè.",
     "vi": "Bây giờ là ba giờ mười lăm."
    }
   },
@@ -2597,7 +2597,7 @@
    "emoji": "📕",
    "ex": {
     "zh": "请打开课本。",
-    "py": "Qǐng dǎkāi kèběn。",
+    "py": "Qǐng dǎkāi kèběn.",
     "vi": "Xin hãy mở sách giáo khoa."
    }
   },
@@ -2608,7 +2608,7 @@
    "emoji": "🛎️",
    "ex": {
     "zh": "客人们都来了。",
-    "py": "Kèrén men dōu lái le。",
+    "py": "Kèrén men dōu lái le.",
     "vi": "Các vị khách đều đến rồi."
    }
   },
@@ -2619,7 +2619,7 @@
    "emoji": "📄",
    "ex": {
     "zh": "今天的课文很短。",
-    "py": "Jīntiān de kèwén hěn duǎn。",
+    "py": "Jīntiān de kèwén hěn duǎn.",
     "vi": "Bài khóa hôm nay rất ngắn."
    }
   },
@@ -2630,7 +2630,7 @@
    "emoji": "❄️",
    "ex": {
     "zh": "房间里开着空调。",
-    "py": "Fángjiān lǐ kāizhe kōngtiáo。",
+    "py": "Fángjiān lǐ kāi zhe kōngtiáo.",
     "vi": "Trong phòng đang bật điều hòa."
    }
   },
@@ -2641,7 +2641,7 @@
    "emoji": "😭",
    "ex": {
     "zh": "小孩儿哭了。",
-    "py": "Xiǎoháiér kū le。",
+    "py": "Xiǎoháiér kū le.",
     "vi": "Đứa bé khóc rồi."
    }
   },
@@ -2652,7 +2652,7 @@
    "emoji": "🥢",
    "ex": {
     "zh": "我会用筷子。",
-    "py": "Wǒhuì yòng kuàizi。",
+    "py": "Wǒ huì yòng kuàizi.",
     "vi": "Tôi biết dùng đũa."
    }
   },
@@ -2663,7 +2663,7 @@
    "emoji": "💧",
    "ex": {
     "zh": "请给我一瓶矿泉水。",
-    "py": "Qǐng gěi wǒ yīpíng kuàngquánshuǐ。",
+    "py": "Qǐng gěi wǒ yī píng kuàngquánshuǐ.",
     "vi": "Xin cho tôi một chai nước khoáng."
    }
   },
@@ -2674,7 +2674,7 @@
    "emoji": "🌐",
    "ex": {
     "zh": "她来自北京。",
-    "py": "Tā láizì běijīng。",
+    "py": "Tā láizì Běijīng.",
     "vi": "Cô ấy đến từ Bắc Kinh."
    }
   },
@@ -2685,7 +2685,7 @@
    "emoji": "🔵",
    "ex": {
     "zh": "天很蓝。",
-    "py": "Tiān hěn lán。",
+    "py": "Tiān hěn lán.",
     "vi": "Trời rất xanh."
    }
   },
@@ -2696,7 +2696,7 @@
    "emoji": "👴",
    "ex": {
     "zh": "他的爷爷很老了。",
-    "py": "Tā de yéyé hěn lǎo le。",
+    "py": "Tā de yéyé hěn lǎo le.",
     "vi": "Ông nội của anh ấy đã già rồi."
    }
   },
@@ -2707,7 +2707,7 @@
    "emoji": "🧓",
    "ex": {
     "zh": "请给老人坐。",
-    "py": "Qǐng gěi lǎorén zuò。",
+    "py": "Qǐng gěi lǎorén zuò.",
     "vi": "Xin nhường chỗ cho người già."
    }
   },
@@ -2718,7 +2718,7 @@
    "emoji": "👋",
    "ex": {
     "zh": "他昨天离开了北京。",
-    "py": "Tā zuótiān líkāi le běijīng。",
+    "py": "Tā zuótiān líkāi le Běijīng.",
     "vi": "Hôm qua anh ấy rời Bắc Kinh."
    }
   },
@@ -2729,7 +2729,7 @@
    "emoji": "🎁",
    "ex": {
     "zh": "这是送你的礼物。",
-    "py": "Zhè shì sòng nǐ de lǐwù。",
+    "py": "Zhè shì sòng nǐ de lǐwù.",
     "vi": "Đây là quà tặng bạn."
    }
   },
@@ -2740,7 +2740,7 @@
    "emoji": "🏛️",
    "ex": {
     "zh": "我喜欢学历史。",
-    "py": "Wǒ xǐhuān xué lìshǐ。",
+    "py": "Wǒ xǐhuān xué lìshǐ.",
     "vi": "Tôi thích học lịch sử."
    }
   },
@@ -2751,7 +2751,7 @@
    "emoji": "🙂",
    "ex": {
     "zh": "他的脸很红。",
-    "py": "Tā de liǎn hěn hóng。",
+    "py": "Tā de liǎn hěn hóng.",
     "vi": "Mặt của anh ấy rất đỏ."
    }
   },
@@ -2762,7 +2762,7 @@
    "emoji": "🏸",
    "ex": {
     "zh": "他每天练球。",
-    "py": "Tā měitiān liànqiú。",
+    "py": "Tā měi tiān liàn qiú.",
     "vi": "Ngày nào anh ấy cũng luyện bóng."
    }
   },
@@ -2773,7 +2773,7 @@
    "emoji": "✏️",
    "ex": {
     "zh": "我们做一个练习吧。",
-    "py": "Wǒmen zuò yígè liànxí ba。",
+    "py": "Wǒmen zuò yí gè liànxí ba.",
     "vi": "Chúng ta làm một bài tập nhé."
    }
   },
@@ -2784,7 +2784,7 @@
    "emoji": "🍃",
    "ex": {
     "zh": "秋天很凉快。",
-    "py": "Qiūtiān hěn liángkuài。",
+    "py": "Qiūtiān hěn liángkuài.",
     "vi": "Mùa thu rất mát mẻ."
    }
   },
@@ -2795,7 +2795,7 @@
    "emoji": "🚗",
    "ex": {
     "zh": "门口有一辆汽车。",
-    "py": "Ménkǒu yǒu yīliàng qìchē。",
+    "py": "Ménkǒu yǒu yī liàng qìchē.",
     "vi": "Ở cửa có một chiếc ô tô."
    }
   },
@@ -2806,7 +2806,7 @@
    "emoji": "💬",
    "ex": {
     "zh": "我们聊一会儿吧。",
-    "py": "Wǒmen liáo yīhuìer ba。",
+    "py": "Wǒmen liáo yīhuìer ba.",
     "vi": "Chúng ta trò chuyện một lát nhé."
    }
   },
@@ -2817,7 +2817,7 @@
    "emoji": "🗨️",
    "ex": {
     "zh": "他们在聊天儿。",
-    "py": "Tāmen zài liáotiānér。",
+    "py": "Tāmen zài liáotiānér.",
     "vi": "Họ đang trò chuyện."
    }
   },
@@ -2828,7 +2828,7 @@
    "emoji": "🧐",
    "ex": {
     "zh": "我想了解这个城市。",
-    "py": "Wǒ xiǎng liǎojiě zhège chéngshì。",
+    "py": "Wǒ xiǎng liǎojiě zhège chéngshì.",
     "vi": "Tôi muốn tìm hiểu thành phố này."
    }
   },
@@ -2839,7 +2839,7 @@
    "emoji": "🏘️",
    "ex": {
     "zh": "我的邻居很好。",
-    "py": "Wǒ de línjū hěn hǎo。",
+    "py": "Wǒ de línjū hěn hǎo.",
     "vi": "Hàng xóm của tôi rất tốt."
    }
   },
@@ -2850,7 +2850,7 @@
    "emoji": "🎓",
    "ex": {
     "zh": "他想去中国留学。",
-    "py": "Tā xiǎng qù zhōngguó liúxué。",
+    "py": "Tā xiǎng qù Zhōngguó liúxué.",
     "vi": "Anh ấy muốn đi Trung Quốc du học."
    }
   },
@@ -2861,7 +2861,7 @@
    "emoji": "🧑‍🎓",
    "ex": {
     "zh": "班里有很多留学生。",
-    "py": "Bānlǐ yǒu hěnduō liúxuéshēng。",
+    "py": "Bān lǐ yǒu hěn duō liúxuéshēng.",
     "vi": "Trong lớp có rất nhiều du học sinh."
    }
   },
@@ -2872,7 +2872,7 @@
    "emoji": "🪜",
    "ex": {
     "zh": "楼梯在那边。",
-    "py": "Lóutī zài nàbiān。",
+    "py": "Lóutī zài nàbiān.",
     "vi": "Cầu thang ở bên kia."
    }
   },
@@ -2883,7 +2883,7 @@
    "emoji": "🛣️",
    "ex": {
     "zh": "路边有一家商店。",
-    "py": "Lùbiān yǒu yījiā shāngdiàn。",
+    "py": "Lùbiān yǒu yī jiā shāngdiàn.",
     "vi": "Ven đường có một cửa hàng."
    }
   },
@@ -2894,7 +2894,7 @@
    "emoji": "🚏",
    "ex": {
     "zh": "前面的路口往左走。",
-    "py": "Qiánmiàn de lùkǒu wǎng zuǒ zǒu。",
+    "py": "Qiánmiàn de lùkǒu wǎng zuǒ zǒu.",
     "vi": "Đến ngã tư phía trước thì rẽ trái."
    }
   },
@@ -2905,7 +2905,7 @@
    "emoji": "🐴",
    "ex": {
     "zh": "他骑马去学校。",
-    "py": "Tā qímǎ qù xuéxiào。",
+    "py": "Tā qí mǎ qù xuéxiào.",
     "vi": "Anh ấy cưỡi ngựa đến trường."
    }
   },
@@ -2916,7 +2916,7 @@
    "emoji": "🛣️",
    "ex": {
     "zh": "过马路要小心。",
-    "py": "Guò mǎlù yào xiǎoxīn。",
+    "py": "Guò mǎlù yào xiǎoxīn.",
     "vi": "Qua đường phải cẩn thận."
    }
   },
@@ -2927,7 +2927,7 @@
    "emoji": "⚡",
    "ex": {
     "zh": "我马上到。",
-    "py": "Wǒ mǎshàng dào。",
+    "py": "Wǒ mǎshàng dào.",
     "vi": "Tôi đến ngay."
    }
   },
@@ -2938,7 +2938,7 @@
    "emoji": "😌",
    "ex": {
     "zh": "我对这里很满意。",
-    "py": "Wǒ duì zhèlǐ hěn mǎnyì。",
+    "py": "Wǒ duì zhèlǐ hěn mǎnyì.",
     "vi": "Tôi rất hài lòng với nơi này."
    }
   },
@@ -2949,7 +2949,7 @@
    "emoji": "🪙",
    "ex": {
     "zh": "这个本子两块五毛。",
-    "py": "Zhège běnzi liǎngkuài wǔmáo。",
+    "py": "Zhège běnzi liǎng kuài wǔ máo.",
     "vi": "Quyển vở này hai đồng rưỡi."
    }
   },
@@ -2960,7 +2960,7 @@
    "emoji": "📏",
    "ex": {
     "zh": "他的身高一米八。",
-    "py": "Tā de shēngāo yīmǐ bā。",
+    "py": "Tā de shēngāo yī mǐ bā.",
     "vi": "Chiều cao của anh ấy là một mét tám."
    }
   },
@@ -2971,7 +2971,7 @@
    "emoji": "🧍",
    "ex": {
     "zh": "他站在我面前。",
-    "py": "Tā zhàn zài wǒ miànqián。",
+    "py": "Tā zhàn zài wǒ miànqián.",
     "vi": "Anh ấy đứng trước mặt tôi."
    }
   },
@@ -2982,7 +2982,7 @@
    "emoji": "💡",
    "ex": {
     "zh": "你明白了吗？",
-    "py": "Nǐ míngbái le ma？",
+    "py": "Nǐ míngbái le ma?",
     "vi": "Bạn hiểu chưa?"
    }
   },
@@ -2993,7 +2993,7 @@
    "emoji": "📃",
    "ex": {
     "zh": "名单上有你的名字。",
-    "py": "Míngdān shàng yǒu nǐ de míngzì。",
+    "py": "Míngdān shàng yǒu nǐ de míngzì.",
     "vi": "Trong danh sách có tên bạn."
    }
   },
@@ -3004,7 +3004,7 @@
    "emoji": "🌟",
    "ex": {
     "zh": "他是一个名人。",
-    "py": "Tā shì yígè míngrén。",
+    "py": "Tā shì yí gè míngrén.",
     "vi": "Ông ấy là người nổi tiếng."
    }
   },
@@ -3015,7 +3015,7 @@
    "emoji": "⬇️",
    "ex": {
     "zh": "学校在公园南边。",
-    "py": "Xuéxiào zài gōngyuán nánbiān。",
+    "py": "Xuéxiào zài gōngyuán nán biān.",
     "vi": "Trường học ở phía nam công viên."
    }
   },
@@ -3026,7 +3026,7 @@
    "emoji": "🧗",
    "ex": {
     "zh": "这个字很难写。",
-    "py": "Zhège zì hěn nán xiě。",
+    "py": "Zhège zì hěn nán xiě.",
     "vi": "Chữ này rất khó viết."
    }
   },
@@ -3037,7 +3037,7 @@
    "emoji": "🌴",
    "ex": {
     "zh": "南方的冬天不冷。",
-    "py": "Nánfāng de dōngtiān bùlěng。",
+    "py": "Nánfāng de dōngtiān bù lěng.",
     "vi": "Mùa đông miền nam không lạnh."
    }
   },
@@ -3048,7 +3048,7 @@
    "emoji": "😢",
    "ex": {
     "zh": "听到这件事，我很难过。",
-    "py": "Tīngdào zhèjiàn shì， wǒ hěn nánguò。",
+    "py": "Tīng dào zhè jiàn shì, wǒ hěn nánguò.",
     "vi": "Nghe chuyện này tôi rất buồn."
    }
   },
@@ -3059,7 +3059,7 @@
    "emoji": "😖",
    "ex": {
     "zh": "这件衣服很难看。",
-    "py": "Zhèjiàn yīfú hěn nánkàn。",
+    "py": "Zhè jiàn yīfú hěn nánkàn.",
     "vi": "Chiếc áo này rất xấu."
    }
   },
@@ -3070,7 +3070,7 @@
    "emoji": "🧔",
    "ex": {
     "zh": "那个男人是我的老师。",
-    "py": "Nàge nánrén shì wǒ de lǎoshī。",
+    "py": "Nàge nánrén shì wǒ de lǎoshī.",
     "vi": "Người đàn ông kia là thầy giáo của tôi."
    }
   },
@@ -3081,7 +3081,7 @@
    "emoji": "👦",
    "ex": {
     "zh": "我们班有二十个男生。",
-    "py": "Wǒmen bānyǒu èrshígè nánshēng。",
+    "py": "Wǒmen bān yǒu èr shí gè nánshēng.",
     "vi": "Lớp chúng tôi có hai mươi nam sinh."
    }
   },
@@ -3092,7 +3092,7 @@
    "emoji": "🧩",
    "ex": {
     "zh": "这个难题没人会做。",
-    "py": "Zhège nántí méirénhuì zuò。",
+    "py": "Zhège nántí méi rén huì zuò.",
     "vi": "Bài khó này không ai biết làm."
    }
   },
@@ -3103,7 +3103,7 @@
    "emoji": "🔇",
    "ex": {
     "zh": "他唱得很难听。",
-    "py": "Tā chàng dé hěn nántīng。",
+    "py": "Tā chàng dé hěn nántīng.",
     "vi": "Anh ấy hát khó nghe lắm."
    }
   },
@@ -3114,7 +3114,7 @@
    "emoji": "🔢",
    "ex": {
     "zh": "我今年二年级。",
-    "py": "Wǒ jīnnián èrniánjí。",
+    "py": "Wǒ jīnnián èr nián jí.",
     "vi": "Năm nay tôi học lớp hai."
    }
   },
@@ -3125,7 +3125,7 @@
    "emoji": "🧑",
    "ex": {
     "zh": "她看起来很年轻。",
-    "py": "Tā kànqǐlái hěn niánqīng。",
+    "py": "Tā kàn qǐ lái hěn niánqīng.",
     "vi": "Trông cô ấy rất trẻ."
    }
   },
@@ -3136,7 +3136,7 @@
    "emoji": "🐂",
    "ex": {
     "zh": "山上有十头牛。",
-    "py": "Shānshàng yǒushí tóuniú。",
+    "py": "Shān shàng yǒu shí tóu niú.",
     "vi": "Trên núi có mười con bò."
    }
   },
@@ -3147,7 +3147,7 @@
    "emoji": "💪",
    "ex": {
     "zh": "他学习很努力。",
-    "py": "Tā xuéxí hěn nǔlì。",
+    "py": "Tā xuéxí hěn nǔlì.",
     "vi": "Anh ấy học tập rất chăm chỉ."
    }
   },
@@ -3158,7 +3158,7 @@
    "emoji": "👩",
    "ex": {
     "zh": "那个女人是我的邻居。",
-    "py": "Nàge nǚrén shì wǒ de línjū。",
+    "py": "Nàge nǚrén shì wǒ de línjū.",
     "vi": "Người phụ nữ kia là hàng xóm của tôi."
    }
   },
@@ -3169,7 +3169,7 @@
    "emoji": "👧",
    "ex": {
     "zh": "这个班女生比较多。",
-    "py": "Zhège bān nǚshēng bǐjiào duō。",
+    "py": "Zhège bān nǚshēng bǐjiào duō.",
     "vi": "Lớp này tương đối nhiều nữ sinh."
    }
   },
@@ -3180,7 +3180,7 @@
    "emoji": "🧗‍♂️",
    "ex": {
     "zh": "我们周末去爬山。",
-    "py": "Wǒmen zhōumò qù páshān。",
+    "py": "Wǒmen zhōumò qù pá shān.",
     "vi": "Cuối tuần chúng tôi đi leo núi."
    }
   },
@@ -3191,7 +3191,7 @@
    "emoji": "😰",
    "ex": {
     "zh": "你别怕，我在这儿。",
-    "py": "Nǐ biépà， wǒ zài zhèér。",
+    "py": "Nǐ bié pà, wǒ zài zhèér.",
     "vi": "Bạn đừng sợ, tôi ở đây."
    }
   },
@@ -3202,7 +3202,7 @@
    "emoji": "📸",
    "ex": {
     "zh": "我们在这儿拍照吧。",
-    "py": "Wǒmen zài zhèér pāizhào ba。",
+    "py": "Wǒmen zài zhèér pāizhào ba.",
     "vi": "Chúng ta chụp ảnh ở đây nhé."
    }
   },
@@ -3213,7 +3213,7 @@
    "emoji": "🍽️",
    "ex": {
     "zh": "桌子上有三个盘子。",
-    "py": "Zhuōzi shàng yǒu sāngè pánzi。",
+    "py": "Zhuōzi shàng yǒu sān gè pánzi.",
     "vi": "Trên bàn có ba cái đĩa."
    }
   },
@@ -3224,7 +3224,7 @@
    "emoji": "🐷",
    "ex": {
     "zh": "他有点儿胖。",
-    "py": "Tā yǒudiǎnér pàng。",
+    "py": "Tā yǒudiǎnér pàng.",
     "vi": "Anh ấy hơi béo."
    }
   },
@@ -3235,7 +3235,7 @@
    "emoji": "🍺",
    "ex": {
     "zh": "他喜欢喝啤酒。",
-    "py": "Tā xǐhuān hēpíjiǔ。",
+    "py": "Tā xǐhuān hē pí jiǔ.",
     "vi": "Anh ấy thích uống bia."
    }
   },
@@ -3246,7 +3246,7 @@
    "emoji": "🗓️",
    "ex": {
     "zh": "我平时六点起床。",
-    "py": "Wǒ píngshí liùdiǎn qǐchuáng。",
+    "py": "Wǒ píngshí liù diǎn qǐchuáng.",
     "vi": "Ngày thường sáu giờ tôi dậy."
    }
   },
@@ -3257,7 +3257,7 @@
    "emoji": "🍼",
    "ex": {
     "zh": "瓶子里有水。",
-    "py": "Píngzi lǐ yǒu shuǐ。",
+    "py": "Píngzi lǐ yǒu shuǐ.",
     "vi": "Trong chai có nước."
    }
   },
@@ -3268,7 +3268,7 @@
    "emoji": "🚲",
    "ex": {
     "zh": "我骑自行车去学校。",
-    "py": "Wǒ qí zìxíngchē qù xuéxiào。",
+    "py": "Wǒ qí zìxíngchē qù xuéxiào.",
     "vi": "Tôi đi xe đạp đến trường."
    }
   },
@@ -3279,7 +3279,7 @@
    "emoji": "🤨",
    "ex": {
     "zh": "这件事很奇怪。",
-    "py": "Zhèjiàn shì hěn qíguài。",
+    "py": "Zhè jiàn shì hěn qíguài.",
     "vi": "Chuyện này thật kỳ lạ."
    }
   },
@@ -3290,7 +3290,7 @@
    "emoji": "🧐",
    "ex": {
     "zh": "其实我也不懂。",
-    "py": "Qíshí wǒ yě bù dǒng。",
+    "py": "Qíshí wǒ yě bù dǒng.",
     "vi": "Thật ra tôi cũng không hiểu."
    }
   },
@@ -3301,7 +3301,7 @@
    "emoji": "🗂️",
    "ex": {
     "zh": "其他人都走了。",
-    "py": "Qítārén dōu zǒu le。",
+    "py": "Qí tā rén dōu zǒu le.",
     "vi": "Những người khác đều đi rồi."
    }
   },
@@ -3312,7 +3312,7 @@
    "emoji": "⬆️",
    "ex": {
     "zh": "我每天六点起床。",
-    "py": "Wǒ měitiān liùdiǎn qǐchuáng。",
+    "py": "Wǒ měi tiān liù diǎn qǐchuáng.",
     "vi": "Mỗi ngày sáu giờ tôi dậy."
    }
   },
@@ -3323,7 +3323,7 @@
    "emoji": "🛫",
    "ex": {
     "zh": "飞机十点起飞。",
-    "py": "Fēijī shídiǎn qǐfēi。",
+    "py": "Fēijī shí diǎn qǐfēi.",
     "vi": "Mười giờ máy bay cất cánh."
    }
   },
@@ -3334,7 +3334,7 @@
    "emoji": "🚘",
    "ex": {
     "zh": "他有一辆新汽车。",
-    "py": "Tā yǒu yīliàng xīn qìchē。",
+    "py": "Tā yǒu yī liàng xīn qìchē.",
     "vi": "Anh ấy có một chiếc ô tô mới."
    }
   },
@@ -3345,7 +3345,7 @@
    "emoji": "✏️",
    "ex": {
     "zh": "我用铅笔写字。",
-    "py": "Wǒyòng qiānbǐ xiězì。",
+    "py": "Wǒ yòng qiānbǐ xiě zì.",
     "vi": "Tôi dùng bút chì để viết."
    }
   },
@@ -3356,7 +3356,7 @@
    "emoji": "📆",
    "ex": {
     "zh": "前年我去过北京。",
-    "py": "Qiánnián wǒ qùguò běijīng。",
+    "py": "Qiánnián wǒ qù guò Běijīng.",
     "vi": "Năm kia tôi đã đến Bắc Kinh."
    }
   },
@@ -3367,7 +3367,7 @@
    "emoji": "📆",
    "ex": {
     "zh": "我前天看了一个电影。",
-    "py": "Wǒ qiántiān kàn le yígè diànyǐng。",
+    "py": "Wǒ qiántiān kàn le yí gè diànyǐng.",
     "vi": "Hôm kia tôi đã xem một bộ phim."
    }
   },
@@ -3378,7 +3378,7 @@
    "emoji": "🔍",
    "ex": {
     "zh": "我听不清楚。",
-    "py": "Wǒ tīng bù qīngchǔ。",
+    "py": "Wǒ tīng bù qīngchǔ.",
     "vi": "Tôi nghe không rõ."
    }
   },
@@ -3389,7 +3389,7 @@
    "emoji": "📝",
    "ex": {
     "zh": "我生病了，想请假。",
-    "py": "Wǒ shēngbìng le， xiǎng qǐngjià。",
+    "py": "Wǒ shēngbìng le, xiǎng qǐngjià.",
     "vi": "Tôi bị bệnh, muốn xin nghỉ."
    }
   },
@@ -3400,7 +3400,7 @@
    "emoji": "🍻",
    "ex": {
     "zh": "今天我请客。",
-    "py": "Jīntiān wǒ qǐngkè。",
+    "py": "Jīntiān wǒ qǐngkè.",
     "vi": "Hôm nay tôi mời."
    }
   },
@@ -3411,7 +3411,7 @@
    "emoji": "🍂",
    "ex": {
     "zh": "秋天天气很好。",
-    "py": "Qiūtiān tiānqì hěn hǎo。",
+    "py": "Qiūtiān tiānqì hěn hǎo.",
     "vi": "Mùa thu thời tiết rất đẹp."
    }
   },
@@ -3422,7 +3422,7 @@
    "emoji": "🏟️",
    "ex": {
     "zh": "球场上有很多人。",
-    "py": "Qiúchǎngshàng yǒu hěnduō rén。",
+    "py": "Qiú chǎng shàng yǒu hěn duō rén.",
     "vi": "Trên sân bóng có rất nhiều người."
    }
   },
@@ -3433,7 +3433,7 @@
    "emoji": "👗",
    "ex": {
     "zh": "她买了一条新裙子。",
-    "py": "Tā mǎi le yītiáo xīn qúnzi。",
+    "py": "Tā mǎi le yī tiáo xīn qúnzi.",
     "vi": "Cô ấy đã mua một chiếc váy mới."
    }
   },
@@ -3444,7 +3444,7 @@
    "emoji": "➡️",
    "ex": {
     "zh": "先吃饭，然后看电视。",
-    "py": "Xiān chīfàn， ránhòu kàndiànshì。",
+    "py": "Xiān chī fàn, ránhòu kàn diàn shì.",
     "vi": "Ăn cơm trước, sau đó xem tivi."
    }
   },
@@ -3455,7 +3455,7 @@
    "emoji": "🔥",
    "ex": {
     "zh": "他对客人很热情。",
-    "py": "Tā duì kèrén hěn rèqíng。",
+    "py": "Tā duì kèrén hěn rèqíng.",
     "vi": "Anh ấy rất nhiệt tình với khách."
    }
   },
@@ -3466,7 +3466,7 @@
    "emoji": "🪪",
    "ex": {
     "zh": "我认得这个字。",
-    "py": "Wǒ rènde zhège zì。",
+    "py": "Wǒ rènde zhège zì.",
     "vi": "Tôi nhận ra chữ này."
    }
   },
@@ -3477,7 +3477,7 @@
    "emoji": "💭",
    "ex": {
     "zh": "我认为你是对的。",
-    "py": "Wǒ rènwéi nǐ shì duì de。",
+    "py": "Wǒ rènwéi nǐ shì duì de.",
     "vi": "Tôi cho rằng bạn đúng."
    }
   },
@@ -3488,7 +3488,7 @@
    "emoji": "📚",
    "ex": {
     "zh": "他学习很认真。",
-    "py": "Tā xuéxí hěn rènzhēn。",
+    "py": "Tā xuéxí hěn rènzhēn.",
     "vi": "Anh ấy học rất nghiêm túc."
    }
   },
@@ -3499,7 +3499,7 @@
    "emoji": "🍃",
    "ex": {
     "zh": "这个问题很容易。",
-    "py": "Zhège wèntí hěn róngyì。",
+    "py": "Zhège wèntí hěn róngyì.",
     "vi": "Vấn đề này rất dễ."
    }
   },
@@ -3510,7 +3510,7 @@
    "emoji": "🤷",
    "ex": {
     "zh": "如果明天下雨，我们就不去。",
-    "py": "Rúguǒ míngtiān xiàyǔ， wǒmen jiù bù qù。",
+    "py": "Rúguǒ míngtiān xiàyǔ, wǒmen jiù bù qù.",
     "vi": "Nếu ngày mai mưa thì chúng ta không đi."
    }
   },
@@ -3521,7 +3521,7 @@
    "emoji": "☂️",
    "ex": {
     "zh": "外面下雨了，带上伞。",
-    "py": "Wàimiàn xiàyǔ le， dàishàng sǎn。",
+    "py": "Wàimiàn xiàyǔ le, dài shàng sǎn.",
     "vi": "Bên ngoài mưa rồi, mang ô theo."
    }
   },
@@ -3532,7 +3532,7 @@
    "emoji": "🧹",
    "ex": {
     "zh": "他每天扫地。",
-    "py": "Tā měitiān sǎodì。",
+    "py": "Tā měi tiān sǎo dì.",
     "vi": "Ngày nào anh ấy cũng quét nhà."
    }
   },
@@ -3543,7 +3543,7 @@
    "emoji": "🛋️",
    "ex": {
     "zh": "他坐在沙发上看电视。",
-    "py": "Tā zuòzài shāfā shàng kàndiànshì。",
+    "py": "Tā zuò zài shāfā shàng kàn diàn shì.",
     "vi": "Anh ấy ngồi trên ghế sofa xem tivi."
    }
   },
@@ -3554,7 +3554,7 @@
    "emoji": "⛰️",
    "ex": {
     "zh": "这个山很高。",
-    "py": "Zhège shān hěn gāo。",
+    "py": "Zhège shān hěn gāo.",
     "vi": "Ngọn núi này rất cao."
    }
   },
@@ -3565,7 +3565,7 @@
    "emoji": "👕",
    "ex": {
     "zh": "这件上衣很便宜。",
-    "py": "Zhèjiàn shàngyī hěn piányi。",
+    "py": "Zhè jiàn shàngyī hěn piányi.",
     "vi": "Chiếc áo này rất rẻ."
    }
   },
@@ -3576,7 +3576,7 @@
    "emoji": "🥄",
    "ex": {
     "zh": "请给我一个勺子。",
-    "py": "Qǐng gěi wǒ yígè sháozi。",
+    "py": "Qǐng gěi wǒ yí gè sháozi.",
     "vi": "Xin cho tôi một cái thìa."
    }
   },
@@ -3587,7 +3587,7 @@
    "emoji": "🫂",
    "ex": {
     "zh": "孩子在妈妈身边。",
-    "py": "Háizi zài māmā shēnbiān。",
+    "py": "Háizi zài māmā shēnbiān.",
     "vi": "Đứa trẻ ở bên cạnh mẹ."
    }
   },
@@ -3598,7 +3598,7 @@
    "emoji": "📏",
    "ex": {
     "zh": "你的身高是多少？",
-    "py": "Nǐ de shēngāo shì duōshǎo？",
+    "py": "Nǐ de shēngāo shì duōshǎo?",
     "vi": "Chiều cao của bạn là bao nhiêu?"
    }
   },
@@ -3609,7 +3609,7 @@
    "emoji": "🔊",
    "ex": {
     "zh": "我听到一声叫。",
-    "py": "Wǒ tīngdào yīshēng jiào。",
+    "py": "Wǒ tīng dào yī shēng jiào.",
     "vi": "Tôi nghe thấy một tiếng kêu."
    }
   },
@@ -3620,7 +3620,7 @@
    "emoji": "🏡",
    "ex": {
     "zh": "他在北京的生活很好。",
-    "py": "Tā zài běijīng de shēnghuó hěn hǎo。",
+    "py": "Tā zài Běijīng de shēnghuó hěn hǎo.",
     "vi": "Cuộc sống của anh ấy ở Bắc Kinh rất tốt."
    }
   },
@@ -3631,7 +3631,7 @@
    "emoji": "😠",
    "ex": {
     "zh": "他生气了。",
-    "py": "Tā shēngqì le。",
+    "py": "Tā shēngqì le.",
     "vi": "Anh ấy tức giận rồi."
    }
   },
@@ -3642,7 +3642,7 @@
    "emoji": "🔉",
    "ex": {
     "zh": "你的声音很好听。",
-    "py": "Nǐ de shēngyīn hěn hǎotīng。",
+    "py": "Nǐ de shēngyīn hěn hǎotīng.",
     "vi": "Giọng của bạn rất hay."
    }
   },
@@ -3653,7 +3653,7 @@
    "emoji": "🏙️",
    "ex": {
     "zh": "这个市有一百万人。",
-    "py": "Zhège shìyǒu yìbǎiwàn rén。",
+    "py": "Zhège shì yǒu yì bǎi wàn rén.",
     "vi": "Thành phố này có một triệu người."
    }
   },
@@ -3664,7 +3664,7 @@
    "emoji": "👟",
    "ex": {
     "zh": "你试一下这双鞋。",
-    "py": "Nǐ shìyīxià zhèshuāngxié。",
+    "py": "Nǐ shì yī xià zhè shuāng xié.",
     "vi": "Bạn thử đôi giày này đi."
    }
   },
@@ -3675,7 +3675,7 @@
    "emoji": "🚪",
    "ex": {
     "zh": "他在会议室里。",
-    "py": "Tā zài huìyìshì lǐ。",
+    "py": "Tā zài huì yì shì lǐ.",
     "vi": "Anh ấy ở trong phòng họp."
    }
   },
@@ -3686,7 +3686,7 @@
    "emoji": "🌎",
    "ex": {
     "zh": "世界很大。",
-    "py": "Shìjiè hěndà。",
+    "py": "Shìjiè hěn dà.",
     "vi": "Thế giới rất rộng lớn."
    }
   },
@@ -3697,7 +3697,7 @@
    "emoji": "📥",
    "ex": {
     "zh": "请把东西收好。",
-    "py": "Qǐng bǎ dōngxī shōu hǎo。",
+    "py": "Qǐng bǎ dōngxī shōu hǎo.",
     "vi": "Xin hãy cất đồ cho cẩn thận."
    }
   },
@@ -3708,7 +3708,7 @@
    "emoji": "📬",
    "ex": {
     "zh": "我收到了他的信。",
-    "py": "Wǒ shōudào le tā de xìn。",
+    "py": "Wǒ shōudào le tā de xìn.",
     "vi": "Tôi đã nhận được thư của anh ấy."
    }
   },
@@ -3719,7 +3719,7 @@
    "emoji": "🤕",
    "ex": {
     "zh": "他受了冷，感冒了。",
-    "py": "Tā shòu le lěng， gǎnmào le。",
+    "py": "Tā shòu le lěng, gǎnmào le.",
     "vi": "Anh ấy bị lạnh nên cảm rồi."
    }
   },
@@ -3730,7 +3730,7 @@
    "emoji": "🧍",
    "ex": {
     "zh": "他比以前瘦了。",
-    "py": "Tā bǐ yǐqián shòu le。",
+    "py": "Tā bǐ yǐqián shòu le.",
     "vi": "Anh ấy gầy hơn trước."
    }
   },
@@ -3741,7 +3741,7 @@
    "emoji": "🎖️",
    "ex": {
     "zh": "他受到大家的欢迎。",
-    "py": "Tā shòudào dàjiā de huānyíng。",
+    "py": "Tā shòudào dàjiā de huānyíng.",
     "vi": "Anh ấy được mọi người chào đón."
    }
   },
@@ -3752,7 +3752,7 @@
    "emoji": "👨",
    "ex": {
     "zh": "叔叔是我爸爸的弟弟。",
-    "py": "Shūshū shì wǒ bàbà de dìdi。",
+    "py": "Shūshū shì wǒ bàbà de dìdi.",
     "vi": "Chú là em trai của bố tôi."
    }
   },
@@ -3763,7 +3763,7 @@
    "emoji": "🌳",
    "ex": {
     "zh": "公园里有很多树。",
-    "py": "Gōngyuán lǐ yǒu hěnduō shù。",
+    "py": "Gōngyuán lǐ yǒu hěn duō shù.",
     "vi": "Trong công viên có rất nhiều cây."
    }
   },
@@ -3774,7 +3774,7 @@
    "emoji": "➗",
    "ex": {
     "zh": "我喜欢上数学课。",
-    "py": "Wǒ xǐhuān shàng shùxuékè。",
+    "py": "Wǒ xǐhuān shàng shù xué kè.",
     "vi": "Tôi thích học môn toán."
    }
   },
@@ -3785,7 +3785,7 @@
    "emoji": "🪥",
    "ex": {
     "zh": "我每天早上刷牙。",
-    "py": "Wǒ měitiān zǎoshàng shuāyá。",
+    "py": "Wǒ měi tiān zǎoshàng shuā yá.",
     "vi": "Mỗi sáng tôi đánh răng."
    }
   },
@@ -3796,7 +3796,7 @@
    "emoji": "👟",
    "ex": {
     "zh": "我买了一双鞋。",
-    "py": "Wǒ mǎi le yīshuāng xié。",
+    "py": "Wǒ mǎi le yī shuāng xié.",
     "vi": "Tôi đã mua một đôi giày."
    }
   },
@@ -3807,7 +3807,7 @@
    "emoji": "📊",
    "ex": {
     "zh": "他的汉语水平很高。",
-    "py": "Tā de hànyǔ shuǐpíng hěn gāo。",
+    "py": "Tā de hànyǔ shuǐpíng hěn gāo.",
     "vi": "Trình độ tiếng Hán của anh ấy rất cao."
    }
   },
@@ -3818,7 +3818,7 @@
    "emoji": "🚖",
    "ex": {
     "zh": "司机在车里等我们。",
-    "py": "Sījī zài chēlǐ děng wǒmen。",
+    "py": "Sījī zài chē lǐ děng wǒmen.",
     "vi": "Tài xế đang đợi chúng tôi trong xe."
    }
   },
@@ -3829,7 +3829,7 @@
    "emoji": "🌤️",
    "ex": {
     "zh": "这个城市四季如春。",
-    "py": "Zhège chéngshì sìjìrúchūn。",
+    "py": "Zhège chéngshì sì jì rú chūn.",
     "vi": "Thành phố này bốn mùa như mùa xuân."
    }
   },
@@ -3840,7 +3840,7 @@
    "emoji": "☀️",
    "ex": {
     "zh": "太阳出来了。",
-    "py": "Tàiyáng chūlái le。",
+    "py": "Tàiyáng chūlái le.",
     "vi": "Mặt trời lên rồi."
    }
   },
@@ -3851,7 +3851,7 @@
    "emoji": "🍬",
    "ex": {
     "zh": "孩子们喜欢吃糖。",
-    "py": "Háizi men xǐhuān chītáng。",
+    "py": "Háizi men xǐhuān chī táng.",
     "vi": "Bọn trẻ thích ăn kẹo."
    }
   },
@@ -3862,7 +3862,7 @@
    "emoji": "🌟",
    "ex": {
     "zh": "今天特别冷。",
-    "py": "Jīntiān tèbié lěng。",
+    "py": "Jīntiān tèbié lěng.",
     "vi": "Hôm nay đặc biệt lạnh."
    }
   },
@@ -3873,7 +3873,7 @@
    "emoji": "📈",
    "ex": {
     "zh": "我想提高我的汉语水平。",
-    "py": "Wǒ xiǎng tígāo wǒ de hànyǔ shuǐpíng。",
+    "py": "Wǒ xiǎng tígāo wǒ de hànyǔ shuǐpíng.",
     "vi": "Tôi muốn nâng cao trình độ tiếng Hán."
    }
   },
@@ -3884,7 +3884,7 @@
    "emoji": "🏅",
    "ex": {
     "zh": "我最喜欢上体育课。",
-    "py": "Wǒ zuì xǐhuān shàng tǐyùkè。",
+    "py": "Wǒ zuì xǐhuān shàng tǐ yù kè.",
     "vi": "Tôi thích nhất là giờ thể dục."
    }
   },
@@ -3895,7 +3895,7 @@
    "emoji": "🏟️",
    "ex": {
     "zh": "体育馆里有很多人。",
-    "py": "Tǐyùguǎn lǐ yǒu hěnduō rén。",
+    "py": "Tǐyùguǎn lǐ yǒu hěn duō rén.",
     "vi": "Trong nhà thi đấu có rất nhiều người."
    }
   },
@@ -3906,7 +3906,7 @@
    "emoji": "🍯",
    "ex": {
     "zh": "这个西瓜很甜。",
-    "py": "Zhège xīguā hěntián。",
+    "py": "Zhège xīguā hěn tián.",
     "vi": "Quả dưa hấu này rất ngọt."
    }
   },
@@ -3917,7 +3917,7 @@
    "emoji": "🤸",
    "ex": {
     "zh": "他跳得很高。",
-    "py": "Tā tiào dé hěn gāo。",
+    "py": "Tā tiào dé hěn gāo.",
     "vi": "Anh ấy nhảy rất cao."
    }
   },
@@ -3928,7 +3928,7 @@
    "emoji": "👂",
    "ex": {
     "zh": "我听说他要结婚了。",
-    "py": "Wǒ tīngshuō tā yào jiéhūn le。",
+    "py": "Wǒ tīngshuō tā yào jiéhūn le.",
     "vi": "Tôi nghe nói anh ấy sắp kết hôn."
    }
   },
@@ -3939,7 +3939,7 @@
    "emoji": "👌",
    "ex": {
     "zh": "这个电影挺好看的。",
-    "py": "Zhège diànyǐng tǐng hǎokàn de。",
+    "py": "Zhège diànyǐng tǐng hǎokàn de.",
     "vi": "Bộ phim này khá hay."
    }
   },
@@ -3950,7 +3950,7 @@
    "emoji": "🧑‍💼",
    "ex": {
     "zh": "他是我的同事。",
-    "py": "Tā shì wǒ de tóngshì。",
+    "py": "Tā shì wǒ de tóngshì.",
     "vi": "Anh ấy là đồng nghiệp của tôi."
    }
   },
@@ -3961,7 +3961,7 @@
    "emoji": "🤝",
    "ex": {
     "zh": "我同意你的看法。",
-    "py": "Wǒ tóngyì nǐ de kànfǎ。",
+    "py": "Wǒ tóngyì nǐ de kàn fǎ.",
     "vi": "Tôi đồng ý với ý kiến của bạn."
    }
   },
@@ -3972,7 +3972,7 @@
    "emoji": "💇",
    "ex": {
     "zh": "她的头发很长。",
-    "py": "Tā de tóufà hěnzhǎng。",
+    "py": "Tā de tóufà hěn zhǎng.",
     "vi": "Tóc của cô ấy rất dài."
    }
   },
@@ -3983,7 +3983,7 @@
    "emoji": "⚡",
    "ex": {
     "zh": "天气突然变冷了。",
-    "py": "Tiānqì tūrán biànlěng le。",
+    "py": "Tiānqì tūrán biàn lěng le.",
     "vi": "Thời tiết đột nhiên trở lạnh."
    }
   },
@@ -3994,7 +3994,7 @@
    "emoji": "📚",
    "ex": {
     "zh": "我们在图书馆看书。",
-    "py": "Wǒmen zài túshūguǎn kànshū。",
+    "py": "Wǒmen zài túshūguǎn kàn shū.",
     "vi": "Chúng tôi đọc sách ở thư viện."
    }
   },
@@ -4005,7 +4005,7 @@
    "emoji": "🦵",
    "ex": {
     "zh": "我的腿很疼。",
-    "py": "Wǒ de tuǐ hěn téng。",
+    "py": "Wǒ de tuǐ hěn téng.",
     "vi": "Chân tôi rất đau."
    }
   },
@@ -4016,7 +4016,7 @@
    "emoji": "🧳",
    "ex": {
     "zh": "他是从外地来的。",
-    "py": "Tā shìcóng wàidì lái de。",
+    "py": "Tā shì cóng wàidì lái de.",
     "vi": "Anh ấy từ nơi khác đến."
    }
   },
@@ -4027,7 +4027,7 @@
    "emoji": "🛵",
    "ex": {
     "zh": "我晚上点了外卖。",
-    "py": "Wǒ wǎnshàng diǎn le wàimài。",
+    "py": "Wǒ wǎnshàng diǎn le wàimài.",
     "vi": "Buổi tối tôi đã gọi đồ ăn giao tận nơi."
    }
   },
@@ -4038,7 +4038,7 @@
    "emoji": "🔤",
    "ex": {
     "zh": "你会说几种外语？",
-    "py": "Nǐ huì shuō jǐzhǒng wàiyǔ？",
+    "py": "Nǐ huì shuō jǐ zhǒng wàiyǔ?",
     "vi": "Bạn biết nói mấy ngoại ngữ?"
    }
   },
@@ -4049,7 +4049,7 @@
    "emoji": "✅",
    "ex": {
     "zh": "作业我已经完成了。",
-    "py": "Zuòyè wǒ yǐjīng wánchéng le。",
+    "py": "Zuòyè wǒ yǐjīng wánchéng le.",
     "vi": "Bài tập tôi đã hoàn thành rồi."
    }
   },
@@ -4060,7 +4060,7 @@
    "emoji": "🍚",
    "ex": {
     "zh": "我吃了两碗饭。",
-    "py": "Wǒ chī le liǎngwǎnfàn。",
+    "py": "Wǒ chī le liǎng wǎn fàn.",
     "vi": "Tôi đã ăn hai bát cơm."
    }
   },
@@ -4071,7 +4071,7 @@
    "emoji": "🚉",
    "ex": {
     "zh": "火车晚点了。",
-    "py": "Huǒchē wǎndiǎn le。",
+    "py": "Huǒchē wǎndiǎn le.",
     "vi": "Tàu hỏa bị trễ giờ."
    }
   },
@@ -4082,7 +4082,7 @@
    "emoji": "🎤",
    "ex": {
     "zh": "明天晚上有晚会。",
-    "py": "Míngtiān wǎnshàng yǒu wǎnhuì。",
+    "py": "Míngtiān wǎnshàng yǒu wǎnhuì.",
     "vi": "Tối mai có buổi liên hoan."
    }
   },
@@ -4093,7 +4093,7 @@
    "emoji": "🎾",
    "ex": {
     "zh": "他喜欢打网球。",
-    "py": "Tā xǐhuān dǎwǎngqiú。",
+    "py": "Tā xǐhuān dǎ wǎng qiú.",
     "vi": "Anh ấy thích chơi quần vợt."
    }
   },
@@ -4104,7 +4104,7 @@
    "emoji": "🌐",
    "ex": {
     "zh": "这个网站很有用。",
-    "py": "Zhège wǎngzhàn hěn yǒuyòng。",
+    "py": "Zhège wǎngzhàn hěn yǒuyòng.",
     "vi": "Trang web này rất hữu ích."
    }
   },
@@ -4115,7 +4115,7 @@
    "emoji": "🫥",
    "ex": {
     "zh": "我忘记带手机了。",
-    "py": "Wǒ wàngjì dài shǒujī le。",
+    "py": "Wǒ wàngjì dài shǒujī le.",
     "vi": "Tôi quên mang điện thoại rồi."
    }
   },
@@ -4126,7 +4126,7 @@
    "emoji": "🎯",
    "ex": {
     "zh": "我为你高兴。",
-    "py": "Wǒ wèi nǐ gāoxìng。",
+    "py": "Wǒ wèi nǐ gāoxìng.",
     "vi": "Tôi vui cho bạn."
    }
   },
@@ -4137,7 +4137,7 @@
    "emoji": "🎯",
    "ex": {
     "zh": "为了学好汉语，他很努力。",
-    "py": "Wèile xuéhǎo hànyǔ， tā hěn nǔlì。",
+    "py": "Wèile xué hǎo hànyǔ, tā hěn nǔlì.",
     "vi": "Để học tốt tiếng Hán, anh ấy rất nỗ lực."
    }
   },
@@ -4148,7 +4148,7 @@
    "emoji": "🚽",
    "ex": {
     "zh": "卫生间在楼上。",
-    "py": "Wèishēngjiān zài lóushàng。",
+    "py": "Wèishēngjiān zài lóu shàng.",
     "vi": "Nhà vệ sinh ở tầng trên."
    }
   },
@@ -4159,7 +4159,7 @@
    "emoji": "🏮",
    "ex": {
     "zh": "我喜欢中国文化。",
-    "py": "Wǒ xǐhuān zhōngguó wénhuà。",
+    "py": "Wǒ xǐhuān Zhōngguó wénhuà.",
     "vi": "Tôi thích văn hóa Trung Quốc."
    }
   },
@@ -4170,7 +4170,7 @@
    "emoji": "🏠",
    "ex": {
     "zh": "屋子里很热。",
-    "py": "Wūzilǐ hěn rè。",
+    "py": "Wū zi lǐ hěn rè.",
     "vi": "Trong phòng rất nóng."
    }
   },
@@ -4181,7 +4181,7 @@
    "emoji": "⬅️",
    "ex": {
     "zh": "太阳从西边下山。",
-    "py": "Tàiyáng cóng xībiān xiàshān。",
+    "py": "Tàiyáng cóng xī biān xià shān.",
     "vi": "Mặt trời lặn ở phía tây."
    }
   },
@@ -4192,7 +4192,7 @@
    "emoji": "↖️",
    "ex": {
     "zh": "他住在中国西北。",
-    "py": "Tā zhù zài zhōngguó xīběi。",
+    "py": "Tā zhù zài Zhōngguó xīběi.",
     "vi": "Anh ấy sống ở vùng tây bắc Trung Quốc."
    }
   },
@@ -4203,7 +4203,7 @@
    "emoji": "🌇",
    "ex": {
     "zh": "他对西方文化很感兴趣。",
-    "py": "Tā duì xīfāng wénhuà hěngǎnxìngqù。",
+    "py": "Tā duì xīfāng wénhuà hěn gǎn xìng qù.",
     "vi": "Anh ấy rất hứng thú với văn hóa phương tây."
    }
   },
@@ -4214,7 +4214,7 @@
    "emoji": "🍉",
    "ex": {
     "zh": "夏天我爱吃西瓜。",
-    "py": "Xiàtiān wǒ ài chī xīguā。",
+    "py": "Xiàtiān wǒ ài chī xīguā.",
     "vi": "Mùa hè tôi thích ăn dưa hấu."
    }
   },
@@ -4225,7 +4225,7 @@
    "emoji": "↙️",
    "ex": {
     "zh": "那个城市在西南。",
-    "py": "Nàge chéngshì zài xīnán。",
+    "py": "Nàge chéngshì zài xīnán.",
     "vi": "Thành phố đó ở phía tây nam."
    }
   },
@@ -4236,7 +4236,7 @@
    "emoji": "🔄",
    "ex": {
     "zh": "我已经习惯这儿的生活了。",
-    "py": "Wǒ yǐjīng xíguàn zhèér de shēnghuó le。",
+    "py": "Wǒ yǐjīng xíguàn zhèér de shēnghuó le.",
     "vi": "Tôi đã quen với cuộc sống ở đây rồi."
    }
   },
@@ -4247,7 +4247,7 @@
    "emoji": "💖",
    "ex": {
     "zh": "孩子们都喜爱动物。",
-    "py": "Háizi men dōu xǐài dòngwù。",
+    "py": "Háizi men dōu xǐài dòngwù.",
     "vi": "Bọn trẻ đều yêu thích động vật."
    }
   },
@@ -4258,7 +4258,7 @@
    "emoji": "🧺",
    "ex": {
     "zh": "洗衣机坏了。",
-    "py": "Xǐyījī huài le。",
+    "py": "Xǐyījī huài le.",
     "vi": "Máy giặt hỏng rồi."
    }
   },
@@ -4269,7 +4269,7 @@
    "emoji": "🛁",
    "ex": {
     "zh": "我晚上洗澡。",
-    "py": "Wǒ wǎnshàng xǐzǎo。",
+    "py": "Wǒ wǎnshàng xǐzǎo.",
     "vi": "Buổi tối tôi tắm."
    }
   },
@@ -4280,7 +4280,7 @@
    "emoji": "🌞",
    "ex": {
     "zh": "夏天很热。",
-    "py": "Xiàtiān hěn rè。",
+    "py": "Xiàtiān hěn rè.",
     "vi": "Mùa hè rất nóng."
    }
   },
@@ -4291,7 +4291,7 @@
    "emoji": "1️⃣",
    "ex": {
     "zh": "你先走吧。",
-    "py": "Nǐ xiān zǒu ba。",
+    "py": "Nǐ xiān zǒu ba.",
     "vi": "Bạn đi trước đi."
    }
   },
@@ -4302,7 +4302,7 @@
    "emoji": "🍌",
    "ex": {
     "zh": "我喜欢吃香蕉。",
-    "py": "Wǒ xǐhuān chī xiāngjiāo。",
+    "py": "Wǒ xǐhuān chī xiāngjiāo.",
     "vi": "Tôi thích ăn chuối."
    }
   },
@@ -4313,7 +4313,7 @@
    "emoji": "🤞",
    "ex": {
     "zh": "我相信你。",
-    "py": "Wǒ xiāngxìn nǐ。",
+    "py": "Wǒ xiāngxìn nǐ.",
     "vi": "Tôi tin bạn."
    }
   },
@@ -4324,7 +4324,7 @@
    "emoji": "🧳",
    "ex": {
     "zh": "他的箱子很重。",
-    "py": "Tā de xiāngzi hěn zhòng。",
+    "py": "Tā de xiāngzi hěn zhòng.",
     "vi": "Vali của anh ấy rất nặng."
    }
   },
@@ -4335,7 +4335,7 @@
    "emoji": "➡️",
    "ex": {
     "zh": "请向前走。",
-    "py": "Qǐng xiàngqiánzǒu。",
+    "py": "Qǐng xiàng qián zǒu.",
     "vi": "Xin hãy đi về phía trước."
    }
   },
@@ -4346,7 +4346,7 @@
    "emoji": "🪞",
    "ex": {
     "zh": "她长得像妈妈。",
-    "py": "Tā zhǎngdé xiàng māmā。",
+    "py": "Tā zhǎng dé xiàng māmā.",
     "vi": "Cô ấy trông giống mẹ."
    }
   },
@@ -4357,7 +4357,7 @@
    "emoji": "📷",
    "ex": {
     "zh": "他用相机拍照。",
-    "py": "Tā yòng xiàngjī pāizhào。",
+    "py": "Tā yòng xiàngjī pāizhào.",
     "vi": "Anh ấy dùng máy ảnh chụp ảnh."
    }
   },
@@ -4368,7 +4368,7 @@
    "emoji": "🏘️",
    "ex": {
     "zh": "我家在这个小区。",
-    "py": "Wǒjiā zài zhège xiǎoqū。",
+    "py": "Wǒ jiā zài zhège xiǎoqū.",
     "vi": "Nhà tôi ở khu dân cư này."
    }
   },
@@ -4379,7 +4379,7 @@
    "emoji": "⚠️",
    "ex": {
     "zh": "路上小心。",
-    "py": "Lùshàng xiǎoxīn。",
+    "py": "Lùshàng xiǎoxīn.",
     "vi": "Đi đường cẩn thận."
    }
   },
@@ -4390,7 +4390,7 @@
    "emoji": "🎓",
    "ex": {
     "zh": "校园里有很多树。",
-    "py": "Xiàoyuán lǐ yǒu hěnduō shù。",
+    "py": "Xiàoyuán lǐ yǒu hěn duō shù.",
     "vi": "Trong khuôn viên trường có rất nhiều cây."
    }
   },
@@ -4401,7 +4401,7 @@
    "emoji": "👨‍🏫",
    "ex": {
     "zh": "校长在会议室。",
-    "py": "Xiàozhǎng zài huìyìshì。",
+    "py": "Xiàozhǎng zài huì yì shì.",
     "vi": "Hiệu trưởng ở phòng họp."
    }
   },
@@ -4412,7 +4412,7 @@
    "emoji": "👟",
    "ex": {
     "zh": "我的鞋太小了。",
-    "py": "Wǒ de xié tàixiǎo le。",
+    "py": "Wǒ de xié tài xiǎo le.",
     "vi": "Giày của tôi nhỏ quá."
    }
   },
@@ -4423,7 +4423,7 @@
    "emoji": "💗",
    "ex": {
     "zh": "我心里很高兴。",
-    "py": "Wǒ xīnlǐ hěn gāoxìng。",
+    "py": "Wǒ xīnlǐ hěn gāoxìng.",
     "vi": "Trong lòng tôi rất vui."
    }
   },
@@ -4434,7 +4434,7 @@
    "emoji": "🎆",
    "ex": {
     "zh": "新年快乐！",
-    "py": "Xīnniánkuàilè！",
+    "py": "Xīn nián kuài lè!",
     "vi": "Chúc mừng năm mới!"
    }
   },
@@ -4445,7 +4445,7 @@
    "emoji": "📺",
    "ex": {
     "zh": "我每天看新闻。",
-    "py": "Wǒ měitiān kàn xīnwén。",
+    "py": "Wǒ měi tiān kàn xīnwén.",
     "vi": "Mỗi ngày tôi xem tin tức."
    }
   },
@@ -4456,7 +4456,7 @@
    "emoji": "🥬",
    "ex": {
     "zh": "这个菜很新鲜。",
-    "py": "Zhège cài hěn xīnxiān。",
+    "py": "Zhège cài hěn xīnxiān.",
     "vi": "Rau này rất tươi."
    }
   },
@@ -4467,7 +4467,7 @@
    "emoji": "💌",
    "ex": {
     "zh": "我给朋友写了一封信。",
-    "py": "Wǒ gěi péngyǒu xiě le yīfēngxìn。",
+    "py": "Wǒ gěi péngyǒu xiě le yī fēng xìn.",
     "vi": "Tôi đã viết thư cho bạn."
    }
   },
@@ -4478,7 +4478,7 @@
    "emoji": "💳",
    "ex": {
     "zh": "你有信用卡吗？",
-    "py": "Nǐ yǒu xìnyòngkǎ ma？",
+    "py": "Nǐ yǒu xìnyòngkǎ ma?",
     "vi": "Bạn có thẻ tín dụng không?"
    }
   },
@@ -4489,7 +4489,7 @@
    "emoji": "👍",
    "ex": {
     "zh": "这样行不行？",
-    "py": "Zhèyàng xíngbùxíng？",
+    "py": "Zhèyàng xíng bù xíng?",
     "vi": "Như thế này được không?"
    }
   },
@@ -4500,7 +4500,7 @@
    "emoji": "🧳",
    "ex": {
     "zh": "我的行李在车上。",
-    "py": "Wǒ de xínglǐ zài chēshàng。",
+    "py": "Wǒ de xínglǐ zài chē shàng.",
     "vi": "Hành lý của tôi ở trên xe."
    }
   },
@@ -4511,7 +4511,7 @@
    "emoji": "🎨",
    "ex": {
     "zh": "他对画画有兴趣。",
-    "py": "Tā duì huàhuà yǒu xìngqù。",
+    "py": "Tā duì huà huà yǒu xìngqù.",
     "vi": "Anh ấy có hứng thú với việc vẽ tranh."
    }
   },
@@ -4522,7 +4522,7 @@
    "emoji": "🏝️",
    "ex": {
     "zh": "下个月我休假。",
-    "py": "Xiàgèyuè wǒ xiūjià。",
+    "py": "Xià gè yuè wǒ xiūjià.",
     "vi": "Tháng sau tôi nghỉ phép."
    }
   },
@@ -4533,7 +4533,7 @@
    "emoji": "🆘",
    "ex": {
     "zh": "你需要帮助吗？",
-    "py": "Nǐ xūyào bāngzhù ma？",
+    "py": "Nǐ xūyào bāngzhù ma?",
     "vi": "Bạn có cần giúp đỡ không?"
    }
   },
@@ -4544,7 +4544,7 @@
    "emoji": "☑️",
    "ex": {
     "zh": "请选一个。",
-    "py": "Qǐngxuǎn yígè。",
+    "py": "Qǐng xuǎn yí gè.",
     "vi": "Xin hãy chọn một cái."
    }
   },
@@ -4555,7 +4555,7 @@
    "emoji": "🔀",
    "ex": {
     "zh": "你可以自己选择。",
-    "py": "Nǐ kěyǐ zìjǐ xuǎnzé。",
+    "py": "Nǐ kěyǐ zìjǐ xuǎnzé.",
     "vi": "Bạn có thể tự lựa chọn."
    }
   },
@@ -4566,7 +4566,7 @@
    "emoji": "📅",
    "ex": {
     "zh": "新学期开始了。",
-    "py": "Xīn xuéqīkāishǐ le。",
+    "py": "Xīn xué qī kāi shǐ le.",
     "vi": "Học kỳ mới bắt đầu rồi."
    }
   },
@@ -4577,7 +4577,7 @@
    "emoji": "🦷",
    "ex": {
     "zh": "我的牙很疼。",
-    "py": "Wǒ de yá hěn téng。",
+    "py": "Wǒ de yá hěn téng.",
     "vi": "Răng tôi rất đau."
    }
   },
@@ -4588,7 +4588,7 @@
    "emoji": "🪥",
    "ex": {
     "zh": "我买了一把新牙刷。",
-    "py": "Wǒ mǎi le yībǎ xīn yáshuā。",
+    "py": "Wǒ mǎi le yī bǎ xīn yáshuā.",
     "vi": "Tôi đã mua một chiếc bàn chải đánh răng mới."
    }
   },
@@ -4599,7 +4599,7 @@
    "emoji": "🐑",
    "ex": {
     "zh": "山上有很多羊。",
-    "py": "Shānshàng yǒu hěnduō yáng。",
+    "py": "Shān shàng yǒu hěn duō yáng.",
     "vi": "Trên núi có rất nhiều cừu."
    }
   },
@@ -4610,7 +4610,7 @@
    "emoji": "🐕",
    "ex": {
     "zh": "我家养了一只小狗。",
-    "py": "Wǒ jiāyǎng le yīzhī xiǎogǒu。",
+    "py": "Wǒ jiā yǎng le yī zhī xiǎo gǒu.",
     "vi": "Nhà tôi nuôi một chú chó nhỏ."
    }
   },
@@ -4621,7 +4621,7 @@
    "emoji": "📋",
    "ex": {
     "zh": "老师的要求很高。",
-    "py": "Lǎoshī de yāoqiú hěn gāo。",
+    "py": "Lǎoshī de yāoqiú hěn gāo.",
     "vi": "Yêu cầu của thầy giáo rất cao."
    }
   },
@@ -4632,7 +4632,7 @@
    "emoji": "📃",
    "ex": {
     "zh": "请看第十页。",
-    "py": "Qǐng kàn dìshí yè。",
+    "py": "Qǐng kàn dì shí yè.",
     "vi": "Xin hãy xem trang mười."
    }
   },
@@ -4643,7 +4643,7 @@
    "emoji": "✔️",
    "ex": {
     "zh": "明天我一定来。",
-    "py": "Míngtiān wǒ yídìng lái。",
+    "py": "Míngtiān wǒ yídìng lái.",
     "vi": "Ngày mai tôi nhất định đến."
    }
   },
@@ -4654,7 +4654,7 @@
    "emoji": "🧮",
    "ex": {
     "zh": "一共多少钱？",
-    "py": "Yīgòng duōshǎo qián？",
+    "py": "Yīgòng duō shǎo qián?",
     "vi": "Tổng cộng bao nhiêu tiền?"
    }
   },
@@ -4665,7 +4665,7 @@
    "emoji": "🧑‍🤝‍🧑",
    "ex": {
     "zh": "我们一块儿去吧。",
-    "py": "Wǒmen yīkuàiér qù ba。",
+    "py": "Wǒmen yīkuàiér qù ba.",
     "vi": "Chúng ta cùng đi nhé."
    }
   },
@@ -4676,7 +4676,7 @@
    "emoji": "🟰",
    "ex": {
     "zh": "我们的手表一样。",
-    "py": "Wǒmen de shǒubiǎo yīyàng。",
+    "py": "Wǒmen de shǒubiǎo yīyàng.",
     "vi": "Đồng hồ của chúng tôi giống nhau."
    }
   },
@@ -4687,7 +4687,7 @@
    "emoji": "⏩",
    "ex": {
     "zh": "以后我想当老师。",
-    "py": "Yǐhòu wǒ xiǎng dāng lǎoshī。",
+    "py": "Yǐhòu wǒ xiǎng dāng lǎoshī.",
     "vi": "Sau này tôi muốn làm giáo viên."
    }
   },
@@ -4698,7 +4698,7 @@
    "emoji": "⏪",
    "ex": {
     "zh": "以前我住在北京。",
-    "py": "Yǐqián wǒ zhù zài běijīng。",
+    "py": "Yǐqián wǒ zhù zài Běijīng.",
     "vi": "Trước đây tôi sống ở Bắc Kinh."
    }
   },
@@ -4709,7 +4709,7 @@
    "emoji": "🔼",
    "ex": {
     "zh": "十八岁以上可以来。",
-    "py": "Shíbāsuì yǐshàng kěyǐ lái。",
+    "py": "Shí bā suì yǐshàng kěyǐ lái.",
     "vi": "Từ mười tám tuổi trở lên có thể đến."
    }
   },
@@ -4720,7 +4720,7 @@
    "emoji": "🔲",
    "ex": {
     "zh": "除了他以外，大家都在。",
-    "py": "Chúle tā yǐwài， dàjiā dōu zài。",
+    "py": "Chúle tā yǐwài, dàjiā dōu zài.",
     "vi": "Ngoài anh ấy ra, mọi người đều có mặt."
    }
   },
@@ -4731,7 +4731,7 @@
    "emoji": "💭",
    "ex": {
     "zh": "我以为你不在家。",
-    "py": "Wǒ yǐwéi nǐ bù zàijiā。",
+    "py": "Wǒ yǐwéi nǐ bù zài jiā.",
     "vi": "Tôi tưởng bạn không ở nhà."
    }
   },
@@ -4742,7 +4742,7 @@
    "emoji": "🔽",
    "ex": {
     "zh": "请回答以下问题。",
-    "py": "Qǐng huídá yǐxià wèntí。",
+    "py": "Qǐng huídá yǐxià wèntí.",
     "vi": "Xin hãy trả lời các câu hỏi dưới đây."
    }
   },
@@ -4753,7 +4753,7 @@
    "emoji": "📊",
    "ex": {
     "zh": "我一般六点起床。",
-    "py": "Wǒ yìbān liùdiǎn qǐchuáng。",
+    "py": "Wǒ yìbān liù diǎn qǐchuáng.",
     "vi": "Tôi thường dậy lúc sáu giờ."
    }
   },
@@ -4764,7 +4764,7 @@
    "emoji": "🎶",
    "ex": {
     "zh": "他一边走一边听音乐。",
-    "py": "Tā yībiān zǒu yībiān tīng yīnyuè。",
+    "py": "Tā yībiān zǒu yībiān tīng yīnyuè.",
     "vi": "Anh ấy vừa đi vừa nghe nhạc."
    }
   },
@@ -4775,7 +4775,7 @@
    "emoji": "➡️",
    "ex": {
     "zh": "一直往前走。",
-    "py": "Yìzhí wǎngqiánzǒu。",
+    "py": "Yìzhí wǎng qián zǒu.",
     "vi": "Cứ đi thẳng về phía trước."
    }
   },
@@ -4786,7 +4786,7 @@
    "emoji": "🎵",
    "ex": {
     "zh": "我喜欢听音乐。",
-    "py": "Wǒ xǐhuān tīng yīnyuè。",
+    "py": "Wǒ xǐhuān tīng yīnyuè.",
     "vi": "Tôi thích nghe nhạc."
    }
   },
@@ -4797,7 +4797,7 @@
    "emoji": "🏦",
    "ex": {
     "zh": "银行在商场旁边。",
-    "py": "Yínháng zài shāngchǎng pángbiān。",
+    "py": "Yínháng zài shāngchǎng pángbiān.",
     "vi": "Ngân hàng ở cạnh trung tâm thương mại."
    }
   },
@@ -4808,7 +4808,7 @@
    "emoji": "💳",
    "ex": {
     "zh": "我的银行卡不见了。",
-    "py": "Wǒ de yínhángkǎ bújiàn le。",
+    "py": "Wǒ de yínhángkǎ bújiàn le.",
     "vi": "Thẻ ngân hàng của tôi mất rồi."
    }
   },
@@ -4819,7 +4819,7 @@
    "emoji": "🥤",
    "ex": {
     "zh": "你想喝什么饮料？",
-    "py": "Nǐ xiǎng hē shénme yǐnliào？",
+    "py": "Nǐ xiǎng hē shénme yǐnliào?",
     "vi": "Bạn muốn uống đồ uống gì?"
    }
   },
@@ -4830,7 +4830,7 @@
    "emoji": "☝️",
    "ex": {
     "zh": "你应该多休息。",
-    "py": "Nǐ yīnggāi duō xiūxī。",
+    "py": "Nǐ yīnggāi duō xiūxī.",
     "vi": "Bạn nên nghỉ ngơi nhiều hơn."
    }
   },
@@ -4841,7 +4841,7 @@
    "emoji": "🌊",
    "ex": {
     "zh": "天气影响我的心情。",
-    "py": "Tiānqì yǐngxiǎng wǒ de xīnqíng。",
+    "py": "Tiānqì yǐngxiǎng wǒ de xīn qíng.",
     "vi": "Thời tiết ảnh hưởng đến tâm trạng của tôi."
    }
   },
@@ -4852,7 +4852,7 @@
    "emoji": "🛠️",
    "ex": {
     "zh": "我可以用一下你的笔吗？",
-    "py": "Wǒ kěyǐ yòng yīxià nǐ de bǐ ma？",
+    "py": "Wǒ kěyǐ yòng yīxià nǐ de bǐ ma?",
     "vi": "Tôi dùng bút của bạn một chút được không?"
    }
   },
@@ -4863,7 +4863,7 @@
    "emoji": "📧",
    "ex": {
     "zh": "我给你发了一个邮件。",
-    "py": "Wǒ gěi nǐ fā le yígè yóujiàn。",
+    "py": "Wǒ gěi nǐ fā le yí gè yóujiàn.",
     "vi": "Tôi đã gửi cho bạn một thư điện tử."
    }
   },
@@ -4874,7 +4874,7 @@
    "emoji": "🧳",
    "ex": {
     "zh": "公园里有很多游客。",
-    "py": "Gōngyuán lǐ yǒu hěnduō yóukè。",
+    "py": "Gōngyuán lǐ yǒu hěn duō yóukè.",
     "vi": "Trong công viên có rất nhiều du khách."
    }
   },
@@ -4885,7 +4885,7 @@
    "emoji": "🎮",
    "ex": {
     "zh": "孩子们喜欢玩游戏。",
-    "py": "Háizi men xǐhuān wányóuxì。",
+    "py": "Háizi men xǐhuān wán yóu xì.",
     "vi": "Bọn trẻ thích chơi trò chơi."
    }
   },
@@ -4896,7 +4896,7 @@
    "emoji": "📮",
    "ex": {
     "zh": "你的邮箱是多少？",
-    "py": "Nǐ de yóuxiāng shì duōshǎo？",
+    "py": "Nǐ de yóuxiāng shì duōshǎo?",
     "vi": "Hộp thư của bạn là gì?"
    }
   },
@@ -4907,7 +4907,7 @@
    "emoji": "🔗",
    "ex": {
     "zh": "这件事跟我有关。",
-    "py": "Zhèjiàn shì gēn wǒ yǒuguān。",
+    "py": "Zhè jiàn shì gēn wǒ yǒuguān.",
     "vi": "Việc này có liên quan đến tôi."
    }
   },
@@ -4918,7 +4918,7 @@
    "emoji": "🌟",
    "ex": {
     "zh": "这个饭馆很有名。",
-    "py": "Zhège fànguǎn hěn yǒumíng。",
+    "py": "Zhège fànguǎn hěn yǒumíng.",
     "vi": "Quán ăn này rất nổi tiếng."
    }
   },
@@ -4929,7 +4929,7 @@
    "emoji": "🛠️",
    "ex": {
     "zh": "这本书很有用。",
-    "py": "Zhè běnshū hěn yǒuyòng。",
+    "py": "Zhè běn shū hěn yǒuyòng.",
     "vi": "Cuốn sách này rất hữu ích."
    }
   },
@@ -4940,7 +4940,7 @@
    "emoji": "🔂",
    "ex": {
     "zh": "他又迟到了。",
-    "py": "Tā yòu chídào le。",
+    "py": "Tā yòu chídào le.",
     "vi": "Anh ấy lại đến muộn rồi."
    }
   },
@@ -4951,7 +4951,7 @@
    "emoji": "🏸",
    "ex": {
     "zh": "我们去打羽毛球吧。",
-    "py": "Wǒmen qù dǎ yǔmáoqiú ba。",
+    "py": "Wǒmen qù dǎ yǔmáoqiú ba.",
     "vi": "Chúng ta đi chơi cầu lông nhé."
    }
   },
@@ -4962,7 +4962,7 @@
    "emoji": "🗣️",
    "ex": {
     "zh": "汉语是一种语言。",
-    "py": "Hànyǔ shì yīzhǒng yǔyán。",
+    "py": "Hànyǔ shì yī zhǒng yǔyán.",
     "vi": "Tiếng Hán là một ngôn ngữ."
    }
   },
@@ -4973,7 +4973,7 @@
    "emoji": "🧥",
    "ex": {
     "zh": "下雨了，穿上雨衣。",
-    "py": "Xiàyǔ le， chuān shàng yǔyī。",
+    "py": "Xiàyǔ le, chuān shàng yǔyī.",
     "vi": "Trời mưa rồi, mặc áo mưa vào."
    }
   },
@@ -4984,7 +4984,7 @@
    "emoji": "🧭",
    "ex": {
     "zh": "我遇到了一个难题。",
-    "py": "Wǒ yùdào le yígè nántí。",
+    "py": "Wǒ yùdào le yí gè nántí.",
     "vi": "Tôi gặp phải một bài khó."
    }
   },
@@ -4995,7 +4995,7 @@
    "emoji": "👋",
    "ex": {
     "zh": "我在路上遇见了老师。",
-    "py": "Wǒ zài lùshàng yùjiàn le lǎoshī。",
+    "py": "Wǒ zài lùshàng yùjiàn le lǎoshī.",
     "vi": "Tôi gặp thầy giáo trên đường."
    }
   },
@@ -5006,7 +5006,7 @@
    "emoji": "🌷",
    "ex": {
     "zh": "公园里有很多花。",
-    "py": "Gōngyuán lǐ yǒu hěnduō huā。",
+    "py": "Gōngyuán lǐ yǒu hěn duō huā.",
     "vi": "Trong công viên có rất nhiều hoa."
    }
   },
@@ -5017,7 +5017,7 @@
    "emoji": "👷",
    "ex": {
     "zh": "他是我们公司的员工。",
-    "py": "Tā shì wǒmen gōngsī de yuángōng。",
+    "py": "Tā shì wǒmen gōngsī de yuán gōng.",
     "vi": "Anh ấy là nhân viên của công ty chúng tôi."
    }
   },
@@ -5028,7 +5028,7 @@
    "emoji": "🙂",
    "ex": {
     "zh": "我愿意帮助你。",
-    "py": "Wǒ yuànyì bāngzhù nǐ。",
+    "py": "Wǒ yuànyì bāngzhù nǐ.",
     "vi": "Tôi sẵn lòng giúp bạn."
    }
   },
@@ -5039,7 +5039,7 @@
    "emoji": "📈",
    "ex": {
     "zh": "天气越来越冷了。",
-    "py": "Tiānqì yuèláiyuè lěng le。",
+    "py": "Tiānqì yuè lái yuè lěng le.",
     "vi": "Thời tiết càng ngày càng lạnh."
    }
   },
@@ -5050,7 +5050,7 @@
    "emoji": "🌙",
    "ex": {
     "zh": "今天的月亮很大。",
-    "py": "Jīntiān de yuèliàng hěndà。",
+    "py": "Jīntiān de yuèliàng hěn dà.",
     "vi": "Mặt trăng hôm nay rất to."
    }
   },
@@ -5061,7 +5061,7 @@
    "emoji": "🏃",
    "ex": {
     "zh": "学校明天开运动会。",
-    "py": "Xuéxiào míngtiān kāi yùndònghuì。",
+    "py": "Xuéxiào míngtiān kāi yùndònghuì.",
     "vi": "Ngày mai trường tổ chức đại hội thể thao."
    }
   },
@@ -5072,7 +5072,7 @@
    "emoji": "🏅",
    "ex": {
     "zh": "他是一个运动员。",
-    "py": "Tā shì yígè yùndòngyuán。",
+    "py": "Tā shì yí gè yùndòngyuán.",
     "vi": "Anh ấy là một vận động viên."
    }
   },
@@ -5083,7 +5083,7 @@
    "emoji": "🫂",
    "ex": {
     "zh": "咱们一起去吧。",
-    "py": "Zánmen yìqǐ qù ba。",
+    "py": "Zánmen yìqǐ qù ba.",
     "vi": "Chúng ta cùng đi nào."
    }
   },
@@ -5094,7 +5094,7 @@
    "emoji": "🧼",
    "ex": {
     "zh": "你的手很脏。",
-    "py": "Nǐ de shǒu hěnzāng。",
+    "py": "Nǐ de shǒu hěn zāng.",
     "vi": "Tay bạn bẩn lắm."
    }
   },
@@ -5105,7 +5105,7 @@
    "emoji": "🆘",
    "ex": {
     "zh": "没有钱，怎么办？",
-    "py": "Méiyǒu qián， zěnmebàn？",
+    "py": "Méiyǒu qián, zěnmebàn?",
     "vi": "Không có tiền thì làm sao đây?"
    }
   },
@@ -5116,7 +5116,7 @@
    "emoji": "🤷",
    "ex": {
     "zh": "你觉得怎样？",
-    "py": "Nǐ juéde zěnyàng？",
+    "py": "Nǐ juéde zěnyàng?",
     "vi": "Bạn thấy thế nào?"
    }
   },
@@ -5127,7 +5127,7 @@
    "emoji": "🚏",
    "ex": {
     "zh": "公交车站在前面。",
-    "py": "Gōngjiāochēzhàn zài qiánmiàn。",
+    "py": "Gōng jiāo chē zhàn zài qiánmiàn.",
     "vi": "Trạm xe buýt ở phía trước."
    }
   },
@@ -5138,7 +5138,7 @@
    "emoji": "📄",
    "ex": {
     "zh": "我买了两张票。",
-    "py": "Wǒ mǎi le liǎngzhāng piào。",
+    "py": "Wǒ mǎi le liǎng zhāng piào.",
     "vi": "Tôi đã mua hai tấm vé."
    }
   },
@@ -5149,7 +5149,7 @@
    "emoji": "🌱",
    "ex": {
     "zh": "孩子长高了。",
-    "py": "Háizi zhǎnggāo le。",
+    "py": "Háizi zhǎng gāo le.",
     "vi": "Đứa trẻ đã lớn lên cao hơn."
    }
   },
@@ -5160,7 +5160,7 @@
    "emoji": "😰",
    "ex": {
     "zh": "别着急，还有时间。",
-    "py": "Biézháojí， háiyǒu shíjiān。",
+    "py": "Bié zháo jí, hái yǒu shíjiān.",
     "vi": "Đừng sốt ruột, vẫn còn thời gian."
    }
   },
@@ -5171,7 +5171,7 @@
    "emoji": "💡",
    "ex": {
     "zh": "太阳照在身上很热。",
-    "py": "Tàiyáng zhào zài shēnshàng hěn rè。",
+    "py": "Tàiyáng zhào zài shēn shàng hěn rè.",
     "vi": "Mặt trời chiếu lên người rất nóng."
    }
   },
@@ -5182,7 +5182,7 @@
    "emoji": "👶",
    "ex": {
     "zh": "妈妈在照顾孩子。",
-    "py": "Māmā zài zhàogù háizi。",
+    "py": "Māmā zài zhàogù háizi.",
     "vi": "Mẹ đang chăm sóc con."
    }
   },
@@ -5193,7 +5193,7 @@
    "emoji": "🖼️",
    "ex": {
     "zh": "这张照片很好看。",
-    "py": "Zhèzhāng zhàopiān hěn hǎokàn。",
+    "py": "Zhè zhāng zhàopiān hěn hǎokàn.",
     "vi": "Tấm ảnh này rất đẹp."
    }
   },
@@ -5204,7 +5204,7 @@
    "emoji": "📸",
    "ex": {
     "zh": "我们在这儿照相吧。",
-    "py": "Wǒmen zài zhèér zhàoxiàng ba。",
+    "py": "Wǒmen zài zhèér zhàoxiàng ba.",
     "vi": "Chúng ta chụp ảnh ở đây nhé."
    }
   },
@@ -5215,7 +5215,7 @@
    "emoji": "⏳",
    "ex": {
     "zh": "我等到十点，直到他来。",
-    "py": "Wǒ děngdào shídiǎn， zhídào tālái。",
+    "py": "Wǒ děng dào shí diǎn, zhídào tā lái.",
     "vi": "Tôi đợi đến mười giờ cho đến khi anh ấy đến."
    }
   },
@@ -5226,7 +5226,7 @@
    "emoji": "☝️",
    "ex": {
     "zh": "我只想休息。",
-    "py": "Wǒ zhǐ xiǎng xiūxī。",
+    "py": "Wǒ zhǐ xiǎng xiūxī.",
     "vi": "Tôi chỉ muốn nghỉ ngơi."
    }
   },
@@ -5237,7 +5237,7 @@
    "emoji": "📄",
    "ex": {
     "zh": "请给我一张纸。",
-    "py": "Qǐng gěi wǒ yīzhāng zhǐ。",
+    "py": "Qǐng gěi wǒ yī zhāng zhǐ.",
     "vi": "Xin cho tôi một tờ giấy."
    }
   },
@@ -5248,7 +5248,7 @@
    "emoji": "🚧",
    "ex": {
     "zh": "今天我只能在家。",
-    "py": "Jīntiān wǒ zhǐnéng zàijiā。",
+    "py": "Jīntiān wǒ zhǐnéng zài jiā.",
     "vi": "Hôm nay tôi chỉ có thể ở nhà."
    }
   },
@@ -5259,7 +5259,7 @@
    "emoji": "➖",
    "ex": {
     "zh": "这只是一个小问题。",
-    "py": "Zhè zhǐshì yígè xiǎo wèntí。",
+    "py": "Zhè zhǐshì yí gè xiǎo wèntí.",
     "vi": "Đây chỉ là một vấn đề nhỏ."
    }
   },
@@ -5270,7 +5270,7 @@
    "emoji": "🔑",
    "ex": {
     "zh": "只要你来，我就高兴。",
-    "py": "Zhǐyào nǐ lái， wǒ jiù gāoxìng。",
+    "py": "Zhǐyào nǐ lái, wǒ jiù gāoxìng.",
     "vi": "Chỉ cần bạn đến, tôi sẽ vui."
    }
   },
@@ -5281,7 +5281,7 @@
    "emoji": "1️⃣",
    "ex": {
     "zh": "这儿只有一个人。",
-    "py": "Zhèér zhǐyǒu yígè rén。",
+    "py": "Zhèér zhǐyǒu yí gè rén.",
     "vi": "Ở đây chỉ có một người."
    }
   },
@@ -5292,7 +5292,7 @@
    "emoji": "🎯",
    "ex": {
     "zh": "我家在城市中心。",
-    "py": "Wǒjiā zài chéngshì zhōngxīn。",
+    "py": "Wǒ jiā zài chéngshì zhōng xīn.",
     "vi": "Nhà tôi ở trung tâm thành phố."
    }
   },
@@ -5303,7 +5303,7 @@
    "emoji": "⏺️",
    "ex": {
     "zh": "他站在中间。",
-    "py": "Tā zhàn zài zhōngjiān。",
+    "py": "Tā zhàn zài zhōngjiān.",
     "vi": "Anh ấy đứng ở giữa."
    }
   },
@@ -5314,7 +5314,7 @@
    "emoji": "🎉",
    "ex": {
     "zh": "他终于来了。",
-    "py": "Tā zhōngyú lái le。",
+    "py": "Tā zhōngyú lái le.",
     "vi": "Cuối cùng anh ấy cũng đến."
    }
   },
@@ -5325,7 +5325,7 @@
    "emoji": "🌾",
    "ex": {
     "zh": "这种水果很甜。",
-    "py": "Zhèzhǒng shuǐguǒ hěntián。",
+    "py": "Zhè zhǒng shuǐguǒ hěn tián.",
     "vi": "Loại trái cây này rất ngọt."
    }
   },
@@ -5336,7 +5336,7 @@
    "emoji": "❗",
    "ex": {
     "zh": "这件事很重要。",
-    "py": "Zhèjiàn shì hěn zhòngyào。",
+    "py": "Zhè jiàn shì hěn zhòngyào.",
     "vi": "Việc này rất quan trọng."
    }
   },
@@ -5347,7 +5347,7 @@
    "emoji": "🛌",
    "ex": {
     "zh": "周末我在家休息。",
-    "py": "Zhōumò wǒ zàijiā xiūxī。",
+    "py": "Zhōumò wǒ zài jiā xiūxī.",
     "vi": "Cuối tuần tôi nghỉ ngơi ở nhà."
    }
   },
@@ -5358,7 +5358,7 @@
    "emoji": "🔑",
    "ex": {
     "zh": "他主要学习汉语。",
-    "py": "Tā zhǔyào xuéxí hànyǔ。",
+    "py": "Tā zhǔyào xuéxí hànyǔ.",
     "vi": "Anh ấy chủ yếu học tiếng Hán."
    }
   },
@@ -5369,7 +5369,7 @@
    "emoji": "⚠️",
    "ex": {
     "zh": "注意安全。",
-    "py": "Zhùyìānquán。",
+    "py": "Zhù yì ān quán.",
     "vi": "Chú ý an toàn."
    }
   },
@@ -5380,7 +5380,7 @@
    "emoji": "🏥",
    "ex": {
     "zh": "他生病住院了。",
-    "py": "Tā shēngbìng zhùyuàn le。",
+    "py": "Tā shēngbìng zhùyuàn le.",
     "vi": "Anh ấy bị bệnh nên nhập viện."
    }
   },
@@ -5391,7 +5391,7 @@
    "emoji": "📘",
    "ex": {
     "zh": "我用字典查字。",
-    "py": "Wǒyòng zìdiǎn cházì。",
+    "py": "Wǒ yòng zìdiǎn chá zì.",
     "vi": "Tôi dùng từ điển để tra chữ."
    }
   },
@@ -5402,7 +5402,7 @@
    "emoji": "🚲",
    "ex": {
     "zh": "我骑自行车上班。",
-    "py": "Wǒ qí zìxíngchē shàngbān。",
+    "py": "Wǒ qí zìxíngchē shàngbān.",
     "vi": "Tôi đi xe đạp đi làm."
    }
   },
@@ -5413,7 +5413,7 @@
    "emoji": "🪑",
    "ex": {
     "zh": "桌子上有一个本子。",
-    "py": "Zhuōzi shàng yǒu yígè běnzi。",
+    "py": "Zhuōzi shàng yǒu yí gè běnzi.",
     "vi": "Trên bàn có một quyển vở."
    }
   },
@@ -5424,7 +5424,7 @@
    "emoji": "🔁",
    "ex": {
     "zh": "他总迟到。",
-    "py": "Tā zǒng chídào。",
+    "py": "Tā zǒng chídào.",
     "vi": "Anh ấy luôn đến muộn."
    }
   },
@@ -5435,7 +5435,7 @@
    "emoji": "♾️",
    "ex": {
     "zh": "他总是很忙。",
-    "py": "Tā zǒngshì hěn máng。",
+    "py": "Tā zǒngshì hěn máng.",
     "vi": "Anh ấy lúc nào cũng bận."
    }
   },
@@ -5446,7 +5446,7 @@
    "emoji": "👄",
    "ex": {
     "zh": "他的嘴很大。",
-    "py": "Tā de zuǐ hěndà。",
+    "py": "Tā de zuǐ hěn dà.",
     "vi": "Miệng của anh ấy rất to."
    }
   },
@@ -5457,7 +5457,7 @@
    "emoji": "🥇",
    "ex": {
     "zh": "你最好早点去。",
-    "py": "Nǐ zuìhǎo zǎodiǎn qù。",
+    "py": "Nǐ zuìhǎo zǎo diǎn qù.",
     "vi": "Tốt nhất bạn nên đi sớm."
    }
   },
@@ -5468,7 +5468,7 @@
    "emoji": "🏁",
    "ex": {
     "zh": "最后一个题很难。",
-    "py": "Zuìhòu yígè tí hěn nán。",
+    "py": "Zuìhòu yí gè tí hěn nán.",
     "vi": "Câu hỏi cuối cùng rất khó."
    }
   },
@@ -5479,7 +5479,7 @@
    "emoji": "🆕",
    "ex": {
     "zh": "你最近怎么样？",
-    "py": "Nǐ zuìjìn zěnmeyàng？",
+    "py": "Nǐ zuìjìn zěnmeyàng?",
     "vi": "Dạo này bạn thế nào?"
    }
   },
@@ -5490,7 +5490,7 @@
    "emoji": "🚪",
    "ex": {
     "zh": "周末我去朋友家做客。",
-    "py": "Zhōumò wǒ qù péngyǒujiā zuòkè。",
+    "py": "Zhōumò wǒ qù péng yǒu jiā zuòkè.",
     "vi": "Cuối tuần tôi đến nhà bạn làm khách."
    }
   },
@@ -5501,7 +5501,7 @@
    "emoji": "📓",
    "ex": {
     "zh": "我的作业很多。",
-    "py": "Wǒ de zuòyè hěnduō。",
+    "py": "Wǒ de zuòyè hěn duō.",
     "vi": "Bài tập của tôi rất nhiều."
    }
   }
