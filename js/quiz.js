@@ -66,8 +66,8 @@
     var pool = words.slice();
     if ($("prefNew").checked) {
       var kn = getKnown();
-      var fresh = shuffle(pool.filter(function (w) { return kn.indexOf(w.hanzi) < 0; }));
-      var rest = shuffle(pool.filter(function (w) { return kn.indexOf(w.hanzi) >= 0; }));
+      var fresh = shuffle(pool.filter(function (w) { return kn.indexOf(w.key) < 0; }));
+      var rest = shuffle(pool.filter(function (w) { return kn.indexOf(w.key) >= 0; }));
       pool = fresh.concat(rest);
     } else {
       pool = shuffle(pool);
@@ -137,7 +137,7 @@
       rv.appendChild(hd);
       var seen = {};
       wrong.forEach(function (w) {
-        if (seen[w.hanzi]) return; seen[w.hanzi] = 1;
+        if (seen[w.key]) return; seen[w.key] = 1;
         var d = document.createElement("div"); d.className = "rev";
         var h = document.createElement("p"); h.className = "h"; h.textContent = w.hanzi + "  " + w.pinyin;
         var m = document.createElement("p"); m.textContent = w.vi;
@@ -176,6 +176,7 @@
     window.scrollTo(0, 0);
   };
 
+  HL.renderLevelChips("levelChips");
   HL.renderStdChips("stdChips");
   $("title").textContent = "Luyện đề từ vựng " + HL.label();
   document.title = "Luyện đề từ vựng " + HL.label() + " - HanziLinh";
@@ -183,8 +184,8 @@
   fetch(HL.dataUrl())
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {
-      words = d.words;
-      $("info").textContent = "Đề tạo ngẫu nhiên từ " + d.count + " từ theo chuẩn " + d.standard + ". Mỗi lần làm là một đề khác.";
+      words = HL.assignKeys(d.words);
+      $("info").textContent = "Đề tạo ngẫu nhiên từ " + d.count + " từ theo chuẩn " + d.standard + (d.level > 1 && d.note ? " (chỉ từ mới của cấp " + d.level + ")" : "") + ". Mỗi lần làm là một đề khác.";
       $("setup").classList.remove("hide"); showBest();
     })
     .catch(function () {

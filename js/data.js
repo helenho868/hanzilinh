@@ -1,9 +1,10 @@
 /* Dữ liệu dùng chung cho cả trang.
-   words: số từ theo chuẩn HSK 2.0. words3: số từ theo chuẩn HSK 3.0 (nếu đã có dữ liệu).
+   words: số từ theo chuẩn HSK 2.0. words3: tổng số từ theo chuẩn HSK 3.0 (nếu đã có dữ liệu).
+   new3: số từ mới của cấp đó theo HSK 3.0. has2: có dữ liệu chuẩn 2.0 hay không.
    ready: true khi cấp độ đã có nội dung, href là đường dẫn đến trang của cấp đó. */
 var LEVELS = [
-  { id: 1, zh: "一级", words: 150, words3: 300, ready: true, href: "vocab.html?level=1" },
-  { id: 2, zh: "二级", words: 300,  ready: false, href: "" },
+  { id: 1, zh: "一级", words: 150, words3: 300, has2: true,  ready: true, href: "vocab.html?level=1" },
+  { id: 2, zh: "二级", words: 300, words3: 500, new3: 200, has2: false, ready: true, href: "vocab.html?level=2" },
   { id: 3, zh: "三级", words: 600,  ready: false, href: "" },
   { id: 4, zh: "四级", words: 1200, ready: false, href: "" },
   { id: 5, zh: "五级", words: 2500, ready: false, href: "" },

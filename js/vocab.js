@@ -11,7 +11,7 @@
     for (var k = a.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)); var t = a[k]; a[k] = a[j]; a[j] = t; }
     return a;
   }
-  function knownCount() { return all.filter(function (w) { return known[w.hanzi]; }).length; }
+  function knownCount() { return all.filter(function (w) { return known[w.key]; }).length; }
 
   /* ---- Thẻ ---- */
   function setBack(d) {
@@ -46,7 +46,7 @@
   }
   function go(n) { if (!deck.length) return; ci = (ci + n + deck.length) % deck.length; card(); }
   function rebuild(doShuffle) {
-    var base = onlyNew ? all.filter(function (w) { return !known[w.hanzi]; }) : all;
+    var base = onlyNew ? all.filter(function (w) { return !known[w.key]; }) : all;
     deck = doShuffle ? shuffle(base) : base.slice();
     ci = 0; card();
   }
@@ -63,13 +63,13 @@
   });
   $("yes").onclick = function () {
     if (!deck.length) return;
-    known[deck[ci].hanzi] = 1; save();
+    known[deck[ci].key] = 1; save();
     if (onlyNew) { deck.splice(ci, 1); if (ci >= deck.length) ci = 0; card(); } else { go(1); }
     renderList();
   };
   $("no").onclick = function () {
     if (!deck.length) return;
-    delete known[deck[ci].hanzi]; save(); go(1); renderList();
+    delete known[deck[ci].key]; save(); go(1); renderList();
   };
   $("shuf").onclick = function () { shuffled = true; rebuild(true); };
   $("onlyNew").onclick = function () {
@@ -121,7 +121,7 @@
     });
     if (!shown.length) { ul.appendChild(mk("li", "empty", "Không tìm thấy từ nào.")); return; }
     shown.forEach(function (w) {
-      var li = mk("li", known[w.hanzi] ? "known" : "");
+      var li = mk("li", known[w.key] ? "known" : "");
       li.appendChild(mk("span", "h", (w.emoji ? w.emoji + " " : "") + w.hanzi));
       li.appendChild(mk("span", "p", w.pinyin));
       li.appendChild(mk("span", "m", w.vi));
@@ -166,6 +166,7 @@
   $("t2").onclick = function () { tab(2); };
 
   /* ---- Tải dữ liệu ---- */
+  HL.renderLevelChips("levelChips");
   HL.renderStdChips("stdChips");
   $("title").textContent = "Từ vựng " + HL.label();
   document.title = "Từ vựng " + HL.label() + " - HanziLinh";
@@ -173,11 +174,11 @@
   fetch(HL.dataUrl())
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {
-      all = d.words;
+      all = HL.assignKeys(d.words);
       var withEx = d.words.filter(function (w) { return w.ex; }).length;
       var exText = withEx === d.count ? "Mỗi từ đều có câu ví dụ."
         : withEx ? "Đã có câu ví dụ cho " + withEx + " từ, các từ còn lại sẽ được thêm dần." : "";
-      $("info").textContent = d.count + " từ, theo chuẩn " + d.standard + ". " + exText + " Tiến độ được lưu trên trình duyệt của bạn.";
+      $("info").textContent = d.count + " từ, theo chuẩn " + d.standard + ". " + (d.note ? d.note + " " : "") + exText + " Tiến độ được lưu trên trình duyệt của bạn.";
       rebuild(false); renderList();
     })
     .catch(function () {

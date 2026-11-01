@@ -13,9 +13,15 @@
     if (l.ready) card.href = l.href;
     card.appendChild(el("span", "lv", "HSK " + l.id));
     card.appendChild(el("span", "zh", "HSK" + l.zh));
-    card.appendChild(el("span", "words", l.words3
-      ? l.words3.toLocaleString("vi-VN") + " từ (HSK 3.0), " + l.words.toLocaleString("vi-VN") + " từ (HSK 2.0)"
-      : l.words.toLocaleString("vi-VN") + " từ"));
+    var wt;
+    if (l.words3 && l.has2 === false) {
+      wt = l.words3.toLocaleString("vi-VN") + " từ (HSK 3.0)" + (l.new3 ? ", gồm " + l.new3 + " từ mới" : "");
+    } else if (l.words3) {
+      wt = l.words3.toLocaleString("vi-VN") + " từ (HSK 3.0), " + l.words.toLocaleString("vi-VN") + " từ (HSK 2.0)";
+    } else {
+      wt = l.words.toLocaleString("vi-VN") + " từ";
+    }
+    card.appendChild(el("span", "words", wt));
     card.appendChild(el("span", "state", l.ready ? "Vào học" : "Sắp có"));
     li.appendChild(card);
     ul.appendChild(li);
