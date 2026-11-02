@@ -1,0 +1,447 @@
+{
+ "level": 5,
+ "standard": "HSK 3.0",
+ "count": 8,
+ "dialogues": [
+  {
+   "id": 1,
+   "title": "Ô nhiễm môi trường",
+   "scene": "Hai đồng nghiệp bàn về chất lượng không khí.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "最近空气质量越来越差了，出门都觉得不舒服。",
+     "py": "Zuìjìn kōng qì zhì liàng yuè lái yuè chà le, chūmén dōu juéde bù shūfu.",
+     "vi": "Dạo này chất lượng không khí ngày càng kém, ra ngoài cũng thấy khó chịu."
+    },
+    {
+     "s": "B",
+     "zh": "是啊，主要是汽车的尾气和工厂排放的污染造成的。",
+     "py": "Shì a, zhǔyào shì qìchē de wěi qì hé gōngchǎng pái fàng de wūrǎn zàochéng de.",
+     "vi": "Đúng vậy, chủ yếu do khí thải ô tô và ô nhiễm từ nhà máy gây ra."
+    },
+    {
+     "s": "A",
+     "zh": "你觉得我们个人能做些什么？",
+     "py": "Nǐ juéde wǒmen gèrén néng zuò xiē shénme?",
+     "vi": "Bạn thấy cá nhân chúng ta có thể làm gì?"
+    },
+    {
+     "s": "B",
+     "zh": "尽量少开车，多坐公共交通。",
+     "py": "Jǐn liàng shǎo kāichē, duō zuò gōng gòng jiāo tōng.",
+     "vi": "Cố gắng ít lái xe, đi phương tiện công cộng nhiều hơn."
+    },
+    {
+     "s": "A",
+     "zh": "而且还要节约用电，减少浪费。",
+     "py": "Érqiě hái yào jié yuē yòng diàn, jiǎnshǎo làngfèi.",
+     "vi": "Hơn nữa còn phải tiết kiệm điện, giảm lãng phí."
+    },
+    {
+     "s": "B",
+     "zh": "我同意。政府也应该加强管理，严格控制排放。",
+     "py": "Wǒ tóngyì. Zhèngfǔ yě yīnggāi jiāqiáng guǎnlǐ, yán gé kòng zhì pái fàng.",
+     "vi": "Tôi đồng ý. Chính phủ cũng nên tăng cường quản lý, kiểm soát nghiêm ngặt khí thải."
+    },
+    {
+     "s": "A",
+     "zh": "只要大家都行动起来，环境一定会好转的。",
+     "py": "Zhǐyào dàjiā dōu xíngdòng qǐlái, huánjìng yídìng huì hǎozhuǎn de.",
+     "vi": "Chỉ cần mọi người cùng hành động, môi trường nhất định sẽ tốt lên."
+    },
+    {
+     "s": "B",
+     "zh": "但愿如此吧。",
+     "py": "Dàn yuàn rú cǐ ba.",
+     "vi": "Mong là như vậy."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Chọn ngành học",
+   "scene": "Học sinh trao đổi với giáo viên hướng dẫn.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "老师，我马上要选专业了，可是不知道该怎么选。",
+     "py": "Lǎoshī, wǒ mǎshàng yào xuǎn zhuānyè le, kěshì bù zhīdào gāi zěnme xuǎn.",
+     "vi": "Thưa thầy, em sắp phải chọn chuyên ngành, nhưng không biết chọn thế nào."
+    },
+    {
+     "s": "B",
+     "zh": "你对什么最感兴趣？",
+     "py": "Nǐ duì shénme zuì gǎnxìngqù?",
+     "vi": "Em hứng thú nhất với điều gì?"
+    },
+    {
+     "s": "A",
+     "zh": "我喜欢电脑，不过父母希望我学法律。",
+     "py": "Wǒ xǐhuan diànnǎo, búguò fùmǔ xīwàng wǒ xué fǎlǜ.",
+     "vi": "Em thích máy tính, nhưng bố mẹ mong em học luật."
+    },
+    {
+     "s": "B",
+     "zh": "选专业不能只听别人的意见，要考虑自己的兴趣和特长。",
+     "py": "Xuǎn zhuānyè bù néng zhī tīng biérén de yìjiàn, yào kǎolǜ zìjǐ de xìngqù hé tè cháng.",
+     "vi": "Chọn chuyên ngành không thể chỉ nghe ý kiến người khác, phải cân nhắc sở thích và sở trường của mình."
+    },
+    {
+     "s": "A",
+     "zh": "可是计算机专业竞争很激烈，我有点儿担心。",
+     "py": "Kěshì jì suàn jī zhuān yè jìngzhēng hěn jīliè, wǒ yǒudiǎnr dānxīn.",
+     "vi": "Nhưng ngành máy tính cạnh tranh rất khốc liệt, em hơi lo."
+    },
+    {
+     "s": "B",
+     "zh": "只要你肯努力，就有机会。",
+     "py": "Zhǐyào nǐ kěn nǔlì, jiù yǒu jīhuì.",
+     "vi": "Chỉ cần em chịu cố gắng thì sẽ có cơ hội."
+    },
+    {
+     "s": "A",
+     "zh": "您说得对，我回去再跟父母好好谈谈。",
+     "py": "Nín shuō dé duì, wǒ huíqù zài gēn fùmǔ hǎohǎo tán tán.",
+     "vi": "Thầy nói đúng, em về sẽ nói chuyện kỹ với bố mẹ."
+    },
+    {
+     "s": "B",
+     "zh": "沟通是解决问题的最好办法。",
+     "py": "Gōutōng shì jiě jué wèn tí de zuìhǎo bànfǎ.",
+     "vi": "Trao đổi là cách tốt nhất để giải quyết vấn đề."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Làm việc nhóm",
+   "scene": "Trưởng nhóm phân công công việc cho dự án.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "这次项目时间很紧，我们要合理安排任务。",
+     "py": "Zhè cì xiàngmù shíjiān hěn jǐn, wǒmen yào hé lǐ ān pái rènwu.",
+     "vi": "Dự án lần này thời gian rất gấp, chúng ta phải sắp xếp nhiệm vụ hợp lý."
+    },
+    {
+     "s": "B",
+     "zh": "我负责收集资料，行吗？",
+     "py": "Wǒ fùzé shōují zīliào, xíng ma?",
+     "vi": "Tôi phụ trách thu thập tài liệu, được không?"
+    },
+    {
+     "s": "A",
+     "zh": "可以。小张，你来设计方案，怎么样？",
+     "py": "Kěyǐ. Xiǎo zhāng, nǐ lái shè jì fāng àn, zěnmeyàng?",
+     "vi": "Được. Tiểu Trương, cậu thiết kế phương án nhé?"
+    },
+    {
+     "s": "B",
+     "zh": "没问题，不过我需要大家提供一些建议。",
+     "py": "Méi wèntí, búguò wǒ xūyào dàjiā tígōng yìxiē jiànyì.",
+     "vi": "Không vấn đề, nhưng tôi cần mọi người đưa ra một số góp ý."
+    },
+    {
+     "s": "A",
+     "zh": "遇到困难随时告诉我，我们互相帮助。",
+     "py": "Yù dào kùn nán suíshí gàosu wǒ, wǒmen hù xiāng bāng zhù.",
+     "vi": "Gặp khó khăn cứ báo cho tôi bất cứ lúc nào, chúng ta giúp đỡ lẫn nhau."
+    },
+    {
+     "s": "B",
+     "zh": "下周一之前，每个人都要完成自己的部分。",
+     "py": "Xià zhōu yī zhīqián, měi gè rén dōu yào wánchéng zìjǐ de bùfen.",
+     "vi": "Trước thứ hai tuần sau, mỗi người phải hoàn thành phần của mình."
+    },
+    {
+     "s": "A",
+     "zh": "好的，团结合作，我们一定能按时完成。",
+     "py": "Hǎo de, tuán jié hé zuò, wǒmen yídìng néng ànshí wánchéng.",
+     "vi": "Được, đoàn kết hợp tác, chúng ta nhất định hoàn thành đúng hạn."
+    },
+    {
+     "s": "B",
+     "zh": "那就这样定了，大家加油！",
+     "py": "Nà jiù zhèyàng dìng le, dàjiā jiāyóu!",
+     "vi": "Vậy quyết định như thế, mọi người cố lên!"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Tiết kiệm và đầu tư",
+   "scene": "Hai người bạn nói về quản lý tài chính.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你每个月的工资都花光了吗？",
+     "py": "Nǐ měi gè yuè de gōngzī dōu huā guāng le ma?",
+     "vi": "Lương mỗi tháng bạn tiêu hết sạch à?"
+    },
+    {
+     "s": "B",
+     "zh": "差不多，信用卡的账单让我很头疼。",
+     "py": "Chàbuduō, xìnyòngkǎ de zhàng dān ràng wǒ hěn tóu téng.",
+     "vi": "Gần như vậy, hóa đơn thẻ tín dụng làm tôi rất đau đầu."
+    },
+    {
+     "s": "A",
+     "zh": "你应该先做一个预算，控制不必要的开支。",
+     "py": "Nǐ yīnggāi xiān zuò yí gè yù suàn, kòngzhì bù bì yào de kāi zhī.",
+     "vi": "Bạn nên lập ngân sách trước, kiểm soát các khoản chi không cần thiết."
+    },
+    {
+     "s": "B",
+     "zh": "可我每月剩下的钱不多，怎么存呢？",
+     "py": "Kě wǒ měi yuè shèng xià de qián bù duō, zěnme cún ne?",
+     "vi": "Nhưng mỗi tháng tiền còn lại không nhiều, làm sao tiết kiệm?"
+    },
+    {
+     "s": "A",
+     "zh": "哪怕只存一点儿，时间长了也很可观。",
+     "py": "Nǎpà zhī cún yìdiǎnr, shíjiān cháng le yě hěn kě guān.",
+     "vi": "Dù chỉ tiết kiệm một ít, lâu dần cũng rất đáng kể."
+    },
+    {
+     "s": "B",
+     "zh": "那投资呢？听说有的投资收益很高。",
+     "py": "Nà tóu zī ne? Tīngshuō yǒude tóu zī shōu yì hěn gāo.",
+     "vi": "Còn đầu tư thì sao? Nghe nói có loại đầu tư lợi nhuận rất cao."
+    },
+    {
+     "s": "A",
+     "zh": "收益高，风险也大，新手最好小心一点儿。",
+     "py": "Shōu yì gāo, fēngxiǎn yě dà, xīn shǒu zuìhǎo xiǎoxīn yìdiǎnr.",
+     "vi": "Lợi nhuận cao thì rủi ro cũng lớn, người mới tốt nhất nên cẩn thận."
+    },
+    {
+     "s": "B",
+     "zh": "我明白了，先把基础打好再说。",
+     "py": "Wǒ míngbai le, xiān bǎ jīchǔ dǎ hǎo zàishuō.",
+     "vi": "Tôi hiểu rồi, nền tảng vững rồi hẵng nói tiếp."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Thực tập",
+   "scene": "Sinh viên chia sẻ cảm nhận sau buổi thực tập đầu tiên.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你第一天实习感觉怎么样？",
+     "py": "Nǐ dì yī tiān shíxí gǎnjué zěnmeyàng?",
+     "vi": "Ngày thực tập đầu tiên cảm giác của bạn thế nào?"
+    },
+    {
+     "s": "B",
+     "zh": "很紧张，不过同事们都很热情。",
+     "py": "Hěn jǐnzhāng, búguò tóngshì men dōu hěn rèqíng.",
+     "vi": "Rất hồi hộp, nhưng các đồng nghiệp đều rất nhiệt tình."
+    },
+    {
+     "s": "A",
+     "zh": "你主要负责什么工作？",
+     "py": "Nǐ zhǔyào fùzé shénme gōngzuò?",
+     "vi": "Bạn chủ yếu phụ trách công việc gì?"
+    },
+    {
+     "s": "B",
+     "zh": "整理文件，还要参加会议并做记录。",
+     "py": "Zhěnglǐ wénjiàn, hái yào cānjiā huìyì bìng zuò jìlù.",
+     "vi": "Sắp xếp tài liệu, còn phải dự họp và ghi biên bản."
+    },
+    {
+     "s": "A",
+     "zh": "听起来很不错，能学到不少东西。",
+     "py": "Tīng qǐlái hěn búcuò, néng xué dào bù shǎo dōngxi.",
+     "vi": "Nghe rất tốt, học được không ít điều."
+    },
+    {
+     "s": "B",
+     "zh": "是的，不过我的经验太少，有时候难免出错。",
+     "py": "Shì de, búguò wǒ de jīngyàn tài shǎo, yǒu shí hòu nán miǎn chū cuò.",
+     "vi": "Đúng vậy, nhưng kinh nghiệm của tôi quá ít, đôi khi khó tránh khỏi sai sót."
+    },
+    {
+     "s": "A",
+     "zh": "别灰心，谁都是从不会到会的。",
+     "py": "Bié huī xīn, shéi dōu shì cóng bú huì dào huì de.",
+     "vi": "Đừng nản lòng, ai cũng đi từ chưa biết đến biết."
+    },
+    {
+     "s": "B",
+     "zh": "谢谢你的鼓励，我会继续努力的。",
+     "py": "Xièxie nǐ de gǔlì, wǒ huì jìxù nǔlì de.",
+     "vi": "Cảm ơn lời động viên của bạn, tôi sẽ tiếp tục cố gắng."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Áp lực công việc",
+   "scene": "Hai đồng nghiệp tâm sự về áp lực.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你看起来脸色不太好，是不是太累了？",
+     "py": "Nǐ kàn qǐ lái liǎnsè bù tài hǎo, shì bú shì tài lèi le?",
+     "vi": "Trông sắc mặt bạn không tốt lắm, có phải mệt quá không?"
+    },
+    {
+     "s": "B",
+     "zh": "最近压力太大，每天都加班，晚上睡不着。",
+     "py": "Zuìjìn yālì tài dà, měi tiān dōu jiābān, wǎnshang shuì bù zhe.",
+     "vi": "Dạo này áp lực quá lớn, ngày nào cũng tăng ca, buổi tối không ngủ được."
+    },
+    {
+     "s": "A",
+     "zh": "长期这样对健康很不利，你应该调整一下。",
+     "py": "Chángqī zhèyàng duì jiànkāng hěn búlì, nǐ yīnggāi tiáozhěng yíxià.",
+     "vi": "Kéo dài như vậy rất bất lợi cho sức khỏe, bạn nên điều chỉnh một chút."
+    },
+    {
+     "s": "B",
+     "zh": "我也想，可是任务太多，根本没办法休息。",
+     "py": "Wǒ yě xiǎng, kěshì rènwu tài duō, gēnběn méi bànfǎ xiūxi.",
+     "vi": "Tôi cũng muốn, nhưng nhiệm vụ quá nhiều, hoàn toàn không có cách nghỉ ngơi."
+    },
+    {
+     "s": "A",
+     "zh": "你可以跟领导谈一谈，请他重新分配工作。",
+     "py": "Nǐ kěyǐ gēn lǐngdǎo tán yī tán, qǐng tā chóng xīn fēn pèi gōngzuò.",
+     "vi": "Bạn có thể nói chuyện với lãnh đạo, nhờ ông ấy phân công lại công việc."
+    },
+    {
+     "s": "B",
+     "zh": "我怕领导觉得我能力不够。",
+     "py": "Wǒ pà lǐngdǎo juéde wǒ nénglì búgòu.",
+     "vi": "Tôi sợ lãnh đạo thấy năng lực tôi không đủ."
+    },
+    {
+     "s": "A",
+     "zh": "适当地表达自己的想法，反而会得到理解。",
+     "py": "Shìdàng de biǎodá zìjǐ de xiǎngfǎ, fǎn'ér huì dédào lǐjiě.",
+     "vi": "Bày tỏ suy nghĩ của mình một cách thích hợp, ngược lại sẽ được thông cảm."
+    },
+    {
+     "s": "B",
+     "zh": "也对，我今天就去找他。",
+     "py": "Yě duì, wǒ jīntiān jiù qù zhǎo tā.",
+     "vi": "Cũng đúng, hôm nay tôi sẽ đi tìm ông ấy."
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Du học",
+   "scene": "Học sinh nói chuyện với bạn về kế hoạch đi du học.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "听说你打算去国外留学？",
+     "py": "Tīngshuō nǐ dǎsuàn qù guó wài liúxué?",
+     "vi": "Nghe nói bạn dự định ra nước ngoài du học?"
+    },
+    {
+     "s": "B",
+     "zh": "对，我已经申请了几所大学，正在等通知。",
+     "py": "Duì, wǒ yǐjīng shēnqǐng le jǐ suǒ dàxué, zhèngzài děng tōngzhī.",
+     "vi": "Đúng, tôi đã nộp đơn vào vài trường đại học, đang chờ thông báo."
+    },
+    {
+     "s": "A",
+     "zh": "出国以后，语言可能是最大的挑战。",
+     "py": "Chūguó yǐhòu, yǔyán kěnéng shì zuì dà de tiǎozhàn.",
+     "vi": "Sau khi ra nước ngoài, ngôn ngữ có lẽ là thử thách lớn nhất."
+    },
+    {
+     "s": "B",
+     "zh": "是的，所以我每天都坚持练习听力和口语。",
+     "py": "Shì de, suǒyǐ wǒ měi tiān dōu jiānchí liànxí tīnglì hé kǒuyǔ.",
+     "vi": "Đúng vậy, nên mỗi ngày tôi đều kiên trì luyện nghe và nói."
+    },
+    {
+     "s": "A",
+     "zh": "生活费和学费呢？负担重不重？",
+     "py": "Shēng huó fèi hé xuéfèi ne? Fù dān zhòng bù chóng?",
+     "vi": "Còn sinh hoạt phí và học phí thì sao? Gánh nặng có lớn không?"
+    },
+    {
+     "s": "B",
+     "zh": "我申请了奖学金，如果成功，负担会轻很多。",
+     "py": "Wǒ shēnqǐng le jiǎngxuéjīn, rúguǒ chénggōng, fùdān huì qīng hěn duō.",
+     "vi": "Tôi đã xin học bổng, nếu thành công, gánh nặng sẽ nhẹ đi nhiều."
+    },
+    {
+     "s": "A",
+     "zh": "祝你好运，希望你能顺利实现梦想。",
+     "py": "Zhù nǐ hǎo yùn, xīwàng nǐ néng shùn lì shí xiàn mèngxiǎng.",
+     "vi": "Chúc bạn may mắn, mong bạn thuận lợi thực hiện ước mơ."
+    },
+    {
+     "s": "B",
+     "zh": "谢谢，到时候我会寄明信片给你。",
+     "py": "Xièxie, dào shí hòu wǒ huì jì míng xìn piàn gěi nǐ.",
+     "vi": "Cảm ơn, lúc đó tôi sẽ gửi bưu thiếp cho bạn."
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Mua sắm trực tuyến",
+   "scene": "Hai người bạn bàn về mua hàng trên mạng.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你又在网上买东西了？",
+     "py": "Nǐ yòu zài wǎngshang mǎi dōngxi le?",
+     "vi": "Bạn lại mua đồ trên mạng nữa à?"
+    },
+    {
+     "s": "B",
+     "zh": "是啊，网购又方便又便宜，还可以送货上门。",
+     "py": "Shì a, wǎnggòu yòu fāngbiàn yòu piányi, hái kěyǐ sòng huò shàng mén.",
+     "vi": "Đúng vậy, mua sắm trực tuyến vừa tiện vừa rẻ, còn có thể giao hàng tận nhà."
+    },
+    {
+     "s": "A",
+     "zh": "不过有时候质量没有保证，我就上过当。",
+     "py": "Búguò yǒu shí hòu zhìliàng méiyǒu bǎozhèng, wǒ jiù shàng guò dāng.",
+     "vi": "Nhưng đôi khi chất lượng không đảm bảo, tôi từng bị lừa rồi."
+    },
+    {
+     "s": "B",
+     "zh": "买之前最好先看看别人的评价。",
+     "py": "Mǎi zhīqián zuìhǎo xiān kàn kàn biérén de píngjià.",
+     "vi": "Trước khi mua tốt nhất xem đánh giá của người khác."
+    },
+    {
+     "s": "A",
+     "zh": "如果东西有问题，可以申请退货吗？",
+     "py": "Rúguǒ dōngxi yǒu wèntí, kěyǐ shēnqǐng tuì huò ma?",
+     "vi": "Nếu hàng có vấn đề thì có thể xin trả hàng không?"
+    },
+    {
+     "s": "B",
+     "zh": "一般七天以内可以退，但是要保存好包装。",
+     "py": "Yìbān qī tiān yǐnèi kěyǐ tuì, dànshì yào bǎocún hǎo bāozhuāng.",
+     "vi": "Thường trong vòng bảy ngày có thể trả, nhưng phải giữ cẩn thận bao bì."
+    },
+    {
+     "s": "A",
+     "zh": "看来网购也有不少学问。",
+     "py": "Kànlái wǎnggòu yě yǒu bù shǎo xué wèn.",
+     "vi": "Xem ra mua sắm trực tuyến cũng có không ít điều cần biết."
+    },
+    {
+     "s": "B",
+     "zh": "多买几次，你就有经验了。",
+     "py": "Duō mǎi jǐ cì, nǐ jiù yǒu jīngyàn le.",
+     "vi": "Mua thêm vài lần, bạn sẽ có kinh nghiệm."
+    }
+   ]
+  }
+ ]
+}

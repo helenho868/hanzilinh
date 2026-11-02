@@ -1,0 +1,447 @@
+{
+ "level": 6,
+ "standard": "HSK 3.0",
+ "count": 8,
+ "dialogues": [
+  {
+   "id": 1,
+   "title": "Phát triển khoa học kỹ thuật",
+   "scene": "Hai người bàn về tác động của công nghệ.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "科技的飞速发展给我们的生活带来了翻天覆地的变化。",
+     "py": "Kējì de fēi sù fā zhǎn gěi wǒmen de shēnghuó dài lái le fān tiān fù dì de biànhuà.",
+     "vi": "Sự phát triển nhanh chóng của khoa học kỹ thuật đã mang lại những thay đổi long trời lở đất cho cuộc sống chúng ta."
+    },
+    {
+     "s": "B",
+     "zh": "确实如此，不过我担心人们会过分依赖机器。",
+     "py": "Quèshí rúcǐ, búguò wǒ dānxīn rén men huì guòfèn yīlài jīqì.",
+     "vi": "Đúng là vậy, nhưng tôi lo mọi người sẽ quá lệ thuộc vào máy móc."
+    },
+    {
+     "s": "A",
+     "zh": "你的顾虑不无道理，关键在于如何合理地利用它。",
+     "py": "Nǐ de gù lǜ bù wú dào lǐ, guān jiàn zài yú rúhé hélǐ de lìyòng tā.",
+     "vi": "Nỗi lo của bạn không phải không có lý, mấu chốt nằm ở việc tận dụng nó một cách hợp lý."
+    },
+    {
+     "s": "B",
+     "zh": "比如，教育领域就可以借助技术提高效率。",
+     "py": "Bǐrú, jiào yù lǐng yù jiù kěyǐ jièzhù jìshù tí gāo xiào lǜ.",
+     "vi": "Ví dụ, lĩnh vực giáo dục có thể nhờ công nghệ để nâng cao hiệu quả."
+    },
+    {
+     "s": "A",
+     "zh": "但技术永远代替不了老师与学生之间的交流。",
+     "py": "Dàn jìshù yǒngyuǎn dàitì bù liǎo lǎoshī yǔ xuésheng zhījiān de jiāoliú.",
+     "vi": "Nhưng công nghệ mãi mãi không thể thay thế sự giao lưu giữa thầy và trò."
+    },
+    {
+     "s": "B",
+     "zh": "没错，二者应该互相配合，而不是互相对立。",
+     "py": "Méi cuò, èr zhě yīnggāi hù xiāng pèi hé, ér bú shì hùxiāng duìlì.",
+     "vi": "Đúng thế, hai bên nên phối hợp với nhau chứ không phải đối lập nhau."
+    },
+    {
+     "s": "A",
+     "zh": "看来我们的观点基本一致。",
+     "py": "Kànlái wǒmen de guāndiǎn jī běn yí zhì.",
+     "vi": "Xem ra quan điểm của chúng ta về cơ bản là thống nhất."
+    },
+    {
+     "s": "B",
+     "zh": "是啊，这正是我们这一代人需要思考的课题。",
+     "py": "Shì a, zhè zhèng shì wǒmen zhè yí dài rén xūyào sīkǎo de kètí.",
+     "vi": "Phải, đây chính là vấn đề mà thế hệ chúng ta cần suy nghĩ."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Tình hình kinh tế",
+   "scene": "Hai đồng nghiệp bàn về xu hướng kinh tế.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "近年来，物价上涨的幅度明显加大了。",
+     "py": "Jìnniánlái, wù jià shàng zhǎng de fúdù míngxiǎn jiā dà le.",
+     "vi": "Những năm gần đây, mức tăng của giá cả rõ ràng đã lớn hơn."
+    },
+    {
+     "s": "B",
+     "zh": "这主要是因为原材料成本提高，再加上需求增加。",
+     "py": "Zhè zhǔyào shì yīn wèi yuáncáiliào chéngběn tígāo, zài jiāshàng xūqiú zēngjiā.",
+     "vi": "Chủ yếu là do chi phí nguyên vật liệu tăng, cộng thêm nhu cầu tăng."
+    },
+    {
+     "s": "A",
+     "zh": "对普通家庭来说，这无疑增加了负担。",
+     "py": "Duì pǔ tōng jiā tíng lái shuō, zhè wúyí zēngjiā le fùdān.",
+     "vi": "Đối với gia đình bình thường, điều này không nghi ngờ gì đã tăng thêm gánh nặng."
+    },
+    {
+     "s": "B",
+     "zh": "政府已经出台了一系列措施来稳定市场。",
+     "py": "Zhèngfǔ yǐjīng chū tái le yíxìliè cuòshī lái wěndìng shìchǎng.",
+     "vi": "Chính phủ đã đưa ra hàng loạt biện pháp để ổn định thị trường."
+    },
+    {
+     "s": "A",
+     "zh": "但愿这些措施能够发挥作用。",
+     "py": "Dàn yuàn zhèxiē cuòshī nénggòu fā huī zuò yòng.",
+     "vi": "Mong rằng các biện pháp này có thể phát huy tác dụng."
+    },
+    {
+     "s": "B",
+     "zh": "从长远来看，调整产业结构才是根本出路。",
+     "py": "Cóng chángyuǎn lái kàn, tiáozhěng chǎn yè jié gòu cái shì gēnběn chū lù.",
+     "vi": "Xét về lâu dài, điều chỉnh cơ cấu ngành nghề mới là lối thoát căn bản."
+    },
+    {
+     "s": "A",
+     "zh": "你分析得很透彻，我学到了很多。",
+     "py": "Nǐ fēnxī de hěn tòu chè, wǒ xué dào le hěn duō.",
+     "vi": "Bạn phân tích rất thấu đáo, tôi học được rất nhiều."
+    },
+    {
+     "s": "B",
+     "zh": "哪里哪里，我只是随便说说而已。",
+     "py": "Nǎlǐ nǎlǐ, wǒ zhǐshì suí biàn shuō shuō ér yǐ.",
+     "vi": "Đâu có đâu có, tôi chỉ nói chơi mà thôi."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Bảo vệ di sản",
+   "scene": "Hướng dẫn viên nói chuyện với du khách về di sản.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "这座古城已有两千多年的历史，是珍贵的文化遗产。",
+     "py": "Zhè zuò gǔ chéng yǐ yǒu liǎng qiān duō nián de lìshǐ, shì zhēnguì de wén huà yí chǎn.",
+     "vi": "Cổ thành này đã có lịch sử hơn hai nghìn năm, là di sản văn hóa quý giá."
+    },
+    {
+     "s": "B",
+     "zh": "看到这些古老的建筑，我不禁想了很多。",
+     "py": "Kàn dào zhèxiē gǔlǎo de jiànzhù, wǒ bùjīn xiǎng le hěn duō.",
+     "vi": "Nhìn những công trình cổ xưa này, tôi không khỏi nghĩ rất nhiều."
+    },
+    {
+     "s": "A",
+     "zh": "可惜的是，近年来游客越来越多，对古建筑造成了一定的破坏。",
+     "py": "Kěxī de shì, jìnniánlái yóukè yuè lái yuè duō, duì gǔ jiàn zhù zàochéng le yídìng de pòhuài.",
+     "vi": "Đáng tiếc là những năm gần đây du khách ngày càng đông, gây ra một mức độ phá hoại nhất định cho công trình cổ."
+    },
+    {
+     "s": "B",
+     "zh": "所以政府规定了每天参观的人数。",
+     "py": "Suǒyǐ zhèngfǔ guīdìng le měi tiān cānguān de rénshù.",
+     "vi": "Vì vậy chính phủ quy định số người tham quan mỗi ngày."
+    },
+    {
+     "s": "A",
+     "zh": "这样做很有必要，保护文物是每个人的责任。",
+     "py": "Zhèyàng zuò hěn yǒu bìyào, bǎohù wénwù shì měi gè rén de zérèn.",
+     "vi": "Làm như vậy rất cần thiết, bảo vệ di vật là trách nhiệm của mỗi người."
+    },
+    {
+     "s": "B",
+     "zh": "请大家不要触摸墙上的壁画，也不要随地乱扔垃圾。",
+     "py": "Qǐng dàjiā búyào chù mō qiáng shàng de bì huà, yě búyào suí dì luàn rēng lājī.",
+     "vi": "Xin mọi người đừng chạm vào bích họa trên tường, cũng đừng xả rác bừa bãi."
+    },
+    {
+     "s": "A",
+     "zh": "我们一定会遵守规定的。",
+     "py": "Wǒmen yídìng huì zūnshǒu guīdìng de.",
+     "vi": "Chúng tôi nhất định sẽ tuân thủ quy định."
+    },
+    {
+     "s": "B",
+     "zh": "谢谢各位的配合，祝大家参观愉快。",
+     "py": "Xièxie gèwèi de pèihé, zhù dàjiā cānguān yúkuài.",
+     "vi": "Cảm ơn sự hợp tác của quý vị, chúc mọi người tham quan vui vẻ."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Truyền thông xã hội",
+   "scene": "Hai người bạn thảo luận ảnh hưởng của mạng xã hội.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "现在的年轻人几乎每天都离不开社交媒体。",
+     "py": "Xiànzài de nián qīng rén jīhū měi tiān dōu lí bù kāi shè jiāo méitǐ.",
+     "vi": "Giới trẻ bây giờ hầu như ngày nào cũng không rời được mạng xã hội."
+    },
+    {
+     "s": "B",
+     "zh": "它确实让信息传播得更快，也更广泛。",
+     "py": "Tā quèshí ràng xìnxī chuánbō de gèng kuài, yě gèng guǎngfàn.",
+     "vi": "Nó đúng là làm thông tin lan truyền nhanh hơn, rộng hơn."
+    },
+    {
+     "s": "A",
+     "zh": "但是网上的消息有真有假，很容易被误导。",
+     "py": "Dànshì wǎngshang de xiāoxi yǒu zhēn yǒu jiǎ, hěn róngyì bèi wù dǎo.",
+     "vi": "Nhưng tin tức trên mạng có thật có giả, rất dễ bị dẫn dắt sai."
+    },
+    {
+     "s": "B",
+     "zh": "所以我们要学会独立思考，不能盲目相信。",
+     "py": "Suǒyǐ wǒmen yào xuéhuì dú lì sī kǎo, bù néng máng mù xiāngxìn.",
+     "vi": "Vì vậy chúng ta phải học cách suy nghĩ độc lập, không thể tin mù quáng."
+    },
+    {
+     "s": "A",
+     "zh": "另外，过度使用还会影响人际关系。",
+     "py": "Lìngwài, guòdù shǐyòng hái huì yǐngxiǎng rén jì guān xì.",
+     "vi": "Ngoài ra, dùng quá mức còn ảnh hưởng đến quan hệ giữa người với người."
+    },
+    {
+     "s": "B",
+     "zh": "对，我们应该把握好分寸，别让它占据生活的全部。",
+     "py": "Duì, wǒmen yīnggāi bǎwò hǎo fēn cùn, bié ràng tā zhànjù shēnghuó de quánbù.",
+     "vi": "Đúng, chúng ta nên giữ chừng mực, đừng để nó chiếm hết cuộc sống."
+    },
+    {
+     "s": "A",
+     "zh": "从明天开始，我打算每天少看一个小时手机。",
+     "py": "Cóng míngtiān kāishǐ, wǒ dǎsuàn měi tiān shǎo kàn yí gè xiǎoshí shǒujī.",
+     "vi": "Từ ngày mai, tôi định mỗi ngày bớt xem điện thoại một tiếng."
+    },
+    {
+     "s": "B",
+     "zh": "好办法，我陪你一起坚持。",
+     "py": "Hǎo bànfǎ, wǒ péi nǐ yìqǐ jiānchí.",
+     "vi": "Cách hay, tôi cùng bạn kiên trì."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Cải cách giáo dục",
+   "scene": "Phụ huynh và giáo viên trò chuyện về việc học của trẻ.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "老师，孩子最近的成绩有所下降，我很着急。",
+     "py": "Lǎoshī, háizi zuìjìn de chéngjì yǒu suǒ xiàjiàng, wǒ hěn zháo jí.",
+     "vi": "Thưa thầy, thành tích của cháu dạo này có giảm, tôi rất sốt ruột."
+    },
+    {
+     "s": "B",
+     "zh": "不必过于焦虑，成绩只是衡量学习的一个方面。",
+     "py": "Búbì guòyú jiāolǜ, chéngjì zhǐshì héngliáng xuéxí de yí gè fāngmiàn.",
+     "vi": "Không cần quá lo lắng, thành tích chỉ là một mặt để đánh giá việc học."
+    },
+    {
+     "s": "A",
+     "zh": "可现在竞争这么激烈，我怕他落后于别人。",
+     "py": "Kě xiànzài jìngzhēng zhème jīliè, wǒ pà tā luòhòu yú biérén.",
+     "vi": "Nhưng bây giờ cạnh tranh khốc liệt như vậy, tôi sợ cháu bị tụt lại so với người khác."
+    },
+    {
+     "s": "B",
+     "zh": "培养孩子的兴趣和独立能力同样重要。",
+     "py": "Péiyǎng háizi de xìngqù hé dúlì nénglì tóngyàng zhòngyào.",
+     "vi": "Bồi dưỡng hứng thú và năng lực tự lập của trẻ cũng quan trọng như vậy."
+    },
+    {
+     "s": "A",
+     "zh": "您的意思是，不要给他施加太大的压力？",
+     "py": "Nín de yìsi shì, búyào gěi tā shī jiā tài dà de yālì?",
+     "vi": "Ý thầy là đừng gây áp lực quá lớn cho cháu?"
+    },
+    {
+     "s": "B",
+     "zh": "没错，要多鼓励，少批评，让他爱上学习。",
+     "py": "Méi cuò, yào duō gǔlì, shǎo pīpíng, ràng tā ài shàng xuéxí.",
+     "vi": "Đúng, phải động viên nhiều, phê bình ít, để cháu yêu thích học tập."
+    },
+    {
+     "s": "A",
+     "zh": "听您这么一说，我心里踏实多了。",
+     "py": "Tīng nín zhème yī shuō, wǒ xīnlǐ tāshi duō le.",
+     "vi": "Nghe thầy nói vậy, trong lòng tôi yên tâm hơn nhiều."
+    },
+    {
+     "s": "B",
+     "zh": "家校合作，孩子才能健康成长。",
+     "py": "Jiā xiào hézuò, háizi cáinéng jiàn kāng chéng zhǎng.",
+     "vi": "Nhà trường và gia đình hợp tác, trẻ mới có thể trưởng thành khỏe mạnh."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Sức khỏe tinh thần",
+   "scene": "Hai người bạn trò chuyện về stress.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "最近我总是心烦意乱，什么事都提不起兴趣。",
+     "py": "Zuìjìn wǒ zǒngshì xīn fán yì luàn, shénme shì dōu tí bù qǐ xìngqù.",
+     "vi": "Dạo này tôi luôn bứt rứt, chẳng hứng thú với việc gì."
+    },
+    {
+     "s": "B",
+     "zh": "这可能是长期压力造成的，你有没有跟家人聊过？",
+     "py": "Zhè kěnéng shì chángqī yālì zàochéng de, nǐ yǒu méi yǒu gēn jiārén liáo guò?",
+     "vi": "Có thể do áp lực kéo dài gây ra, bạn đã nói chuyện với người nhà chưa?"
+    },
+    {
+     "s": "A",
+     "zh": "我不想让他们操心，一直把苦恼藏在心里。",
+     "py": "Wǒ bù xiǎng ràng tāmen cāo xīn, yìzhí bǎ kǔ nǎo cáng zài xīnlǐ.",
+     "vi": "Tôi không muốn họ lo lắng, vẫn luôn giấu nỗi phiền muộn trong lòng."
+    },
+    {
+     "s": "B",
+     "zh": "把烦恼说出来，反而能减轻心理负担。",
+     "py": "Bǎ fánnǎo shuō chūlái, fǎn'ér néng jiǎnqīng xīnlǐ fùdān.",
+     "vi": "Nói phiền muộn ra, ngược lại có thể giảm gánh nặng tâm lý."
+    },
+    {
+     "s": "A",
+     "zh": "如果情况一直没有好转，也可以咨询心理医生。",
+     "py": "Rúguǒ qíngkuàng yìzhí méiyǒu hǎozhuǎn, yě kěyǐ zīxún xīn lǐ yī shēng.",
+     "vi": "Nếu tình hình mãi không khá hơn, cũng có thể tư vấn bác sĩ tâm lý."
+    },
+    {
+     "s": "B",
+     "zh": "我一直觉得看心理医生是件丢脸的事。",
+     "py": "Wǒ yìzhí juéde kàn xīn lǐ yī shēng shì jiàn diū liǎn de shì.",
+     "vi": "Tôi vẫn luôn thấy đi gặp bác sĩ tâm lý là chuyện mất mặt."
+    },
+    {
+     "s": "A",
+     "zh": "这是一种误会，就像身体生病要去医院一样自然。",
+     "py": "Zhè shì yī zhǒng wùhuì, jiù xiàng shēntǐ shēngbìng yào qù yīyuàn yíyàng zìrán.",
+     "vi": "Đó là một sự hiểu lầm, giống như cơ thể bị bệnh phải đến bệnh viện, hết sức tự nhiên."
+    },
+    {
+     "s": "B",
+     "zh": "谢谢你的开导，我会认真考虑的。",
+     "py": "Xièxie nǐ de kāi dǎo, wǒ huì rènzhēn kǎolǜ de.",
+     "vi": "Cảm ơn bạn đã khuyên giải, tôi sẽ cân nhắc nghiêm túc."
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Du lịch bền vững",
+   "scene": "Hai người bàn về du lịch có trách nhiệm.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "旅游业的繁荣带动了当地经济，但也带来了不少问题。",
+     "py": "Lǚ yóu yè de fánróng dàidòng le dāngdì jīngjì, dàn yě dài lái le bù shǎo wèntí.",
+     "vi": "Sự phồn vinh của ngành du lịch đã thúc đẩy kinh tế địa phương, nhưng cũng mang đến không ít vấn đề."
+    },
+    {
+     "s": "B",
+     "zh": "比如垃圾增多、水资源紧张，生态环境遭到破坏。",
+     "py": "Bǐrú lājī zēng duō, shuǐ zī yuán jǐnzhāng, shēng tài huán jìng zāodào pòhuài.",
+     "vi": "Ví dụ rác tăng, nguồn nước căng thẳng, môi trường sinh thái bị phá hoại."
+    },
+    {
+     "s": "A",
+     "zh": "因此，可持续发展的理念越来越受到重视。",
+     "py": "Yīncǐ, kě chíxù fāzhǎn de lǐniàn yuè lái yuè shòu dào zhòng shì.",
+     "vi": "Vì vậy, quan niệm phát triển bền vững ngày càng được coi trọng."
+    },
+    {
+     "s": "B",
+     "zh": "游客也应该尊重当地的风俗习惯，减少对自然的干扰。",
+     "py": "Yóukè yě yīnggāi zūnzhòng dāngdì de fēng sú xí guàn, jiǎnshǎo duì zìrán de gānrǎo.",
+     "vi": "Du khách cũng nên tôn trọng phong tục tập quán địa phương, giảm bớt sự quấy nhiễu thiên nhiên."
+    },
+    {
+     "s": "A",
+     "zh": "有些景区实行预约制，控制客流量，效果相当显著。",
+     "py": "Yǒuxiē jǐngqū shíxíng yùyuē zhì, kòngzhì kè liú liàng, xiàoguǒ xiāngdāng xiǎnzhù.",
+     "vi": "Một số khu du lịch thực hiện chế độ đặt lịch, kiểm soát lượng khách, hiệu quả khá rõ rệt."
+    },
+    {
+     "s": "B",
+     "zh": "看来，兼顾经济效益与环境保护并非不可能。",
+     "py": "Kànlái, jiān gù jīng jì xiào yì yǔ huán jìng bǎo hù bìng fēi bù kěnéng.",
+     "vi": "Xem ra, cân bằng giữa hiệu quả kinh tế và bảo vệ môi trường không phải là không thể."
+    },
+    {
+     "s": "A",
+     "zh": "只要各方共同努力，就能实现双赢。",
+     "py": "Zhǐyào gè fāng gòng tóng nǔ lì, jiù néng shíxiàn shuāng yíng.",
+     "vi": "Chỉ cần các bên cùng nỗ lực, là có thể đạt được đôi bên cùng có lợi."
+    },
+    {
+     "s": "B",
+     "zh": "下次旅行，我也会注意这一点。",
+     "py": "Xià cì lǚxíng, wǒ yě huì zhùyì zhè yì diǎn.",
+     "vi": "Chuyến đi lần sau, tôi cũng sẽ chú ý điểm này."
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Đô thị hóa",
+   "scene": "Hai người bàn về cuộc sống ở thành phố lớn.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你为什么放弃大城市的工作，回到小城市生活？",
+     "py": "Nǐ wèishénme fàngqì dà chéng shì de gōngzuò, huí dào xiǎo chéngshì shēnghuó?",
+     "vi": "Vì sao bạn từ bỏ công việc ở thành phố lớn, trở về sống ở thành phố nhỏ?"
+    },
+    {
+     "s": "B",
+     "zh": "大城市虽然机会多，但是节奏太快，生活成本也高。",
+     "py": "Dà chéng shì suīrán jīhuì duō, dànshì jiézòu tài kuài, shēnghuó chéngběn yě gāo.",
+     "vi": "Thành phố lớn tuy nhiều cơ hội, nhưng nhịp sống quá nhanh, chi phí sinh hoạt cũng cao."
+    },
+    {
+     "s": "A",
+     "zh": "可是小城市的发展空间毕竟有限，你不觉得可惜吗？",
+     "py": "Kěshì xiǎo chéngshì de fāzhǎn kōngjiān bìjìng yǒuxiàn, nǐ bù juéde kěxī ma?",
+     "vi": "Nhưng không gian phát triển ở thành phố nhỏ rốt cuộc có hạn, bạn không thấy tiếc sao?"
+    },
+    {
+     "s": "B",
+     "zh": "每个人对幸福的理解不同，我更看重生活质量。",
+     "py": "Měi gè rén duì xìngfú de lǐjiě bùtóng, wǒ gèng kànzhòng shēnghuó zhìliàng.",
+     "vi": "Mỗi người hiểu về hạnh phúc một khác, tôi coi trọng chất lượng cuộc sống hơn."
+    },
+    {
+     "s": "A",
+     "zh": "你的选择令人佩服，不少人其实也向往这样的生活。",
+     "py": "Nǐ de xuǎnzé lìng rén pèifú, bù shǎo rén qíshí yě xiàngwǎng zhèyàng de shēnghuó.",
+     "vi": "Lựa chọn của bạn đáng khâm phục, thực ra không ít người cũng hướng tới cuộc sống như vậy."
+    },
+    {
+     "s": "B",
+     "zh": "现在交通和网络都很发达，在哪儿工作差别已经不大了。",
+     "py": "Xiànzài jiāotōng hé wǎngluò dōu hěn fādá, zài nǎr gōngzuò chābié yǐjīng bù dà le.",
+     "vi": "Bây giờ giao thông và mạng đều phát triển, làm việc ở đâu cũng đã không khác biệt nhiều."
+    },
+    {
+     "s": "A",
+     "zh": "听你这么说，我也动心了。",
+     "py": "Tīng nǐ zhème shuō, wǒ yě dòng xīn le.",
+     "vi": "Nghe bạn nói vậy, tôi cũng động lòng rồi."
+    },
+    {
+     "s": "B",
+     "zh": "欢迎你来我这儿住几天，亲身感受一下。",
+     "py": "Huānyíng nǐ lái wǒ zhèr zhù jǐ tiān, qīn shēn gǎn shòu yī xià.",
+     "vi": "Hoan nghênh bạn đến chỗ tôi ở vài ngày, tự mình cảm nhận một chút."
+    }
+   ]
+  }
+ ]
+}

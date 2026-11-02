@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hội thoại HSK - HanziLinh</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif+SC:wght@600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/vocab.css">
+<link rel="stylesheet" href="css/dialogue.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html" aria-label="HanziLinh, trang chủ">
+    <span class="seal" aria-hidden="true">学</span>
+    <span class="brand-name">HanziLinh</span>
+  </a>
+  <nav aria-label="Menu chính">
+    <a href="index.html#cap-do">Cấp độ HSK</a>
+    <a href="index.html#cong-cu">Công cụ học</a>
+  </nav>
+</header>
+
+<main class="narrow">
+  <h1 id="title">Hội thoại HSK</h1>
+  <div class="chips std" id="levelChips" role="group" aria-label="Cấp độ HSK"></div>
+  <p class="lead" id="info">Đang tải dữ liệu...</p>
+
+  <section id="listView" class="hide">
+    <ul class="dlist" id="dlist"></ul>
+  </section>
+
+  <section id="dlgView" class="hide">
+    <button class="btn2 back" id="back" type="button">&larr; Danh sách hội thoại</button>
+    <h2 class="dtitle" id="dtitle"></h2>
+    <p class="dscene" id="dscene"></p>
+    <div class="dtools">
+      <div class="chips" role="group" aria-label="Hiển thị">
+        <button class="chip" type="button" id="tPy" aria-pressed="true">Phiên âm</button>
+        <button class="chip" type="button" id="tVi" aria-pressed="true">Nghĩa tiếng Việt</button>
+      </div>
+      <div class="chips" id="roleChips" role="group" aria-label="Tập vai">
+        <button class="chip" type="button" data-v="none" aria-pressed="true">Đọc cả hai vai</button>
+        <button class="chip" type="button" data-v="A" aria-pressed="false">Tập vai A</button>
+        <button class="chip" type="button" data-v="B" aria-pressed="false">Tập vai B</button>
+      </div>
+      <div class="row ctrl tools">
+        <button class="btn2" id="playAll" type="button">Nghe cả đoạn</button>
+        <button class="btn2 hide" id="stopAll" type="button">Dừng</button>
+      </div>
+      <p class="voice-note hide" id="voiceNote">Thiết bị của bạn có vẻ chưa có giọng đọc tiếng Trung nên nút nghe có thể không phát tiếng hoặc đọc sai.</p>
+    </div>
+    <div class="chat" id="chat"></div>
+    <div class="row ctrl nav">
+      <button class="btn2" id="prevD" type="button">&larr; Bài trước</button>
+      <button class="btn2 p" id="nextD" type="button">Bài sau &rarr;</button>
+    </div>
+  </section>
+
+  <p class="next-step"><a class="btn2 p linkbtn" id="toVocab" href="vocab.html?level=1&std=3">Ôn từ vựng của cấp này</a></p>
+</main>
+
+<footer class="foot">
+  <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/common.js"></script>
+<script src="js/dialogue.js"></script>
+</body>
+</html>

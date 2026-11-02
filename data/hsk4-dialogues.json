@@ -1,0 +1,483 @@
+{
+ "level": 4,
+ "standard": "HSK 3.0",
+ "count": 8,
+ "dialogues": [
+  {
+   "id": 1,
+   "title": "Xin nghỉ phép",
+   "scene": "Nhân viên xin phép quản lý nghỉ vài ngày.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "经理，我想请三天假，可以吗？",
+     "py": "Jīnglǐ, wǒ xiǎng qǐng sān tiān jiǎ, kěyǐ ma?",
+     "vi": "Giám đốc, tôi muốn xin nghỉ ba ngày, được không?"
+    },
+    {
+     "s": "B",
+     "zh": "发生什么事了？",
+     "py": "Fāshēng shénme shì le?",
+     "vi": "Đã xảy ra chuyện gì vậy?"
+    },
+    {
+     "s": "A",
+     "zh": "我妈妈生病了，需要有人照顾她。",
+     "py": "Wǒ māma shēngbìng le, xūyào yǒu rén zhàogù tā.",
+     "vi": "Mẹ tôi bị bệnh, cần có người chăm sóc."
+    },
+    {
+     "s": "B",
+     "zh": "严重吗？",
+     "py": "Yánzhòng ma?",
+     "vi": "Có nghiêm trọng không?"
+    },
+    {
+     "s": "A",
+     "zh": "医生说要住院检查，不过不太严重。",
+     "py": "Yīshēng shuō yào zhùyuàn jiǎnchá, búguò bù tài yánzhòng.",
+     "vi": "Bác sĩ nói phải nằm viện kiểm tra, nhưng không quá nghiêm trọng."
+    },
+    {
+     "s": "B",
+     "zh": "好吧，你把手头的工作交给小李，他会帮你。",
+     "py": "Hǎo ba, nǐ bǎ shǒu tóu de gōngzuò jiāo gěi xiǎo lǐ, tā huì bāng nǐ.",
+     "vi": "Được rồi, cậu giao công việc đang làm cho Tiểu Lý, cậu ấy sẽ giúp cậu."
+    },
+    {
+     "s": "A",
+     "zh": "谢谢经理，我回来以后一定把工作做完。",
+     "py": "Xièxie jīnglǐ, wǒ huílái yǐhòu yídìng bǎ gōngzuò zuò wán.",
+     "vi": "Cảm ơn giám đốc, sau khi về tôi nhất định sẽ làm xong công việc."
+    },
+    {
+     "s": "B",
+     "zh": "不用着急，先照顾好家人。",
+     "py": "Búyòng zháojí, xiān zhàogù hǎo jiārén.",
+     "vi": "Không cần vội, hãy chăm sóc gia đình trước."
+    },
+    {
+     "s": "A",
+     "zh": "真的很感谢您的理解。",
+     "py": "Zhēn de hěn gǎn xiè nín de lǐjiě.",
+     "vi": "Thật sự rất cảm ơn sự thông cảm của ông."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Chuyển nhà",
+   "scene": "Hai người bạn giúp nhau chuyển nhà.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你们什么时候搬家？",
+     "py": "Nǐmen shénme shíhou bānjiā?",
+     "vi": "Khi nào các bạn chuyển nhà?"
+    },
+    {
+     "s": "B",
+     "zh": "这个周末，新房子离公司近多了。",
+     "py": "Zhège zhōumò, xīn fáng zi lí gōngsī jìn duō le.",
+     "vi": "Cuối tuần này, nhà mới gần công ty hơn nhiều."
+    },
+    {
+     "s": "A",
+     "zh": "东西多不多？需要我帮忙吗？",
+     "py": "Dōngxi duō bù duō? Xūyào wǒ bāngmáng ma?",
+     "vi": "Đồ đạc có nhiều không? Có cần tôi giúp không?"
+    },
+    {
+     "s": "B",
+     "zh": "太多了，光书就有十几箱。",
+     "py": "Tài duō le, guāng shū jiù yǒu shí jǐ xiāng.",
+     "vi": "Nhiều lắm, chỉ riêng sách đã hơn mười thùng."
+    },
+    {
+     "s": "A",
+     "zh": "那我找几个朋友一起去吧。",
+     "py": "Nà wǒ zhǎo jǐ gè péngyou yìqǐ qù ba.",
+     "vi": "Vậy tôi gọi vài người bạn cùng đi nhé."
+    },
+    {
+     "s": "B",
+     "zh": "太好了，不过千万别把我的花弄坏了。",
+     "py": "Tài hǎo le, búguò qiān wàn bié bǎ wǒ de huā nòng huài le.",
+     "vi": "Tốt quá, nhưng nhất định đừng làm hỏng hoa của tôi."
+    },
+    {
+     "s": "A",
+     "zh": "放心，我们会小心的。",
+     "py": "Fàngxīn, wǒmen huì xiǎoxīn de.",
+     "vi": "Yên tâm, chúng tôi sẽ cẩn thận."
+    },
+    {
+     "s": "B",
+     "zh": "搬完以后我请大家吃饭。",
+     "py": "Bān wán yǐhòu wǒ qǐng dàjiā chī fàn.",
+     "vi": "Chuyển xong tôi mời mọi người ăn cơm."
+    },
+    {
+     "s": "A",
+     "zh": "一言为定！",
+     "py": "Yī yán wéi dìng!",
+     "vi": "Nói là làm nhé!"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Mua điện thoại",
+   "scene": "Khách chọn điện thoại ở cửa hàng.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好，我想买一部新手机。",
+     "py": "Nǐhǎo, wǒ xiǎng mǎi yī bù xīn shǒu jī.",
+     "vi": "Xin chào, tôi muốn mua một chiếc điện thoại mới."
+    },
+    {
+     "s": "B",
+     "zh": "您的预算大概是多少？",
+     "py": "Nín de yù suàn dàgài shì duōshao?",
+     "vi": "Ngân sách của ông khoảng bao nhiêu?"
+    },
+    {
+     "s": "A",
+     "zh": "三千块左右，最好能用得久一点儿。",
+     "py": "Sān qiān kuài zuǒyòu, zuìhǎo néng yòng de jiǔ yìdiǎnr.",
+     "vi": "Khoảng ba nghìn tệ, tốt nhất là dùng được lâu một chút."
+    },
+    {
+     "s": "B",
+     "zh": "这一个很适合您，一次可以用两天。",
+     "py": "Zhè yí gè hěn shìhé nín, yī cì kěyǐ yòng liǎng tiān.",
+     "vi": "Cái này rất hợp với ông, một lần sạc dùng được hai ngày."
+    },
+    {
+     "s": "A",
+     "zh": "照相的效果怎么样？",
+     "py": "Zhàoxiàng de xiàoguǒ zěnmeyàng?",
+     "vi": "Chụp ảnh hiệu quả thế nào?"
+    },
+    {
+     "s": "B",
+     "zh": "非常清楚，晚上拍照也不错。",
+     "py": "Fēicháng qīngchu, wǎnshang pāizhào yě búcuò.",
+     "vi": "Rất rõ nét, buổi tối chụp cũng tốt."
+    },
+    {
+     "s": "A",
+     "zh": "有没有保修？",
+     "py": "Yǒu méi yǒu bǎo xiū?",
+     "vi": "Có bảo hành không?"
+    },
+    {
+     "s": "B",
+     "zh": "有，保修一年，坏了可以免费修。",
+     "py": "Yǒu, bǎo xiū yī nián, huài le kěyǐ miǎnfèi xiū.",
+     "vi": "Có, bảo hành một năm, hỏng có thể sửa miễn phí."
+    },
+    {
+     "s": "A",
+     "zh": "那我就买这个吧。",
+     "py": "Nà wǒ jiù mǎi zhège ba.",
+     "vi": "Vậy tôi mua cái này."
+    },
+    {
+     "s": "B",
+     "zh": "好的，请您到前台付钱。",
+     "py": "Hǎo de, qǐng nín dào qián tái fù qián.",
+     "vi": "Vâng, mời ông đến quầy trả tiền."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Giảm cân",
+   "scene": "Hai người bạn bàn chuyện tập thể dục.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你最近是不是瘦了？",
+     "py": "Nǐ zuìjìn shì bú shì shòu le?",
+     "vi": "Dạo này bạn có phải gầy đi không?"
+    },
+    {
+     "s": "B",
+     "zh": "是啊，我每天坚持跑步，已经瘦了五公斤。",
+     "py": "Shì a, wǒ měi tiān jiānchí pǎobù, yǐjīng shòu le wǔ gōng jīn.",
+     "vi": "Đúng vậy, mỗi ngày tôi kiên trì chạy bộ, đã gầy đi năm cân."
+    },
+    {
+     "s": "A",
+     "zh": "你怎么做到的？我也想瘦一点儿。",
+     "py": "Nǐ zěnme zuò dào de? Wǒ yě xiǎng shòu yìdiǎnr.",
+     "vi": "Bạn làm thế nào vậy? Tôi cũng muốn gầy bớt."
+    },
+    {
+     "s": "B",
+     "zh": "首先要少吃甜的东西，其次要多运动。",
+     "py": "Shǒuxiān yào shǎo chī tián de dōngxi, qícì yào duō yùndòng.",
+     "vi": "Trước hết phải ăn ít đồ ngọt, tiếp đến phải vận động nhiều."
+    },
+    {
+     "s": "A",
+     "zh": "可是我工作太忙，没有时间。",
+     "py": "Kěshì wǒ gōngzuò tài máng, méiyǒu shíjiān.",
+     "vi": "Nhưng công việc của tôi quá bận, không có thời gian."
+    },
+    {
+     "s": "B",
+     "zh": "时间是找出来的，每天二十分钟就够了。",
+     "py": "Shíjiān shì zhǎo chūlái de, měi tiān èr shí fēn zhōng jiù gòu le.",
+     "vi": "Thời gian là do mình tìm ra, mỗi ngày hai mươi phút là đủ."
+    },
+    {
+     "s": "A",
+     "zh": "好，那我从明天开始试试。",
+     "py": "Hǎo, nà wǒ cóng míngtiān kāishǐ shì shì.",
+     "vi": "Được, vậy từ ngày mai tôi bắt đầu thử xem."
+    },
+    {
+     "s": "B",
+     "zh": "别忘了，要有耐心，不能着急。",
+     "py": "Bié wàng le, yào yǒu nàixīn, bù néng zháojí.",
+     "vi": "Đừng quên, phải có kiên nhẫn, không được vội."
+    },
+    {
+     "s": "A",
+     "zh": "放心，我会努力的。",
+     "py": "Fàngxīn, wǒ huì nǔlì de.",
+     "vi": "Yên tâm, tôi sẽ cố gắng."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Xe bị hỏng",
+   "scene": "Tài xế gọi cho thợ sửa xe khi xe hỏng giữa đường.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "师傅，我的车在路上坏了，你能来一下吗？",
+     "py": "Shīfu, wǒ de chē zài lùshang huài le, nǐ néng lái yíxià ma?",
+     "vi": "Bác thợ ơi, xe tôi bị hỏng giữa đường, bác đến một chút được không?"
+    },
+    {
+     "s": "B",
+     "zh": "你在哪儿？",
+     "py": "Nǐ zài nǎr?",
+     "vi": "Bạn đang ở đâu?"
+    },
+    {
+     "s": "A",
+     "zh": "在中山路和人民路的路口，离银行很近。",
+     "py": "Zài zhōng shān lù hé rén mín lù de lùkǒu, lí yínháng hěn jìn.",
+     "vi": "Ở ngã tư đường Trung Sơn và đường Nhân Dân, rất gần ngân hàng."
+    },
+    {
+     "s": "B",
+     "zh": "车怎么了？",
+     "py": "Chē zěnme le?",
+     "vi": "Xe bị làm sao?"
+    },
+    {
+     "s": "A",
+     "zh": "发动不了，好像是没电了。",
+     "py": "Fā dòng bù liǎo, hǎoxiàng shì méi diàn le.",
+     "vi": "Không nổ máy được, hình như hết điện."
+    },
+    {
+     "s": "B",
+     "zh": "我马上过去，大概二十分钟。",
+     "py": "Wǒ mǎshàng guòqù, dàgài èr shí fēn zhōng.",
+     "vi": "Tôi qua ngay, khoảng hai mươi phút."
+    },
+    {
+     "s": "A",
+     "zh": "能快一点儿吗？我还要去机场接朋友。",
+     "py": "Néng kuài yìdiǎnr ma? Wǒ hái yào qù jīchǎng jiē péngyou.",
+     "vi": "Có thể nhanh hơn chút không? Tôi còn phải ra sân bay đón bạn."
+    },
+    {
+     "s": "B",
+     "zh": "路上堵车，我尽量快一点儿。",
+     "py": "Lùshang dǔchē, wǒ jǐn liàng kuài yìdiǎnr.",
+     "vi": "Trên đường kẹt xe, tôi cố gắng nhanh hết mức."
+    },
+    {
+     "s": "A",
+     "zh": "好的，麻烦你了。",
+     "py": "Hǎo de, máfan nǐ le.",
+     "vi": "Vâng, làm phiền bác rồi."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Khám mắt",
+   "scene": "Bệnh nhân gặp bác sĩ vì mắt mờ.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "医生，我最近看东西不太清楚。",
+     "py": "Yīshēng, wǒ zuìjìn kàn dōngxi bù tài qīngchu.",
+     "vi": "Bác sĩ, dạo này tôi nhìn đồ vật không rõ lắm."
+    },
+    {
+     "s": "B",
+     "zh": "你每天看电脑多长时间？",
+     "py": "Nǐ měi tiān kàn diànnǎo duō zhǎng shí jiān?",
+     "vi": "Mỗi ngày bạn nhìn máy tính bao lâu?"
+    },
+    {
+     "s": "A",
+     "zh": "差不多十个小时，晚上还要玩儿手机。",
+     "py": "Chàbuduō shí gè xiǎoshí, wǎnshang hái yào wán ér shǒujī.",
+     "vi": "Gần mười tiếng, buổi tối còn chơi điện thoại."
+    },
+    {
+     "s": "B",
+     "zh": "难怪眼睛这么累。你的视力下降了不少。",
+     "py": "Nán guài yǎnjing zhème lèi. Nǐ de shì lì xiàjiàng le bù shǎo.",
+     "vi": "Chẳng trách mắt mệt thế. Thị lực của bạn giảm khá nhiều."
+    },
+    {
+     "s": "A",
+     "zh": "需要戴眼镜吗？",
+     "py": "Xūyào dài yǎn jìng ma?",
+     "vi": "Có cần đeo kính không?"
+    },
+    {
+     "s": "B",
+     "zh": "需要，不过更重要的是让眼睛多休息。",
+     "py": "Xūyào, búguò gèng zhòngyào de shì ràng yǎnjing duō xiūxi.",
+     "vi": "Cần, nhưng quan trọng hơn là để mắt nghỉ ngơi nhiều hơn."
+    },
+    {
+     "s": "A",
+     "zh": "每看一小时电脑，就要休息十分钟。",
+     "py": "Měi kàn yī xiǎoshí diànnǎo, jiù yào xiūxi shí fēn zhōng.",
+     "vi": "Cứ nhìn máy tính một tiếng thì phải nghỉ mười phút."
+    },
+    {
+     "s": "B",
+     "zh": "我记住了，谢谢医生。",
+     "py": "Wǒ jì zhù le, xièxie yīshēng.",
+     "vi": "Tôi nhớ rồi, cảm ơn bác sĩ."
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Tổ chức tiệc",
+   "scene": "Hai bạn chuẩn bị tiệc tạm biệt cho đồng nghiệp.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "小李下个月要离开公司了，我们给他开个欢送会吧。",
+     "py": "Xiǎo lǐ xià gè yuè yào líkāi gōngsī le, wǒmen gěi tā kāi gè huān sòng huì ba.",
+     "vi": "Tiểu Lý tháng sau sẽ rời công ty, chúng ta tổ chức tiệc chia tay cho cậu ấy nhé."
+    },
+    {
+     "s": "B",
+     "zh": "好主意！你觉得在哪儿举行比较合适？",
+     "py": "Hǎo zhǔyi! Nǐ juéde zài nǎr jǔxíng bǐjiào héshì?",
+     "vi": "Ý hay! Bạn thấy tổ chức ở đâu thì thích hợp?"
+    },
+    {
+     "s": "A",
+     "zh": "公司附近有一家饭馆，环境不错，价格也合适。",
+     "py": "Gōngsī fùjìn yǒu yī jiā fànguǎn, huánjìng búcuò, jiàgé yě héshì.",
+     "vi": "Gần công ty có một quán ăn, môi trường tốt, giá cũng hợp lý."
+    },
+    {
+     "s": "B",
+     "zh": "那我来联系，你负责通知大家。",
+     "py": "Nà wǒ lái liánxì, nǐ fùzé tōngzhī dàjiā.",
+     "vi": "Vậy tôi liên hệ, bạn phụ trách thông báo cho mọi người."
+    },
+    {
+     "s": "A",
+     "zh": "别告诉他，我们想给他一个惊喜。",
+     "py": "Bié gàosu tā, wǒmen xiǎng gěi tā yí gè jīng xǐ.",
+     "vi": "Đừng nói cho cậu ấy biết, chúng ta muốn tạo bất ngờ cho cậu ấy."
+    },
+    {
+     "s": "B",
+     "zh": "好的，还要准备一份礼物。",
+     "py": "Hǎo de, hái yào zhǔnbèi yī fèn lǐwù.",
+     "vi": "Được, còn phải chuẩn bị một món quà."
+    },
+    {
+     "s": "A",
+     "zh": "我们每人出五十块钱，怎么样？",
+     "py": "Wǒmen měi rén chū wǔ shí kuài qián, zěnmeyàng?",
+     "vi": "Mỗi người chúng ta góp năm mươi tệ, thế nào?"
+    },
+    {
+     "s": "B",
+     "zh": "没问题，我这就去收钱。",
+     "py": "Méi wèntí, wǒ zhè jiù qù shōu qián.",
+     "vi": "Không vấn đề, tôi đi thu tiền ngay."
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Họp bị trễ",
+   "scene": "Nhân viên đến muộn vì kẹt xe.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "对不起，我来晚了，路上堵车堵得太厉害了。",
+     "py": "Duìbuqǐ, wǒ lái wǎn le, lùshang dǔchē dǔ de tài lìhai le.",
+     "vi": "Xin lỗi, tôi đến muộn, trên đường kẹt xe quá dữ."
+    },
+    {
+     "s": "B",
+     "zh": "会议已经开始二十分钟了。",
+     "py": "Huìyì yǐjīng kāishǐ èr shí fēn zhōng le.",
+     "vi": "Cuộc họp đã bắt đầu hai mươi phút rồi."
+    },
+    {
+     "s": "A",
+     "zh": "真抱歉，我下次一定提前出门。",
+     "py": "Zhēn bàoqiàn, wǒ xià cì yídìng tíqián chūmén.",
+     "vi": "Thật xin lỗi, lần sau tôi nhất định ra khỏi nhà sớm hơn."
+    },
+    {
+     "s": "B",
+     "zh": "你可以坐地铁，那样就不会迟到了。",
+     "py": "Nǐ kěyǐ zuò dì tiě, nàyàng jiù bú huì chídào le.",
+     "vi": "Bạn có thể đi tàu điện ngầm, như thế sẽ không đến muộn."
+    },
+    {
+     "s": "A",
+     "zh": "你说得对，我以后改坐地铁。",
+     "py": "Nǐ shuō dé duì, wǒ yǐhòu gǎi zuò dì tiě.",
+     "vi": "Ông nói đúng, sau này tôi sẽ đổi sang đi tàu điện ngầm."
+    },
+    {
+     "s": "B",
+     "zh": "现在快进来吧，我们正在讨论新计划。",
+     "py": "Xiànzài kuài jìn lái ba, wǒmen zhèngzài tǎolùn xīn jìhuà.",
+     "vi": "Bây giờ mau vào đi, chúng tôi đang thảo luận kế hoạch mới."
+    },
+    {
+     "s": "A",
+     "zh": "好的，我的看法等一会儿再说。",
+     "py": "Hǎo de, wǒ de kànfǎ děng yíhuìr zàishuō.",
+     "vi": "Vâng, ý kiến của tôi lát nữa tôi sẽ nói."
+    },
+    {
+     "s": "B",
+     "zh": "没关系，先听听大家的意见。",
+     "py": "Méi guānxi, xiān tīng tīng dàjiā de yìjiàn.",
+     "vi": "Không sao, hãy nghe ý kiến mọi người trước."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,501 @@
+{
+ "level": 2,
+ "standard": "HSK 3.0",
+ "count": 8,
+ "dialogues": [
+  {
+   "id": 1,
+   "title": "Ở bệnh viện",
+   "scene": "Một bệnh nhân đi khám bác sĩ.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你哪里不舒服？",
+     "py": "Nǐ nǎlǐ bù shūfu?",
+     "vi": "Bạn thấy khó chịu ở đâu?"
+    },
+    {
+     "s": "B",
+     "zh": "我头很疼，身体很热。",
+     "py": "Wǒ tóu hěn téng, shēntǐ hěn rè.",
+     "vi": "Đầu tôi rất đau, người rất nóng."
+    },
+    {
+     "s": "A",
+     "zh": "你什么时候开始不舒服的？",
+     "py": "Nǐ shénme shíhou kāishǐ bù shūfu de?",
+     "vi": "Bạn bắt đầu khó chịu từ khi nào?"
+    },
+    {
+     "s": "B",
+     "zh": "昨天晚上。我今天没吃早饭。",
+     "py": "Zuó tiān wǎn shàng. Wǒ jīntiān méi chī zǎofàn.",
+     "vi": "Từ tối qua. Hôm nay tôi chưa ăn sáng."
+    },
+    {
+     "s": "A",
+     "zh": "你要多喝水，多休息。",
+     "py": "Nǐ yào duō hē shuǐ, duō xiūxi.",
+     "vi": "Bạn phải uống nhiều nước, nghỉ ngơi nhiều."
+    },
+    {
+     "s": "B",
+     "zh": "我要吃药吗？",
+     "py": "Wǒ yào chī yào ma?",
+     "vi": "Tôi có phải uống thuốc không?"
+    },
+    {
+     "s": "A",
+     "zh": "要，一天吃三次。",
+     "py": "Yào, yī tiān chī sān cì.",
+     "vi": "Có, một ngày uống ba lần."
+    },
+    {
+     "s": "B",
+     "zh": "谢谢您，医生。",
+     "py": "Xiè xiè nín, yīshēng.",
+     "vi": "Cảm ơn bác sĩ."
+    },
+    {
+     "s": "A",
+     "zh": "不客气，希望你快点儿好。",
+     "py": "Bú kèqi, xīwàng nǐ kuài diǎn ér hǎo.",
+     "vi": "Không có gì, mong bạn mau khỏe."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Hỏi đường",
+   "scene": "Một du khách hỏi đường đến ga tàu.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "请问，火车站怎么走？",
+     "py": "Qǐngwèn, huǒ chē zhàn zěnme zǒu?",
+     "vi": "Xin hỏi, ga tàu đi như thế nào?"
+    },
+    {
+     "s": "B",
+     "zh": "往前走，到那里往右走。",
+     "py": "Wǎng qián zǒu, dào nàlǐ wǎng yòu zǒu.",
+     "vi": "Đi về phía trước, đến đó rẽ phải."
+    },
+    {
+     "s": "A",
+     "zh": "离这儿远吗？",
+     "py": "Lí zhèr yuǎn ma?",
+     "vi": "Cách đây có xa không?"
+    },
+    {
+     "s": "B",
+     "zh": "不太远，走路十五分钟就到。",
+     "py": "Bù tài yuǎn, zǒulù shí wǔ fēn zhōng jiù dào.",
+     "vi": "Không xa lắm, đi bộ mười lăm phút là đến."
+    },
+    {
+     "s": "A",
+     "zh": "我可以坐出租车去吗？",
+     "py": "Wǒ kěyǐ zuò chūzūchē qù ma?",
+     "vi": "Tôi có thể đi taxi đến đó không?"
+    },
+    {
+     "s": "B",
+     "zh": "可以，前边有很多出租车。",
+     "py": "Kěyǐ, qián biān yǒu hěn duō chūzūchē.",
+     "vi": "Được, phía trước có nhiều taxi."
+    },
+    {
+     "s": "A",
+     "zh": "坐车要多少钱？",
+     "py": "Zuò chē yào duō shǎo qián?",
+     "vi": "Đi xe hết bao nhiêu tiền?"
+    },
+    {
+     "s": "B",
+     "zh": "二十块钱就到了。",
+     "py": "Èr shí kuài qián jiù dào le.",
+     "vi": "Hai mươi tệ là đến."
+    },
+    {
+     "s": "A",
+     "zh": "太谢谢你了！",
+     "py": "Tài xièxie nǐ le!",
+     "vi": "Cảm ơn bạn nhiều lắm!"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Hẹn cuối tuần",
+   "scene": "Hai người bạn bàn kế hoạch cuối tuần.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "这个星期六你有什么事吗？",
+     "py": "Zhège xīng qī liù nǐ yǒu shénme shì ma?",
+     "vi": "Thứ bảy này bạn có việc gì không?"
+    },
+    {
+     "s": "B",
+     "zh": "没什么事。你想做什么？",
+     "py": "Méi shén me shì. Nǐ xiǎng zuò shénme?",
+     "vi": "Không có việc gì. Bạn muốn làm gì?"
+    },
+    {
+     "s": "A",
+     "zh": "我们去外边玩儿，好不好？",
+     "py": "Wǒmen qù wàibian wán ér, hǎo bù hǎo?",
+     "vi": "Chúng ta ra ngoài chơi, được không?"
+    },
+    {
+     "s": "B",
+     "zh": "好啊！几点去？",
+     "py": "Hǎo a! Jǐ diǎn qù?",
+     "vi": "Được! Mấy giờ đi?"
+    },
+    {
+     "s": "A",
+     "zh": "早上九点怎么样？",
+     "py": "Zǎoshang jiǔ diǎn zěnmeyàng?",
+     "vi": "Chín giờ sáng thì sao?"
+    },
+    {
+     "s": "B",
+     "zh": "太早了，十点吧。",
+     "py": "Tài zǎo le, shí diǎn ba.",
+     "vi": "Sớm quá, mười giờ nhé."
+    },
+    {
+     "s": "A",
+     "zh": "好，我们在学校门口见。",
+     "py": "Hǎo, wǒmen zài xuéxiào ménkǒu jiàn.",
+     "vi": "Được, chúng ta gặp ở cổng trường."
+    },
+    {
+     "s": "B",
+     "zh": "别忘了给我打电话。",
+     "py": "Bié wàng le gěi wǒ dǎ diànhuà.",
+     "vi": "Đừng quên gọi điện cho tôi."
+    },
+    {
+     "s": "A",
+     "zh": "好的，我不会忘。",
+     "py": "Hǎo de, wǒ bú huì wàng.",
+     "vi": "Được, tôi sẽ không quên."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Mua quần áo",
+   "scene": "Khách mua áo trong cửa hàng.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好，我想买一件衣服。",
+     "py": "Nǐhǎo, wǒ xiǎng mǎi yī jiàn yīfu.",
+     "vi": "Xin chào, tôi muốn mua một cái áo."
+    },
+    {
+     "s": "B",
+     "zh": "你喜欢什么颜色的？",
+     "py": "Nǐ xǐhuan shénme yánsè de?",
+     "vi": "Bạn thích màu gì?"
+    },
+    {
+     "s": "A",
+     "zh": "我喜欢白色的。",
+     "py": "Wǒ xǐhuan báisè de.",
+     "vi": "Tôi thích màu trắng."
+    },
+    {
+     "s": "B",
+     "zh": "这件怎么样？",
+     "py": "Zhè jiàn zěnmeyàng?",
+     "vi": "Cái này thế nào?"
+    },
+    {
+     "s": "A",
+     "zh": "很好看，我可以试一下吗？",
+     "py": "Hěn hǎokàn, wǒ kěyǐ shì yī xià ma?",
+     "vi": "Rất đẹp, tôi có thể thử không?"
+    },
+    {
+     "s": "B",
+     "zh": "可以，请这边走。",
+     "py": "Kěyǐ, qǐng zhèbiān zǒu.",
+     "vi": "Được, mời đi lối này."
+    },
+    {
+     "s": "A",
+     "zh": "有点儿大，有小一点儿的吗？",
+     "py": "Yǒudiǎnr dà, yǒu xiǎo yìdiǎnr de ma?",
+     "vi": "Hơi to, có cái nhỏ hơn không?"
+    },
+    {
+     "s": "B",
+     "zh": "有，你试试这件。",
+     "py": "Yǒu, nǐ shì shì zhè jiàn.",
+     "vi": "Có, bạn thử cái này."
+    },
+    {
+     "s": "A",
+     "zh": "这件很好，多少钱？",
+     "py": "Zhè jiàn hěn hǎo, duō shǎo qián?",
+     "vi": "Cái này tốt, bao nhiêu tiền?"
+    },
+    {
+     "s": "B",
+     "zh": "三百块。",
+     "py": "Sān bǎi kuài.",
+     "vi": "Ba trăm tệ."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Ở sân bay",
+   "scene": "Một hành khách làm thủ tục ở sân bay.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好，我要去北京。",
+     "py": "Nǐhǎo, wǒ yào qù Běijīng.",
+     "vi": "Xin chào, tôi muốn đi Bắc Kinh."
+    },
+    {
+     "s": "B",
+     "zh": "请问你叫什么名字？",
+     "py": "Qǐngwèn nǐ jiào shénme míngzi?",
+     "vi": "Xin hỏi bạn tên là gì?"
+    },
+    {
+     "s": "A",
+     "zh": "我叫小明。飞机几点起飞？",
+     "py": "Wǒ jiào Xiǎo Míng. Fēijī jǐ diǎn qǐ fēi?",
+     "vi": "Tôi tên Tiểu Minh. Máy bay mấy giờ cất cánh?"
+    },
+    {
+     "s": "B",
+     "zh": "下午两点三十分。",
+     "py": "Xiàwǔ liǎng diǎn sān shí fēn.",
+     "vi": "Hai giờ ba mươi chiều."
+    },
+    {
+     "s": "A",
+     "zh": "我可以坐在前边吗？",
+     "py": "Wǒ kěyǐ zuò zài qián biān ma?",
+     "vi": "Tôi có thể ngồi phía trước không?"
+    },
+    {
+     "s": "B",
+     "zh": "可以。这是你的票。",
+     "py": "Kěyǐ. Zhè shì nǐ de piào.",
+     "vi": "Được. Đây là vé của bạn."
+    },
+    {
+     "s": "A",
+     "zh": "请问在哪儿上飞机？",
+     "py": "Qǐngwèn zài nǎr shàng fēijī?",
+     "vi": "Xin hỏi lên máy bay ở đâu?"
+    },
+    {
+     "s": "B",
+     "zh": "在三号门，请你一点三十分到那儿。",
+     "py": "Zài sān hào mén, qǐng nǐ yì diǎn sān shí fēn dào nàr.",
+     "vi": "Ở cổng số ba, mời bạn đến đó lúc một giờ ba mươi."
+    },
+    {
+     "s": "A",
+     "zh": "谢谢，再见。",
+     "py": "Xièxie, zàijiàn.",
+     "vi": "Cảm ơn, tạm biệt."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Sở thích thể thao",
+   "scene": "Hai người bạn nói về thể thao.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你喜欢什么运动？",
+     "py": "Nǐ xǐhuan shénme yùndòng?",
+     "vi": "Bạn thích môn thể thao nào?"
+    },
+    {
+     "s": "B",
+     "zh": "我最喜欢踢足球。你呢？",
+     "py": "Wǒ zuì xǐhuan tī zú qiú. Nǐ ne?",
+     "vi": "Tôi thích nhất là đá bóng. Còn bạn?"
+    },
+    {
+     "s": "A",
+     "zh": "我喜欢游泳，每个星期游两次。",
+     "py": "Wǒ xǐhuan yóuyǒng, měi gè xīngqī yóu liǎng cì.",
+     "vi": "Tôi thích bơi, mỗi tuần bơi hai lần."
+    },
+    {
+     "s": "B",
+     "zh": "你游得怎么样？",
+     "py": "Nǐ yóu de zěnmeyàng?",
+     "vi": "Bạn bơi thế nào?"
+    },
+    {
+     "s": "A",
+     "zh": "游得不太好，但是很高兴。",
+     "py": "Yóu de bù tài hǎo, dànshì hěn gāoxìng.",
+     "vi": "Bơi không giỏi lắm, nhưng rất vui."
+    },
+    {
+     "s": "B",
+     "zh": "下个星期我们一起去游泳吧。",
+     "py": "Xià gè xīng qī wǒmen yìqǐ qù yóuyǒng ba.",
+     "vi": "Tuần sau chúng ta cùng đi bơi nhé."
+    },
+    {
+     "s": "A",
+     "zh": "好的，几点去？",
+     "py": "Hǎo de, jǐ diǎn qù?",
+     "vi": "Được, mấy giờ đi?"
+    },
+    {
+     "s": "B",
+     "zh": "星期天上午十点，在学校旁边。",
+     "py": "Xīngqītiān shàngwǔ shí diǎn, zài xuéxiào pángbiān.",
+     "vi": "Sáng chủ nhật mười giờ, ở bên cạnh trường."
+    },
+    {
+     "s": "A",
+     "zh": "好，我会去的。",
+     "py": "Hǎo, wǒ huì qù de.",
+     "vi": "Được, tôi sẽ đến."
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Học tiếng Hán",
+   "scene": "Hai người bạn nói về việc học tiếng Hán.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你汉语说得很好，学了多长时间？",
+     "py": "Nǐ Hànyǔ shuō de hěn hǎo, xué le duō zhǎng shí jiān?",
+     "vi": "Bạn nói tiếng Hán rất giỏi, học bao lâu rồi?"
+    },
+    {
+     "s": "B",
+     "zh": "学了两年。",
+     "py": "Xué le liǎng nián.",
+     "vi": "Học hai năm rồi."
+    },
+    {
+     "s": "A",
+     "zh": "你觉得汉语怎么样？",
+     "py": "Nǐ juéde Hànyǔ zěnmeyàng?",
+     "vi": "Bạn thấy tiếng Hán thế nào?"
+    },
+    {
+     "s": "B",
+     "zh": "我写字不太好，说话很好玩儿。",
+     "py": "Wǒ xiě zì bù tài hǎo, shuōhuà hěn hǎowánr.",
+     "vi": "Tôi viết chữ chưa tốt lắm, nói thì rất thú vị."
+    },
+    {
+     "s": "A",
+     "zh": "你每天都学习吗？",
+     "py": "Nǐ měi tiān dōu xuéxí ma?",
+     "vi": "Bạn học mỗi ngày à?"
+    },
+    {
+     "s": "B",
+     "zh": "是，每天晚上学一个小时。",
+     "py": "Shì, měi tiān wǎn shàng xué yí gè xiǎoshí.",
+     "vi": "Vâng, mỗi tối học một tiếng."
+    },
+    {
+     "s": "A",
+     "zh": "你怎么学习？",
+     "py": "Nǐ zěnme xuéxí?",
+     "vi": "Bạn học như thế nào?"
+    },
+    {
+     "s": "B",
+     "zh": "多听、多说、多写，还要多问。",
+     "py": "Duō tīng, duō shuō, duō xiě, hái yào duō wèn.",
+     "vi": "Nghe nhiều, nói nhiều, viết nhiều, còn phải hỏi nhiều."
+    },
+    {
+     "s": "A",
+     "zh": "谢谢你，我也这样做。",
+     "py": "Xièxie nǐ, wǒ yě zhèyàng zuò.",
+     "vi": "Cảm ơn bạn, tôi cũng sẽ làm vậy."
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Sinh nhật",
+   "scene": "Hai người bạn nói chuyện về sinh nhật.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "今天是我的生日。",
+     "py": "Jīntiān shì wǒ de shēngrì.",
+     "vi": "Hôm nay là sinh nhật của tôi."
+    },
+    {
+     "s": "B",
+     "zh": "真的吗？生日快乐！",
+     "py": "Zhēn de ma? Shēng rì kuài lè!",
+     "vi": "Thật không? Sinh nhật vui vẻ!"
+    },
+    {
+     "s": "A",
+     "zh": "谢谢！今天晚上你来我家吃饭，好吗？",
+     "py": "Xièxie! Jīntiān wǎnshang nǐ lái wǒ jiā chī fàn, hǎo ma?",
+     "vi": "Cảm ơn! Tối nay bạn đến nhà tôi ăn cơm nhé?"
+    },
+    {
+     "s": "B",
+     "zh": "好啊！我给你买了东西。",
+     "py": "Hǎo a! Wǒ gěi nǐ mǎi le dōngxi.",
+     "vi": "Được! Tôi đã mua đồ cho bạn."
+    },
+    {
+     "s": "A",
+     "zh": "是什么？",
+     "py": "Shì shénme?",
+     "vi": "Là gì vậy?"
+    },
+    {
+     "s": "B",
+     "zh": "是一本书。你打开看看。",
+     "py": "Shì yī běn shū. Nǐ dǎkāi kàn kàn.",
+     "vi": "Là một quyển sách. Bạn mở ra xem đi."
+    },
+    {
+     "s": "A",
+     "zh": "太好了，我最喜欢看书。",
+     "py": "Tài hǎo le, wǒ zuì xǐhuan kàn shū.",
+     "vi": "Tuyệt quá, tôi thích đọc sách nhất."
+    },
+    {
+     "s": "B",
+     "zh": "晚上还有面包和水果，你喜欢吗？",
+     "py": "Wǎnshang hái yǒu miànbāo hé shuǐguǒ, nǐ xǐhuan ma?",
+     "vi": "Buổi tối còn có bánh mì và trái cây, bạn thích không?"
+    },
+    {
+     "s": "A",
+     "zh": "喜欢，我七点到。",
+     "py": "Xǐhuan, wǒ qī diǎn dào.",
+     "vi": "Thích, tôi bảy giờ sẽ đến."
+    }
+   ]
+  }
+ ]
+}

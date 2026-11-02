@@ -1,0 +1,471 @@
+{
+ "level": 7,
+ "standard": "HSK 3.0",
+ "count": 8,
+ "dialogues": [
+  {
+   "id": 1,
+   "title": "Trí tuệ nhân tạo và đạo đức",
+   "scene": "Hai chuyên gia bàn về rủi ro của trí tuệ nhân tạo.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "人工智能的突飞猛进固然令人振奋，但随之而来的伦理问题不容忽视。",
+     "py": "Réngōngzhìnéng de tū fēi měng jìn gùrán lìng rén zhèn fèn, dàn suí zhī ér lái de lúnlǐ wèntí bù róng hū shì.",
+     "vi": "Trí tuệ nhân tạo tiến bộ vượt bậc quả thực khiến người ta phấn chấn, nhưng các vấn đề đạo đức kéo theo không thể xem nhẹ."
+    },
+    {
+     "s": "B",
+     "zh": "您指的是数据隐私和算法偏见吗？",
+     "py": "Nín zhǐ de shì shùjù yǐnsī hé suàn fǎ piānjiàn ma?",
+     "vi": "Ông muốn nói đến quyền riêng tư dữ liệu và thiên kiến thuật toán phải không?"
+    },
+    {
+     "s": "A",
+     "zh": "正是。如果训练数据本身就存在偏差，那么结果必然有失公允。",
+     "py": "Zhèng shì. Rúguǒ xùnliàn shùjù běnshēn jiù cúnzài piānchā, nàme jiéguǒ bìrán yǒu shī gōng yǔn.",
+     "vi": "Chính thế. Nếu bản thân dữ liệu huấn luyện có độ lệch thì kết quả tất nhiên thiếu công bằng."
+    },
+    {
+     "s": "B",
+     "zh": "那么，监管部门应当如何把握分寸，既不阻碍创新，又能防范风险？",
+     "py": "Nàme, jiān guǎn bù mén yīngdāng rúhé bǎwò fēncun, jì bù zǔ'ài chuàngxīn, yòu néng fángfàn fēngxiǎn?",
+     "vi": "Vậy cơ quan quản lý nên giữ chừng mực thế nào để vừa không cản trở đổi mới, vừa ngăn ngừa rủi ro?"
+    },
+    {
+     "s": "A",
+     "zh": "关键在于建立透明的问责机制，让技术的使用者承担相应的责任。",
+     "py": "Guān jiàn zài yú jiànlì tòumíng de wèn zé jīzhì, ràng jìshù de shǐ yòng zhě chéngdān xiāngyìng de zérèn.",
+     "vi": "Mấu chốt nằm ở việc xây dựng cơ chế quy trách nhiệm minh bạch, để người sử dụng công nghệ gánh chịu trách nhiệm tương ứng."
+    },
+    {
+     "s": "B",
+     "zh": "也有人担心，机器终将取代人类的大部分工作。",
+     "py": "Yě yǒu rén dānxīn, jīqì zhōng jiāng qǔdài rénlèi de dà bù fèn gōngzuò.",
+     "vi": "Cũng có người lo ngại máy móc rốt cuộc sẽ thay thế phần lớn công việc của con người."
+    },
+    {
+     "s": "A",
+     "zh": "历史表明，技术革命在淘汰旧岗位的同时，也会催生新的行业。",
+     "py": "Lìshǐ biǎomíng, jìshù gémìng zài táotài jiù gǎngwèi de tóngshí, yě huì cuī shēng xīn de hángyè.",
+     "vi": "Lịch sử cho thấy cách mạng công nghệ khi đào thải vị trí cũ cũng sẽ nảy sinh ngành nghề mới."
+    },
+    {
+     "s": "B",
+     "zh": "关键是教育体系要及时跟上，帮助人们转型。",
+     "py": "Guānjiàn shì jiàoyù tǐxì yào jíshí gēn shàng, bāngzhù rén men zhuǎnxíng.",
+     "vi": "Quan trọng là hệ thống giáo dục phải bắt kịp kịp thời, giúp mọi người chuyển đổi."
+    },
+    {
+     "s": "A",
+     "zh": "您的见解发人深省，今天的讨论令我获益良多。",
+     "py": "Nín de jiànjiě fā rén shēn xǐng, jīntiān de tǎolùn lìng wǒ huò yì liáng duō.",
+     "vi": "Quan điểm của ông khiến người ta suy ngẫm, buổi thảo luận hôm nay làm tôi được lợi rất nhiều."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Toàn cầu hóa và văn hóa",
+   "scene": "Giáo sư trao đổi với nghiên cứu sinh về giao lưu văn hóa.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "全球化让不同文化之间的交流日益频繁，您怎么看这一现象？",
+     "py": "Quán qiú huà ràng bùtóng wénhuà zhījiān de jiāoliú rì yì pín fán, nín zěnme kàn zhè yī xiànxiàng?",
+     "vi": "Toàn cầu hóa khiến giao lưu giữa các nền văn hóa ngày càng thường xuyên, thầy nhìn nhận hiện tượng này thế nào?"
+    },
+    {
+     "s": "B",
+     "zh": "一方面它促进了相互理解，另一方面也可能导致文化趋同。",
+     "py": "Yì fāng miàn tā cùjìn le xiāng hù lǐ jiě, lìng yì fāng miàn yě kěnéng dǎozhì wénhuà qū tóng.",
+     "vi": "Một mặt nó thúc đẩy hiểu biết lẫn nhau, mặt khác cũng có thể dẫn đến văn hóa đồng nhất."
+    },
+    {
+     "s": "A",
+     "zh": "有些传统习俗正在逐渐消失，这着实令人惋惜。",
+     "py": "Yǒuxiē chuán tǒng xí sú zhèngzài zhújiàn xiāoshī, zhè zhuóshí lìng rén wǎnxī.",
+     "vi": "Một số phong tục truyền thống đang dần biến mất, điều này thật đáng tiếc."
+    },
+    {
+     "s": "B",
+     "zh": "所以，保护文化的多样性已经成为国际社会的共识。",
+     "py": "Suǒyǐ, bǎohù wénhuà de duō yàng xìng yǐjīng chéngwéi guójì shèhuì de gòngshí.",
+     "vi": "Vì vậy, bảo vệ sự đa dạng văn hóa đã trở thành đồng thuận của cộng đồng quốc tế."
+    },
+    {
+     "s": "A",
+     "zh": "但在实践中，如何平衡开放与保护，往往是一个棘手的难题。",
+     "py": "Dàn zài shí jiàn zhōng, rúhé pínghéng kāifàng yǔ bǎohù, wǎngwǎng shì yí gè jíshǒu de nántí.",
+     "vi": "Nhưng trong thực tiễn, cân bằng giữa mở cửa và bảo vệ thường là một bài toán nan giải."
+    },
+    {
+     "s": "B",
+     "zh": "我认为，既要敞开胸怀接纳外来文化，又要坚守自身的精神根基。",
+     "py": "Wǒ rènwéi, jì yào chǎngkāi xiōnghuái jiēnà wài lái wén huà, yòu yào jiānshǒu zìshēn de jīngshen gēnjī.",
+     "vi": "Tôi cho rằng vừa phải rộng lòng tiếp nhận văn hóa ngoại lai, vừa phải giữ vững cội nguồn tinh thần của mình."
+    },
+    {
+     "s": "A",
+     "zh": "这与和而不同的古训不谋而合。",
+     "py": "Zhè yǔ hé ér bù tóng de gǔ xùn bù móu ér hé.",
+     "vi": "Điều này trùng hợp với lời xưa “hòa nhi bất đồng”."
+    },
+    {
+     "s": "B",
+     "zh": "没错，兼容并蓄才是文化繁荣的源泉。",
+     "py": "Méi cuò, jiān róng bìng xù cái shì wénhuà fánróng de yuánquán.",
+     "vi": "Đúng vậy, hợp nhất mọi điều hay mới là nguồn cội của văn hóa phồn vinh."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Quy hoạch đô thị",
+   "scene": "Hai kiến trúc sư bàn về thiết kế thành phố.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "这个新区的规划方案，您怎么评价？",
+     "py": "Zhège xīn qū de guīhuà fāng'àn, nín zěnme píngjià?",
+     "vi": "Phương án quy hoạch khu mới này, ông đánh giá thế nào?"
+    },
+    {
+     "s": "B",
+     "zh": "总体上布局合理，但交通疏导方面还有待完善。",
+     "py": "Zǒngtǐ shàng bù jú hé lǐ, dàn jiāotōng shūdǎo fāngmiàn hái yǒu dāi wánshàn.",
+     "vi": "Nhìn chung bố cục hợp lý, nhưng khâu phân luồng giao thông còn cần hoàn thiện."
+    },
+    {
+     "s": "A",
+     "zh": "主干道过于集中，高峰期恐怕会拥堵不堪。",
+     "py": "Zhǔ gàn dào guòyú jízhōng, gāo fēng qī kǒngpà huì yōng dǔ bùkān.",
+     "vi": "Đường trục chính quá tập trung, giờ cao điểm e rằng sẽ tắc nghẽn không chịu nổi."
+    },
+    {
+     "s": "B",
+     "zh": "我建议增设几条支线，并大力发展轨道交通。",
+     "py": "Wǒ jiànyì zēng shè jǐ tiáo zhī xiàn, bìng dà lì fā zhǎn guǐ dào jiāo tōng.",
+     "vi": "Tôi đề nghị bổ sung vài tuyến nhánh, và dốc sức phát triển giao thông đường ray."
+    },
+    {
+     "s": "A",
+     "zh": "绿化率方面，您觉得达标了吗？",
+     "py": "Lǜ huà lǜ fāngmiàn, nín juéde dábiāo le ma?",
+     "vi": "Về tỷ lệ cây xanh, ông thấy đã đạt chuẩn chưa?"
+    },
+    {
+     "s": "B",
+     "zh": "勉强达标，但我希望能多留一些公共空间供居民休闲。",
+     "py": "Miǎnqiǎng dábiāo, dàn wǒ xīwàng néng duō liú yìxiē gōnggòng kōngjiān gōng jūmín xiūxián.",
+     "vi": "Miễn cưỡng đạt chuẩn, nhưng tôi mong để lại thêm một số không gian công cộng cho cư dân thư giãn."
+    },
+    {
+     "s": "A",
+     "zh": "城市不应该只是钢筋水泥的堆砌，更应该有温度。",
+     "py": "Chéngshì bù yīnggāi zhǐshì gāng jīn shuǐ ní de duīqì, gèng yīnggāi yǒu wēndù.",
+     "vi": "Thành phố không nên chỉ là sự chồng chất của bê tông cốt thép, mà càng nên có hơi ấm."
+    },
+    {
+     "s": "B",
+     "zh": "英雄所见略同，我们把这些意见整理成报告吧。",
+     "py": "Yīng xióng suǒ jiàn lüè tóng, wǒmen bǎ zhèxiē yìjiàn zhěnglǐ chéng bàogào ba.",
+     "vi": "Anh hùng sở kiến lược đồng, chúng ta hãy sắp xếp những ý kiến này thành báo cáo."
+    },
+    {
+     "s": "A",
+     "zh": "好的，我今晚就着手起草。",
+     "py": "Hǎo de, wǒ jīn wǎn jiù zhuóshǒu qǐcǎo.",
+     "vi": "Được, tối nay tôi bắt tay soạn thảo ngay."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Đàm phán hợp đồng",
+   "scene": "Hai bên đàm phán điều khoản hợp tác.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "感谢贵公司拨冗前来，我们开门见山地谈谈合作条款吧。",
+     "py": "Gǎnxiè guì gōngsī bō rǒng qiánlái, wǒmen kāi mén jiàn shān de tán tán hézuò tiáokuǎn ba.",
+     "vi": "Cảm ơn quý công ty đã dành thời gian đến, chúng ta nói thẳng vào các điều khoản hợp tác nhé."
+    },
+    {
+     "s": "B",
+     "zh": "好的，首先关于价格，贵方的报价略高于我们的预期。",
+     "py": "Hǎo de, shǒuxiān guānyú jiàgé, guì fāng de bào jià lüè gāo yú wǒmen de yùqī.",
+     "vi": "Được, trước hết về giá, báo giá của quý bên cao hơn một chút so với kỳ vọng của chúng tôi."
+    },
+    {
+     "s": "A",
+     "zh": "我们的产品质量有口皆碑，价格自然不能一味压低。",
+     "py": "Wǒmen de chǎn pǐn zhì liàng yǒu kǒu jiē bēi, jiàgé zìrán bù néng yíwèi yā dī.",
+     "vi": "Chất lượng sản phẩm của chúng tôi được mọi người khen ngợi, giá tự nhiên không thể cứ ép thấp."
+    },
+    {
+     "s": "B",
+     "zh": "如果订货量增加一倍，能否给予一定的折扣？",
+     "py": "Rúguǒ dìng huò liàng zēng jiā yí bèi, néngfǒu jǐyǔ yídìng de zhékòu?",
+     "vi": "Nếu lượng đặt hàng tăng gấp đôi, có thể giảm giá ở mức nhất định không?"
+    },
+    {
+     "s": "A",
+     "zh": "这个可以商量，不过交货期限必须严格遵守。",
+     "py": "Zhège kěyǐ shāngliang, búguò jiāo huò qīxiàn bìxū yán gé zūn shǒu.",
+     "vi": "Việc này có thể bàn bạc, nhưng thời hạn giao hàng phải tuân thủ nghiêm ngặt."
+    },
+    {
+     "s": "B",
+     "zh": "没问题，我们会在合同中明确违约责任。",
+     "py": "Méi wèntí, wǒmen huì zài hétóng zhōng míngquè wéi yuē zé rèn.",
+     "vi": "Không vấn đề, chúng tôi sẽ nêu rõ trách nhiệm vi phạm trong hợp đồng."
+    },
+    {
+     "s": "A",
+     "zh": "那么，其余细节由双方法务部门进一步核对。",
+     "py": "Nàme, qíyú xìjié yóu shuāngfāng fǎ wù bùmén jìnyíbù héduì.",
+     "vi": "Vậy thì các chi tiết còn lại do bộ phận pháp chế hai bên đối chiếu thêm."
+    },
+    {
+     "s": "B",
+     "zh": "好的，期待我们合作愉快。",
+     "py": "Hǎo de, qīdài wǒmen hé zuò yú kuài.",
+     "vi": "Được, mong rằng hai bên hợp tác vui vẻ."
+    },
+    {
+     "s": "A",
+     "zh": "彼此彼此，预祝合作成功。",
+     "py": "Bǐ cǐ bǐ cǐ, yù zhù hézuò chénggōng.",
+     "vi": "Cùng nhau cùng nhau, chúc trước hợp tác thành công."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Già hóa dân số",
+   "scene": "Hai nhà nghiên cứu bàn về dân số già.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "人口老龄化已经成为许多国家面临的严峻挑战。",
+     "py": "Rén kǒu lǎo líng huà yǐjīng chéngwéi xǔduō guójiā miànlín de yánjùn tiǎozhàn.",
+     "vi": "Già hóa dân số đã trở thành thách thức nghiêm trọng mà nhiều quốc gia phải đối mặt."
+    },
+    {
+     "s": "B",
+     "zh": "劳动力不足，养老负担加重，社会保障体系压力很大。",
+     "py": "Láodònglì bùzú, yǎnglǎo fùdān jiāzhòng, shè huì bǎo zhàng tǐxì yālì hěn dà.",
+     "vi": "Thiếu lao động, gánh nặng dưỡng lão tăng, hệ thống an sinh xã hội chịu áp lực rất lớn."
+    },
+    {
+     "s": "A",
+     "zh": "有专家建议适当延迟退休年龄，您赞成吗？",
+     "py": "Yǒu zhuān jiā jiàn yì shìdàng yán chí tuì xiū nián líng, nín zànchéng ma?",
+     "vi": "Có chuyên gia đề nghị lùi tuổi nghỉ hưu một cách thích hợp, ông tán thành không?"
+    },
+    {
+     "s": "B",
+     "zh": "这件事有利也有弊，需要综合考虑不同行业的特点。",
+     "py": "Zhè jiàn shì yǒulì yě yǒu bì, xūyào zōnghé kǎolǜ bùtóng hángyè de tèdiǎn.",
+     "vi": "Việc này có lợi cũng có hại, cần cân nhắc tổng hợp đặc điểm của các ngành nghề khác nhau."
+    },
+    {
+     "s": "A",
+     "zh": "除此之外，还应鼓励生育，减轻年轻家庭的抚养压力。",
+     "py": "Chú cǐ zhī wài, hái yìng gǔlì shēngyù, jiǎnqīng niánqīng jiātíng de fǔyǎng yālì.",
+     "vi": "Ngoài ra, còn nên khuyến khích sinh đẻ, giảm áp lực nuôi dưỡng cho các gia đình trẻ."
+    },
+    {
+     "s": "B",
+     "zh": "社区养老服务也需要尽快加强，让老人老有所养、老有所乐。",
+     "py": "Shèqū yǎnglǎo fúwù yě xūyào jǐnkuài jiāqiáng, ràng lǎorén lǎo yǒu suǒ yǎng, lǎo yǒu suǒ lè.",
+     "vi": "Dịch vụ dưỡng lão tại cộng đồng cũng cần được tăng cường sớm, để người già được phụng dưỡng và vui sống."
+    },
+    {
+     "s": "A",
+     "zh": "说到底，这是一场需要全社会共同参与的持久战。",
+     "py": "Shuō dào dǐ, zhè shì yī cháng xūyào quán shèhuì gòngtóng cānyù de chí jiǔ zhàn.",
+     "vi": "Nói cho cùng, đây là cuộc chiến trường kỳ cần cả xã hội cùng tham gia."
+    },
+    {
+     "s": "B",
+     "zh": "唯有提前做好准备，才能从容应对。",
+     "py": "Wéiyǒu tíqián zuò hǎo zhǔnbèi, cáinéng cóng róng yìng duì.",
+     "vi": "Chỉ có chuẩn bị sẵn từ trước mới có thể ứng phó thong dong."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Văn học và thơ ca",
+   "scene": "Hai người bạn yêu văn học trò chuyện.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "最近我在读李白的诗，真是越读越着迷。",
+     "py": "Zuìjìn wǒ zài dú lǐ bái de shī, zhēnshi yuè dú yuè zháomí.",
+     "vi": "Dạo này tôi đọc thơ Lý Bạch, càng đọc càng say mê."
+    },
+    {
+     "s": "B",
+     "zh": "他的诗气势雄伟，想象力丰富，堪称千古绝唱。",
+     "py": "Tā de shī qì shì xióng wěi, xiǎng xiàng lì fēngfù, kānchēng qiān gǔ jué chàng.",
+     "vi": "Thơ ông khí thế hùng vĩ, trí tưởng tượng phong phú, xứng đáng là tuyệt xướng ngàn đời."
+    },
+    {
+     "s": "A",
+     "zh": "相比之下，另一位诗人的作品更注重反映民间疾苦。",
+     "py": "Xiāng bǐ zhī xià, lìng yī wèi shīrén de zuòpǐn gèng zhùzhòng fǎnyìng mínjiān jí kǔ.",
+     "vi": "So ra, tác phẩm của một nhà thơ khác chú trọng phản ánh nỗi khổ của dân gian hơn."
+    },
+    {
+     "s": "B",
+     "zh": "两位诗人风格很不相同，却同样为后世所敬仰。",
+     "py": "Liǎng wèi shīrén fēnggé hěn bù xiāngtóng, què tóngyàng wèi hòushì suǒ jìng yǎng.",
+     "vi": "Hai nhà thơ phong cách rất khác nhau, nhưng đều được hậu thế kính ngưỡng."
+    },
+    {
+     "s": "A",
+     "zh": "有时候我觉得，翻译很难传达诗歌的韵味。",
+     "py": "Yǒu shí hòu wǒ juéde, fānyì hěn nán chuándá shīgē de yùnwèi.",
+     "vi": "Đôi khi tôi thấy dịch thuật rất khó truyền tải vần điệu của thơ ca."
+    },
+    {
+     "s": "B",
+     "zh": "的确，语言背后的文化内涵很难原汁原味地呈现出来。",
+     "py": "Díquè, yǔyán bèihòu de wénhuà nèihán hěn nán yuánzhī-yuánwèi de chéngxiàn chūlái.",
+     "vi": "Đúng thế, hàm ý văn hóa sau ngôn ngữ rất khó thể hiện nguyên vẹn."
+    },
+    {
+     "s": "A",
+     "zh": "所以学汉语的人才更应该读原文。",
+     "py": "Suǒyǐ xué Hànyǔ de réncái gèng yīnggāi dú yuán wén.",
+     "vi": "Vì vậy người học tiếng Hán càng nên đọc nguyên văn."
+    },
+    {
+     "s": "B",
+     "zh": "说得对，有空我们一起品读几首吧。",
+     "py": "Shuō dé duì, yǒu kòng wǒmen yìqǐ pǐn dú jǐ shǒu ba.",
+     "vi": "Nói đúng, có thời gian chúng ta cùng thưởng thức vài bài nhé."
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Khởi nghiệp",
+   "scene": "Nhà đầu tư trò chuyện với người khởi nghiệp.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "您的项目很有创意，请简单介绍一下市场前景。",
+     "py": "Nín de xiàngmù hěn yǒu chuàngyì, qǐng jiǎndān jièshào yíxià shì chǎng qián jǐng.",
+     "vi": "Dự án của anh rất sáng tạo, xin giới thiệu ngắn gọn về triển vọng thị trường."
+    },
+    {
+     "s": "B",
+     "zh": "我们瞄准的是中小企业，目前这个领域几乎是一片空白。",
+     "py": "Wǒmen miáozhǔn de shì zhōng xiǎo qǐ yè, mùqián zhège lǐngyù jīhū shì yí piàn kòng bái.",
+     "vi": "Chúng tôi nhắm vào doanh nghiệp vừa và nhỏ, hiện nay lĩnh vực này gần như là một khoảng trống."
+    },
+    {
+     "s": "A",
+     "zh": "既然前景广阔，为什么还没有大公司涉足？",
+     "py": "Jìrán qiánjǐng guǎngkuò, wèishénme hái méiyǒu dà gōngsī shè zú?",
+     "vi": "Nếu triển vọng rộng mở, vì sao vẫn chưa có công ty lớn nào nhúng tay vào?"
+    },
+    {
+     "s": "B",
+     "zh": "因为技术门槛高，投入周期长，一般公司不敢冒险。",
+     "py": "Yīnwèi jìshù ménkǎn gāo, tóurù zhōu qī zhǎng, yìbān gōngsī bù gǎn màoxiǎn.",
+     "vi": "Vì ngưỡng công nghệ cao, chu kỳ đầu tư dài, công ty thông thường không dám mạo hiểm."
+    },
+    {
+     "s": "A",
+     "zh": "那么，你们的团队有什么独特的优势？",
+     "py": "Nàme, nǐmen de tuánduì yǒu shénme dútè de yōushì?",
+     "vi": "Vậy đội ngũ của các anh có ưu thế độc đáo nào?"
+    },
+    {
+     "s": "B",
+     "zh": "核心成员都有十年以上的行业经验，而且配合默契。",
+     "py": "Hé xīn chéng yuán dōu yǒu shí nián yǐshàng de hángyè jīngyàn, érqiě pèi hé mò qì.",
+     "vi": "Các thành viên cốt lõi đều có hơn mười năm kinh nghiệm ngành, hơn nữa phối hợp ăn ý."
+    },
+    {
+     "s": "A",
+     "zh": "创业难免遇到挫折，你们做好心理准备了吗？",
+     "py": "Chuàngyè nánmiǎn yùdào cuòzhé, nǐmen zuò hǎo xīn lǐ zhǔn bèi le ma?",
+     "vi": "Khởi nghiệp khó tránh gặp thất bại, các anh đã chuẩn bị tâm lý chưa?"
+    },
+    {
+     "s": "B",
+     "zh": "早已做好了，我们愿意与项目共同成长。",
+     "py": "Zǎoyǐ zuò hǎo le, wǒmen yuànyì yǔ xiàngmù gòngtóng chéngzhǎng.",
+     "vi": "Đã chuẩn bị từ lâu, chúng tôi nguyện cùng dự án trưởng thành."
+    },
+    {
+     "s": "A",
+     "zh": "好，我回去与合伙人商议，尽快给你答复。",
+     "py": "Hǎo, wǒ huíqù yǔ hé huǒ rén shāngyì, jǐnkuài gěi nǐ dáfù.",
+     "vi": "Được, tôi về bàn bạc với các đối tác, sớm trả lời anh."
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Bản quyền và sáng tạo",
+   "scene": "Hai người làm sáng tạo bàn về bảo hộ tác quyền.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "最近我的作品被人未经授权转载，真让人火冒三丈。",
+     "py": "Zuìjìn wǒ de zuòpǐn bèi rén wèi jīng shòuquán zhuǎnzǎi, zhēn ràng rén huǒ mào sān zhàng.",
+     "vi": "Dạo này tác phẩm của tôi bị người ta đăng lại không được phép, thật khiến người ta nổi trận lôi đình."
+    },
+    {
+     "s": "B",
+     "zh": "盗版现象屡禁不止，严重损害了创作者的权益。",
+     "py": "Dàobǎn xiànxiàng lǚ jìn bù zhǐ, yánzhòng sǔnhài le chuàng zuò zhě de quányì.",
+     "vi": "Hiện tượng vi phạm bản quyền cấm hoài không hết, gây tổn hại nghiêm trọng quyền lợi người sáng tạo."
+    },
+    {
+     "s": "A",
+     "zh": "你可以先收集证据，再向平台投诉，必要时诉诸法律。",
+     "py": "Nǐ kěyǐ xiān shōují zhèngjù, zài xiàng píngtái tóusù, bìyào shí sùzhū fǎlǜ.",
+     "vi": "Bạn có thể thu thập chứng cứ trước, rồi khiếu nại lên nền tảng, cần thì viện đến pháp luật."
+    },
+    {
+     "s": "B",
+     "zh": "可是维权成本太高，很多人只好不了了之。",
+     "py": "Kěshì wéiquán chéngběn tài gāo, hěn duō rén zhǐhǎo bùliǎo-liǎozhī.",
+     "vi": "Nhưng chi phí bảo vệ quyền lợi quá cao, nhiều người đành bỏ dở."
+    },
+    {
+     "s": "A",
+     "zh": "正因如此，完善相关法规、加大处罚力度才显得尤为迫切。",
+     "py": "Zhèng yīn rú cǐ, wánshàn xiāngguān fǎguī, jiā dà chǔfá lìdù cái xiǎnde yóuwéi pòqiè.",
+     "vi": "Chính vì thế, hoàn thiện pháp quy liên quan, tăng mức xử phạt càng tỏ ra đặc biệt cấp bách."
+    },
+    {
+     "s": "B",
+     "zh": "同时，公众也要增强版权意识，自觉抵制盗版。",
+     "py": "Tóngshí, gōngzhòng yě yào zēngqiáng bǎnquán yìshí, zìjué dǐzhì dàobǎn.",
+     "vi": "Đồng thời, công chúng cũng phải nâng cao ý thức bản quyền, tự giác tẩy chay hàng lậu."
+    },
+    {
+     "s": "A",
+     "zh": "没有对知识的尊重，就没有创新的土壤。",
+     "py": "Méiyǒu duì zhīshi de zūnzhòng, jiù méiyǒu chuàngxīn de tǔrǎng.",
+     "vi": "Không có sự tôn trọng tri thức thì không có mảnh đất cho đổi mới."
+    },
+    {
+     "s": "B",
+     "zh": "你这句话说到点子上了，我深有同感。",
+     "py": "Nǐ zhè jù huà shuō dào diǎnzi shàng le, wǒ shēn yǒu tóng gǎn.",
+     "vi": "Câu này của bạn nói trúng trọng tâm, tôi đồng cảm sâu sắc."
+    }
+   ]
+  }
+ ]
+}

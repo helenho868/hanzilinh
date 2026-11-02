@@ -1,0 +1,489 @@
+{
+ "level": 3,
+ "standard": "HSK 3.0",
+ "count": 8,
+ "dialogues": [
+  {
+   "id": 1,
+   "title": "Đặt phòng khách sạn",
+   "scene": "Khách gọi điện đặt phòng.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "您好，我想要一个房间。",
+     "py": "Nín hǎo, wǒ xiǎng yào yí gè fángjiān.",
+     "vi": "Xin chào, tôi muốn một phòng."
+    },
+    {
+     "s": "B",
+     "zh": "请问您住几天？",
+     "py": "Qǐngwèn nín zhù jǐ tiān?",
+     "vi": "Xin hỏi ông ở mấy ngày?"
+    },
+    {
+     "s": "A",
+     "zh": "住三天，从五月一号到四号。",
+     "py": "Zhù sān tiān, cóng wǔ yuè yī hào dào sì hào.",
+     "vi": "Ở ba ngày, từ ngày một đến ngày bốn tháng năm."
+    },
+    {
+     "s": "B",
+     "zh": "您要一个大床房还是两个小床？",
+     "py": "Nín yào yí gè dà chuáng fáng háishi liǎng gè xiǎo chuáng?",
+     "vi": "Ông muốn một giường lớn hay hai giường nhỏ?"
+    },
+    {
+     "s": "A",
+     "zh": "我和朋友一起住，要两个小床。",
+     "py": "Wǒ hé péngyou yìqǐ zhù, yào liǎng gè xiǎo chuáng.",
+     "vi": "Tôi ở cùng bạn, cần hai giường nhỏ."
+    },
+    {
+     "s": "B",
+     "zh": "好的，一晚三百元，有早饭。",
+     "py": "Hǎo de, yī wǎn sān bǎi yuán, yǒu zǎofàn.",
+     "vi": "Vâng, một đêm ba trăm tệ, có bữa sáng."
+    },
+    {
+     "s": "A",
+     "zh": "房间里可以上网吗？",
+     "py": "Fángjiān lǐ kěyǐ shàngwǎng ma?",
+     "vi": "Trong phòng có thể lên mạng không?"
+    },
+    {
+     "s": "B",
+     "zh": "可以，网很快。",
+     "py": "Kěyǐ, wǎng hěn kuài.",
+     "vi": "Được, mạng rất nhanh."
+    },
+    {
+     "s": "A",
+     "zh": "太好了，我要这个房间。",
+     "py": "Tài hǎo le, wǒ yào zhège fángjiān.",
+     "vi": "Tốt quá, tôi lấy phòng này."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Ở ngân hàng",
+   "scene": "Khách đến ngân hàng đổi tiền.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好，我想换钱。",
+     "py": "Nǐhǎo, wǒ xiǎng huàn qián.",
+     "vi": "Xin chào, tôi muốn đổi tiền."
+    },
+    {
+     "s": "B",
+     "zh": "您要换多少？",
+     "py": "Nín yào huàn duōshao?",
+     "vi": "Ông muốn đổi bao nhiêu?"
+    },
+    {
+     "s": "A",
+     "zh": "我要换一千块外国的钱。",
+     "py": "Wǒ yào huàn yī qiān kuài wàiguó de qián.",
+     "vi": "Tôi muốn đổi một nghìn tệ tiền nước ngoài."
+    },
+    {
+     "s": "B",
+     "zh": "请您先写一下这张表。",
+     "py": "Qǐng nín xiān xiě yíxià zhè zhāng biǎo.",
+     "vi": "Xin ông viết vào tờ phiếu này trước."
+    },
+    {
+     "s": "A",
+     "zh": "要写什么？",
+     "py": "Yào xiě shénme?",
+     "vi": "Phải viết gì?"
+    },
+    {
+     "s": "B",
+     "zh": "请写您的名字、护照号和电话。",
+     "py": "Qǐng xiě nín de míngzi, hùzhào hào hé diànhuà.",
+     "vi": "Xin viết tên, số hộ chiếu và điện thoại của ông."
+    },
+    {
+     "s": "A",
+     "zh": "写好了。我能换多少钱？",
+     "py": "Xiě hǎo le. Wǒ néng huàn duō shǎo qián?",
+     "vi": "Viết xong rồi. Tôi đổi được bao nhiêu tiền?"
+    },
+    {
+     "s": "B",
+     "zh": "你可以换七千多块。",
+     "py": "Nǐ kěyǐ huàn qī qiān duō kuài.",
+     "vi": "Ông đổi được hơn bảy nghìn tệ."
+    },
+    {
+     "s": "A",
+     "zh": "好，我换吧。",
+     "py": "Hǎo, wǒ huàn ba.",
+     "vi": "Được, tôi đổi."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Thuê nhà",
+   "scene": "Người thuê nhà nói chuyện với chủ nhà.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好，我在网上看到你的房子了，还有吗？",
+     "py": "Nǐhǎo, wǒ zài wǎngshang kàn dào nǐ de fángzi le, hái yǒu ma?",
+     "vi": "Xin chào, tôi thấy nhà bạn trên mạng, còn không?"
+    },
+    {
+     "s": "B",
+     "zh": "还有，你想看看吗？",
+     "py": "Hái yǒu, nǐ xiǎng kàn kàn ma?",
+     "vi": "Còn, bạn muốn xem không?"
+    },
+    {
+     "s": "A",
+     "zh": "房子离地铁站远吗？",
+     "py": "Fángzi lí dì tiě zhàn yuǎn ma?",
+     "vi": "Nhà có xa ga tàu điện ngầm không?"
+    },
+    {
+     "s": "B",
+     "zh": "不远，走五分钟就到。",
+     "py": "Bù yuǎn, zǒu wǔ fēn zhōng jiù dào.",
+     "vi": "Không xa, đi bộ năm phút là đến."
+    },
+    {
+     "s": "A",
+     "zh": "一个月多少钱？",
+     "py": "Yí gè yuè duō shǎo qián?",
+     "vi": "Một tháng bao nhiêu tiền?"
+    },
+    {
+     "s": "B",
+     "zh": "两千五百元，水和电自己给钱。",
+     "py": "Liǎng qiān wǔ bǎi yuán, shuǐ hé diàn zìjǐ gěi qián.",
+     "vi": "Hai nghìn năm trăm tệ, nước và điện tự trả tiền."
+    },
+    {
+     "s": "A",
+     "zh": "能便宜一点儿吗？",
+     "py": "Néng piányi yìdiǎnr ma?",
+     "vi": "Có thể rẻ hơn một chút không?"
+    },
+    {
+     "s": "B",
+     "zh": "如果你住一年，我可以便宜两百元。",
+     "py": "Rúguǒ nǐ zhù yī nián, wǒ kěyǐ piányi liǎng bǎi yuán.",
+     "vi": "Nếu bạn ở một năm, tôi có thể giảm hai trăm tệ."
+    },
+    {
+     "s": "A",
+     "zh": "好，那我住一年。",
+     "py": "Hǎo, nà wǒ zhù yī nián.",
+     "vi": "Được, vậy tôi ở một năm."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Phỏng vấn xin việc",
+   "scene": "Ứng viên trả lời nhà tuyển dụng.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "请先介绍一下你自己。",
+     "py": "Qǐng xiān jièshào yíxià nǐ zìjǐ.",
+     "vi": "Xin hãy giới thiệu bản thân trước."
+    },
+    {
+     "s": "B",
+     "zh": "我叫李明，今年二十五岁，大学学的是中文。",
+     "py": "Wǒ jiào lǐ míng, jīnnián èr shí wǔ suì, dàxué xué de shì Zhōngwén.",
+     "vi": "Tôi tên là Lý Minh, năm nay hai mươi lăm tuổi, đại học học tiếng Trung."
+    },
+    {
+     "s": "A",
+     "zh": "你以前做过什么工作？",
+     "py": "Nǐ yǐqián zuò guò shénme gōngzuò?",
+     "vi": "Trước đây bạn đã làm công việc gì?"
+    },
+    {
+     "s": "B",
+     "zh": "我在一家公司工作过两年。",
+     "py": "Wǒ zài yī jiā gōngsī gōngzuò guò liǎng nián.",
+     "vi": "Tôi từng làm ở một công ty hai năm."
+    },
+    {
+     "s": "A",
+     "zh": "你为什么想来我们公司？",
+     "py": "Nǐ wèishénme xiǎng lái wǒmen gōngsī?",
+     "vi": "Vì sao bạn muốn đến công ty chúng tôi?"
+    },
+    {
+     "s": "B",
+     "zh": "因为你们公司很有名，我想学到更多东西。",
+     "py": "Yīnwèi nǐmen gōngsī hěn yǒumíng, wǒ xiǎng xué dào gèng duō dōngxi.",
+     "vi": "Vì công ty các vị rất nổi tiếng, tôi muốn học thêm nhiều điều."
+    },
+    {
+     "s": "A",
+     "zh": "你什么时候可以开始上班？",
+     "py": "Nǐ shénme shíhou kěyǐ kāishǐ shàngbān?",
+     "vi": "Khi nào bạn có thể bắt đầu đi làm?"
+    },
+    {
+     "s": "B",
+     "zh": "下个月一号就可以。",
+     "py": "Xià gè yuè yī hào jiù kěyǐ.",
+     "vi": "Mùng một tháng sau là được."
+    },
+    {
+     "s": "A",
+     "zh": "好的，我们会很快给你打电话。",
+     "py": "Hǎo de, wǒmen huì hěn kuài gěi nǐ dǎ diànhuà.",
+     "vi": "Được, chúng tôi sẽ sớm gọi điện cho bạn."
+    },
+    {
+     "s": "B",
+     "zh": "谢谢，我等你们的电话。",
+     "py": "Xièxie, wǒ děng nǐmen de diànhuà.",
+     "vi": "Cảm ơn, tôi chờ điện thoại của các vị."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Đi du lịch",
+   "scene": "Hai người bạn bàn kế hoạch du lịch.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "休息的时候你想去哪儿玩儿？",
+     "py": "Xiūxi de shíhou nǐ xiǎng qù nǎr wán ér?",
+     "vi": "Lúc nghỉ bạn muốn đi chơi ở đâu?"
+    },
+    {
+     "s": "B",
+     "zh": "我想去海边，那里的天气很好。",
+     "py": "Wǒ xiǎng qù hǎi biān, nàlǐ de tiānqì hěn hǎo.",
+     "vi": "Tôi muốn đi biển, thời tiết ở đó rất đẹp."
+    },
+    {
+     "s": "A",
+     "zh": "我们怎么去？坐飞机还是坐火车？",
+     "py": "Wǒmen zěnme qù? Zuò fēi jī háishi zuò huǒ chē?",
+     "vi": "Chúng ta đi thế nào? Đi máy bay hay tàu hỏa?"
+    },
+    {
+     "s": "B",
+     "zh": "坐飞机快，但是比火车贵。",
+     "py": "Zuò fēi jī kuài, dànshì bǐ huǒchē guì.",
+     "vi": "Máy bay nhanh, nhưng đắt hơn tàu hỏa."
+    },
+    {
+     "s": "A",
+     "zh": "那我们坐火车吧，路上可以看山和水。",
+     "py": "Nà wǒmen zuò huǒ chē ba, lùshang kěyǐ kàn shān hé shuǐ.",
+     "vi": "Vậy chúng ta đi tàu hỏa, trên đường có thể ngắm núi và sông."
+    },
+    {
+     "s": "B",
+     "zh": "要带什么东西？",
+     "py": "Yào dài shénme dōngxi?",
+     "vi": "Cần mang gì?"
+    },
+    {
+     "s": "A",
+     "zh": "带一些衣服、照相机和药。",
+     "py": "Dài yìxiē yīfu, zhào xiàng jī hé yào.",
+     "vi": "Mang một ít quần áo, máy ảnh và thuốc."
+    },
+    {
+     "s": "B",
+     "zh": "我先去买票，你来找酒店。",
+     "py": "Wǒ xiān qù mǎi piào, nǐ lái zhǎo jiǔdiàn.",
+     "vi": "Tôi đi mua vé trước, bạn tìm khách sạn."
+    },
+    {
+     "s": "A",
+     "zh": "没问题，我们一起去一定很有意思。",
+     "py": "Méi wèntí, wǒmen yìqǐ qù yídìng hěn yǒuyìsi.",
+     "vi": "Không vấn đề, chúng ta đi cùng nhau chắc chắn sẽ rất thú vị."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Bạn mới ở trường",
+   "scene": "Một sinh viên mới làm quen bạn cùng lớp.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好，我是新同学，我叫李红。",
+     "py": "Nǐhǎo, wǒ shì xīn tóngxué, wǒ jiào lǐ hóng.",
+     "vi": "Xin chào, mình là bạn học mới, mình tên Lý Hồng."
+    },
+    {
+     "s": "B",
+     "zh": "你好，我叫张明。你是从哪儿来的？",
+     "py": "Nǐhǎo, wǒ jiào zhāng míng. Nǐ shì cóng nǎr lái de?",
+     "vi": "Chào bạn, mình tên Trương Minh. Bạn từ đâu đến?"
+    },
+    {
+     "s": "A",
+     "zh": "我是从南方来的，这里的天气有点儿冷。",
+     "py": "Wǒ shì cóng nánfāng lái de, zhèlǐ de tiānqì yǒudiǎnr lěng.",
+     "vi": "Mình từ miền nam đến, thời tiết ở đây hơi lạnh."
+    },
+    {
+     "s": "B",
+     "zh": "冬天会更冷，你要多穿点儿衣服。",
+     "py": "Dōngtiān huì gèng lěng, nǐ yào duō chuān diǎn ér yīfu.",
+     "vi": "Mùa đông còn lạnh hơn, bạn nên mặc thêm áo."
+    },
+    {
+     "s": "A",
+     "zh": "学校里有饭店吗？",
+     "py": "Xuéxiào lǐ yǒu fàndiàn ma?",
+     "vi": "Trong trường có quán ăn không?"
+    },
+    {
+     "s": "B",
+     "zh": "有，我带你去吧，中午我们一起吃饭。",
+     "py": "Yǒu, wǒ dài nǐ qù ba, zhōngwǔ wǒmen yìqǐ chī fàn.",
+     "vi": "Có, mình dẫn bạn đi, trưa nay chúng ta cùng ăn cơm."
+    },
+    {
+     "s": "A",
+     "zh": "太好了，谢谢你的帮助。",
+     "py": "Tài hǎo le, xièxie nǐ de bāngzhù.",
+     "vi": "Tốt quá, cảm ơn sự giúp đỡ của bạn."
+    },
+    {
+     "s": "B",
+     "zh": "别客气，以后有问题可以问我。",
+     "py": "Bié kè qì, yǐhòu yǒu wèntí kěyǐ wèn wǒ.",
+     "vi": "Đừng khách sáo, sau này có vấn đề có thể hỏi mình."
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Mua vé tàu",
+   "scene": "Hành khách mua vé tàu ở nhà ga.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好，我要买一张去上海的火车票。",
+     "py": "Nǐhǎo, wǒ yào mǎi yī zhāng qù shàng hǎi de huǒ chē piào.",
+     "vi": "Xin chào, tôi muốn mua một vé tàu đi Thượng Hải."
+    },
+    {
+     "s": "B",
+     "zh": "您要哪天的？",
+     "py": "Nín yào nǎ tiān de?",
+     "vi": "Ông muốn ngày nào?"
+    },
+    {
+     "s": "A",
+     "zh": "后天上午的，有吗？",
+     "py": "Hòutiān shàngwǔ de, yǒu ma?",
+     "vi": "Sáng ngày kia, có không?"
+    },
+    {
+     "s": "B",
+     "zh": "有，九点和十点半的都有。",
+     "py": "Yǒu, jiǔ diǎn hé shí diǎn bàn de dōu yǒu.",
+     "vi": "Có, chuyến chín giờ và mười giờ rưỡi đều có."
+    },
+    {
+     "s": "A",
+     "zh": "请给我九点的，要好一点儿的位子。",
+     "py": "Qǐng gěi wǒ jiǔ diǎn de, yào hǎo yìdiǎnr de wèi zi.",
+     "vi": "Xin cho tôi chuyến chín giờ, cần chỗ ngồi tốt hơn một chút."
+    },
+    {
+     "s": "B",
+     "zh": "好的，一共三百二十元。",
+     "py": "Hǎo de, yígòng sān bǎi èr shí yuán.",
+     "vi": "Vâng, tổng cộng ba trăm hai mươi tệ."
+    },
+    {
+     "s": "A",
+     "zh": "可以用手机给钱吗？",
+     "py": "Kěyǐ yòng shǒujī gěi qián ma?",
+     "vi": "Có thể dùng điện thoại để trả tiền không?"
+    },
+    {
+     "s": "B",
+     "zh": "可以，请扫一下这里。",
+     "py": "Kěyǐ, qǐng sǎo yíxià zhèlǐ.",
+     "vi": "Được, xin quét ở đây."
+    },
+    {
+     "s": "A",
+     "zh": "谢谢，再见！",
+     "py": "Xièxie, zàijiàn!",
+     "vi": "Cảm ơn, tạm biệt!"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Bàn bạc đi ăn",
+   "scene": "Hai đồng nghiệp chọn quán ăn.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "今天中午我们去哪儿吃饭？",
+     "py": "Jīntiān zhōngwǔ wǒmen qù nǎr chī fàn?",
+     "vi": "Trưa nay chúng ta đi đâu ăn cơm?"
+    },
+    {
+     "s": "B",
+     "zh": "你想吃中国菜还是外国菜？",
+     "py": "Nǐ xiǎng chī Zhōngguó cài háishi wàiguó cài?",
+     "vi": "Bạn muốn ăn món Trung hay món nước ngoài?"
+    },
+    {
+     "s": "A",
+     "zh": "我昨天刚吃过外国菜，今天想吃中国菜。",
+     "py": "Wǒ zuótiān gāng chī guò wàiguó cài, jīntiān xiǎng chī Zhōngguó cài.",
+     "vi": "Hôm qua tôi vừa ăn món nước ngoài, hôm nay muốn ăn món Trung."
+    },
+    {
+     "s": "B",
+     "zh": "公司旁边新开了一家饭馆，听说很不错。",
+     "py": "Gōngsī pángbiān xīn kāi le yī jiā fànguǎn, tīngshuō hěn búcuò.",
+     "vi": "Cạnh công ty mới mở một quán ăn, nghe nói rất ổn."
+    },
+    {
+     "s": "A",
+     "zh": "那里的菜好吃吗？",
+     "py": "Nàlǐ de cài hǎochī ma?",
+     "vi": "Món ở đó ngon không?"
+    },
+    {
+     "s": "B",
+     "zh": "很好吃，也不贵，不过人会很多。",
+     "py": "Hěn hǎochī, yě bù guì, bù guò rén huì hěn duō.",
+     "vi": "Rất ngon, cũng không đắt, nhưng sẽ rất đông người."
+    },
+    {
+     "s": "A",
+     "zh": "好，那我们快点儿去。",
+     "py": "Hǎo, nà wǒmen kuài diǎn ér qù.",
+     "vi": "Được, vậy chúng ta đi nhanh lên."
+    },
+    {
+     "s": "B",
+     "zh": "走吧，今天我请客。",
+     "py": "Zǒu ba, jīntiān wǒ qǐngkè.",
+     "vi": "Đi thôi, hôm nay tôi mời."
+    }
+   ]
+  }
+ ]
+}
