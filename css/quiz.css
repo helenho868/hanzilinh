@@ -39,3 +39,19 @@
 .qtimer.low{color:#A8341F}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .qtimer.low{color:#FF8E7A}}
 :root[data-theme="dark"] .qtimer.low{color:#FF8E7A}
+
+/* Bảng cài đặt gọn: nhãn bên trái, nút chọn bên phải */
+#setup{display:grid;grid-template-columns:max-content 1fr;gap:10px 16px;align-items:center;padding:16px 18px}
+#setup .lbl{margin:0;font-size:.95rem}
+#setup .chips{gap:6px}
+#setup .chip{font-size:.88rem;padding:5px 13px;border-radius:18px}
+#setup .timenote{grid-column:1/-1;margin:0;font-size:.85rem}
+#setup .timenote:empty{display:none}
+#setup .check{grid-column:1/-1;margin:2px 0 0;font-size:.95rem}
+#setup .best{grid-column:1/-1;margin:0;min-height:0}
+#setup .best:empty{display:none}
+#setup .full{grid-column:1/-1;margin-top:4px}
+@media (max-width:560px){
+  #setup{grid-template-columns:1fr;gap:6px}
+  #setup .chips{margin-bottom:6px}
+}

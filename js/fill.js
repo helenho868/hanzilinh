@@ -171,7 +171,7 @@
   function updateTimeNote() {
     $("timeNote").textContent = cfg.time === "on"
       ? "Có đếm ngược: 1 phút cho mỗi câu, tức " + cfg.count + " phút cho " + cfg.count + " câu. Hết giờ thì bài tự nộp, câu chưa làm tính là sai."
-      : "Làm thong thả, không bị áp lực thời gian.";
+      : "";
   }
 
   $("start").onclick = function () {
