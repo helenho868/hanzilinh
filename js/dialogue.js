@@ -17,7 +17,7 @@
     if (onend) { u.onend = onend; u.onerror = onend; }
     return u;
   }
-  function speakOne(text) { if (!canSpeak) return; try { stopAll(); speechSynthesis.speak(utter(text)); } catch (e) {} }
+  function speakOne(text) { if (!canSpeak) { noSpeech(); return; } try { stopAll(); speechSynthesis.speak(utter(text)); } catch (e) {} }
   function stopAll() {
     token++; playing = false;
     try { speechSynthesis.cancel(); } catch (e) {}
@@ -25,7 +25,8 @@
     document.querySelectorAll(".msg.cur").forEach(function (n) { n.classList.remove("cur"); });
   }
   function playAll() {
-    if (!canSpeak || cur < 0) return;
+    if (!canSpeak) { noSpeech(); return; }
+    if (cur < 0) return;
     stopAll(); playing = true; var my = token;
     $("playAll").classList.add("hide"); $("stopAll").classList.remove("hide");
     var lines = data.dialogues[cur].lines, msgs = document.querySelectorAll(".msg");
@@ -58,7 +59,7 @@
       m.appendChild(mk("span", "zh", l.zh));
       m.appendChild(mk("span", "py", l.py));
       m.appendChild(mk("span", "vi", l.vi));
-      if (canSpeak) {
+      if (true) {
         var b = mk("button", "say", "Nghe"); b.type = "button";
         b.setAttribute("aria-label", "Nghe câu: " + l.zh);
         b.onclick = function (e) { e.stopPropagation(); speakOne(l.zh); };
@@ -99,7 +100,7 @@
     };
   });
   $("playAll").onclick = playAll; $("stopAll").onclick = stopAll;
-  if (!canSpeak) $("playAll").classList.add("hide");
+  function noSpeech() { var n = $("voiceNote"); if (!n) return; n.textContent = "Trình duyệt này không hỗ trợ phát âm. Nếu bạn đang mở link trong Messenger/Zalo, hãy bấm dấu ⋯ rồi chọn “Mở bằng trình duyệt” (Chrome) để nghe."; n.classList.remove("hide"); }
   $("tPy").setAttribute("aria-pressed", showPy); $("tVi").setAttribute("aria-pressed", showVi);
 
   HL.renderLevelChips("levelChips");

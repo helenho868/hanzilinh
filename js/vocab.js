@@ -20,7 +20,7 @@
     $("fp").textContent = d.pinyin;
     $("fv").textContent = d.vi;
     var ex = $("fx");
-    $("spkx").classList.toggle("hide", !(d.ex && canSpeak));
+    $("spkx").classList.toggle("hide", !d.ex);
     if (d.ex) {
       $("fxz").textContent = d.ex.zh; $("fxp").textContent = d.ex.py; $("fxv").textContent = d.ex.vi;
       ex.classList.remove("hide");
@@ -76,7 +76,6 @@
     onlyNew = !onlyNew; this.setAttribute("aria-pressed", onlyNew); rebuild(shuffled);
   };
   var canSpeak = !!window.speechSynthesis && typeof window.SpeechSynthesisUtterance !== "undefined";
-  if (!canSpeak) { $("spk").classList.add("hide"); }
   function zhVoice() {
     try {
       var vs = speechSynthesis.getVoices() || [];
@@ -84,8 +83,13 @@
     } catch (e) {}
     return null;
   }
+  function noSpeech() {
+    var n = $("voiceNote2"); if (!n) { n = document.createElement("p"); n.id = "voiceNote2"; n.className = "voice-note"; var anchor = $("spk").parentNode; anchor.parentNode.insertBefore(n, anchor.nextSibling); }
+    n.textContent = "Trình duyệt này không hỗ trợ phát âm. Nếu bạn đang mở link trong Messenger/Zalo, hãy bấm dấu ⋯ rồi chọn “Mở bằng trình duyệt” (Chrome) để nghe.";
+    n.classList.remove("hide");
+  }
   function speak(text) {
-    if (!canSpeak) return;
+    if (!canSpeak) { noSpeech(); return; }
     try {
       var u = new SpeechSynthesisUtterance(text);
       u.lang = "zh-CN"; u.rate = 0.8;
@@ -140,7 +144,7 @@
         bw.setAttribute("aria-label", "Xem cách viết từ " + w.hanzi);
         a.appendChild(bw);
       }
-      if (canSpeak) {
+      if (true) {
         var b1 = mk("button", "say", "Nghe từ");
         b1.type = "button"; b1.setAttribute("data-say", w.hanzi);
         b1.setAttribute("aria-label", "Nghe từ " + w.hanzi);
