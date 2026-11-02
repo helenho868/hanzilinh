@@ -41,6 +41,12 @@
       <button class="chip" type="button" data-v="pinyin" aria-pressed="false">Chữ Hán sang phiên âm</button>
       <button class="chip" type="button" data-v="hanzi" aria-pressed="false">Nghĩa sang chữ Hán</button>
     </div>
+    <p class="lbl">Thời gian</p>
+    <div class="chips" id="timeChips" role="group" aria-label="Thời gian làm bài">
+      <button class="chip" type="button" data-v="off" aria-pressed="true">Không giới hạn</button>
+      <button class="chip" type="button" data-v="on" aria-pressed="false">Đếm ngược</button>
+    </div>
+    <p class="timenote" id="timeNote">Làm thong thả, không bị áp lực thời gian.</p>
     <label class="check"><input type="checkbox" id="prefNew"> Ưu tiên từ tôi chưa thuộc (theo thẻ từ vựng)</label>
     <p class="best" id="best"></p>
     <button class="btn2 p full" id="start" type="button">Bắt đầu làm bài</button>
@@ -48,7 +54,7 @@
 
   <section id="play" class="hide">
     <div class="bar" aria-hidden="true"><i id="prog"></i></div>
-    <p class="meta"><span id="qcount"></span><span id="qscore"></span></p>
+    <p class="meta"><span id="qcount"></span><span id="qtimer" class="qtimer hide" role="timer" aria-label="Thời gian còn lại"></span><span id="qscore"></span></p>
     <div class="panel">
       <p class="qtype" id="qtype"></p>
       <p class="qmain" id="qmain"></p>

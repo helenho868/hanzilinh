@@ -34,3 +34,8 @@
 .revhead{font-weight:700;margin:8px 0 0}
 #next{margin-top:14px}
 @media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+.timenote{color:var(--mute);font-size:.9rem;margin:8px 0 0}
+.qtimer{font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
+.qtimer.low{color:#A8341F}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .qtimer.low{color:#FF8E7A}}
+:root[data-theme="dark"] .qtimer.low{color:#FF8E7A}

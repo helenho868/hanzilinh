@@ -4,8 +4,32 @@
   var BEST_KEY = HL.bestKey();
 
   var words = [];
-  var cfg = { count: 10, type: "mix" };
+  var cfg = { time: "off", count: 10, type: "mix" };
   var qs = [], i = 0, score = 0, wrong = [];
+
+
+  /* Đếm ngược: 1 phút cho mỗi câu, tính cho cả bài. Dùng mốc thời gian kết thúc nên vẫn đúng khi tab bị ẩn. */
+  var timerId = null, endAt = 0, answered = false;
+  function fmt(sec) { var m = Math.floor(sec / 60), s = sec % 60; return m + ":" + (s < 10 ? "0" : "") + s; }
+  function stopTimer() { if (timerId) { clearInterval(timerId); timerId = null; } $("qtimer").classList.add("hide"); }
+  function tick() {
+    var left = Math.max(0, Math.ceil((endAt - Date.now()) / 1000));
+    var t = $("qtimer"); t.textContent = "⏱ " + fmt(left);
+    t.classList.toggle("low", left <= 60);
+    if (left <= 0) timeUp();
+  }
+  function startTimer() {
+    stopTimer();
+    if (cfg.time !== "on") return;
+    endAt = Date.now() + qs.length * 60000;
+    $("qtimer").classList.remove("hide");
+    tick(); timerId = setInterval(tick, 250);
+  }
+  function timeUp() {
+    stopTimer();
+    for (var k = answered ? i + 1 : i; k < qs.length; k++) wrong.push(qs[k].w);
+    finish(true);
+  }
 
   function shuffle(a) {
     a = a.slice();
@@ -82,7 +106,7 @@
   }
 
   function show() {
-    var q = qs[i];
+    var q = qs[i]; answered = false;
     $("qcount").textContent = "Câu " + (i + 1) + " / " + qs.length;
     $("qscore").textContent = "Đúng " + score;
     $("prog").style.width = (i / qs.length * 100) + "%";
@@ -103,6 +127,7 @@
   }
 
   function pick(t) {
+    answered = true;
     var q = qs[i], ok = t === q.answer, bs = $("opts").children;
     for (var k = 0; k < bs.length; k++) {
       bs[k].disabled = true;
@@ -119,15 +144,16 @@
     nx.classList.remove("hide"); nx.focus();
   }
 
-  function finish() {
+  function finish(timedOut) {
+    stopTimer();
     $("play").classList.add("hide"); $("result").classList.remove("hide");
     var total = qs.length;
     $("sc").textContent = score + " / " + total;
     var r = score / total;
-    $("ms").textContent = r === 1 ? "Tuyệt vời! Bạn làm đúng toàn bộ."
+    $("ms").textContent = (timedOut ? "Hết giờ! " : "") + (r === 1 ? "Tuyệt vời! Bạn làm đúng toàn bộ."
       : r >= 0.8 ? "Rất tốt! Xem lại vài từ sai bên dưới nhé."
       : r >= 0.5 ? "Khá ổn. Ôn lại các từ sai rồi làm đề mới nhé."
-      : "Cố lên! Hãy ôn thẻ từ vựng rồi làm lại.";
+      : "Cố lên! Hãy ôn thẻ từ vựng rồi làm lại.");
     var best = getBest();
     var pct = Math.round(r * 100);
     if (!best || pct > best.pct) setBest({ pct: pct, score: score, total: total });
@@ -159,16 +185,32 @@
         b.setAttribute("aria-pressed", "true");
         var v = b.getAttribute("data-v");
         cfg[key] = key === "count" ? parseInt(v, 10) : v;
+        if (key === "count" && typeof updateTimeNote === "function") updateTimeNote();
       };
     });
   }
   chips("countChips", "count"); chips("typeChips", "type");
 
+
+  var tbtns = document.querySelectorAll("#timeChips .chip");
+  tbtns.forEach(function (b) {
+    b.onclick = function () {
+      tbtns.forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+      b.setAttribute("aria-pressed", "true");
+      cfg.time = b.getAttribute("data-v"); updateTimeNote();
+    };
+  });
+  function updateTimeNote() {
+    $("timeNote").textContent = cfg.time === "on"
+      ? "Có đếm ngược: 1 phút cho mỗi câu, tức " + cfg.count + " phút cho " + cfg.count + " câu. Hết giờ thì bài tự nộp, câu chưa làm tính là sai."
+      : "Làm thong thả, không bị áp lực thời gian.";
+  }
+
   $("start").onclick = function () {
     i = 0; score = 0; wrong = [];
     build();
     $("setup").classList.add("hide"); $("result").classList.add("hide"); $("play").classList.remove("hide");
-    show();
+    show(); startTimer();
   };
   $("next").onclick = function () { i++; if (i < qs.length) show(); else finish(); };
   $("again").onclick = function () {
