@@ -17,6 +17,7 @@ var TOOLS = [
   { ic: "词", name: "Từ vựng",         desc: "Thẻ từ vựng theo cấp HSK, đánh dấu từ đã thuộc.", ready: true, href: "vocab.html?level=1" },
   { ic: "题", name: "Luyện đề",        desc: "Trắc nghiệm từ vựng, có chấm điểm và giải thích.", ready: true, href: "quiz.html?level=1" },
   { ic: "填", name: "Điền chỗ trống",  desc: "Chọn từ đúng để điền vào chỗ trống trong câu ví dụ.", ready: true, href: "fill.html?level=1" },
+  { ic: "拖", name: "Kéo thả",        desc: "Kéo từ vào đúng câu ví dụ, mỗi phần 5 câu.", ready: true, href: "drag.html?level=1" },
   { ic: "话", name: "Hội thoại",       desc: "Đoạn hội thoại ngắn theo chủ đề quen thuộc.", ready: false },
   { ic: "读", name: "Đọc hiểu",        desc: "Đoạn văn từ dễ đến khó kèm câu hỏi.", ready: false },
   { ic: "部", name: "Bộ thủ",          desc: "214 bộ thủ và cách nhớ chữ Hán.", ready: false }

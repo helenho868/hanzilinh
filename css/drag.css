@@ -1,0 +1,21 @@
+.bank{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;min-height:56px;padding:10px;margin:0 0 14px;border:1.5px dashed var(--line);border-radius:12px;background:var(--card);position:sticky;top:0;z-index:5}
+.bank.over{border-color:var(--jade);background:var(--jade-soft)}
+.wchip,.slot.filled{font-family:"Noto Serif SC","Songti SC",serif;font-weight:700;touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab}
+.wchip{font-size:1.3rem;padding:6px 14px;border:1.5px solid var(--jade);border-radius:10px;background:var(--card);color:var(--ink)}
+.wchip.sel{background:var(--jade);color:var(--jade-ink)}
+.wchip.drag-src,.slot.drag-src{opacity:.35}
+.ghost{position:fixed;z-index:99;pointer-events:none;font-family:"Noto Serif SC","Songti SC",serif;font-weight:700;font-size:1.3rem;padding:6px 14px;border-radius:10px;background:var(--jade);color:var(--jade-ink);box-shadow:0 6px 18px rgba(0,0,0,.25);transform:translate(-50%,-50%)}
+.item{padding:12px 0;border-top:1px solid var(--line)}
+.item .sent{font-size:1.4rem;line-height:2.1;margin:0}
+.slot{font:inherit;display:inline-block;min-width:3.4em;min-height:1.6em;vertical-align:baseline;border:0;border-bottom:3px solid var(--jade);background:transparent;color:var(--jade);margin:0 .15em;padding:0 .3em;cursor:pointer;text-align:center}
+.slot.over{background:var(--jade-soft)}
+.slot.filled{background:var(--jade-soft);color:var(--ink);border-radius:6px 6px 0 0}
+.slot.ok{background:var(--jade-soft);border-color:var(--jade);color:var(--ink)}
+.slot.no{background:#F8E0DB;border-color:#A8341F;color:#14201C}
+.slot:disabled{cursor:default}
+.item .hint{margin:0;text-align:left;font-size:.92rem}
+.item .res{margin:4px 0 0;font-size:.92rem}
+.item .res.no b{color:#A8341F}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .slot.no{background:#3A1F1A;border-color:#FF8E7A;color:#E8F0ED}:root:not([data-theme="light"]) .item .res.no b{color:#FF8E7A}}
+:root[data-theme="dark"] .slot.no{background:#3A1F1A;border-color:#FF8E7A;color:#E8F0ED}
+:root[data-theme="dark"] .item .res.no b{color:#FF8E7A}
