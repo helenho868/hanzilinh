@@ -9,7 +9,8 @@
 
 
   /* Đếm ngược: 1 phút cho mỗi câu, tính cho cả bài. Dùng mốc thời gian kết thúc nên vẫn đúng khi tab bị ẩn. */
-  var timerId = null, endAt = 0, answered = false;
+  var timerId = null, endAt = 0, answered = false, startedAt = 0;
+  function fmtTime(sec) { var m = Math.floor(sec / 60), s = sec % 60; return m + " phút " + (s < 10 ? "0" : "") + s + " giây"; }
   function fmt(sec) { var m = Math.floor(sec / 60), s = sec % 60; return m + ":" + (s < 10 ? "0" : "") + s; }
   function stopTimer() { if (timerId) { clearInterval(timerId); timerId = null; } $("qtimer").classList.add("hide"); }
   function tick() {
@@ -127,8 +128,11 @@
       : r >= 0.8 ? "Rất tốt! Xem lại vài từ sai bên dưới nhé."
       : r >= 0.5 ? "Khá ổn. Ôn lại các từ sai rồi làm bài mới nhé."
       : "Cố lên! Hãy ôn thẻ từ vựng rồi làm lại.");
+    var secs = Math.round((Date.now() - startedAt) / 1000);
+    if (timedOut) secs = total * 60;
+    $("tm").textContent = "Thời gian làm bài: " + fmtTime(secs) + (cfg.time === "on" ? " (đếm ngược " + total + " phút)" : "");
     var best = getBest(), pct = Math.round(r * 100);
-    if (!best || pct > best.pct) setBest({ pct: pct, score: score, total: total });
+    if (!best || pct > best.pct || (pct === best.pct && (best.secs == null || secs < best.secs))) setBest({ pct: pct, score: score, total: total, secs: secs });
     var rv = $("rv"); rv.innerHTML = "";
     if (wrong.length) {
       var hd = document.createElement("p"); hd.className = "revhead"; hd.textContent = "Các từ cần ôn lại";
@@ -147,7 +151,7 @@
 
   function showBest() {
     var b = getBest();
-    $("best").textContent = b ? "Điểm cao nhất của bạn: " + b.score + " / " + b.total + " (" + b.pct + "%)" : "";
+    $("best").textContent = b ? "Điểm cao nhất của bạn: " + b.score + " / " + b.total + " (" + b.pct + "%)" + (b.secs != null ? ", làm trong " + fmtTime(b.secs) : "") : "";
   }
 
   var btns = document.querySelectorAll("#countChips .chip");
@@ -178,6 +182,7 @@
     i = 0; score = 0; wrong = [];
     build();
     $("setup").classList.add("hide"); $("result").classList.add("hide"); $("play").classList.remove("hide");
+    startedAt = Date.now();
     show(); startTimer();
   };
   $("next").onclick = function () { i++; if (i < qs.length) show(); else finish(); };
