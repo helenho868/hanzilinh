@@ -22,9 +22,9 @@
 .msg{max-width:88%;padding:10px 14px;border-radius:14px;border:1.5px solid var(--line);background:var(--card);position:relative}
 .msg.A{justify-self:start;border-top-left-radius:4px}
 .msg.B{justify-self:end;border-top-right-radius:4px;background:var(--jade-soft);border-color:transparent}
-.msg .who{display:block;font-size:.75rem;font-weight:700;color:var(--mute);margin-bottom:2px}
-.msg .zh{display:block;font-family:"Noto Serif SC","Songti SC",serif;font-size:1.3rem;line-height:1.5;font-weight:600}
-.msg .py{display:block;color:var(--jade);font-size:.92rem}
+.msg .who{display:block;font-family:"Be Vietnam Pro",system-ui,sans-serif;font-size:.75rem;font-weight:700;color:var(--mute);margin-bottom:2px}
+.msg .zh{display:block;font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:1.35rem;line-height:1.55;font-weight:500;letter-spacing:.04em}
+.msg .py{display:block;color:var(--jade);font-family:"Noto Sans","Segoe UI","Helvetica Neue",Arial,sans-serif;font-size:.95rem;font-weight:500;line-height:1.5;margin-top:2px}
 .msg .vi{display:block;color:var(--mute);font-size:.92rem;margin-top:2px}
 .msg .say{margin-top:6px}
 .msg.cur{outline:3px solid var(--jade);outline-offset:2px}
