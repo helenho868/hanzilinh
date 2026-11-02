@@ -1,0 +1,412 @@
+{
+ "level": 5,
+ "standard": "HSK 3.0",
+ "count": 5,
+ "passages": [
+  {
+   "id": 1,
+   "title": "Thức khuya",
+   "text": [
+    {
+     "zh": "很多年轻人习惯熬夜，晚上不睡觉，白天没有精神。",
+     "py": "Hěn duō nián qīng rén xíguàn áoyè, wǎnshang bù shuìjiào, báitiān méiyǒu jīngshen.",
+     "vi": "Nhiều người trẻ quen thức khuya, ban đêm không ngủ, ban ngày không có tinh thần."
+    },
+    {
+     "zh": "我也曾经是这样。",
+     "py": "Wǒ yě céngjīng shì zhèyàng.",
+     "vi": "Tôi cũng từng như vậy."
+    },
+    {
+     "zh": "为了完成工作，我常常熬夜到半夜两点，结果第二天头痛，注意力很难集中。",
+     "py": "Wèile wánchéng gōngzuò, wǒ chángcháng áoyè dào bànyè liǎng diǎn, jiéguǒ dì èr tiān tóutòng, zhù yì lì hěn nán jízhōng.",
+     "vi": "Để hoàn thành công việc, tôi thường thức đến hai giờ đêm, kết quả hôm sau đau đầu, khó tập trung chú ý."
+    },
+    {
+     "zh": "医生告诉我，睡眠不足会影响健康，还可能引起很多疾病。",
+     "py": "Yīshēng gàosu wǒ, shuì mián bù zú huì yǐngxiǎng jiànkāng, hái kěnéng yǐnqǐ hěn duō jíbìng.",
+     "vi": "Bác sĩ bảo tôi, thiếu ngủ sẽ ảnh hưởng sức khỏe, còn có thể gây ra nhiều bệnh."
+    },
+    {
+     "zh": "于是我决定改变，晚上十一点以前一定睡觉。",
+     "py": "Yúshì wǒ juédìng gǎibiàn, wǎnshang shí yì diǎn yǐqián yídìng shuìjiào.",
+     "vi": "Vì vậy tôi quyết định thay đổi, nhất định đi ngủ trước mười một giờ đêm."
+    },
+    {
+     "zh": "刚开始很难，我就在睡觉前放下手机，听一听轻松的音乐。",
+     "py": "Gāng kāishǐ hěn nán, wǒ jiù zài shuìjiào qián fàng xià shǒujī, tīng yī tīng qīngsōng de yīnyuè.",
+     "vi": "Lúc đầu rất khó, tôi bèn đặt điện thoại xuống trước khi ngủ, nghe chút nhạc nhẹ nhàng."
+    },
+    {
+     "zh": "坚持了一个月，我的精神状态明显好多了。",
+     "py": "Jiānchí le yí gè yuè, wǒ de jīng shén zhuàng tài míngxiǎn hǎoduō le.",
+     "vi": "Kiên trì một tháng, trạng thái tinh thần của tôi tốt hơn rõ rệt."
+    },
+    {
+     "zh": "现在我明白了，充足的睡眠比多工作两个小时更重要。",
+     "py": "Xiànzài wǒ míngbai le, chōngzú de shuìmián bǐ duō gōngzuò liǎng gè xiǎoshí gèng zhòngyào.",
+     "vi": "Bây giờ tôi hiểu rằng giấc ngủ đầy đủ quan trọng hơn làm thêm hai tiếng."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "熬夜以后第二天他怎么样？",
+     "vi": "Sau khi thức khuya, hôm sau anh ấy thế nào?",
+     "opts": [
+      "头痛，注意力很难集中",
+      "精神很好",
+      "工作更快",
+      "不想吃饭"
+     ],
+     "a": 0,
+     "why": "Bài viết “第二天头痛，注意力很难集中”."
+    },
+    {
+     "zh": "医生说睡眠不足会怎么样？",
+     "vi": "Bác sĩ nói thiếu ngủ sẽ thế nào?",
+     "opts": [
+      "变聪明",
+      "没有影响",
+      "会影响健康",
+      "长高"
+     ],
+     "a": 2,
+     "why": "Bài viết “睡眠不足会影响健康”."
+    },
+    {
+     "zh": "他怎么帮助自己早点儿睡觉？",
+     "vi": "Anh ấy tự giúp mình ngủ sớm bằng cách nào?",
+     "opts": [
+      "多喝咖啡",
+      "晚上运动三个小时",
+      "白天睡觉",
+      "睡前放下手机，听音乐"
+     ],
+     "a": 3,
+     "why": "Bài viết “在睡觉前放下手机，听一听轻松的音乐”."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Tết Nguyên đán",
+   "text": [
+    {
+     "zh": "春节是中国最重要的传统节日。",
+     "py": "Chūn jié shì Zhōngguó zuì zhòngyào de chuán tǒng jié rì.",
+     "vi": "Tết Nguyên đán là lễ truyền thống quan trọng nhất của Trung Quốc."
+    },
+    {
+     "zh": "除夕那天，不管离家多远，人们都会尽量赶回家，和家人一起吃年夜饭。",
+     "py": "Chúxī nà tiān, bùguǎn lí jiā duō yuǎn, rén men dōu huì jǐnliàng gǎn huí jiā, hé jiārén yìqǐ chī niányèfàn.",
+     "vi": "Ngày giao thừa, dù xa nhà đến đâu, mọi người đều cố gắng về kịp, cùng gia đình ăn bữa cơm tất niên."
+    },
+    {
+     "zh": "年夜饭很丰富，有鱼、肉、饺子，还有各种蔬菜。",
+     "py": "Niányèfàn hěn fēngfù, yǒu yú, ròu, jiǎozi, hái yǒu gèzhǒng shūcài.",
+     "vi": "Bữa tất niên rất phong phú, có cá, thịt, sủi cảo, còn có đủ loại rau."
+    },
+    {
+     "zh": "吃完饭，全家人坐在一起看电视，聊聊一年来的生活。",
+     "py": "Chī wán fàn, quán jiā rén zuò zài yìqǐ kàn diàn shì, liáo liáo yī nián lái de shēnghuó.",
+     "vi": "Ăn xong, cả nhà ngồi cùng xem tivi, trò chuyện về cuộc sống trong năm qua."
+    },
+    {
+     "zh": "孩子们最开心，因为大人会给他们压岁钱。",
+     "py": "Háizi men zuì kāixīn, yīnwèi dàren huì gěi tāmen yāsuìqián.",
+     "vi": "Bọn trẻ vui nhất, vì người lớn sẽ cho chúng tiền lì xì."
+    },
+    {
+     "zh": "第二天，人们互相祝福，看望亲戚朋友。",
+     "py": "Dì èr tiān, rén men hùxiāng zhù fú, kànwàng qīn qī péng yǒu.",
+     "vi": "Hôm sau, mọi người chúc nhau, thăm họ hàng bạn bè."
+    },
+    {
+     "zh": "虽然现在生活方式变化了很多，但是春节的传统一直保留了下来。",
+     "py": "Suīrán xiànzài shēnghuó fāngshì biànhuà le hěn duō, dànshì chūn jié de chuántǒng yìzhí bǎoliú le xiàlái.",
+     "vi": "Tuy lối sống hiện nay thay đổi nhiều, truyền thống Tết vẫn luôn được giữ lại."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "除夕晚上人们做什么？",
+     "vi": "Tối giao thừa mọi người làm gì?",
+     "opts": [
+      "看比赛",
+      "去旅游",
+      "上班",
+      "和家人吃年夜饭"
+     ],
+     "a": 3,
+     "why": "Bài viết “和家人一起吃年夜饭”."
+    },
+    {
+     "zh": "孩子们为什么最开心？",
+     "vi": "Vì sao bọn trẻ vui nhất?",
+     "opts": [
+      "可以不上学",
+      "大人给压岁钱",
+      "可以去公园",
+      "有新手机"
+     ],
+     "a": 1,
+     "why": "Bài viết “因为大人会给他们压岁钱”."
+    },
+    {
+     "zh": "第二天人们做什么？",
+     "vi": "Hôm sau mọi người làm gì?",
+     "opts": [
+      "继续工作",
+      "去学校",
+      "互相祝福，看望亲戚朋友",
+      "在家睡觉"
+     ],
+     "a": 2,
+     "why": "Bài viết “第二天，人们互相祝福，看望亲戚朋友”."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Phân loại rác",
+   "text": [
+    {
+     "zh": "最近，我们小区开始进行垃圾分类。",
+     "py": "Zuìjìn, wǒmen xiǎoqū kāishǐ jìnxíng lājī fēnlèi.",
+     "vi": "Gần đây, khu dân cư của chúng tôi bắt đầu phân loại rác."
+    },
+    {
+     "zh": "垃圾桶分成四种颜色，分别放不同的垃圾。",
+     "py": "Lā jī tǒng fēn chéng sì zhǒng yánsè, fēnbié fàng bùtóng de lājī.",
+     "vi": "Thùng rác chia thành bốn màu, mỗi màu đựng một loại rác khác nhau."
+    },
+    {
+     "zh": "一开始，很多居民不习惯，常常把垃圾放错地方。",
+     "py": "Yī kāishǐ, hěn duō jūmín bù xíguàn, chángcháng bǎ lājī fàng cuò dìfang.",
+     "vi": "Lúc đầu nhiều cư dân chưa quen, thường bỏ rác nhầm chỗ."
+    },
+    {
+     "zh": "于是社区请来了志愿者，耐心地向大家解释如何分类。",
+     "py": "Yúshì shèqū qǐng lái le zhìyuànzhě, nàixīn de xiàng dàjiā jiěshì rúhé fēnlèi.",
+     "vi": "Vì vậy khu phố mời các tình nguyện viên đến, kiên nhẫn giải thích cho mọi người cách phân loại."
+    },
+    {
+     "zh": "慢慢地，大家都养成了好习惯。",
+     "py": "Màn màn de, dàjiā dōu yǎngchéng le hǎo xíguàn.",
+     "vi": "Dần dần mọi người đều hình thành thói quen tốt."
+    },
+    {
+     "zh": "我的孩子也很感兴趣，他还提醒我们不要浪费。",
+     "py": "Wǒ de háizi yě hěn gǎn xìng qù, tā hái tíxǐng wǒmen búyào làngfèi.",
+     "vi": "Con tôi cũng rất hứng thú, còn nhắc chúng tôi đừng lãng phí."
+    },
+    {
+     "zh": "垃圾分类不但能保护环境，还能节约资源。",
+     "py": "Lājī fēnlèi búdàn néng bǎo hù huán jìng, hái néng jié yuē zī yuán.",
+     "vi": "Phân loại rác không chỉ bảo vệ môi trường mà còn tiết kiệm tài nguyên."
+    },
+    {
+     "zh": "这是一件对所有人都有利的事。",
+     "py": "Zhè shì yī jiàn duì suǒ yǒu rén dōu yǒulì de shì.",
+     "vi": "Đây là việc có lợi cho tất cả mọi người."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "垃圾桶有几种颜色？",
+     "vi": "Thùng rác có mấy màu?",
+     "opts": [
+      "两种",
+      "三种",
+      "四种",
+      "五种"
+     ],
+     "a": 2,
+     "why": "Bài viết “垃圾桶分成四种颜色”, tức là bốn màu."
+    },
+    {
+     "zh": "谁向大家解释如何分类？",
+     "vi": "Ai giải thích cho mọi người cách phân loại?",
+     "opts": [
+      "警察",
+      "老师",
+      "医生",
+      "志愿者"
+     ],
+     "a": 3,
+     "why": "Bài viết “社区请来了志愿者，耐心地向大家解释”."
+    },
+    {
+     "zh": "垃圾分类有什么好处？",
+     "vi": "Phân loại rác có lợi gì?",
+     "opts": [
+      "保护环境，节约资源",
+      "让垃圾更多",
+      "让房租便宜",
+      "没有好处"
+     ],
+     "a": 0,
+     "why": "Bài viết “不但能保护环境，还能节约资源”."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Thăm bảo tàng",
+   "text": [
+    {
+     "zh": "上个周末，我和同学去参观了一家历史博物馆。",
+     "py": "Shàng gè zhōumò, wǒ hé tóngxué qù cānguān le yī jiā lì shǐ bó wù guǎn.",
+     "vi": "Cuối tuần trước, tôi cùng bạn học đi tham quan một bảo tàng lịch sử."
+    },
+    {
+     "zh": "博物馆位于城市中心，参观的人非常多，我们排了半个小时的队才进去。",
+     "py": "Bówùguǎn wèiyú chéngshì zhōngxīn, cānguān de rén fēicháng duō, wǒmen pái le bàn gè xiǎoshí de duì cái jìnqù.",
+     "vi": "Bảo tàng nằm ở trung tâm thành phố, người tham quan rất đông, chúng tôi xếp hàng nửa tiếng mới vào được."
+    },
+    {
+     "zh": "里面展出了许多古代的东西，其中最吸引我的是一件很古老的玻璃杯。",
+     "py": "Lǐmiàn zhǎnchū le xǔduō gǔdài de dōngxi, qízhōng zuì xīyǐn wǒ de shì yī jiàn hěn gǔlǎo de bō lí bēi.",
+     "vi": "Bên trong trưng bày nhiều đồ cổ, trong đó thu hút tôi nhất là một chiếc cốc thủy tinh rất xưa."
+    },
+    {
+     "zh": "旁边的介绍说，这件东西已经有两千多年的历史了。",
+     "py": "Pángbiān de jièshào shuō, zhè jiàn dōngxi yǐjīng yǒu liǎng qiān duō nián de lìshǐ le.",
+     "vi": "Phần giới thiệu bên cạnh nói món đồ này đã có hơn hai nghìn năm lịch sử."
+    },
+    {
+     "zh": "导游还给我们讲述了许多有趣的传说。",
+     "py": "Dǎoyóu huán gěi wǒmen jiǎngshù le xǔduō yǒuqù de chuánshuō.",
+     "vi": "Hướng dẫn viên còn kể cho chúng tôi nhiều truyền thuyết thú vị."
+    },
+    {
+     "zh": "我才发现，历史并不是无聊的，它就像一个个精彩的故事。",
+     "py": "Wǒ cái fāxiàn, lìshǐ bìng bú shì wúliáo de, tā jiù xiàng yí gè gè jīngcǎi de gùshi.",
+     "vi": "Tôi mới nhận ra lịch sử không hề nhàm chán, nó giống như những câu chuyện hấp dẫn."
+    },
+    {
+     "zh": "临走的时候，我买了一本关于古代生活的书。",
+     "py": "Lín zǒu de shíhou, wǒ mǎi le yī běn guānyú gǔdài shēnghuó de shū.",
+     "vi": "Lúc sắp về, tôi mua một cuốn sách về cuộc sống thời cổ đại."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "他们排了多长时间的队？",
+     "vi": "Họ xếp hàng bao lâu?",
+     "opts": [
+      "半个小时",
+      "十分钟",
+      "两个小时",
+      "一个上午"
+     ],
+     "a": 0,
+     "why": "Bài viết “排了半个小时的队”, tức là nửa tiếng."
+    },
+    {
+     "zh": "最吸引他的是什么？",
+     "vi": "Điều thu hút anh ấy nhất là gì?",
+     "opts": [
+      "一幅画",
+      "一件古老的玻璃杯",
+      "一块石头",
+      "一台机器"
+     ],
+     "a": 1,
+     "why": "Bài viết “最吸引我的是一件很古老的玻璃杯”."
+    },
+    {
+     "zh": "他对历史有什么新的看法？",
+     "vi": "Anh ấy có cái nhìn mới nào về lịch sử?",
+     "opts": [
+      "历史很无聊",
+      "历史没有用",
+      "历史像精彩的故事",
+      "历史很难学"
+     ],
+     "a": 2,
+     "why": "Bài viết “历史并不是无聊的，它就像一个个精彩的故事”."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Rời xa điện thoại",
+   "text": [
+    {
+     "zh": "现在人人离不开手机，我也不例外。",
+     "py": "Xiànzài rén rén lí bù kāi shǒujī, wǒ yě bù lì wài.",
+     "vi": "Bây giờ ai cũng không rời được điện thoại, tôi cũng không ngoại lệ."
+    },
+    {
+     "zh": "有一次，我和朋友吃饭，我们每个人都低着头看手机，几乎没有说话。",
+     "py": "Yǒu yī cì, wǒ hé péngyou chī fàn, wǒmen měi gè rén dōu dī zhe tóu kàn shǒujī, jīhū méiyǒu shuōhuà.",
+     "vi": "Có lần tôi ăn cơm với bạn, mỗi người đều cúi đầu xem điện thoại, hầu như không nói chuyện."
+    },
+    {
+     "zh": "忽然我觉得很奇怪，我们明明坐在一起，却好像离得很远。",
+     "py": "Hūrán wǒ juéde hěn qíguài, wǒmen míng míng zuò zài yìqǐ, què hǎoxiàng lí de hěn yuǎn.",
+     "vi": "Đột nhiên tôi thấy rất lạ, rõ ràng ngồi cùng nhau mà dường như xa cách."
+    },
+    {
+     "zh": "回家以后，我决定每天少看一个小时手机，多读书，多陪家人。",
+     "py": "Huí jiā yǐhòu, wǒ juédìng měi tiān shǎo kàn yí gè xiǎoshí shǒujī, duō dúshū, duō péi jiārén.",
+     "vi": "Về nhà, tôi quyết định mỗi ngày xem điện thoại ít đi một tiếng, đọc sách nhiều hơn, bên gia đình nhiều hơn."
+    },
+    {
+     "zh": "刚开始，我总觉得缺少了什么，心里很不安。",
+     "py": "Gāng kāishǐ, wǒ zǒng juéde quēshǎo le shénme, xīnlǐ hěn bù ān.",
+     "vi": "Lúc đầu tôi luôn thấy thiếu thứ gì đó, trong lòng bất an."
+    },
+    {
+     "zh": "一个星期以后，我渐渐习惯了，还发现了很多以前忽视的美好。",
+     "py": "Yí gè xīngqī yǐhòu, wǒ jiànjiàn xíguàn le, hái fāxiàn le hěn duō yǐqián hūshì de měihǎo.",
+     "vi": "Một tuần sau tôi dần quen, còn phát hiện nhiều điều tốt đẹp trước đây bị bỏ qua."
+    },
+    {
+     "zh": "现在我认为，手机是很好的工具，但是不应该让它控制我们的生活。",
+     "py": "Xiànzài wǒ rènwéi, shǒujī shì hěn hǎo de gōngjù, dànshì bù yīnggāi ràng tā kòngzhì wǒmen de shēnghuó.",
+     "vi": "Bây giờ tôi cho rằng điện thoại là công cụ rất tốt, nhưng không nên để nó điều khiển cuộc sống của chúng ta."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "朋友吃饭的时候发生了什么？",
+     "vi": "Khi ăn cơm với bạn đã xảy ra chuyện gì?",
+     "opts": [
+      "每个人都在看手机",
+      "大家聊得很开心",
+      "手机丢了",
+      "一个人迟到了"
+     ],
+     "a": 0,
+     "why": "Bài viết “每个人都低着头看手机，几乎没有说话”."
+    },
+    {
+     "zh": "回家以后他决定做什么？",
+     "vi": "Về nhà anh ấy quyết định làm gì?",
+     "opts": [
+      "不再用手机",
+      "每天少看一个小时手机",
+      "买新手机",
+      "多玩游戏"
+     ],
+     "a": 1,
+     "why": "Bài viết “每天少看一个小时手机”."
+    },
+    {
+     "zh": "现在他怎么看手机？",
+     "vi": "Bây giờ anh ấy nhìn nhận điện thoại thế nào?",
+     "opts": [
+      "手机没有用",
+      "手机比家人重要",
+      "手机很危险",
+      "是好工具，但不应该控制生活"
+     ],
+     "a": 3,
+     "why": "Bài viết “手机是很好的工具，但是不应该让它控制我们的生活”."
+    }
+   ]
+  }
+ ]
+}

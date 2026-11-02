@@ -1,0 +1,21 @@
+.passage{display:grid;gap:12px;margin-bottom:20px}
+.para{padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);position:relative}
+.para.cur{outline:3px solid var(--jade);outline-offset:2px}
+.para .zh{display:block;font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:1.3rem;line-height:1.8;font-weight:500;letter-spacing:.04em}
+.para .py{display:block;color:var(--jade);font-family:"Noto Sans","Segoe UI","Helvetica Neue",Arial,sans-serif;font-size:.92rem;font-weight:500;line-height:1.5;margin-top:4px}
+.para .vi{display:block;color:var(--mute);font-size:.92rem;margin-top:4px}
+.hidepy .para .py{display:none}
+.hidevi .para .vi,.hidevi .qv{display:none}
+.qhead{font-size:1.15rem;margin:8px 0 10px}
+.q{padding:14px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);margin-bottom:12px}
+.q .qz{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;font-size:1.12rem;font-weight:500;line-height:1.6}
+.q .qv{color:var(--mute);font-size:.9rem;margin:2px 0 8px}
+.opts{display:grid;gap:8px;margin-top:8px}
+.opt{font:inherit;font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;font-size:1.05rem;text-align:left;padding:10px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);cursor:pointer}
+.opt:hover{border-color:var(--jade)}
+.opt.ok{background:var(--jade-soft);border-color:var(--jade);font-weight:700}
+.opt.no{border-color:var(--seal);text-decoration:line-through;color:var(--mute)}
+.opts.done .opt{cursor:default}
+.why{margin:10px 0 0;padding:8px 12px;border-radius:8px;background:var(--jade-soft);font-size:.92rem}
+.rscore{margin:6px 0 14px;padding:12px 14px;border-radius:12px;background:var(--jade-soft);font-weight:600}
+.dcard .best{float:right;font-size:.82rem;font-weight:700;color:var(--jade)}

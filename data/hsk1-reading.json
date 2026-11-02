@@ -1,0 +1,362 @@
+{
+ "level": 1,
+ "standard": "HSK 3.0",
+ "count": 5,
+ "passages": [
+  {
+   "id": 1,
+   "title": "Gia đình tôi",
+   "text": [
+    {
+     "zh": "我家有五口人：爸爸、妈妈、哥哥、妹妹和我。",
+     "py": "Wǒ jiā yǒu wǔ kǒu rén: bàba, māma, gēge, mèimei hé wǒ.",
+     "vi": "Nhà tôi có năm người: bố, mẹ, anh trai, em gái và tôi."
+    },
+    {
+     "zh": "爸爸是医生，在医院工作。",
+     "py": "Bàba shì yīshēng, zài yīyuàn gōngzuò.",
+     "vi": "Bố là bác sĩ, làm việc ở bệnh viện."
+    },
+    {
+     "zh": "妈妈是老师，在学校工作。",
+     "py": "Māma shì lǎoshī, zài xuéxiào gōngzuò.",
+     "vi": "Mẹ là giáo viên, làm việc ở trường học."
+    },
+    {
+     "zh": "哥哥是大学生，他喜欢看电影。",
+     "py": "Gēge shì dàxuéshēng, tā xǐhuan kàn diànyǐng.",
+     "vi": "Anh trai là sinh viên đại học, anh ấy thích xem phim."
+    },
+    {
+     "zh": "妹妹今年八岁，她是小学生。",
+     "py": "Mèimei jīnnián bā suì, tā shì xiǎoxuéshēng.",
+     "vi": "Em gái năm nay tám tuổi, em là học sinh tiểu học."
+    },
+    {
+     "zh": "我们都很爱我们的家。",
+     "py": "Wǒmen dōu hěn ài wǒmen de jiā.",
+     "vi": "Chúng tôi đều rất yêu gia đình của mình."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "爸爸做什么工作？",
+     "vi": "Bố làm nghề gì?",
+     "opts": [
+      "医生",
+      "老师",
+      "大学生",
+      "学生"
+     ],
+     "a": 0,
+     "why": "Bài viết “爸爸是医生”, nghĩa là bố là bác sĩ."
+    },
+    {
+     "zh": "妹妹今年几岁？",
+     "vi": "Em gái năm nay mấy tuổi?",
+     "opts": [
+      "五岁",
+      "八岁",
+      "十岁",
+      "二十岁"
+     ],
+     "a": 1,
+     "why": "Bài viết “妹妹今年八岁”, tức là tám tuổi."
+    },
+    {
+     "zh": "哥哥喜欢做什么？",
+     "vi": "Anh trai thích làm gì?",
+     "opts": [
+      "看电影",
+      "看书",
+      "唱歌",
+      "做饭"
+     ],
+     "a": 0,
+     "why": "Bài viết “他喜欢看电影”, anh trai thích xem phim."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Chủ nhật của tôi",
+   "text": [
+    {
+     "zh": "今天是星期天，天气很好。",
+     "py": "Jīntiān shì xīngqītiān, tiānqì hěn hǎo.",
+     "vi": "Hôm nay là chủ nhật, thời tiết rất đẹp."
+    },
+    {
+     "zh": "早上我七点起床，吃了面包，喝了牛奶。",
+     "py": "Zǎoshang wǒ qī diǎn qǐchuáng, chī le miànbāo, hē le niúnǎi.",
+     "vi": "Buổi sáng tôi dậy lúc bảy giờ, ăn bánh mì, uống sữa."
+    },
+    {
+     "zh": "上午我和朋友去商店买东西。",
+     "py": "Shàngwǔ wǒ hé péngyou qù shāngdiàn mǎi dōngxi.",
+     "vi": "Buổi sáng tôi cùng bạn đi cửa hàng mua đồ."
+    },
+    {
+     "zh": "中午我们在饭店吃饭。",
+     "py": "Zhōngwǔ wǒmen zài fàndiàn chī fàn.",
+     "vi": "Buổi trưa chúng tôi ăn cơm ở nhà hàng."
+    },
+    {
+     "zh": "下午我们看电影。",
+     "py": "Xiàwǔ wǒmen kàn diànyǐng.",
+     "vi": "Buổi chiều chúng tôi xem phim."
+    },
+    {
+     "zh": "晚上我回家，很高兴。",
+     "py": "Wǎnshang wǒ huí jiā, hěn gāoxìng.",
+     "vi": "Buổi tối tôi về nhà, rất vui."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "我几点起床？",
+     "vi": "Tôi dậy lúc mấy giờ?",
+     "opts": [
+      "六点",
+      "七点",
+      "八点",
+      "九点"
+     ],
+     "a": 1,
+     "why": "Bài viết “我七点起床”, tức là bảy giờ."
+    },
+    {
+     "zh": "他们中午在哪儿吃饭？",
+     "vi": "Buổi trưa họ ăn cơm ở đâu?",
+     "opts": [
+      "家",
+      "学校",
+      "商店",
+      "饭店"
+     ],
+     "a": 3,
+     "why": "Bài viết “中午我们在饭店吃饭”, họ ăn ở nhà hàng."
+    },
+    {
+     "zh": "下午他们做什么？",
+     "vi": "Buổi chiều họ làm gì?",
+     "opts": [
+      "看电影",
+      "买东西",
+      "睡觉",
+      "上课"
+     ],
+     "a": 0,
+     "why": "Bài viết “下午我们看电影”, họ xem phim."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Bạn tôi Tiểu Minh",
+   "text": [
+    {
+     "zh": "小明是我的同学，他是中国人。",
+     "py": "Xiǎo Míng shì wǒ de tóngxué, tā shì Zhōngguó rén.",
+     "vi": "Tiểu Minh là bạn học của tôi, anh ấy là người Trung Quốc."
+    },
+    {
+     "zh": "他今年二十岁，在北京上大学。",
+     "py": "Tā jīnnián èr shí suì, zài Běijīng shàng dàxué.",
+     "vi": "Anh ấy năm nay hai mươi tuổi, học đại học ở Bắc Kinh."
+    },
+    {
+     "zh": "他喜欢唱歌，也喜欢看书。",
+     "py": "Tā xǐhuan chàng gē, yě xǐhuan kàn shū.",
+     "vi": "Anh ấy thích hát, cũng thích đọc sách."
+    },
+    {
+     "zh": "他很忙，白天上课，晚上学习。",
+     "py": "Tā hěn máng, báitiān shàngkè, wǎnshang xuéxí.",
+     "vi": "Anh ấy rất bận, ban ngày đi học, buổi tối tự học."
+    },
+    {
+     "zh": "星期天他休息，有时候和我玩儿。",
+     "py": "Xīngqītiān tā xiūxi, yǒu shí hòu hé wǒ wán ér.",
+     "vi": "Chủ nhật anh ấy nghỉ ngơi, thỉnh thoảng chơi với tôi."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "小明今年多大？",
+     "vi": "Tiểu Minh năm nay bao nhiêu tuổi?",
+     "opts": [
+      "十八岁",
+      "二十岁",
+      "二十五岁",
+      "三十岁"
+     ],
+     "a": 1,
+     "why": "Bài viết “他今年二十岁”, tức là hai mươi tuổi."
+    },
+    {
+     "zh": "小明在哪儿上大学？",
+     "vi": "Tiểu Minh học đại học ở đâu?",
+     "opts": [
+      "北京",
+      "家",
+      "饭店",
+      "医院"
+     ],
+     "a": 0,
+     "why": "Bài viết “在北京上大学”, anh ấy học ở Bắc Kinh."
+    },
+    {
+     "zh": "小明什么时候休息？",
+     "vi": "Khi nào Tiểu Minh nghỉ ngơi?",
+     "opts": [
+      "星期一",
+      "星期三",
+      "星期天",
+      "晚上"
+     ],
+     "a": 2,
+     "why": "Bài viết “星期天他休息”, tức là chủ nhật."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Ở cửa hàng",
+   "text": [
+    {
+     "zh": "今天我去商店买东西。",
+     "py": "Jīntiān wǒ qù shāngdiàn mǎi dōngxi.",
+     "vi": "Hôm nay tôi đến cửa hàng mua đồ."
+    },
+    {
+     "zh": "苹果两块钱一个，很便宜。",
+     "py": "Píngguǒ liǎng kuài qián yí gè, hěn piányi.",
+     "vi": "Táo hai tệ một quả, rất rẻ."
+    },
+    {
+     "zh": "我买了四个苹果，给了八块钱。",
+     "py": "Wǒ mǎi le sì gè píngguǒ, gěi le bā kuài qián.",
+     "vi": "Tôi mua bốn quả táo, đưa tám tệ."
+    },
+    {
+     "zh": "我还想买一件衣服，衣服很贵，我没有买。",
+     "py": "Wǒ hái xiǎng mǎi yī jiàn yīfu, yīfu hěn guì, wǒ méiyǒu mǎi.",
+     "vi": "Tôi còn muốn mua một cái áo, nhưng áo rất đắt nên tôi không mua."
+    },
+    {
+     "zh": "我回家了，妈妈很高兴。",
+     "py": "Wǒ huí jiā le, māma hěn gāoxìng.",
+     "vi": "Tôi về nhà, mẹ rất vui."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "苹果多少钱一个？",
+     "vi": "Một quả táo bao nhiêu tiền?",
+     "opts": [
+      "一块",
+      "两块",
+      "四块",
+      "八块"
+     ],
+     "a": 1,
+     "why": "Bài viết “苹果两块钱一个”, tức là hai tệ."
+    },
+    {
+     "zh": "他买了几个苹果？",
+     "vi": "Anh ấy mua mấy quả táo?",
+     "opts": [
+      "两个",
+      "三个",
+      "四个",
+      "八个"
+     ],
+     "a": 2,
+     "why": "Bài viết “我买了四个苹果”, tức là bốn quả."
+    },
+    {
+     "zh": "衣服怎么样？",
+     "vi": "Áo thế nào?",
+     "opts": [
+      "很便宜",
+      "很小",
+      "很大",
+      "很贵"
+     ],
+     "a": 3,
+     "why": "Bài viết “衣服很贵”, áo rất đắt."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Một ngày của tôi",
+   "text": [
+    {
+     "zh": "我是学生，早上七点起床。",
+     "py": "Wǒ shì xuésheng, zǎoshang qī diǎn qǐchuáng.",
+     "vi": "Tôi là học sinh, buổi sáng bảy giờ dậy."
+    },
+    {
+     "zh": "上午我在学校上课，下午没有课。",
+     "py": "Shàngwǔ wǒ zài xuéxiào shàngkè, xiàwǔ méiyǒu kè.",
+     "vi": "Buổi sáng tôi học ở trường, buổi chiều không có tiết."
+    },
+    {
+     "zh": "中午我和同学在学校吃饭。",
+     "py": "Zhōngwǔ wǒ hé tóngxué zài xuéxiào chī fàn.",
+     "vi": "Buổi trưa tôi ăn cơm ở trường cùng bạn học."
+    },
+    {
+     "zh": "下午我在家学习汉语，写汉字。",
+     "py": "Xiàwǔ wǒ zài jiā xuéxí Hànyǔ, xiě Hànzì.",
+     "vi": "Buổi chiều tôi ở nhà học tiếng Trung, viết chữ Hán."
+    },
+    {
+     "zh": "晚上九点我睡觉。",
+     "py": "Wǎnshang jiǔ diǎn wǒ shuìjiào.",
+     "vi": "Chín giờ tối tôi đi ngủ."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "他几点睡觉？",
+     "vi": "Anh ấy mấy giờ đi ngủ?",
+     "opts": [
+      "七点",
+      "八点",
+      "九点",
+      "十点"
+     ],
+     "a": 2,
+     "why": "Bài viết “晚上九点我睡觉”, tức là chín giờ tối."
+    },
+    {
+     "zh": "他下午做什么？",
+     "vi": "Buổi chiều anh ấy làm gì?",
+     "opts": [
+      "上课",
+      "学习汉语",
+      "看电影",
+      "买东西"
+     ],
+     "a": 1,
+     "why": "Bài viết “下午我在家学习汉语”, anh ấy ở nhà học tiếng Trung."
+    },
+    {
+     "zh": "他中午在哪儿吃饭？",
+     "vi": "Buổi trưa anh ấy ăn cơm ở đâu?",
+     "opts": [
+      "学校",
+      "家",
+      "饭店",
+      "商店"
+     ],
+     "a": 0,
+     "why": "Bài viết “中午我和同学在学校吃饭”, anh ấy ăn ở trường."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,382 @@
+{
+ "level": 7,
+ "standard": "HSK 3.0",
+ "count": 5,
+ "passages": [
+  {
+   "id": 1,
+   "title": "Nghịch lý của sự lựa chọn",
+   "text": [
+    {
+     "zh": "现代社会为人们提供了前所未有的选择，从日用品到职业道路，几乎每一件事都有无数种可能。",
+     "py": "Xiàndài shèhuì wèi rén men tígōng le qiánsuǒwèiyǒu de xuǎnzé, cóng rìyòngpǐn dào zhíyè dàolù, jīhū měi yī jiàn shì dōu yǒu wú shù zhǒng kěnéng.",
+     "vi": "Xã hội hiện đại cung cấp cho con người những lựa chọn chưa từng có, từ đồ dùng hằng ngày đến con đường nghề nghiệp, gần như việc nào cũng có vô số khả năng."
+    },
+    {
+     "zh": "按理说，选择越多，人们就越容易找到令自己满意的东西。",
+     "py": "Àn lǐ shuō, xuǎnzé yuè duō, rén men jiù yuè róngyì zhǎo dào lìng zìjǐ mǎnyì de dōngxi.",
+     "vi": "Lẽ ra lựa chọn càng nhiều, con người càng dễ tìm được thứ khiến mình hài lòng."
+    },
+    {
+     "zh": "然而，心理学研究表明，过多的选项反而会让人焦虑，甚至陷入犹豫不决的状态。",
+     "py": "Rán'ér, xīn lǐ xué yánjiū biǎomíng, guò duō de xuǎnxiàng fǎn'ér huì ràng rén jiāolǜ, shènzhì xiànrù yóuyù-bùjué de zhuàngtài.",
+     "vi": "Tuy nhiên nghiên cứu tâm lý học cho thấy quá nhiều phương án ngược lại khiến người ta lo âu, thậm chí rơi vào trạng thái do dự không quyết."
+    },
+    {
+     "zh": "即使做出了决定，人们也常常担心错过了更好的机会，于是产生后悔的情绪。",
+     "py": "Jíshǐ zuò chū le juédìng, rén men yě chángcháng dānxīn cuòguò le gèng hǎo de jīhuì, yúshì chǎnshēng hòuhuǐ de qíngxù.",
+     "vi": "Dù đã quyết định, người ta vẫn thường lo bỏ lỡ cơ hội tốt hơn, từ đó sinh ra cảm giác hối tiếc."
+    },
+    {
+     "zh": "研究者建议，与其追求所谓的最佳答案，不如学会接受足够好的结果。",
+     "py": "Yán jiū zhě jiànyì, yǔqí zhuīqiú suǒwèi de zuì jiā dá àn, bùrú xuéhuì jiēshòu zúgòu hǎo de jiéguǒ.",
+     "vi": "Các nhà nghiên cứu đề nghị, thay vì theo đuổi cái gọi là đáp án tốt nhất, chi bằng học cách chấp nhận kết quả đủ tốt."
+    },
+    {
+     "zh": "明确自己真正重视的价值，也有助于缩小选择的范围，减轻内心的负担。",
+     "py": "Míngquè zìjǐ zhēnzhèng zhòngshì de jiàzhí, yě yǒuzhùyú suōxiǎo xuǎnzé de fànwéi, jiǎnqīng nèixīn de fùdān.",
+     "vi": "Xác định rõ giá trị mình thật sự coi trọng cũng giúp thu hẹp phạm vi lựa chọn, giảm bớt gánh nặng trong lòng."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "研究表明，过多的选项会带来什么？",
+     "vi": "Nghiên cứu cho thấy quá nhiều phương án mang lại điều gì?",
+     "opts": [
+      "更高的满意度",
+      "焦虑和犹豫",
+      "更多的收入",
+      "更好的健康"
+     ],
+     "a": 1,
+     "why": "Bài viết “过多的选项反而会让人焦虑”."
+    },
+    {
+     "zh": "研究者建议人们怎么做？",
+     "vi": "Các nhà nghiên cứu khuyên mọi người làm gì?",
+     "opts": [
+      "追求最佳答案",
+      "不做任何选择",
+      "学会接受足够好的结果",
+      "让别人决定"
+     ],
+     "a": 2,
+     "why": "Bài viết “不如学会接受足够好的结果”."
+    },
+    {
+     "zh": "什么有助于减轻选择的负担？",
+     "vi": "Điều gì giúp giảm gánh nặng lựa chọn?",
+     "opts": [
+      "询问所有朋友",
+      "增加更多选项",
+      "尽快做决定",
+      "明确自己真正重视的价值"
+     ],
+     "a": 3,
+     "why": "Bài viết “明确自己真正重视的价值，也有助于缩小选择的范围”."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Đô thị hóa và nông thôn",
+   "text": [
+    {
+     "zh": "过去几十年，大批农民涌入城市，推动了城市经济的快速发展。",
+     "py": "Guòqù jǐ shí nián, dàpī nóngmín yǒng rù chéngshì, tuīdòng le chéngshì jīngjì de kuàisù fāzhǎn.",
+     "vi": "Mấy chục năm qua, lượng lớn nông dân đổ vào thành phố, thúc đẩy kinh tế đô thị phát triển nhanh."
+    },
+    {
+     "zh": "与此同时，许多乡村却出现了人口减少、土地闲置的现象。",
+     "py": "Yǔ cǐ tóng shí, xǔduō xiāngcūn què chūxiàn le rén kǒu jiǎn shǎo, tǔdì xiánzhì de xiànxiàng.",
+     "vi": "Cùng lúc, nhiều vùng nông thôn lại xuất hiện tình trạng dân số giảm, đất đai bỏ hoang."
+    },
+    {
+     "zh": "留在村里的大多是老人和孩子，农业生产缺少劳动力，教育和医疗资源也相对不足。",
+     "py": "Liú zài cūn lǐ de dàduō shì lǎorén hé háizi, nóngyè shēngchǎn quēshǎo láodònglì, jiàoyù hé yīliáo zīyuán yě xiāngduì bùzú.",
+     "vi": "Người ở lại làng phần lớn là người già và trẻ em, sản xuất nông nghiệp thiếu lao động, nguồn lực giáo dục và y tế cũng tương đối thiếu."
+    },
+    {
+     "zh": "为了缩小城乡差距，政府加大了对农村基础设施的投入，修建公路，改善网络条件。",
+     "py": "Wèile suōxiǎo chéng xiāng chājù, zhèngfǔ jiā dà le duì nóngcūn jī chǔ shè shī de tóurù, xiūjiàn gōnglù, gǎishàn wǎngluò tiáojiàn.",
+     "vi": "Để thu hẹp khoảng cách thành thị nông thôn, chính phủ tăng đầu tư cho hạ tầng nông thôn, xây đường, cải thiện điều kiện mạng."
+    },
+    {
+     "zh": "一些年轻人也选择返乡创业，利用电子商务把当地的特产卖到全国各地。",
+     "py": "Yìxiē nián qīng rén yě xuǎnzé fǎn xiāng chuàngyè, lìyòng diàn zi shāng wù bǎ dāngdì de tèchǎn mài dào quán guó gèdì.",
+     "vi": "Một số người trẻ cũng chọn về quê khởi nghiệp, dùng thương mại điện tử bán đặc sản địa phương đi khắp cả nước."
+    },
+    {
+     "zh": "这表明，城市化并不意味着乡村的衰落，关键在于能否让两者协调发展。",
+     "py": "Zhè biǎomíng, chéng shì huà bìng bù yìwèizhe xiāngcūn de shuāiluò, guān jiàn zài yú néngfǒu ràng liǎng zhě xiétiáo fāzhǎn.",
+     "vi": "Điều này cho thấy đô thị hóa không có nghĩa là nông thôn suy tàn, mấu chốt là có thể để hai bên phát triển hài hòa hay không."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "为什么许多乡村出现人口减少的现象？",
+     "vi": "Vì sao nhiều vùng nông thôn dân số giảm?",
+     "opts": [
+      "天气变冷",
+      "大批农民涌入城市",
+      "政府禁止居住",
+      "孩子太多"
+     ],
+     "a": 1,
+     "why": "Bài viết “大批农民涌入城市”."
+    },
+    {
+     "zh": "留在村里的主要是哪些人？",
+     "vi": "Người ở lại làng chủ yếu là ai?",
+     "opts": [
+      "大学生",
+      "工程师",
+      "老人和孩子",
+      "外国游客"
+     ],
+     "a": 2,
+     "why": "Bài viết “留在村里的大多是老人和孩子”."
+    },
+    {
+     "zh": "一些年轻人返乡以后做什么？",
+     "vi": "Một số người trẻ về quê làm gì?",
+     "opts": [
+      "盖高楼",
+      "继续上学",
+      "去国外工作",
+      "创业，把特产卖到各地"
+     ],
+     "a": 3,
+     "why": "Bài viết “返乡创业，利用电子商务把当地的特产卖到全国各地”."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Đọc sách trong thời đại số",
+   "text": [
+    {
+     "zh": "随着智能手机的普及，碎片化阅读逐渐成为主流。",
+     "py": "Suízhe zhì néng shǒu jī de pǔjí, suì piàn huà yuèdú zhújiàn chéngwéi zhǔliú.",
+     "vi": "Cùng với sự phổ cập điện thoại thông minh, đọc rời rạc dần trở thành xu hướng chủ đạo."
+    },
+    {
+     "zh": "人们习惯于在地铁上、排队时浏览简短的文章，很少有耐心读完一本书。",
+     "py": "Rén men xí guàn yú zài dìtiě shàng, páiduì shí liúlǎn jiǎnduǎn de wénzhāng, hěn shǎo yǒu nàixīn dú wán yī běn shū.",
+     "vi": "Mọi người quen lướt các bài ngắn trên tàu điện ngầm, lúc xếp hàng, ít kiên nhẫn đọc hết một cuốn sách."
+    },
+    {
+     "zh": "这种方式固然获取信息很方便，但是也有明显的局限。",
+     "py": "Zhè zhǒng fāngshì gùrán huò qǔ xìn xī hěn fāngbiàn, dànshì yě yǒu míngxiǎn de júxiàn.",
+     "vi": "Cách này tuy lấy thông tin tiện lợi nhưng cũng có hạn chế rõ ràng."
+    },
+    {
+     "zh": "零散的信息缺乏系统性，容易让人产生自己什么都知道的错觉。",
+     "py": "Líng sǎn de xìnxī quēfá xì tǒng xìng, róngyì ràng rén chǎnshēng zìjǐ shénme dōu zhīdào de cuòjué.",
+     "vi": "Thông tin rời rạc thiếu tính hệ thống, dễ khiến người ta sinh ảo giác mình cái gì cũng biết."
+    },
+    {
+     "zh": "相比之下，认真读一本书，需要集中注意力，也需要独立思考。",
+     "py": "Xiāng bǐ zhī xià, rènzhēn dú yī běn shū, xūyào jízhōng zhù yì lì, yě xūyào dú lì sī kǎo.",
+     "vi": "So ra, đọc kỹ một cuốn sách cần tập trung chú ý, cũng cần suy nghĩ độc lập."
+    },
+    {
+     "zh": "正因如此，深度阅读才能真正拓宽人的视野，培养分析问题的能力。",
+     "py": "Zhèng yīn rú cǐ, shēndù yuèdú cáinéng zhēnzhèng tuòkuān rén de shìyě, péiyǎng fēnxī wèntí de nénglì.",
+     "vi": "Chính vì vậy, đọc sâu mới thật sự mở rộng tầm nhìn, bồi dưỡng năng lực phân tích vấn đề."
+    },
+    {
+     "zh": "当然，这并不意味着我们要拒绝新技术，而是要在两者之间保持平衡。",
+     "py": "Dāngrán, zhè bìng bù yìwèizhe wǒmen yào jùjué xīn jìshù, ér shì yào zài liǎng zhě zhī jiān bǎo chí píng héng.",
+     "vi": "Tất nhiên điều này không có nghĩa phải từ chối công nghệ mới, mà là giữ cân bằng giữa hai bên."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "什么逐渐成为主流？",
+     "vi": "Điều gì dần trở thành xu hướng chủ đạo?",
+     "opts": [
+      "碎片化阅读",
+      "大声朗读",
+      "手写笔记",
+      "听广播"
+     ],
+     "a": 0,
+     "why": "Bài viết “碎片化阅读逐渐成为主流”."
+    },
+    {
+     "zh": "零散的信息有什么问题？",
+     "vi": "Thông tin rời rạc có vấn đề gì?",
+     "opts": [
+      "价格太高",
+      "缺乏系统性，容易产生错觉",
+      "内容太长",
+      "没有人看"
+     ],
+     "a": 1,
+     "why": "Bài viết “零散的信息缺乏系统性，容易让人产生……错觉”."
+    },
+    {
+     "zh": "作者对新技术持什么态度？",
+     "vi": "Tác giả có thái độ thế nào với công nghệ mới?",
+     "opts": [
+      "完全反对",
+      "完全支持",
+      "保持两者之间的平衡",
+      "没有看法"
+     ],
+     "a": 2,
+     "why": "Bài viết “而是要在两者之间保持平衡”."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Bài học từ cuộc khủng hoảng kinh tế",
+   "text": [
+    {
+     "zh": "二十世纪三十年代，一场严重的经济危机席卷了世界各国。",
+     "py": "Èr shí shì jì sān shí niándài, yī cháng yánzhòng de jīng jì wēi jī xí juǎn le shìjiè gè guó.",
+     "vi": "Những năm ba mươi thế kỷ hai mươi, một cuộc khủng hoảng kinh tế nghiêm trọng quét qua các nước trên thế giới."
+    },
+    {
+     "zh": "银行倒闭，工厂停产，大量工人失业，社会陷入了动荡不安。",
+     "py": "Yínháng dǎobì, gōngchǎng tíng chǎn, dàliàng gōng rén shī yè, shèhuì xiànrù le dòng dàng bù ān.",
+     "vi": "Ngân hàng phá sản, nhà máy ngừng sản xuất, lượng lớn công nhân thất nghiệp, xã hội chìm trong bất ổn."
+    },
+    {
+     "zh": "面对危机，各国政府纷纷采取措施，试图稳定金融市场，刺激消费和投资。",
+     "py": "Miànduì wēijī, gè guó zhèngfǔ fēnfēn cǎi qǔ cuò shī, shìtú wěndìng jīn róng shì chǎng, cìjī xiāofèi hé tóuzī.",
+     "vi": "Trước khủng hoảng, chính phủ các nước lần lượt áp dụng biện pháp, cố gắng ổn định thị trường tài chính, kích thích tiêu dùng và đầu tư."
+    },
+    {
+     "zh": "经济学家总结教训，认为过度的投机和缺乏监管是危机爆发的重要原因。",
+     "py": "Jīng jì xué jiā zǒngjié jiàoxùn, rènwéi guòdù de tóujī hé quēfá jiānguǎn shì wēijī bàofā de zhòngyào yuányīn.",
+     "vi": "Các nhà kinh tế tổng kết bài học, cho rằng đầu cơ quá mức và thiếu giám sát là nguyên nhân quan trọng khiến khủng hoảng bùng nổ."
+    },
+    {
+     "zh": "此后，许多国家建立了更加完善的金融制度，加强了对银行的管理。",
+     "py": "Cǐhòu, xǔduō guójiā jiànlì le gèngjiā wánshàn de jīnróng zhìdù, jiāqiáng le duì yínháng de guǎnlǐ.",
+     "vi": "Từ đó nhiều nước xây dựng chế độ tài chính hoàn thiện hơn, tăng cường quản lý ngân hàng."
+    },
+    {
+     "zh": "历史告诉我们，繁荣的背后往往隐藏着风险，只有保持警惕，才能避免重蹈覆辙。",
+     "py": "Lìshǐ gàosu wǒmen, fánróng de bèihòu wǎngwǎng yǐncáng zhe fēngxiǎn, zhǐyǒu bǎo chí jǐng tì, cáinéng bìmiǎn chóng dǎo fù zhé.",
+     "vi": "Lịch sử cho ta biết phía sau sự phồn vinh thường ẩn chứa rủi ro, chỉ có luôn cảnh giác mới tránh được vết xe đổ."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "经济危机造成了什么后果？",
+     "vi": "Khủng hoảng kinh tế gây ra hậu quả gì?",
+     "opts": [
+      "工资大幅上涨",
+      "银行倒闭，工人失业",
+      "物价全面下降",
+      "社会十分稳定"
+     ],
+     "a": 1,
+     "why": "Bài viết “银行倒闭，工厂停产，大量工人失业”."
+    },
+    {
+     "zh": "经济学家认为危机爆发的重要原因是什么？",
+     "vi": "Các nhà kinh tế cho rằng nguyên nhân quan trọng gây khủng hoảng là gì?",
+     "opts": [
+      "自然灾害",
+      "人口太少",
+      "天气太冷",
+      "过度投机和缺乏监管"
+     ],
+     "a": 3,
+     "why": "Bài viết “过度的投机和缺乏监管是危机爆发的重要原因”."
+    },
+    {
+     "zh": "这段历史给我们什么启示？",
+     "vi": "Đoạn lịch sử này cho ta gợi ý gì?",
+     "opts": [
+      "繁荣背后可能有风险，要保持警惕",
+      "经济不会再有危机",
+      "银行不需要管理",
+      "应该停止投资"
+     ],
+     "a": 0,
+     "why": "Bài viết “繁荣的背后往往隐藏着风险，只有保持警惕”."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Giá trị của ngôn ngữ",
+   "text": [
+    {
+     "zh": "语言不仅是交流的工具，更是文化的载体。",
+     "py": "Yǔyán bùjǐn shì jiāoliú de gōngjù, gèng shì wénhuà de zàitǐ.",
+     "vi": "Ngôn ngữ không chỉ là công cụ giao tiếp, mà còn là vật mang văn hóa."
+    },
+    {
+     "zh": "每一种语言都蕴含着一个民族独特的思维方式和生活经验。",
+     "py": "Měi yī zhǒng yǔyán dōu yùn hán zhe yí gè mínzú dútè de sīwéi fāngshì hé shēnghuó jīngyàn.",
+     "vi": "Mỗi ngôn ngữ đều chứa đựng cách tư duy và kinh nghiệm sống độc đáo của một dân tộc."
+    },
+    {
+     "zh": "然而，由于全球化的影响，一些使用人数较少的语言正面临消失的危险。",
+     "py": "Rán'ér, yóuyú quán qiú huà de yǐngxiǎng, yìxiē shǐyòng rénshù jiào shǎo de yǔyán zhèng miànlín xiāoshī de wēixiǎn.",
+     "vi": "Tuy nhiên do ảnh hưởng của toàn cầu hóa, một số ngôn ngữ ít người dùng đang đối mặt nguy cơ biến mất."
+    },
+    {
+     "zh": "语言学家指出，每当一种语言消失，人类就失去了一部分珍贵的文化遗产。",
+     "py": "Yǔ yán xué jiā zhǐchū, měi dāng yī zhǒng yǔyán xiāoshī, rénlèi jiù shīqù le yī bù fèn zhēnguì de wén huà yí chǎn.",
+     "vi": "Các nhà ngôn ngữ học chỉ ra, mỗi khi một ngôn ngữ biến mất, nhân loại mất đi một phần di sản văn hóa quý giá."
+    },
+    {
+     "zh": "为了保护濒危语言，一些国家制定了相关政策，鼓励年轻人学习和使用母语。",
+     "py": "Wèile bǎohù bīnwēi yǔyán, yìxiē guójiā zhìdìng le xiāngguān zhèngcè, gǔlì nián qīng rén xuéxí hé shǐyòng mǔyǔ.",
+     "vi": "Để bảo vệ ngôn ngữ có nguy cơ tuyệt chủng, một số nước đã ban hành chính sách liên quan, khuyến khích người trẻ học và dùng tiếng mẹ đẻ."
+    },
+    {
+     "zh": "学习外语同样重要，它能帮助我们了解不同的文化，增进彼此之间的理解。",
+     "py": "Xué xí wài yǔ tóngyàng zhòngyào, tā néng bāngzhù wǒmen liǎojiě bùtóng de wénhuà, zēngjìn bǐ cǐ zhī jiān de lǐjiě.",
+     "vi": "Học ngoại ngữ cũng quan trọng, nó giúp chúng ta hiểu các nền văn hóa khác nhau, tăng thêm sự thấu hiểu lẫn nhau."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "文章认为语言是什么？",
+     "vi": "Bài viết cho rằng ngôn ngữ là gì?",
+     "opts": [
+      "只是交流的工具",
+      "文化的载体",
+      "一种游戏",
+      "一门生意"
+     ],
+     "a": 1,
+     "why": "Bài viết “更是文化的载体”."
+    },
+    {
+     "zh": "为什么一些语言面临消失的危险？",
+     "vi": "Vì sao một số ngôn ngữ đối mặt nguy cơ biến mất?",
+     "opts": [
+      "没有人愿意学外语",
+      "由于全球化的影响，使用人数较少",
+      "政府禁止使用",
+      "语法太难"
+     ],
+     "a": 1,
+     "why": "Bài viết “由于全球化的影响，一些使用人数较少的语言正面临消失的危险”."
+    },
+    {
+     "zh": "一些国家为保护濒危语言做了什么？",
+     "vi": "Một số nước làm gì để bảo vệ ngôn ngữ nguy cấp?",
+     "opts": [
+      "禁止学外语",
+      "取消母语教育",
+      "把语言卖给别人",
+      "制定政策，鼓励年轻人使用母语"
+     ],
+     "a": 3,
+     "why": "Bài viết “制定了相关政策，鼓励年轻人学习和使用母语”."
+    }
+   ]
+  }
+ ]
+}

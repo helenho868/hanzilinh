@@ -1,0 +1,387 @@
+{
+ "level": 6,
+ "standard": "HSK 3.0",
+ "count": 5,
+ "passages": [
+  {
+   "id": 1,
+   "title": "Trí tuệ nhân tạo trong đời sống",
+   "text": [
+    {
+     "zh": "近年来，人工智能的发展速度让人吃惊。",
+     "py": "Jìnniánlái, réngōngzhìnéng de fāzhǎn sùdù ràng rén chījīng.",
+     "vi": "Những năm gần đây, tốc độ phát triển của trí tuệ nhân tạo khiến người ta ngạc nhiên."
+    },
+    {
+     "zh": "在医院里，它可以帮助医生分析病情，提高诊断的准确性。",
+     "py": "Zài yīyuàn lǐ, tā kěyǐ bāngzhù yīshēng fēnxī bìngqíng, tígāo zhěnduàn de zhǔn què xìng.",
+     "vi": "Trong bệnh viện, nó có thể giúp bác sĩ phân tích bệnh tình, nâng cao độ chính xác của chẩn đoán."
+    },
+    {
+     "zh": "在工厂里，机器人代替工人完成了许多危险和重复的工作。",
+     "py": "Zài gōngchǎng lǐ, jīqìrén dàitì gōngrén wánchéng le xǔduō wēixiǎn hé chóngfù de gōngzuò.",
+     "vi": "Trong nhà máy, robot thay công nhân hoàn thành nhiều việc nguy hiểm và lặp lại."
+    },
+    {
+     "zh": "在家里，智能音箱可以回答问题，还能控制家里的电器。",
+     "py": "Zài jiā lǐ, zhìnéng yīn xiāng kěyǐ huídá wèntí, hái néng kòngzhì jiā lǐ de diànqì.",
+     "vi": "Ở nhà, loa thông minh có thể trả lời câu hỏi, còn điều khiển được các đồ điện."
+    },
+    {
+     "zh": "然而，有些人担心，人工智能会让很多人失去工作。",
+     "py": "Rán'ér, yǒuxiē rén dānxīn, réngōngzhìnéng huì ràng hěn duō rén shīqù gōngzuò.",
+     "vi": "Tuy nhiên, có người lo trí tuệ nhân tạo sẽ khiến nhiều người mất việc."
+    },
+    {
+     "zh": "专家认为，新技术在淘汰一些职业的同时，也会创造新的机会。",
+     "py": "Zhuānjiā rènwéi, xīn jìshù zài táotài yìxiē zhíyè de tóngshí, yě huì chuàngzào xīn de jīhuì.",
+     "vi": "Chuyên gia cho rằng công nghệ mới trong lúc loại bỏ một số nghề, cũng sẽ tạo ra cơ hội mới."
+    },
+    {
+     "zh": "因此，我们应该不断学习，提高自己的能力，才能适应时代的变化。",
+     "py": "Yīncǐ, wǒmen yīnggāi búduàn xuéxí, tígāo zìjǐ de nénglì, cáinéng shìyìng shídài de biànhuà.",
+     "vi": "Vì vậy chúng ta nên không ngừng học hỏi, nâng cao năng lực, mới thích ứng được với sự thay đổi của thời đại."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "人工智能在医院里能做什么？",
+     "vi": "Trí tuệ nhân tạo trong bệnh viện làm được gì?",
+     "opts": [
+      "代替医生做手术",
+      "帮助医生分析病情",
+      "管理医院的钱",
+      "给病人做饭"
+     ],
+     "a": 1,
+     "why": "Bài viết “帮助医生分析病情，提高诊断的准确性”."
+    },
+    {
+     "zh": "有些人担心什么？",
+     "vi": "Một số người lo lắng điều gì?",
+     "opts": [
+      "机器人太贵",
+      "手机太多",
+      "会有很多人失去工作",
+      "电器不够用"
+     ],
+     "a": 2,
+     "why": "Bài viết “有些人担心，人工智能会让很多人失去工作”."
+    },
+    {
+     "zh": "专家建议我们怎么做？",
+     "vi": "Chuyên gia khuyên chúng ta làm thế nào?",
+     "opts": [
+      "不要用新技术",
+      "离开城市",
+      "只做重复的工作",
+      "不断学习，提高能力"
+     ],
+     "a": 3,
+     "why": "Bài viết “我们应该不断学习，提高自己的能力”."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Giá trị của thất bại",
+   "text": [
+    {
+     "zh": "每个人在成长的过程中都会遇到失败。",
+     "py": "Měi gè rén zài chéngzhǎng de guòchéng zhōng dōu huì yùdào shībài.",
+     "vi": "Mỗi người trong quá trình trưởng thành đều sẽ gặp thất bại."
+    },
+    {
+     "zh": "我的朋友小李曾经申请了十几家公司，却一次也没有成功。",
+     "py": "Wǒ de péngyou xiǎo lǐ céngjīng shēnqǐng le shí jǐ jiā gōngsī, què yī cì yě méiyǒu chénggōng.",
+     "vi": "Bạn tôi Tiểu Lý từng nộp đơn vào hơn mười công ty mà không lần nào thành công."
+    },
+    {
+     "zh": "他非常失望，甚至怀疑自己是不是真的不够优秀。",
+     "py": "Tā fēicháng shīwàng, shènzhì huáiyí zìjǐ shì bú shì zhēn de búgòu yōuxiù.",
+     "vi": "Anh ấy vô cùng thất vọng, thậm chí nghi ngờ bản thân có thật sự không đủ giỏi không."
+    },
+    {
+     "zh": "后来，他认真总结了每一次失败的原因，发现自己的简历写得不够清楚，面试时也不够自信。",
+     "py": "Hòulái, tā rèn zhēn zǒng jié le měi yī cì shībài de yuányīn, fā xiàn zì jǐ de jiǎnlì xiě de búgòu qīngchu, miànshì shí yě búgòu zìxìn.",
+     "vi": "Sau đó anh ấy nghiêm túc tổng kết nguyên nhân mỗi lần thất bại, thấy sơ yếu lý lịch viết chưa rõ, lúc phỏng vấn cũng chưa đủ tự tin."
+    },
+    {
+     "zh": "他一边修改简历，一边练习回答问题。",
+     "py": "Tā yìbiān xiūgǎi jiǎnlì, yìbiān liànxí huídá wèntí.",
+     "vi": "Anh ấy vừa sửa sơ yếu lý lịch, vừa luyện trả lời câu hỏi."
+    },
+    {
+     "zh": "几个月以后，他终于得到了一份满意的工作。",
+     "py": "Jǐ gè yuè yǐhòu, tā zhōngyú dédào le yī fèn mǎnyì de gōngzuò.",
+     "vi": "Mấy tháng sau, cuối cùng anh ấy có được một công việc vừa ý."
+    },
+    {
+     "zh": "他笑着说，失败并不可怕，可怕的是不愿意从失败中学习。",
+     "py": "Tā xiào zhe shuō, shībài bìng bù kěpà, kěpà de shì bù yuànyì cóng shībài zhōng xuéxí.",
+     "vi": "Anh cười nói thất bại không đáng sợ, đáng sợ là không chịu học từ thất bại."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "小李申请了很多公司，结果怎么样？",
+     "vi": "Tiểu Lý nộp đơn nhiều công ty, kết quả thế nào?",
+     "opts": [
+      "都成功了",
+      "一次也没有成功",
+      "只成功了一次",
+      "没有人回复"
+     ],
+     "a": 1,
+     "why": "Bài viết “却一次也没有成功”."
+    },
+    {
+     "zh": "他总结出了什么原因？",
+     "vi": "Anh ấy rút ra nguyên nhân gì?",
+     "opts": [
+      "公司太少",
+      "没有时间",
+      "简历不清楚，面试不自信",
+      "身体不好"
+     ],
+     "a": 2,
+     "why": "Bài viết “简历写得不够清楚，面试时也不够自信”."
+    },
+    {
+     "zh": "小李认为什么最可怕？",
+     "vi": "Tiểu Lý cho rằng điều gì đáng sợ nhất?",
+     "opts": [
+      "失败",
+      "不愿意从失败中学习",
+      "没有工作",
+      "面试"
+     ],
+     "a": 1,
+     "why": "Bài viết “可怕的是不愿意从失败中学习”."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Giữ gìn đô thị cổ",
+   "text": [
+    {
+     "zh": "这座城市有一千多年的历史，老街和古建筑是它最宝贵的财富。",
+     "py": "Zhè zuò chéngshì yǒu yī qiān duō nián de lìshǐ, lǎo jiē hé gǔ jiàn zhù shì tā zuì bǎoguì de cáifù.",
+     "vi": "Thành phố này có lịch sử hơn nghìn năm, phố cổ và các công trình xưa là tài sản quý nhất."
+    },
+    {
+     "zh": "可是，随着城市的发展，越来越多的老房子被拆掉，建起了高楼。",
+     "py": "Kěshì, suízhe chéngshì de fāzhǎn, yuè lái yuè duō de lǎo fáng zi bèi chāi diào, jiàn qǐ le gāo lóu.",
+     "vi": "Nhưng cùng với sự phát triển của thành phố, ngày càng nhiều nhà cũ bị phá, thay bằng nhà cao tầng."
+    },
+    {
+     "zh": "很多居民对此表示反对，他们认为失去老街就等于失去了城市的记忆。",
+     "py": "Hěn duō jūmín duì cǐ biǎoshì fǎnduì, tāmen rènwéi shīqù lǎo jiē jiù děngyú shīqù le chéngshì de jìyì.",
+     "vi": "Nhiều cư dân phản đối điều này, họ cho rằng mất phố cổ cũng như mất ký ức của thành phố."
+    },
+    {
+     "zh": "政府听取了大家的意见，决定保护老街，并且对旧房子进行修理。",
+     "py": "Zhèngfǔ tīngqǔ le dàjiā de yìjiàn, juédìng bǎohù lǎo jiē, bìngqiě duì jiù fángzi jìnxíng xiūlǐ.",
+     "vi": "Chính quyền lắng nghe ý kiến mọi người, quyết định bảo vệ phố cổ, đồng thời sửa chữa nhà cũ."
+    },
+    {
+     "zh": "现在，老街变得干净漂亮，吸引了大量的游客。",
+     "py": "Xiànzài, lǎo jiē biàn dé gānjìng piàoliang, xīyǐn le dàliàng de yóukè.",
+     "vi": "Bây giờ phố cổ trở nên sạch đẹp, thu hút lượng lớn du khách."
+    },
+    {
+     "zh": "这说明，经济发展和文化保护并不矛盾，关键是找到合适的办法。",
+     "py": "Zhè shuōmíng, jīngjì fāzhǎn hé wénhuà bǎohù bìng bù máo dùn, guānjiàn shì zhǎo dào héshì de bànfǎ.",
+     "vi": "Điều này cho thấy phát triển kinh tế và bảo vệ văn hóa không mâu thuẫn, mấu chốt là tìm ra cách phù hợp."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "为什么很多居民反对拆老房子？",
+     "vi": "Vì sao nhiều cư dân phản đối phá nhà cũ?",
+     "opts": [
+      "房子太旧",
+      "老街太脏",
+      "新楼太贵",
+      "失去老街就等于失去城市的记忆"
+     ],
+     "a": 3,
+     "why": "Bài viết “失去老街就等于失去了城市的记忆”."
+    },
+    {
+     "zh": "政府后来怎么做？",
+     "vi": "Về sau chính quyền làm gì?",
+     "opts": [
+      "拆掉老街",
+      "把老街卖掉",
+      "决定保护老街",
+      "建一座新城"
+     ],
+     "a": 2,
+     "why": "Bài viết “决定保护老街”."
+    },
+    {
+     "zh": "这件事说明了什么？",
+     "vi": "Việc này cho thấy điều gì?",
+     "opts": [
+      "发展经济和保护文化并不矛盾",
+      "旧房子都应该拆",
+      "游客不喜欢老街",
+      "城市不需要发展"
+     ],
+     "a": 0,
+     "why": "Bài viết “经济发展和文化保护并不矛盾”."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Giáo dục gia đình",
+   "text": [
+    {
+     "zh": "很多父母希望孩子将来有出息，所以对孩子的要求特别严格。",
+     "py": "Hěn duō fùmǔ xīwàng háizi jiānglái yǒu chū xī, suǒyǐ duì háizi de yāoqiú tèbié yángé.",
+     "vi": "Nhiều bậc cha mẹ mong con sau này thành đạt, nên yêu cầu với con đặc biệt nghiêm khắc."
+    },
+    {
+     "zh": "他们安排孩子参加各种课外班，几乎没有时间玩儿。",
+     "py": "Tāmen ānpái háizi cānjiā gèzhǒng kè wài bān, jīhū méiyǒu shíjiān wán ér.",
+     "vi": "Họ sắp xếp cho con học đủ các lớp ngoại khóa, gần như không có thời gian chơi."
+    },
+    {
+     "zh": "心理学家指出，过大的压力可能影响孩子的健康成长。",
+     "py": "Xīn lǐ xué jiā zhǐchū, guò dà de yālì kěnéng yǐngxiǎng háizi de jiàn kāng chéng zhǎng.",
+     "vi": "Các nhà tâm lý học chỉ ra rằng áp lực quá lớn có thể ảnh hưởng đến sự trưởng thành lành mạnh của trẻ."
+    },
+    {
+     "zh": "相反，如果家长能够尊重孩子的兴趣，让他们自己做决定，孩子往往更有责任感。",
+     "py": "Xiāngfǎn, rúguǒ jiāzhǎng nénggòu zūnzhòng háizi de xìngqù, ràng tāmen zìjǐ zuò juédìng, háizi wǎngwǎng gèng yǒu zé rèn gǎn.",
+     "vi": "Ngược lại, nếu cha mẹ tôn trọng sở thích của con, để con tự quyết định, trẻ thường có tinh thần trách nhiệm hơn."
+    },
+    {
+     "zh": "当然，这并不是说家长可以不管孩子。",
+     "py": "Dāngrán, zhè bìng bú shì shuō jiāzhǎng kěyǐ bùguǎn háizi.",
+     "vi": "Tất nhiên điều này không có nghĩa cha mẹ có thể bỏ mặc con."
+    },
+    {
+     "zh": "真正的教育，是在关心和自由之间找到平衡。",
+     "py": "Zhēnzhèng de jiàoyù, shì zài guānxīn hé zìyóu zhījiān zhǎo dào pínghéng.",
+     "vi": "Giáo dục thật sự là tìm được sự cân bằng giữa quan tâm và tự do."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "为什么父母对孩子要求严格？",
+     "vi": "Vì sao cha mẹ yêu cầu con nghiêm khắc?",
+     "opts": [
+      "希望孩子将来有出息",
+      "不喜欢孩子",
+      "没有时间",
+      "孩子不听话"
+     ],
+     "a": 0,
+     "why": "Bài viết “希望孩子将来有出息”."
+    },
+    {
+     "zh": "心理学家认为压力过大会怎么样？",
+     "vi": "Nhà tâm lý học cho rằng áp lực quá lớn sẽ thế nào?",
+     "opts": [
+      "让孩子更聪明",
+      "没有影响",
+      "让孩子更快乐",
+      "影响孩子的健康成长"
+     ],
+     "a": 3,
+     "why": "Bài viết “过大的压力可能影响孩子的健康成长”."
+    },
+    {
+     "zh": "文章认为真正的教育是什么？",
+     "vi": "Bài viết cho rằng giáo dục thật sự là gì?",
+     "opts": [
+      "不管孩子",
+      "严格要求",
+      "在关心和自由之间找到平衡",
+      "多上课外班"
+     ],
+     "a": 2,
+     "why": "Bài viết “在关心和自由之间找到平衡”."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Bảo vệ môi trường",
+   "text": [
+    {
+     "zh": "空气污染已经成为许多城市面临的严重问题。",
+     "py": "Kōng qì wū rǎn yǐjīng chéngwéi xǔduō chéngshì miànlín de yánzhòng wèntí.",
+     "vi": "Ô nhiễm không khí đã trở thành vấn đề nghiêm trọng mà nhiều thành phố phải đối mặt."
+    },
+    {
+     "zh": "汽车排放的尾气和工厂冒出的烟，是造成污染的主要原因。",
+     "py": "Qìchē páifàng de wěi qì hé gōngchǎng mào chū de yān, shì zàochéng wūrǎn de zhǔyào yuányīn.",
+     "vi": "Khí thải ô tô và khói từ nhà máy là nguyên nhân chính gây ô nhiễm."
+    },
+    {
+     "zh": "为了改善空气质量，政府规定了严格的排放标准，并且鼓励市民乘坐公共交通。",
+     "py": "Wèile gǎishàn kōng qì zhì liàng, zhèngfǔ guīdìng le yángé de páifàng biāozhǔn, bìngqiě gǔlì shìmín chéngzuò gōng gòng jiāo tōng.",
+     "vi": "Để cải thiện chất lượng không khí, chính quyền quy định tiêu chuẩn khí thải nghiêm ngặt, đồng thời khuyến khích người dân đi phương tiện công cộng."
+    },
+    {
+     "zh": "越来越多的人开始骑自行车上班，既健康又环保。",
+     "py": "Yuè lái yuè duō de rén kāishǐ qí zìxíngchē shàngbān, jì jiànkāng yòu huánbǎo.",
+     "vi": "Ngày càng nhiều người bắt đầu đạp xe đi làm, vừa khỏe vừa thân thiện môi trường."
+    },
+    {
+     "zh": "此外，新能源汽车也逐渐普及，减少了许多有害气体。",
+     "py": "Cǐwài, xīnnéngyuán qìchē yě zhújiàn pǔjí, jiǎnshǎo le xǔduō yǒuhài qìtǐ.",
+     "vi": "Ngoài ra, xe năng lượng mới cũng dần phổ biến, giảm được nhiều khí độc hại."
+    },
+    {
+     "zh": "保护环境不是一个人的事，需要我们每个人从小事做起。",
+     "py": "Bǎo hù huán jìng bú shì yí gè rén de shì, xūyào wǒmen měi gè rén cóng xiǎo shì zuò qǐ.",
+     "vi": "Bảo vệ môi trường không phải việc của một người, cần mỗi chúng ta bắt đầu từ việc nhỏ."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "造成空气污染的主要原因是什么？",
+     "vi": "Nguyên nhân chính gây ô nhiễm không khí là gì?",
+     "opts": [
+      "下雨",
+      "汽车尾气和工厂的烟",
+      "树木太多",
+      "天气太热"
+     ],
+     "a": 1,
+     "why": "Bài viết “汽车排放的尾气和工厂冒出的烟”."
+    },
+    {
+     "zh": "越来越多的人怎么上班？",
+     "vi": "Ngày càng nhiều người đi làm bằng gì?",
+     "opts": [
+      "开车",
+      "打车",
+      "坐飞机",
+      "骑自行车"
+     ],
+     "a": 3,
+     "why": "Bài viết “越来越多的人开始骑自行车上班”."
+    },
+    {
+     "zh": "文章最后说，保护环境需要怎么做？",
+     "vi": "Cuối bài nói bảo vệ môi trường cần làm thế nào?",
+     "opts": [
+      "每个人从小事做起",
+      "只靠政府",
+      "只靠工厂",
+      "等别人行动"
+     ],
+     "a": 0,
+     "why": "Bài viết “需要我们每个人从小事做起”."
+    }
+   ]
+  }
+ ]
+}

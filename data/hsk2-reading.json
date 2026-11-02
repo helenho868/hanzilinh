@@ -1,0 +1,372 @@
+{
+ "level": 2,
+ "standard": "HSK 3.0",
+ "count": 5,
+ "passages": [
+  {
+   "id": 1,
+   "title": "Chuyến du lịch ngày thứ bảy",
+   "text": [
+    {
+     "zh": "星期六我和朋友一起去旅游。",
+     "py": "Xīng qī liù wǒ hé péngyou yìqǐ qù lǚyóu.",
+     "vi": "Thứ bảy tôi cùng bạn đi du lịch."
+    },
+    {
+     "zh": "我们先坐地铁去车站。",
+     "py": "Wǒmen xiān zuò dì tiě qù chēzhàn.",
+     "vi": "Chúng tôi đi tàu điện ngầm đến ga trước."
+    },
+    {
+     "zh": "火车到北京要三个小时。",
+     "py": "Huǒchē dào Běijīng yào sān gè xiǎoshí.",
+     "vi": "Tàu đến Bắc Kinh mất ba tiếng."
+    },
+    {
+     "zh": "路上我们听歌，看书，很快就到了。",
+     "py": "Lùshang wǒmen tīng gē, kàn shū, hěn kuài jiù dào le.",
+     "vi": "Trên đường chúng tôi nghe nhạc, đọc sách, rất nhanh đã đến nơi."
+    },
+    {
+     "zh": "北京的天气很好，我们玩儿得很高兴。",
+     "py": "Běijīng de tiānqì hěn hǎo, wǒmen wán ér de hěn gāoxìng.",
+     "vi": "Thời tiết Bắc Kinh rất đẹp, chúng tôi chơi rất vui."
+    },
+    {
+     "zh": "晚上我们住在酒店，都觉得这次旅游很有意思。",
+     "py": "Wǎnshang wǒmen zhù zài jiǔdiàn, dōu juéde zhè cì lǚyóu hěn yǒuyìsi.",
+     "vi": "Buổi tối chúng tôi ở khách sạn, ai cũng thấy chuyến du lịch này rất thú vị."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "他们怎么去车站？",
+     "vi": "Họ đến ga bằng cách nào?",
+     "opts": [
+      "坐地铁",
+      "坐公交车",
+      "打车",
+      "走路"
+     ],
+     "a": 0,
+     "why": "Bài viết “我们先坐地铁去车站”, họ đi tàu điện ngầm."
+    },
+    {
+     "zh": "火车到北京要几个小时？",
+     "vi": "Tàu đến Bắc Kinh mất mấy tiếng?",
+     "opts": [
+      "两个",
+      "五个",
+      "十个",
+      "三个"
+     ],
+     "a": 3,
+     "why": "Bài viết “火车到北京要三个小时”, tức là ba tiếng."
+    },
+    {
+     "zh": "晚上他们住在哪儿？",
+     "vi": "Buổi tối họ ở đâu?",
+     "opts": [
+      "朋友家",
+      "酒店",
+      "学校",
+      "饭馆"
+     ],
+     "a": 1,
+     "why": "Bài viết “晚上我们住在酒店”, họ ở khách sạn."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Sở thích của tôi",
+   "text": [
+    {
+     "zh": "我有很多爱好。我喜欢运动，也喜欢画画。",
+     "py": "Wǒ yǒu hěn duō àihào. Wǒ xǐhuan yùndòng, yě xǐhuan huà huà.",
+     "vi": "Tôi có nhiều sở thích. Tôi thích thể thao, cũng thích vẽ tranh."
+    },
+    {
+     "zh": "我经常跑步，有时候也踢足球。",
+     "py": "Wǒ jīngcháng pǎobù, yǒu shí hòu yě tī zú qiú.",
+     "vi": "Tôi thường chạy bộ, thỉnh thoảng cũng đá bóng."
+    },
+    {
+     "zh": "我的朋友喜欢游泳，他游得很快。",
+     "py": "Wǒ de péngyou xǐhuan yóuyǒng, tā yóu de hěn kuài.",
+     "vi": "Bạn tôi thích bơi, bạn bơi rất nhanh."
+    },
+    {
+     "zh": "星期六我们一起打篮球，累了就喝水。",
+     "py": "Xīng qī liù wǒmen yìqǐ dǎ lán qiú, lèi le jiù hē shuǐ.",
+     "vi": "Thứ bảy chúng tôi cùng chơi bóng rổ, mệt thì uống nước."
+    },
+    {
+     "zh": "虽然很累，但是我们很快乐。",
+     "py": "Suīrán hěn lèi, dànshì wǒmen hěn kuàilè.",
+     "vi": "Tuy rất mệt nhưng chúng tôi rất vui."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "我经常做什么运动？",
+     "vi": "Tôi thường chơi môn thể thao nào?",
+     "opts": [
+      "游泳",
+      "打篮球",
+      "跳舞",
+      "跑步"
+     ],
+     "a": 3,
+     "why": "Bài viết “我经常跑步”, tức là thường chạy bộ."
+    },
+    {
+     "zh": "朋友游得怎么样？",
+     "vi": "Bạn bơi thế nào?",
+     "opts": [
+      "很快",
+      "很慢",
+      "不好",
+      "很累"
+     ],
+     "a": 0,
+     "why": "Bài viết “他游得很快”, bạn bơi rất nhanh."
+    },
+    {
+     "zh": "星期六他们做什么？",
+     "vi": "Thứ bảy họ làm gì?",
+     "opts": [
+      "踢足球",
+      "游泳",
+      "打篮球",
+      "画画"
+     ],
+     "a": 2,
+     "why": "Bài viết “星期六我们一起打篮球”, họ chơi bóng rổ."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Bị ốm",
+   "text": [
+    {
+     "zh": "昨天我身体不舒服，头很疼。",
+     "py": "Zuótiān wǒ shēntǐ bù shūfu, tóu hěn téng.",
+     "vi": "Hôm qua tôi thấy không khỏe, đau đầu nhiều."
+    },
+    {
+     "zh": "妈妈和我一起去医院。",
+     "py": "Māma hé wǒ yìqǐ qù yīyuàn.",
+     "vi": "Mẹ cùng tôi đến bệnh viện."
+    },
+    {
+     "zh": "医生说我没有大事，因为我昨天没有睡好。",
+     "py": "Yīshēng shuō wǒ méiyǒu dà shì, yīnwèi wǒ zuótiān méiyǒu shuì hǎo.",
+     "vi": "Bác sĩ nói tôi không sao nặng, vì hôm qua tôi ngủ không ngon."
+    },
+    {
+     "zh": "他给我药，告诉我每天吃三次。",
+     "py": "Tā gěi wǒ yào, gàosu wǒ měi tiān chī sān cì.",
+     "vi": "Bác sĩ cho tôi thuốc, dặn mỗi ngày uống ba lần."
+    },
+    {
+     "zh": "他还说我要多休息，别上网。",
+     "py": "Tā hái shuō wǒ yào duō xiūxi, bié shàngwǎng.",
+     "vi": "Bác sĩ còn bảo tôi phải nghỉ ngơi nhiều, đừng lên mạng."
+    },
+    {
+     "zh": "今天我好一点儿了。",
+     "py": "Jīntiān wǒ hǎo yìdiǎnr le.",
+     "vi": "Hôm nay tôi đã đỡ hơn một chút."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "我哪儿疼？",
+     "vi": "Tôi đau ở đâu?",
+     "opts": [
+      "手",
+      "左手",
+      "眼睛",
+      "头"
+     ],
+     "a": 3,
+     "why": "Bài viết “头很疼”, tức là đau đầu."
+    },
+    {
+     "zh": "药每天吃几次？",
+     "vi": "Thuốc mỗi ngày uống mấy lần?",
+     "opts": [
+      "一次",
+      "两次",
+      "三次",
+      "四次"
+     ],
+     "a": 2,
+     "why": "Bài viết “每天吃三次”, tức là ba lần."
+    },
+    {
+     "zh": "医生让我做什么？",
+     "vi": "Bác sĩ bảo tôi làm gì?",
+     "opts": [
+      "多休息",
+      "多上网",
+      "多跑步",
+      "去旅游"
+     ],
+     "a": 0,
+     "why": "Bài viết “要多休息，别上网”, bác sĩ bảo nghỉ ngơi nhiều."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Sinh nhật ở nhà hàng",
+   "text": [
+    {
+     "zh": "今天是我的生日，朋友请我去饭馆吃饭。",
+     "py": "Jīntiān shì wǒ de shēngrì, péngyou qǐng wǒ qù fànguǎn chī fàn.",
+     "vi": "Hôm nay là sinh nhật tôi, bạn mời tôi đi nhà hàng ăn cơm."
+    },
+    {
+     "zh": "饭馆里面人很多，我们等了十分钟。",
+     "py": "Fànguǎn lǐmiàn rén hěn duō, wǒmen děng le shí fēn zhōng.",
+     "vi": "Trong nhà hàng rất đông người, chúng tôi đợi mười phút."
+    },
+    {
+     "zh": "我们点了鱼、肉和一个绿色的菜。",
+     "py": "Wǒmen diǎn le yú, ròu hé yí gè lǜsè de cài.",
+     "vi": "Chúng tôi gọi cá, thịt và một món rau xanh."
+    },
+    {
+     "zh": "我们还喝了奶茶，吃了面条。",
+     "py": "Wǒmen hái hē le nǎichá, chī le miàn tiáo.",
+     "vi": "Chúng tôi còn uống trà sữa, ăn mì."
+    },
+    {
+     "zh": "朋友送给我一本书，我很高兴。",
+     "py": "Péngyou sòng gěi wǒ yī běn shū, wǒ hěn gāoxìng.",
+     "vi": "Bạn tặng tôi một quyển sách, tôi rất vui."
+    },
+    {
+     "zh": "这是我最快乐的生日。",
+     "py": "Zhè shì wǒ zuì kuàilè de shēngrì.",
+     "vi": "Đây là sinh nhật vui nhất của tôi."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "今天是什么日子？",
+     "vi": "Hôm nay là ngày gì?",
+     "opts": [
+      "朋友的生日",
+      "我的生日",
+      "星期天",
+      "过年"
+     ],
+     "a": 1,
+     "why": "Bài viết “今天是我的生日”, tức là sinh nhật của tôi."
+    },
+    {
+     "zh": "他们等了多长时间？",
+     "vi": "Họ đợi bao lâu?",
+     "opts": [
+      "十分钟",
+      "一小时",
+      "两分钟",
+      "三天"
+     ],
+     "a": 0,
+     "why": "Bài viết “我们等了十分钟”, tức là mười phút."
+    },
+    {
+     "zh": "朋友送他什么？",
+     "vi": "Bạn tặng anh ấy gì?",
+     "opts": [
+      "一杯茶",
+      "一件衣服",
+      "一本书",
+      "一个手表"
+     ],
+     "a": 2,
+     "why": "Bài viết “朋友送给我一本书”, bạn tặng một quyển sách."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Tôi học tiếng Trung",
+   "text": [
+    {
+     "zh": "我从小就想学汉语。",
+     "py": "Wǒ cóngxiǎo jiù xiǎng xué Hànyǔ.",
+     "vi": "Từ nhỏ tôi đã muốn học tiếng Trung."
+    },
+    {
+     "zh": "去年我开始在学校学习，老师教我们写汉字。",
+     "py": "Qùnián wǒ kāishǐ zài xuéxiào xuéxí, lǎoshī jiāo wǒmen xiě Hànzì.",
+     "vi": "Năm ngoái tôi bắt đầu học ở trường, thầy cô dạy chúng tôi viết chữ Hán."
+    },
+    {
+     "zh": "一开始我不懂，很多词都记不住。",
+     "py": "Yī kāishǐ wǒ bù dǒng, hěn duō cí dōu jì bú zhù.",
+     "vi": "Lúc đầu tôi không hiểu, nhiều từ không nhớ nổi."
+    },
+    {
+     "zh": "老师告诉我们，要经常说，经常写。",
+     "py": "Lǎoshī gàosu wǒmen, yào jīngcháng shuō, jīngcháng xiě.",
+     "vi": "Thầy cô bảo chúng tôi phải thường xuyên nói, thường xuyên viết."
+    },
+    {
+     "zh": "现在我已经会说很多话了。",
+     "py": "Xiànzài wǒ yǐjīng huì shuō hěn duō huà le.",
+     "vi": "Bây giờ tôi đã biết nói nhiều câu rồi."
+    },
+    {
+     "zh": "我希望明年去中国旅游。",
+     "py": "Wǒ xīwàng míngnián qù Zhōngguó lǚyóu.",
+     "vi": "Tôi hy vọng sang năm đi Trung Quốc du lịch."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "我什么时候开始在学校学汉语？",
+     "vi": "Tôi bắt đầu học tiếng Trung ở trường khi nào?",
+     "opts": [
+      "小时候",
+      "今年",
+      "明年",
+      "去年"
+     ],
+     "a": 3,
+     "why": "Bài viết “去年我开始在学校学习”, tức là năm ngoái."
+    },
+    {
+     "zh": "老师说要怎么学？",
+     "vi": "Thầy cô bảo học thế nào?",
+     "opts": [
+      "只看电视",
+      "只听歌",
+      "经常说和写",
+      "多睡觉"
+     ],
+     "a": 2,
+     "why": "Bài viết “要经常说，经常写”, tức là thường xuyên nói và viết."
+    },
+    {
+     "zh": "他希望明年做什么？",
+     "vi": "Sang năm anh ấy hy vọng làm gì?",
+     "opts": [
+      "去医院",
+      "在家休息",
+      "去中国旅游",
+      "买新手机"
+     ],
+     "a": 2,
+     "why": "Bài viết “我希望明年去中国旅游”, anh ấy muốn đi Trung Quốc du lịch."
+    }
+   ]
+  }
+ ]
+}

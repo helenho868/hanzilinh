@@ -1,0 +1,392 @@
+{
+ "level": 3,
+ "standard": "HSK 3.0",
+ "count": 5,
+ "passages": [
+  {
+   "id": 1,
+   "title": "Chúng tôi chuyển nhà",
+   "text": [
+    {
+     "zh": "上个月我们搬家了。",
+     "py": "Shàng gè yuè wǒmen bānjiā le.",
+     "vi": "Tháng trước chúng tôi chuyển nhà."
+    },
+    {
+     "zh": "新房子在城市的北边，离公园很近。",
+     "py": "Xīn fáng zi zài chéngshì de běi biān, lí gōngyuán hěn jìn.",
+     "vi": "Nhà mới ở phía bắc thành phố, rất gần công viên."
+    },
+    {
+     "zh": "房子不大，但是很干净，也很安静。",
+     "py": "Fángzi bù dà, dànshì hěn gānjìng, yě hěn ānjìng.",
+     "vi": "Nhà không lớn nhưng rất sạch sẽ, cũng rất yên tĩnh."
+    },
+    {
+     "zh": "附近有银行、商店和图书馆，生活非常方便。",
+     "py": "Fùjìn yǒu yínháng, shāngdiàn hé túshūguǎn, shēnghuó fēicháng fāngbiàn.",
+     "vi": "Gần đó có ngân hàng, cửa hàng và thư viện, sinh hoạt vô cùng thuận tiện."
+    },
+    {
+     "zh": "搬家那天，朋友们都来帮助我们，大家一起搬了很多箱子。",
+     "py": "Bānjiā nà tiān, péngyou men dōu lái bāngzhù wǒmen, dàjiā yìqǐ bān le hěn duō xiāngzi.",
+     "vi": "Hôm chuyển nhà, các bạn đều đến giúp, mọi người cùng khuân rất nhiều thùng."
+    },
+    {
+     "zh": "晚上我们很累，但是都很开心。",
+     "py": "Wǎnshang wǒmen hěn lèi, dànshì dōu hěn kāixīn.",
+     "vi": "Buổi tối chúng tôi rất mệt, nhưng đều rất vui."
+    },
+    {
+     "zh": "现在我已经习惯了新家的环境。",
+     "py": "Xiànzài wǒ yǐjīng xíguàn le xīn jiā de huánjìng.",
+     "vi": "Bây giờ tôi đã quen với môi trường của nhà mới."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "新房子在哪儿？",
+     "vi": "Nhà mới ở đâu?",
+     "opts": [
+      "城市的东边",
+      "城市的南边",
+      "城市的北边",
+      "城市的西边"
+     ],
+     "a": 2,
+     "why": "Bài viết “在城市的北边”, tức là phía bắc thành phố."
+    },
+    {
+     "zh": "新房子怎么样？",
+     "vi": "Nhà mới thế nào?",
+     "opts": [
+      "不大，但是很干净",
+      "很大，也很旧",
+      "很小，也很脏",
+      "很贵，也很远"
+     ],
+     "a": 0,
+     "why": "Bài viết “房子不大，但是很干净，也很安静”."
+    },
+    {
+     "zh": "谁帮助他们搬家？",
+     "vi": "Ai giúp họ chuyển nhà?",
+     "opts": [
+      "司机",
+      "同事",
+      "邻居",
+      "朋友们"
+     ],
+     "a": 3,
+     "why": "Bài viết “朋友们都来帮助我们”, tức là các bạn bè."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Cuộc thi cầu lông",
+   "text": [
+    {
+     "zh": "学校有羽毛球比赛，我也参加了。",
+     "py": "Xuéxiào yǒu yǔmáoqiú bǐsài, wǒ yě cānjiā le.",
+     "vi": "Trường có cuộc thi cầu lông, tôi cũng tham gia."
+    },
+    {
+     "zh": "我平时常常锻炼，所以打得还可以。",
+     "py": "Wǒ píngshí chángcháng duànliàn, suǒyǐ dǎ de hái kěyǐ.",
+     "vi": "Bình thường tôi hay tập luyện, nên chơi cũng được."
+    },
+    {
+     "zh": "第一次比赛，我遇到一个很聪明的同学，他打得很好，他的得分比我多。",
+     "py": "Dì yī cì bǐsài, wǒ yùdào yí gè hěn cōngmíng de tóngxué, tā dǎ de hěn hǎo, tā de défēn bǐ wǒ duō.",
+     "vi": "Lần thi đầu, tôi gặp một bạn rất thông minh, bạn chơi rất giỏi, điểm của bạn nhiều hơn tôi."
+    },
+    {
+     "zh": "我有点儿难过，但是老师说，只要努力，就会提高。",
+     "py": "Wǒ yǒudiǎnr nánguò, dànshì lǎoshī shuō, zhǐyào nǔlì, jiù huì tígāo.",
+     "vi": "Tôi hơi buồn, nhưng thầy nói, chỉ cần cố gắng thì sẽ tiến bộ."
+    },
+    {
+     "zh": "后来我每天练习，一个月以后又参加了比赛。",
+     "py": "Hòulái wǒ měi tiān liànxí, yí gè yuè yǐhòu yòu cānjiā le bǐsài.",
+     "vi": "Sau đó tôi ngày nào cũng luyện tập, một tháng sau lại tham gia thi."
+    },
+    {
+     "zh": "这次我得到了第二名，我非常高兴。",
+     "py": "Zhè cì wǒ dédào le dì èr míng, wǒ fēi cháng gāo xìng.",
+     "vi": "Lần này tôi được hạng hai, tôi vô cùng vui."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "第一次比赛，谁的得分多？",
+     "vi": "Lần thi đầu, ai nhiều điểm hơn?",
+     "opts": [
+      "我",
+      "那个同学",
+      "一样多",
+      "老师"
+     ],
+     "a": 1,
+     "why": "Bài viết “他的得分比我多”, tức là bạn kia nhiều điểm hơn."
+    },
+    {
+     "zh": "老师说什么？",
+     "vi": "Thầy giáo nói gì?",
+     "opts": [
+      "不要再比赛",
+      "只要努力，就会提高",
+      "应该多睡觉",
+      "比赛不重要"
+     ],
+     "a": 1,
+     "why": "Bài viết “老师说，只要努力，就会提高”."
+    },
+    {
+     "zh": "最后他得到了第几名？",
+     "vi": "Cuối cùng anh ấy được hạng mấy?",
+     "opts": [
+      "第一名",
+      "第二名",
+      "第三名",
+      "没有名次"
+     ],
+     "a": 1,
+     "why": "Bài viết “这次我得到了第二名”, tức là hạng hai."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Bị cảm",
+   "text": [
+    {
+     "zh": "最近天气变化很大，我感冒了。",
+     "py": "Zuìjìn tiānqì biàn huà hěn dà, wǒ gǎnmào le.",
+     "vi": "Dạo này thời tiết thay đổi nhiều, tôi bị cảm."
+    },
+    {
+     "zh": "我头疼，还发烧，什么都不想吃。",
+     "py": "Wǒ tóu téng, hái fāshāo, shénme dōu bù xiǎng chī.",
+     "vi": "Tôi đau đầu, còn sốt, chẳng muốn ăn gì."
+    },
+    {
+     "zh": "我没有去上班，在家休息。",
+     "py": "Wǒ méiyǒu qù shàngbān, zài jiā xiūxi.",
+     "vi": "Tôi không đi làm, ở nhà nghỉ ngơi."
+    },
+    {
+     "zh": "同事给我打电话，很关心地问我怎么样。",
+     "py": "Tóngshì gěi wǒ dǎ diànhuà, hěn guānxīn de wèn wǒ zěnmeyàng.",
+     "vi": "Đồng nghiệp gọi điện cho tôi, quan tâm hỏi thăm tôi thế nào."
+    },
+    {
+     "zh": "医生说我需要多喝水，多休息，不用吃太多药。",
+     "py": "Yīshēng shuō wǒ xūyào duō hē shuǐ, duō xiūxi, búyòng chī tài duō yào.",
+     "vi": "Bác sĩ nói tôi cần uống nhiều nước, nghỉ ngơi nhiều, không cần uống quá nhiều thuốc."
+    },
+    {
+     "zh": "三天以后，我的身体终于好了。",
+     "py": "Sān tiān yǐhòu, wǒ de shēntǐ zhōngyú hǎo le.",
+     "vi": "Ba ngày sau, cuối cùng sức khỏe tôi đã khỏi."
+    },
+    {
+     "zh": "我知道了，健康最重要。",
+     "py": "Wǒ zhīdào le, jiànkāng zuì zhòngyào.",
+     "vi": "Tôi hiểu ra rằng sức khỏe là quan trọng nhất."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "我为什么感冒了？",
+     "vi": "Vì sao tôi bị cảm?",
+     "opts": [
+      "吃得太多",
+      "睡得太多",
+      "天气变化很大",
+      "工作太少"
+     ],
+     "a": 2,
+     "why": "Bài viết “最近天气变化很大，我感冒了”."
+    },
+    {
+     "zh": "医生说我需要做什么？",
+     "vi": "Bác sĩ nói tôi cần làm gì?",
+     "opts": [
+      "多吃药",
+      "多运动",
+      "少睡觉",
+      "多喝水，多休息"
+     ],
+     "a": 3,
+     "why": "Bài viết “需要多喝水，多休息”."
+    },
+    {
+     "zh": "几天以后我好了？",
+     "vi": "Mấy ngày sau tôi khỏi?",
+     "opts": [
+      "一天",
+      "两天",
+      "三天",
+      "一个星期"
+     ],
+     "a": 2,
+     "why": "Bài viết “三天以后，我的身体终于好了”."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Mùa xuân ở công viên",
+   "text": [
+    {
+     "zh": "春天到了，天气不冷也不热，很舒服。",
+     "py": "Chūntiān dào le, tiānqì bù lěng yě bù rè, hěn shūfu.",
+     "vi": "Mùa xuân đến, thời tiết không lạnh cũng không nóng, rất dễ chịu."
+    },
+    {
+     "zh": "星期天，我和家人去公园玩儿。",
+     "py": "Xīngqītiān, wǒ hé jiārén qù gōngyuán wán ér.",
+     "vi": "Chủ nhật, tôi cùng gia đình đi chơi công viên."
+    },
+    {
+     "zh": "公园里有很多树，草地很绿，花也开了。",
+     "py": "Gōngyuán lǐ yǒu hěn duō shù, cǎodì hěn lǜ, huā yě kāi le.",
+     "vi": "Trong công viên có nhiều cây, bãi cỏ rất xanh, hoa cũng đã nở."
+    },
+    {
+     "zh": "孩子们在草地上跑来跑去，大人们坐在树下聊天儿。",
+     "py": "Háizi men zài cǎo dì shàng pǎo lái pǎo qù, dà rén men zuò zài shù xià liáotiānr.",
+     "vi": "Bọn trẻ chạy qua chạy lại trên bãi cỏ, người lớn ngồi dưới gốc cây trò chuyện."
+    },
+    {
+     "zh": "我拍了很多照片，还给朋友发了几张。",
+     "py": "Wǒ pāi le hěn duō zhàopiàn, huán gěi péngyou fā le jǐ zhāng.",
+     "vi": "Tôi chụp nhiều ảnh, còn gửi cho bạn vài tấm."
+    },
+    {
+     "zh": "我们在公园里吃了午饭，下午才回家。",
+     "py": "Wǒmen zài gōngyuán lǐ chī le wǔfàn, xiàwǔ cái huí jiā.",
+     "vi": "Chúng tôi ăn trưa trong công viên, đến chiều mới về nhà."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "春天天气怎么样？",
+     "vi": "Mùa xuân thời tiết thế nào?",
+     "opts": [
+      "不冷也不热",
+      "很冷",
+      "很热",
+      "经常下雪"
+     ],
+     "a": 0,
+     "why": "Bài viết “不冷也不热，很舒服”."
+    },
+    {
+     "zh": "孩子们在做什么？",
+     "vi": "Bọn trẻ đang làm gì?",
+     "opts": [
+      "坐在树下聊天",
+      "在草地上跑来跑去",
+      "在吃饭",
+      "在睡觉"
+     ],
+     "a": 1,
+     "why": "Bài viết “孩子们在草地上跑来跑去”, còn người lớn mới ngồi trò chuyện."
+    },
+    {
+     "zh": "他们什么时候回家？",
+     "vi": "Khi nào họ về nhà?",
+     "opts": [
+      "中午",
+      "早上",
+      "晚上",
+      "下午"
+     ],
+     "a": 3,
+     "why": "Bài viết “下午才回家”, tức là buổi chiều."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Đi học muộn",
+   "text": [
+    {
+     "zh": "今天早上我迟到了。",
+     "py": "Jīntiān zǎoshang wǒ chídào le.",
+     "vi": "Sáng nay tôi bị muộn."
+    },
+    {
+     "zh": "我起床的时候已经八点了，马上穿衣服，没吃早饭就出门了。",
+     "py": "Wǒ qǐchuáng de shíhou yǐjīng bā diǎn le, mǎshàng chuān yī fú, méi chī zǎofàn jiù chūmén le.",
+     "vi": "Lúc dậy đã tám giờ, tôi vội mặc quần áo, chưa ăn sáng đã ra khỏi nhà."
+    },
+    {
+     "zh": "路上有很多车，公交车开得很慢。",
+     "py": "Lùshang yǒu hěn duō chē, gōngjiāochē kāi de hěn màn.",
+     "vi": "Trên đường có nhiều xe, xe buýt chạy rất chậm."
+    },
+    {
+     "zh": "我很着急，给同学打电话。",
+     "py": "Wǒ hěn zháo jí, gěi tóngxué dǎ diànhuà.",
+     "vi": "Tôi rất sốt ruột, gọi điện cho bạn học."
+    },
+    {
+     "zh": "到学校的时候，已经九点了，老师正在讲课。",
+     "py": "Dào xuéxiào de shíhou, yǐjīng jiǔ diǎn le, lǎoshī zhèngzài jiǎng kè.",
+     "vi": "Lúc đến trường đã chín giờ, thầy giáo đang giảng bài."
+    },
+    {
+     "zh": "老师没有生气，他说以后要早点儿起床。",
+     "py": "Lǎoshī méiyǒu shēngqì, tā shuō yǐhòu yào zǎo diǎn ér qǐchuáng.",
+     "vi": "Thầy không giận, thầy nói sau này phải dậy sớm hơn."
+    },
+    {
+     "zh": "我很不好意思，决定明天早点儿睡觉。",
+     "py": "Wǒ hěn bùhǎoyìsi, juédìng míngtiān zǎo diǎn ér shuìjiào.",
+     "vi": "Tôi rất ngại, quyết định ngày mai đi ngủ sớm hơn."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "我几点起床？",
+     "vi": "Tôi dậy lúc mấy giờ?",
+     "opts": [
+      "七点",
+      "八点",
+      "九点",
+      "十点"
+     ],
+     "a": 1,
+     "why": "Bài viết “起床的时候已经八点了”."
+    },
+    {
+     "zh": "到学校的时候是几点？",
+     "vi": "Lúc đến trường là mấy giờ?",
+     "opts": [
+      "八点",
+      "八点半",
+      "九点",
+      "十点"
+     ],
+     "a": 2,
+     "why": "Bài viết “到学校的时候，已经九点了”."
+    },
+    {
+     "zh": "老师怎么样？",
+     "vi": "Thầy giáo thế nào?",
+     "opts": [
+      "很生气",
+      "没有生气",
+      "很难过",
+      "哭了"
+     ],
+     "a": 1,
+     "why": "Bài viết “老师没有生气”, tức là thầy không giận."
+    }
+   ]
+  }
+ ]
+}

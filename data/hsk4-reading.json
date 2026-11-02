@@ -1,0 +1,402 @@
+{
+ "level": 4,
+ "standard": "HSK 3.0",
+ "count": 5,
+ "passages": [
+  {
+   "id": 1,
+   "title": "Lần đầu đi nước ngoài",
+   "text": [
+    {
+     "zh": "去年暑假，我第一次出国旅行。",
+     "py": "Qùnián shǔjià, wǒ dì yī cì chūguó lǚxíng.",
+     "vi": "Kỳ nghỉ hè năm ngoái, lần đầu tiên tôi đi du lịch nước ngoài."
+    },
+    {
+     "zh": "出发前，我准备了护照、签证，还买了机票。",
+     "py": "Chūfā qián, wǒ zhǔnbèi le hùzhào, qiānzhèng, hái mǎi le jīpiào.",
+     "vi": "Trước khi đi, tôi chuẩn bị hộ chiếu, visa, còn mua vé máy bay."
+    },
+    {
+     "zh": "到了机场，要先办理登机，然后过安检。",
+     "py": "Dào le jīchǎng, yào xiān bànlǐ dēngjī, ránhòu guò ānjiǎn.",
+     "vi": "Đến sân bay, phải làm thủ tục lên máy bay trước, rồi qua kiểm tra an ninh."
+    },
+    {
+     "zh": "我有点儿紧张，因为我不会说外语，担心别人听不懂我的话。",
+     "py": "Wǒ yǒudiǎnr jǐnzhāng, yīnwèi wǒ bú huì shuō wàiyǔ, dānxīn biérén tīng bù dǒng wǒ dehuà.",
+     "vi": "Tôi hơi căng thẳng vì không biết ngoại ngữ, sợ người khác không hiểu lời mình."
+    },
+    {
+     "zh": "飞机降落以后，一位热情的姑娘帮了我，她告诉我怎么坐地铁。",
+     "py": "Fēijī jiàngluò yǐhòu, yī wèi rèqíng de gūniang bāng le wǒ, tā gàosu wǒ zěnme zuò dì tiě.",
+     "vi": "Sau khi máy bay hạ cánh, một cô gái nhiệt tình đã giúp tôi, cô ấy chỉ cho tôi cách đi tàu điện ngầm."
+    },
+    {
+     "zh": "这次旅行让我看到了许多美丽的风景，也认识了不同的文化。",
+     "py": "Zhè cì lǚxíng ràng wǒ kàn dào le xǔduō měilì de fēngjǐng, yě rènshi le bùtóng de wénhuà.",
+     "vi": "Chuyến đi này cho tôi thấy nhiều phong cảnh đẹp, cũng biết thêm những nền văn hóa khác nhau."
+    },
+    {
+     "zh": "我想，旅行最大的好处就是增加经验。",
+     "py": "Wǒ xiǎng, lǚxíng zuì dà de hǎochù jiùshì zēngjiā jīngyàn.",
+     "vi": "Tôi nghĩ lợi ích lớn nhất của du lịch là tích lũy thêm kinh nghiệm."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "出发前他准备了什么？",
+     "vi": "Trước khi đi anh ấy chuẩn bị gì?",
+     "opts": [
+      "大衣、鞋和帽子",
+      "电脑、手机和照片",
+      "护照、签证和机票",
+      "药、水和零食"
+     ],
+     "a": 2,
+     "why": "Bài viết “准备了护照、签证，还买了机票”."
+    },
+    {
+     "zh": "他为什么有点儿紧张？",
+     "vi": "Vì sao anh ấy hơi căng thẳng?",
+     "opts": [
+      "不会说外语",
+      "没有钱",
+      "迟到了",
+      "身体不舒服"
+     ],
+     "a": 0,
+     "why": "Bài viết “因为我不会说外语，担心别人听不懂我的话”."
+    },
+    {
+     "zh": "谁告诉他怎么坐地铁？",
+     "vi": "Ai chỉ anh ấy cách đi tàu điện ngầm?",
+     "opts": [
+      "警察",
+      "导游",
+      "一位姑娘",
+      "司机"
+     ],
+     "a": 2,
+     "why": "Bài viết “一位热情的姑娘帮了我，她告诉我怎么坐地铁”."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Mua sắm trên mạng",
+   "text": [
+    {
+     "zh": "现在很多人喜欢网购，我也是。",
+     "py": "Xiànzài hěn duō rén xǐhuan wǎnggòu, wǒ yě shì.",
+     "vi": "Bây giờ nhiều người thích mua sắm trên mạng, tôi cũng vậy."
+    },
+    {
+     "zh": "网购方便，价格也比较便宜，而且东西很快就能送到家。",
+     "py": "Wǎnggòu fāngbiàn, jiàgé yě bǐjiào piányi, érqiě dōngxi hěn kuài jiù néng sòng dào jiā.",
+     "vi": "Mua trên mạng tiện, giá cũng khá rẻ, hơn nữa hàng rất nhanh được giao tận nhà."
+    },
+    {
+     "zh": "不过，网购也有缺点，比如质量不一定好，颜色和照片不一样。",
+     "py": "Búguò, wǎnggòu yě yǒu quēdiǎn, bǐrú zhìliàng bù yídìng hǎo, yánsè hé zhàopiàn bù yíyàng.",
+     "vi": "Tuy nhiên mua mạng cũng có nhược điểm, như chất lượng chưa chắc tốt, màu sắc khác với ảnh."
+    },
+    {
+     "zh": "上个月我买了一件毛衣，收到以后发现太小了，只好换一件大的。",
+     "py": "Shàng gè yuè wǒ mǎi le yī jiàn máoyī, shōudào yǐhòu fāxiàn tài xiǎo le, zhǐhǎo huàn yī jiàn dà de.",
+     "vi": "Tháng trước tôi mua một cái áo len, nhận được mới thấy quá nhỏ, đành đổi cái lớn hơn."
+    },
+    {
+     "zh": "卖东西的人很耐心，很快就帮我解决了问题。",
+     "py": "Mài dōng xī de rén hěn nàixīn, hěn kuài jiù bāng wǒ jiějué le wèntí.",
+     "vi": "Người bán rất kiên nhẫn, nhanh chóng giúp tôi giải quyết vấn đề."
+    },
+    {
+     "zh": "从那以后，我买东西以前会先看别人写的意见。",
+     "py": "Cóng nà yǐ hòu, wǒ mǎi dōngxi yǐqián huì xiān kàn biérén xiě de yìjiàn.",
+     "vi": "Từ đó, trước khi mua đồ tôi sẽ xem ý kiến người khác viết trước."
+    },
+    {
+     "zh": "我觉得网购的好处是方便，但是我们也要小心。",
+     "py": "Wǒ juéde wǎnggòu de hǎochù shì fāngbiàn, dànshì wǒmen yě yào xiǎoxīn.",
+     "vi": "Tôi thấy lợi ích của mua mạng là tiện, nhưng chúng ta cũng phải cẩn thận."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "网购有什么好处？",
+     "vi": "Mua sắm trên mạng có lợi ích gì?",
+     "opts": [
+      "方便又便宜",
+      "质量一定很好",
+      "不用付钱",
+      "东西很大"
+     ],
+     "a": 0,
+     "why": "Bài viết “网购方便，价格也比较便宜”."
+    },
+    {
+     "zh": "那件毛衣有什么问题？",
+     "vi": "Chiếc áo len có vấn đề gì?",
+     "opts": [
+      "太贵了",
+      "没有送到",
+      "颜色不好",
+      "太小了"
+     ],
+     "a": 3,
+     "why": "Bài viết “收到以后发现太小了”, tức là áo quá nhỏ."
+    },
+    {
+     "zh": "以后买东西以前，他会先做什么？",
+     "vi": "Từ đó trước khi mua đồ, anh ấy làm gì trước?",
+     "opts": [
+      "打电话",
+      "去商店",
+      "看别人写的意见",
+      "问妈妈"
+     ],
+     "a": 2,
+     "why": "Bài viết “我买东西以前会先看别人写的意见”."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Áp lực công việc",
+   "text": [
+    {
+     "zh": "我在一家公司工作，最近工作压力很大。",
+     "py": "Wǒ zài yī jiā gōngsī gōngzuò, zuìjìn gōngzuò yālì hěn dà.",
+     "vi": "Tôi làm việc ở một công ty, dạo này áp lực công việc rất lớn."
+    },
+    {
+     "zh": "每天加班到很晚，周末也不能好好休息。",
+     "py": "Měi tiān jiābān dào hěn wǎn, zhōumò yě bù néng hǎohǎo xiūxi.",
+     "vi": "Ngày nào cũng tăng ca đến khuya, cuối tuần cũng không thể nghỉ ngơi cho tử tế."
+    },
+    {
+     "zh": "我的身体越来越差，心情也不好，常常觉得很累。",
+     "py": "Wǒ de shēntǐ yuè lái yuè chà, xīnqíng yě bù hǎo, chángcháng juéde hěn lèi.",
+     "vi": "Sức khỏe tôi ngày càng kém, tâm trạng cũng không tốt, thường thấy rất mệt."
+    },
+    {
+     "zh": "朋友建议我多锻炼，早点儿睡觉。",
+     "py": "Péngyou jiànyì wǒ duō duànliàn, zǎo diǎn ér shuìjiào.",
+     "vi": "Bạn khuyên tôi tập luyện nhiều, đi ngủ sớm hơn."
+    },
+    {
+     "zh": "我开始每天晚上去公园散步，周末还去健身房。",
+     "py": "Wǒ kāishǐ měi tiān wǎn shàng qù gōngyuán sànbù, zhōumò hái qù jiànshēnfáng.",
+     "vi": "Tôi bắt đầu mỗi tối đi dạo công viên, cuối tuần còn đến phòng tập."
+    },
+    {
+     "zh": "一个月以后，我觉得轻松多了，工作效果也更好了。",
+     "py": "Yí gè yuè yǐhòu, wǒ juéde qīngsōng duō le, gōngzuò xiàoguǒ yě gèng hǎo le.",
+     "vi": "Một tháng sau, tôi thấy nhẹ nhõm hơn nhiều, hiệu quả công việc cũng tốt hơn."
+    },
+    {
+     "zh": "我明白了，工作重要，健康更重要。",
+     "py": "Wǒ míngbai le, gōngzuò zhòngyào, jiànkāng gèng zhòngyào.",
+     "vi": "Tôi hiểu ra rằng công việc quan trọng, sức khỏe còn quan trọng hơn."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "他压力大是因为什么？",
+     "vi": "Vì sao anh ấy bị áp lực?",
+     "opts": [
+      "每天加班",
+      "天气太冷",
+      "家人生病",
+      "房租太贵"
+     ],
+     "a": 0,
+     "why": "Bài viết “每天加班到很晚”."
+    },
+    {
+     "zh": "朋友建议他做什么？",
+     "vi": "Bạn khuyên anh ấy làm gì?",
+     "opts": [
+      "换工作",
+      "少吃饭",
+      "多喝酒",
+      "多锻炼，早点儿睡觉"
+     ],
+     "a": 3,
+     "why": "Bài viết “朋友建议我多锻炼，早点儿睡觉”."
+    },
+    {
+     "zh": "一个月以后他怎么样？",
+     "vi": "Một tháng sau anh ấy thế nào?",
+     "opts": [
+      "更累了",
+      "没有变化",
+      "觉得轻松多了",
+      "工作变多了"
+     ],
+     "a": 2,
+     "why": "Bài viết “一个月以后，我觉得轻松多了”."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Quê hương đổi thay",
+   "text": [
+    {
+     "zh": "我的老家在一个小村子里，我很多年没有回去了。",
+     "py": "Wǒ de lǎojiā zài yí gè xiǎo cūn zi lǐ, wǒ hěn duō nián méiyǒu huíqù le.",
+     "vi": "Quê tôi ở một ngôi làng nhỏ, đã nhiều năm tôi chưa về."
+    },
+    {
+     "zh": "上个星期，我终于有时间回家看看。",
+     "py": "Shàng gè xīng qī, wǒ zhōngyú yǒu shíjiān huí jiā kàn kàn.",
+     "vi": "Tuần trước, cuối cùng tôi cũng có thời gian về thăm nhà."
+    },
+    {
+     "zh": "我发现，家乡的变化真大，以前的小路变成了新公路。",
+     "py": "Wǒ fāxiàn, jiāxiāng de biànhuà zhēn dà, yǐqián de xiǎo lù biànchéng le xīn gōnglù.",
+     "vi": "Tôi thấy quê hương thay đổi thật nhiều, con đường nhỏ ngày xưa đã thành đường mới."
+    },
+    {
+     "zh": "村里有了超市和饭馆，年轻人在附近就能找到工作，不用到大城市打工。",
+     "py": "Cūn lǐ yǒu le chāoshì hé fànguǎn, nián qīng rén zài fùjìn jiù néng zhǎo dào gōngzuò, búyòng dào dà chéng shì dǎgōng.",
+     "vi": "Trong làng có siêu thị và quán ăn, người trẻ tìm việc ngay gần nhà, không cần ra thành phố lớn làm thuê."
+    },
+    {
+     "zh": "可是，我最喜欢的老房子已经不在了。",
+     "py": "Kěshì, wǒ zuì xǐhuan de lǎo fáng zi yǐjīng bù zài le.",
+     "vi": "Nhưng ngôi nhà cũ tôi thích nhất đã không còn nữa."
+    },
+    {
+     "zh": "爷爷奶奶说，现在的生活比以前方便多了，他们很满意。",
+     "py": "Yé yé nǎi nǎi shuō, xiànzài de shēnghuó bǐ yǐqián fāngbiàn duō le, tāmen hěn mǎnyì.",
+     "vi": "Ông bà nói cuộc sống bây giờ tiện hơn trước nhiều, ông bà rất hài lòng."
+    },
+    {
+     "zh": "我虽然有点儿难过，但是也为家乡的发展感到高兴。",
+     "py": "Wǒ suīrán yǒudiǎnr nánguò, dànshì yě wèi jiāxiāng de fāzhǎn gǎn dào gāo xìng.",
+     "vi": "Tuy hơi buồn, nhưng tôi cũng vui vì sự phát triển của quê hương."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "以前的小路现在变成了什么？",
+     "vi": "Con đường nhỏ ngày xưa nay thành gì?",
+     "opts": [
+      "新公路",
+      "大河",
+      "地铁",
+      "机场"
+     ],
+     "a": 0,
+     "why": "Bài viết “以前的小路变成了新公路”."
+    },
+    {
+     "zh": "年轻人为什么不用去大城市打工？",
+     "vi": "Vì sao người trẻ không cần ra thành phố lớn làm thuê?",
+     "opts": [
+      "学校很多",
+      "不想工作",
+      "大城市很远",
+      "附近就能找到工作"
+     ],
+     "a": 3,
+     "why": "Bài viết “年轻人在附近就能找到工作”."
+    },
+    {
+     "zh": "他有点儿难过，是因为什么？",
+     "vi": "Vì sao anh ấy hơi buồn?",
+     "opts": [
+      "爷爷奶奶生病了",
+      "老房子已经不在了",
+      "村子没有变化",
+      "朋友不见了"
+     ],
+     "a": 1,
+     "why": "Bài viết “我最喜欢的老房子已经不在了”."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Buổi phỏng vấn",
+   "text": [
+    {
+     "zh": "上个星期，我去一家公司面试。",
+     "py": "Shàng gè xīng qī, wǒ qù yī jiā gōngsī miànshì.",
+     "vi": "Tuần trước tôi đi phỏng vấn ở một công ty."
+    },
+    {
+     "zh": "我提前一个小时出发，因为担心路上堵车。",
+     "py": "Wǒ tíqián yí gè xiǎoshí chūfā, yīnwèi dānxīn lùshang dǔchē.",
+     "vi": "Tôi xuất phát trước một tiếng vì lo trên đường tắc xe."
+    },
+    {
+     "zh": "面试的时候，经理问了我很多问题，比如我的专业、经验和将来的计划。",
+     "py": "Miànshì de shíhou, jīnglǐ wèn le wǒ hěn duō wèntí, bǐrú wǒ de zhuānyè, jīngyàn hé jiānglái de jìhuà.",
+     "vi": "Khi phỏng vấn, giám đốc hỏi tôi nhiều câu, như chuyên ngành, kinh nghiệm và kế hoạch tương lai."
+    },
+    {
+     "zh": "我有点儿紧张，但是慢慢冷静下来，认真回答了每个问题。",
+     "py": "Wǒ yǒudiǎnr jǐnzhāng, dànshì màn màn lěng jìng xià lái, rènzhēn huídá le měi gè wèntí.",
+     "vi": "Tôi hơi căng thẳng, nhưng dần bình tĩnh lại, nghiêm túc trả lời từng câu."
+    },
+    {
+     "zh": "最后，经理说我的表现不错，让我等通知。",
+     "py": "Zuìhòu, jīnglǐ shuō wǒ de biǎoxiàn búcuò, ràng wǒ děng tōngzhī.",
+     "vi": "Cuối cùng giám đốc nói biểu hiện của tôi khá tốt, bảo tôi đợi thông báo."
+    },
+    {
+     "zh": "三天以后，公司打电话告诉我，我得到了这份工作！",
+     "py": "Sān tiān yǐhòu, gōngsī dǎ diànhuà gàosu wǒ, wǒ dédào le zhè fèn gōngzuò!",
+     "vi": "Ba ngày sau, công ty gọi điện báo tôi đã nhận được công việc này!"
+    },
+    {
+     "zh": "我非常激动，马上把这个好消息告诉了父母。",
+     "py": "Wǒ fēicháng jīdòng, mǎshàng bǎ zhège hǎo xiāo xī gàosu le fùmǔ.",
+     "vi": "Tôi vô cùng xúc động, lập tức báo tin vui này cho bố mẹ."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "他为什么提前一个小时出发？",
+     "vi": "Vì sao anh ấy xuất phát trước một tiếng?",
+     "opts": [
+      "担心堵车",
+      "想吃早饭",
+      "要买东西",
+      "想去公园"
+     ],
+     "a": 0,
+     "why": "Bài viết “因为担心路上堵车”."
+    },
+    {
+     "zh": "经理问了他什么？",
+     "vi": "Giám đốc hỏi anh ấy điều gì?",
+     "opts": [
+      "年龄和国籍",
+      "家庭和朋友",
+      "身体和体重",
+      "专业、经验和将来的计划"
+     ],
+     "a": 3,
+     "why": "Bài viết “我的专业、经验和将来的计划”."
+    },
+    {
+     "zh": "最后的结果是什么？",
+     "vi": "Kết quả cuối cùng là gì?",
+     "opts": [
+      "没有通过",
+      "还在等通知",
+      "得到了这份工作",
+      "不想去"
+     ],
+     "a": 2,
+     "why": "Bài viết “我得到了这份工作”."
+    }
+   ]
+  }
+ ]
+}
