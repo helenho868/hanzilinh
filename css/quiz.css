@@ -18,13 +18,15 @@
 .opt{font:inherit;text-align:left;padding:13px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);cursor:pointer;font-size:1.05rem}
 .opt.zh{font-family:"Noto Serif SC","Songti SC",serif;font-size:1.5rem;text-align:center}
 .opt:hover:not(:disabled){border-color:var(--jade)}
-.opt.ok{background:var(--ok-soft);border-color:var(--ok);font-weight:600}
-.opt.no{background:var(--bad-soft);border-color:var(--bad);color:var(--ink)}
+.opt.ok{background:var(--jade-soft);border-color:var(--jade);font-weight:600}
+.opt.no{background:#F8E0DB;border-color:#A8341F;color:#14201C}
 .opt:disabled{cursor:default}
 .fb{margin-top:14px;padding:12px 14px;border-radius:10px;font-size:.95rem}
-.fb.ok{background:var(--ok-soft)}
-.fb.no{background:var(--bad-soft);color:var(--ink)}
-.score{font-size:3rem;font-weight:800;text-align:center;margin:0;color:var(--jade)}
+.fb.ok{background:var(--jade-soft)}
+.fb.no{background:#F8E0DB;color:#14201C}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .opt.no,:root:not([data-theme="light"]) .fb.no{background:#3A1F1A;border-color:#FF8E7A;color:#E8F0ED}}
+:root[data-theme="dark"] .opt.no,:root[data-theme="dark"] .fb.no{background:#3A1F1A;border-color:#FF8E7A;color:#E8F0ED}
+.score{font-size:3rem;font-weight:700;text-align:center;margin:0;color:var(--jade)}
 .msg{text-align:center;margin:4px 0 16px}
 .rev{border-top:1px solid var(--line);padding:12px 0}
 .rev p{margin:2px 0}
@@ -34,7 +36,9 @@
 @media (prefers-reduced-motion:reduce){.bar i{transition:none}}
 .timenote{color:var(--mute);font-size:.9rem;margin:8px 0 0}
 .qtimer{font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
-.qtimer.low{color:var(--bad)}
+.qtimer.low{color:#A8341F}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .qtimer.low{color:#FF8E7A}}
+:root[data-theme="dark"] .qtimer.low{color:#FF8E7A}
 
 /* Bảng cài đặt gọn: nhãn bên trái, nút chọn bên phải */
 #setup{display:grid;grid-template-columns:max-content 1fr;gap:10px 16px;align-items:center;padding:16px 18px}
