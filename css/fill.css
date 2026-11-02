@@ -1,6 +1,6 @@
 .sent{font-family:"Noto Serif SC","Songti SC",serif;font-weight:700;font-size:1.7rem;text-align:center;line-height:1.7;margin:4px 0 8px}
 .sent .blank{display:inline-block;min-width:3.2em;border-bottom:3px solid var(--jade);color:var(--jade);margin:0 .15em;padding:0 .2em}
-.sent .blank.ok{background:var(--jade-soft)}
-.sent .blank.no{border-color:#A8341F;color:#A8341F}
+.sent .blank.ok{background:var(--ok-soft);border-color:var(--ok);color:var(--ink)}
+.sent .blank.no{border-color:var(--bad);color:var(--bad)}
 .hint{color:var(--mute);text-align:center;margin:0 0 18px;font-size:.98rem}
 .pyline{margin:6px 0 0}

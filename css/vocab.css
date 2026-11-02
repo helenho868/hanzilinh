@@ -1,9 +1,9 @@
 .narrow{max-width:680px;padding-bottom:40px}
-.narrow h1{font-size:1.7rem;margin:12px 0 4px}
+.narrow h1{font-size:1.7rem;margin:12px 0 4px;font-weight:800;letter-spacing:-.01em}
 .tabs{display:flex;gap:6px;margin:0 0 16px;border-bottom:1px solid var(--line)}
 .tab{font:inherit;font-weight:600;background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;color:var(--mute);cursor:pointer}
 .tab[aria-selected="true"]{color:var(--jade);border-bottom-color:var(--jade)}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 16px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 16px;box-shadow:var(--shadow)}
 .meta{font-size:.88rem;color:var(--mute);margin:0 0 10px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .fc{display:block;width:100%;min-height:220px;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:inherit;cursor:pointer;padding:18px;text-align:center}
 .fc .zh{font-family:"Noto Serif SC","Songti SC",serif;font-weight:900;font-size:4rem;color:var(--jade);line-height:1.2;display:block}
