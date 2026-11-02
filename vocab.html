@@ -7,6 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif+SC:wght@600;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/vocab.css">
+<link rel="stylesheet" href="css/writer.css">
 </head>
 <body>
 <header class="top">
@@ -49,6 +50,7 @@
         <span class="hint">Bấm vào thẻ để xem phiên âm và nghĩa</span>
       </button>
       <div class="row ctrl tools">
+        <button class="btn2" id="wr" type="button">Cách viết</button>
         <button class="btn2" id="spk" type="button">Nghe phát âm</button>
         <button class="btn2 hide" id="spkx" type="button">Nghe câu ví dụ</button>
         <button class="btn2" id="shuf" type="button">Trộn thẻ</button>
@@ -78,12 +80,32 @@
   <p class="next-step"><a class="btn2 p linkbtn" id="toQuiz" href="quiz.html?level=1&std=3">Học xong rồi? Làm bài kiểm tra</a></p>
 </main>
 
+
+<dialog id="wdlg" class="wdlg" aria-labelledby="wtitle">
+  <div class="wbox">
+    <div class="whead">
+      <div><p class="wh zh" id="wtitle"></p><p class="wsub" id="wsub"></p></div>
+      <button class="wx" id="wclose" type="button" aria-label="Đóng">&times;</button>
+    </div>
+    <div class="chips wchars hide" id="wchars" role="group" aria-label="Chọn chữ cần xem"></div>
+    <div class="wstage" id="wstage"></div>
+    <p class="wnote" id="wnote" aria-live="polite"></p>
+    <div class="row ctrl wbtns">
+      <button class="btn2 p" id="wplay" type="button">Xem nét bút</button>
+      <button class="btn2" id="wquiz" type="button">Tập viết</button>
+      <button class="btn2" id="wreset" type="button">Làm lại</button>
+    </div>
+  </div>
+</dialog>
+
 <footer class="foot">
   <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
+  <p class="credit">Dữ liệu thứ tự nét: Hanzi Writer và Make Me a Hanzi (Arphic Public License).</p>
 </footer>
 
 <script src="js/data.js"></script>
 <script src="js/common.js"></script>
+<script src="js/writer.js"></script>
 <script src="js/vocab.js"></script>
 </body>
 </html>

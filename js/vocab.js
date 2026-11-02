@@ -103,6 +103,7 @@
     voiceNote();
     try { speechSynthesis.addEventListener("voiceschanged", voiceNote); } catch (e) {}
   }
+  $("wr").onclick = function () { if (deck.length) HLWriter.open(deck[ci]); };
   $("spk").onclick = function () { if (deck.length) speak(deck[ci].hanzi); };
   $("spkx").onclick = function () { if (deck.length && deck[ci].ex) speak(deck[ci].ex.zh); };
 
@@ -132,8 +133,14 @@
         x.appendChild(mk("span", "xv", w.ex.vi));
         li.appendChild(x);
       }
+      var a = mk("span", "acts");
+      if (HLWriter.canWrite(w.hanzi)) {
+        var bw = mk("button", "say", "Cách viết");
+        bw.type = "button"; bw.setAttribute("data-write", w.key);
+        bw.setAttribute("aria-label", "Xem cách viết từ " + w.hanzi);
+        a.appendChild(bw);
+      }
       if (canSpeak) {
-        var a = mk("span", "acts");
         var b1 = mk("button", "say", "Nghe từ");
         b1.type = "button"; b1.setAttribute("data-say", w.hanzi);
         b1.setAttribute("aria-label", "Nghe từ " + w.hanzi);
@@ -144,13 +151,15 @@
           b2.setAttribute("aria-label", "Nghe câu ví dụ của từ " + w.hanzi);
           a.appendChild(b2);
         }
-        li.appendChild(a);
       }
+      if (a.children.length) li.appendChild(a);
       ul.appendChild(li);
     });
   }
   $("q").oninput = renderList;
   $("list").addEventListener("click", function (e) {
+    var w = e.target.closest ? e.target.closest("button[data-write]") : null;
+    if (w) { var k = w.getAttribute("data-write"); for (var n = 0; n < all.length; n++) if (all[n].key === k) { HLWriter.open(all[n]); break; } return; }
     var b = e.target.closest ? e.target.closest("button[data-say]") : null;
     if (b) speak(b.getAttribute("data-say"));
   });
