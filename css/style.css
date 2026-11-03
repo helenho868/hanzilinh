@@ -1,14 +1,14 @@
 :root{
-  --bg:#F3F6F2;--card:#FFFFFF;--ink:#17231F;--mute:#55655F;--line:#CBD8D0;
-  --jade:#0E6B58;--jade-ink:#FFFFFF;--jade-soft:#DDEDE6;--seal:#B3261E;--seal-ink:#FFFFFF;
+  --bg:#E6ECF3;--card:#F7F9FC;--ink:#10151C;--mute:#475365;--line:#BCC8D6;
+  --jade:#1B3A6B;--jade-ink:#FFFFFF;--jade-soft:#D3DFEF;--seal:#B3261E;--seal-ink:#FFFFFF;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0F1715;--card:#17221F;--ink:#E8F0ED;--mute:#9DB0A9;--line:#2C3D38;
-  --jade:#4DC2A6;--jade-ink:#06201A;--jade-soft:#1B3A33;--seal:#E0584F;--seal-ink:#1A0806;color-scheme:dark}}
+  --bg:#0E141C;--card:#161E29;--ink:#E8EDF3;--mute:#9AA8BA;--line:#2B394A;
+  --jade:#7FA6E8;--jade-ink:#0A1730;--jade-soft:#1D3050;--seal:#E0584F;--seal-ink:#1A0806;color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0F1715;--card:#17221F;--ink:#E8F0ED;--mute:#9DB0A9;--line:#2C3D38;
-  --jade:#4DC2A6;--jade-ink:#06201A;--jade-soft:#1B3A33;--seal:#E0584F;--seal-ink:#1A0806;color-scheme:dark}
+  --bg:#0E141C;--card:#161E29;--ink:#E8EDF3;--mute:#9AA8BA;--line:#2B394A;
+  --jade:#7FA6E8;--jade-ink:#0A1730;--jade-soft:#1D3050;--seal:#E0584F;--seal-ink:#1A0806;color-scheme:dark}
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
