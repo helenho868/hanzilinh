@@ -224,8 +224,8 @@
 
   HL.renderLevelChips("levelChips");
   HL.renderStdChips("stdChips");
-  $("title").textContent = "Luyện đề từ vựng " + HL.label();
-  document.title = "Luyện đề từ vựng " + HL.label() + " - HanziLinh";
+  $("title").textContent = "Ôn tập từ vựng " + HL.label();
+  document.title = "Ôn tập từ vựng " + HL.label() + " - HanziLinh";
   $("toCards").href = "vocab.html?level=" + HL.level + "&std=" + HL.std + HL.sq();
   fetch(HL.dataUrl())
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
