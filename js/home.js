@@ -18,7 +18,7 @@
     card.appendChild(head);
     var wt;
     if (l.words3 && l.has2 === false) {
-      wt = l.words3.toLocaleString("vi-VN") + " từ (HSK 3.0)" + (l.new3 ? ", gồm " + l.new3 + " từ mới" : "");
+      wt = l.words3.toLocaleString("vi-VN") + " từ (HSK 3.0)" + (l.new3 ? ", gồm " + l.new3.toLocaleString("vi-VN") + " từ mới" : "");
     } else if (l.words3) {
       wt = l.words3.toLocaleString("vi-VN") + " từ (HSK 3.0), " + l.words.toLocaleString("vi-VN") + " từ (HSK 2.0)";
     } else {

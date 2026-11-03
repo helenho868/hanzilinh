@@ -44,7 +44,8 @@ main{max-width:1040px;margin:0 auto;padding:0 20px}
 .lead{color:var(--mute);margin:0 0 20px}
 
 .levels{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
-.level{display:flex;flex-direction:column;gap:4px;padding:10px 12px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);text-decoration:none}
+.levels li{display:flex}
+.level{flex:1;display:flex;flex-direction:column;gap:4px;padding:10px 12px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);text-decoration:none}
 .level .lhead{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
 .level .lv{font-weight:700;font-size:1.05rem}
 .level .zh{font-family:"Noto Serif SC","Songti SC",serif;font-weight:600;color:var(--jade);font-size:.9rem}
