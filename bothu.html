@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif+SC:wght@600;900&family=Noto+Sans:wght@500;600&family=Noto+Sans+SC:wght@500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=5">
 <link rel="stylesheet" href="css/vocab.css">
-<link rel="stylesheet" href="css/bothu.css">
+<link rel="stylesheet" href="css/bothu.css?v=3">
 </head>
 <body>
 <header class="top">
@@ -31,8 +31,10 @@
   </div>
 
   <section id="p1">
-    <input class="search" id="q" type="search" placeholder="Tìm theo chữ, phiên âm, tên Hán Việt hoặc nghĩa" aria-label="Tìm bộ thủ">
-    <div class="chips" id="strokeChips" role="group" aria-label="Lọc theo số nét"></div>
+    <div class="filters">
+      <input class="search" id="q" type="search" placeholder="Tìm theo chữ, phiên âm, tên Hán Việt hoặc nghĩa" aria-label="Tìm bộ thủ">
+      <select class="sel" id="strokeSel" aria-label="Lọc theo số nét"></select>
+    </div>
     <p class="meta" id="count"></p>
     <ul class="rgrid" id="grid"></ul>
   </section>
@@ -86,6 +88,6 @@
   <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
 </footer>
 
-<script src="js/bothu.js"></script>
+<script src="js/bothu.js?v=2"></script>
 </body>
 </html>

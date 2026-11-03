@@ -37,5 +37,7 @@
 .qopt.no{border-color:var(--seal);text-decoration:line-through;color:var(--mute)}
 .qfb{padding:8px 12px;border-radius:8px;background:var(--jade-soft);font-size:.92rem}
 .rscore{padding:12px 14px;border-radius:12px;background:var(--jade-soft);font-weight:600}
-#strokeChips{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}
-#strokeChips .chip{flex:none;white-space:nowrap}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.filters .search{flex:1 1 260px;margin-bottom:0}
+.sel{flex:1 1 100%;max-width:100%;font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);cursor:pointer}
+.sel:focus,.filters .search:focus{outline:2px solid var(--jade);outline-offset:1px}

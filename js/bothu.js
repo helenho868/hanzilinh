@@ -41,17 +41,14 @@
     $("count").textContent = view.length + " / " + RS.length + " bộ thủ. Đã nhớ " + kc + ".";
   }
   function buildChips() {
-    var box = $("strokeChips"), set = {};
-    RS.forEach(function (r) { set[r.strokes] = 1; });
-    var list = [0].concat(Object.keys(set).map(Number).sort(function (a, b) { return a - b; }));
-    list.forEach(function (n) {
-      var b = mk("button", "chip", n ? n + " nét" : "Tất cả"); b.type = "button"; b.setAttribute("aria-pressed", n === stroke ? "true" : "false");
-      b.onclick = function () {
-        stroke = n; box.querySelectorAll(".chip").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
-        b.setAttribute("aria-pressed", "true"); applyFilter();
-      };
-      box.appendChild(b);
+    var sel = $("strokeSel"), cnt = {};
+    RS.forEach(function (r) { cnt[r.strokes] = (cnt[r.strokes] || 0) + 1; });
+    sel.innerHTML = "";
+    var o0 = mk("option", "", "Tất cả số nét (" + RS.length + " bộ)"); o0.value = "0"; sel.appendChild(o0);
+    Object.keys(cnt).map(Number).sort(function (x, y) { return x - y; }).forEach(function (n) {
+      var o = mk("option", "", n + " nét (" + cnt[n] + " bộ)"); o.value = String(n); sel.appendChild(o);
     });
+    sel.onchange = function () { stroke = parseInt(sel.value, 10) || 0; applyFilter(); };
   }
 
   /* ---- Chi tiết ---- */
