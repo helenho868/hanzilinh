@@ -1,0 +1,361 @@
+{
+ "level": 1,
+ "standard": "YCT",
+ "count": 6,
+ "dialogues": [
+  {
+   "id": 1,
+   "title": "Chào hỏi",
+   "scene": "Hai bạn nhỏ gặp nhau lần đầu.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好！我叫小明。",
+     "py": "Nǐ hǎo! Wǒ jiào Xiǎo Míng.",
+     "vi": "Xin chào! Tôi tên là Tiểu Minh."
+    },
+    {
+     "s": "B",
+     "zh": "你好！我叫大明。",
+     "py": "Nǐ hǎo! Wǒ jiào Đại Míng.",
+     "vi": "Xin chào! Tôi tên là Đại Minh."
+    },
+    {
+     "s": "A",
+     "zh": "你是中国人吗？",
+     "py": "Nǐ shì Zhōngguórén ma?",
+     "vi": "Bạn là người Trung Quốc phải không?"
+    },
+    {
+     "s": "B",
+     "zh": "我是中国人。你是哪国人？",
+     "py": "Wǒ shì Zhōngguórén. Nǐ shì nǎ guó rén?",
+     "vi": "Tôi là người Trung Quốc. Bạn là người nước nào?"
+    },
+    {
+     "s": "A",
+     "zh": "我是中国人。我们认识，很高兴。",
+     "py": "Wǒ shì Zhōngguórén. Wǒmen rènshi, hěn gāoxìng.",
+     "vi": "Tôi cũng là người Trung Quốc. Chúng ta quen nhau, tôi rất vui."
+    },
+    {
+     "s": "B",
+     "zh": "认识你，我很高兴。",
+     "py": "Rènshi nǐ, wǒ hěn gāoxìng.",
+     "vi": "Quen bạn, tôi cũng rất vui."
+    },
+    {
+     "s": "A",
+     "zh": "谢谢！再见！",
+     "py": "Xièxie! Zàijiàn!",
+     "vi": "Cảm ơn! Hẹn gặp lại!"
+    },
+    {
+     "s": "B",
+     "zh": "再见！",
+     "py": "Zàijiàn!",
+     "vi": "Hẹn gặp lại!"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Gia đình",
+   "scene": "Hai bạn hỏi về gia đình.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你家有几口人？",
+     "py": "Nǐ jiā yǒu jǐ kǒu rén?",
+     "vi": "Nhà bạn có mấy người?"
+    },
+    {
+     "s": "B",
+     "zh": "我家有五口人。",
+     "py": "Wǒ jiā yǒu wǔ kǒu rén.",
+     "vi": "Nhà tôi có năm người."
+    },
+    {
+     "s": "A",
+     "zh": "你家有谁？",
+     "py": "Nǐ jiā yǒu shéi?",
+     "vi": "Nhà bạn có những ai?"
+    },
+    {
+     "s": "B",
+     "zh": "爸爸，妈妈，哥哥，姐姐和我。",
+     "py": "Bàba, māma, gēge, jiějie hé wǒ.",
+     "vi": "Bố, mẹ, anh trai, chị gái và tôi."
+    },
+    {
+     "s": "A",
+     "zh": "你哥哥几岁？",
+     "py": "Nǐ gēge jǐ suì?",
+     "vi": "Anh trai bạn mấy tuổi?"
+    },
+    {
+     "s": "B",
+     "zh": "我哥哥十岁。",
+     "py": "Wǒ gēge shí suì.",
+     "vi": "Anh trai tôi mười tuổi."
+    },
+    {
+     "s": "A",
+     "zh": "你姐姐几岁？",
+     "py": "Nǐ jiějie jǐ suì?",
+     "vi": "Chị gái bạn mấy tuổi?"
+    },
+    {
+     "s": "B",
+     "zh": "我姐姐八岁。",
+     "py": "Wǒ jiějie bā suì.",
+     "vi": "Chị gái tôi tám tuổi."
+    },
+    {
+     "s": "A",
+     "zh": "你家人很多！",
+     "py": "Nǐ jiā rén hěn duō!",
+     "vi": "Nhà bạn đông người quá!"
+    },
+    {
+     "s": "B",
+     "zh": "是，我家人很多。",
+     "py": "Shì, wǒ jiā rén hěn duō.",
+     "vi": "Đúng vậy, nhà tôi đông người."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Ăn uống",
+   "scene": "Hai bạn nói về món mình thích.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你喜欢吃什么？",
+     "py": "Nǐ xǐhuan chī shénme?",
+     "vi": "Bạn thích ăn gì?"
+    },
+    {
+     "s": "B",
+     "zh": "我喜欢吃面条。你喜欢吃什么？",
+     "py": "Wǒ xǐhuan chī miàntiáo. Nǐ xǐhuan chī shénme?",
+     "vi": "Tôi thích ăn mì. Bạn thích ăn gì?"
+    },
+    {
+     "s": "A",
+     "zh": "我喜欢吃米饭和鱼。",
+     "py": "Wǒ xǐhuan chī mǐfàn hé yú.",
+     "vi": "Tôi thích ăn cơm và cá."
+    },
+    {
+     "s": "B",
+     "zh": "你喝牛奶吗？",
+     "py": "Nǐ hē niúnǎi ma?",
+     "vi": "Bạn có uống sữa không?"
+    },
+    {
+     "s": "A",
+     "zh": "我喝牛奶。你喝什么？",
+     "py": "Wǒ hē niúnǎi. Nǐ hē shénme?",
+     "vi": "Tôi uống sữa. Bạn uống gì?"
+    },
+    {
+     "s": "B",
+     "zh": "我喝水。",
+     "py": "Wǒ hē shuǐ.",
+     "vi": "Tôi uống nước."
+    },
+    {
+     "s": "A",
+     "zh": "苹果很好吃，你吃苹果吗？",
+     "py": "Píngguǒ hěn hǎo chī, nǐ chī píngguǒ ma?",
+     "vi": "Táo rất ngon, bạn có ăn táo không?"
+    },
+    {
+     "s": "B",
+     "zh": "好，谢谢！",
+     "py": "Hǎo, xièxie!",
+     "vi": "Được, cảm ơn!"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Thú cưng",
+   "scene": "Hai bạn nói về con vật nuôi.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你家有猫吗？",
+     "py": "Nǐ jiā yǒu māo ma?",
+     "vi": "Nhà bạn có mèo không?"
+    },
+    {
+     "s": "B",
+     "zh": "有，我家有猫和狗。",
+     "py": "Yǒu, wǒ jiā yǒu māo hé gǒu.",
+     "vi": "Có, nhà tôi có mèo và chó."
+    },
+    {
+     "s": "A",
+     "zh": "你的狗大吗？",
+     "py": "Nǐ de gǒu dà ma?",
+     "vi": "Chó của bạn có to không?"
+    },
+    {
+     "s": "B",
+     "zh": "我的狗很大，猫很小。",
+     "py": "Wǒ de gǒu hěn dà, māo hěn xiǎo.",
+     "vi": "Chó của tôi rất to, mèo thì rất nhỏ."
+    },
+    {
+     "s": "A",
+     "zh": "你的猫叫什么？",
+     "py": "Nǐ de māo jiào shénme?",
+     "vi": "Mèo của bạn tên là gì?"
+    },
+    {
+     "s": "B",
+     "zh": "我的猫叫小小。",
+     "py": "Wǒ de māo jiào xiǎo xiǎo.",
+     "vi": "Mèo của tôi tên là Tiểu Tiểu."
+    },
+    {
+     "s": "A",
+     "zh": "小小的眼睛很大。",
+     "py": "Xiǎo xiǎo de yǎnjing hěn dà.",
+     "vi": "Mắt của Tiểu Tiểu rất to."
+    },
+    {
+     "s": "B",
+     "zh": "是，我很爱小小。",
+     "py": "Shì, wǒ hěn ài xiǎo xiǎo.",
+     "vi": "Đúng vậy, tôi rất yêu Tiểu Tiểu."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Ngày tháng",
+   "scene": "Hai bạn hỏi ngày và giờ.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "今天几月几号？",
+     "py": "Jīntiān jǐ yuè jǐ hào?",
+     "vi": "Hôm nay là ngày mấy tháng mấy?"
+    },
+    {
+     "s": "B",
+     "zh": "今天五月八号。",
+     "py": "Jīntiān wǔ yuè bā hào.",
+     "vi": "Hôm nay là mùng tám tháng Năm."
+    },
+    {
+     "s": "A",
+     "zh": "今天星期几？",
+     "py": "Jīntiān xīngqī jǐ?",
+     "vi": "Hôm nay là thứ mấy?"
+    },
+    {
+     "s": "B",
+     "zh": "今天星期三。",
+     "py": "Jīntiān xīngqī sān.",
+     "vi": "Hôm nay là thứ Tư."
+    },
+    {
+     "s": "A",
+     "zh": "明天星期几？",
+     "py": "Míngtiān xīngqī jǐ?",
+     "vi": "Ngày mai là thứ mấy?"
+    },
+    {
+     "s": "B",
+     "zh": "明天星期四。",
+     "py": "Míngtiān xīngqī sì.",
+     "vi": "Ngày mai là thứ Năm."
+    },
+    {
+     "s": "A",
+     "zh": "现在几点？",
+     "py": "Xiànzài jǐ diǎn?",
+     "vi": "Bây giờ là mấy giờ?"
+    },
+    {
+     "s": "B",
+     "zh": "现在九点。",
+     "py": "Xiànzài jiǔ diǎn.",
+     "vi": "Bây giờ là chín giờ."
+    },
+    {
+     "s": "A",
+     "zh": "谢谢你，再见！",
+     "py": "Xièxie nǐ, zàijiàn!",
+     "vi": "Cảm ơn bạn, hẹn gặp lại!"
+    },
+    {
+     "s": "B",
+     "zh": "再见！",
+     "py": "Zàijiàn!",
+     "vi": "Hẹn gặp lại!"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Ở trường",
+   "scene": "Hai bạn nói về trường học.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你去哪个学校？",
+     "py": "Nǐ qù nǎ gè xuéxiào?",
+     "vi": "Bạn học trường nào?"
+    },
+    {
+     "s": "B",
+     "zh": "我去小学。",
+     "py": "Wǒ qù xiǎo xué.",
+     "vi": "Tôi học trường tiểu học."
+    },
+    {
+     "s": "A",
+     "zh": "你们学校大吗？",
+     "py": "Nǐ men xuéxiào dà ma?",
+     "vi": "Trường của các bạn có to không?"
+    },
+    {
+     "s": "B",
+     "zh": "很大，学校有很多人。",
+     "py": "Hěn dà, xuéxiào yǒu hěn duō rén.",
+     "vi": "Rất to, trường có rất nhiều người."
+    },
+    {
+     "s": "A",
+     "zh": "老师好吗？",
+     "py": "Lǎoshī hǎo ma?",
+     "vi": "Thầy cô có tốt không?"
+    },
+    {
+     "s": "B",
+     "zh": "老师很好。",
+     "py": "Lǎoshī hěn hǎo.",
+     "vi": "Thầy cô rất tốt."
+    },
+    {
+     "s": "A",
+     "zh": "你喜欢老师吗？",
+     "py": "Nǐ xǐhuan lǎoshī ma?",
+     "vi": "Bạn có thích thầy cô không?"
+    },
+    {
+     "s": "B",
+     "zh": "我很喜欢老师。",
+     "py": "Wǒ hěn xǐhuan lǎoshī.",
+     "vi": "Tôi rất thích thầy cô."
+    }
+   ]
+  }
+ ]
+}

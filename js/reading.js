@@ -5,7 +5,7 @@
   try { var pr = JSON.parse(localStorage.getItem(PREF) || "{}"); if (pr.py === false) showPy = false; if (pr.vi === true) showVi = true; } catch (e) {}
   function savePrefs() { try { localStorage.setItem(PREF, JSON.stringify({ py: showPy, vi: showVi })); } catch (e) {} }
   function mk(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
-  var BK = "hanzilinh_readbest_hsk" + HL.level + "_v3";
+  var BK = "hanzilinh_readbest_" + HL.series + HL.level + (HL.series === "hsk" ? "_v3" : "");
   function bests() { try { return JSON.parse(localStorage.getItem(BK) || "{}"); } catch (e) { return {}; } }
   function saveBest(id, n) { try { var b = bests(); if (!(b[id] >= n)) { b[id] = n; localStorage.setItem(BK, JSON.stringify(b)); } } catch (e) {} }
 
@@ -124,8 +124,8 @@
   HL.renderLevelChips("levelChips");
   $("title").textContent = "Đọc hiểu " + HL.label().replace(/ \(chuẩn.*\)/, "");
   document.title = $("title").textContent + " - HanziLinh";
-  $("toVocab").href = "vocab.html?level=" + HL.level + "&std=3";
-  fetch("data/hsk" + HL.level + "-reading.json")
+  $("toVocab").href = "vocab.html?level=" + HL.level + "&std=3" + HL.sq();
+  fetch("data/" + HL.series + HL.level + "-reading.json")
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {
       data = d; renderList();

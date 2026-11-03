@@ -234,7 +234,7 @@
   HL.renderStdChips("stdChips");
   $("title").textContent = "Kéo thả từ vào câu " + HL.label();
   document.title = "Kéo thả từ vào câu " + HL.label() + " - HanziLinh";
-  $("toCards").href = "vocab.html?level=" + HL.level + "&std=" + HL.std;
+  $("toCards").href = "vocab.html?level=" + HL.level + "&std=" + HL.std + HL.sq();
   fetch(HL.dataUrl())
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {

@@ -1,0 +1,342 @@
+{
+ "level": 2,
+ "standard": "YCT",
+ "count": 5,
+ "passages": [
+  {
+   "id": 1,
+   "title": "Một ngày của tôi",
+   "text": [
+    {
+     "zh": "早上我七点起床。",
+     "py": "Zǎoshang wǒ qī diǎn qǐchuáng.",
+     "vi": "Buổi sáng tôi bảy giờ dậy."
+    },
+    {
+     "zh": "我喝牛奶，吃包子。",
+     "py": "Wǒ hē niúnǎi, chī bāozi.",
+     "vi": "Tôi uống sữa, ăn bánh bao."
+    },
+    {
+     "zh": "八点我去学校学习汉语。",
+     "py": "Bā diǎn wǒ qù xuéxiào xuéxí Hànyǔ.",
+     "vi": "Tám giờ tôi đến trường học tiếng Trung."
+    },
+    {
+     "zh": "晚上我在家看电视。",
+     "py": "Wǎnshang wǒ zài jiā kàn diànshì.",
+     "vi": "Buổi tối tôi ở nhà xem ti vi."
+    },
+    {
+     "zh": "九点我睡觉。",
+     "py": "Jiǔ diǎn wǒ shuìjiào.",
+     "vi": "Chín giờ tôi đi ngủ."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "我几点起床？",
+     "vi": "Tôi mấy giờ dậy?",
+     "opts": [
+      "六点",
+      "七点",
+      "八点",
+      "九点"
+     ],
+     "a": 1,
+     "why": "Bài viết “早上我七点起床”."
+    },
+    {
+     "zh": "早上我吃什么？",
+     "vi": "Buổi sáng tôi ăn gì?",
+     "opts": [
+      "米饭",
+      "面条",
+      "苹果",
+      "包子"
+     ],
+     "a": 3,
+     "why": "Bài viết “吃包子”, tôi ăn bánh bao."
+    },
+    {
+     "zh": "晚上我做什么？",
+     "vi": "Buổi tối tôi làm gì?",
+     "opts": [
+      "看电视",
+      "学习汉语",
+      "去学校",
+      "买水果"
+     ],
+     "a": 0,
+     "why": "Bài viết “晚上我在家看电视”."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Bạn tôi Tiểu Minh",
+   "text": [
+    {
+     "zh": "小明是我的好朋友，他是中国人。",
+     "py": "Xiǎo Míng shì wǒ de hǎo péngyou, tā shì Zhōngguórén.",
+     "vi": "Tiểu Minh là bạn tốt của tôi, cậu ấy là người Trung Quốc."
+    },
+    {
+     "zh": "他家在北京。",
+     "py": "Tā jiā zài Běijīng.",
+     "vi": "Nhà cậu ấy ở Bắc Kinh."
+    },
+    {
+     "zh": "他有一个弟弟，弟弟五岁。",
+     "py": "Tā yǒu yī gè dìdi, dìdi wǔ suì.",
+     "vi": "Cậu ấy có một em trai, em năm tuổi."
+    },
+    {
+     "zh": "小明会画画，也会说汉语。",
+     "py": "Xiǎo Míng huì huà huà, yě huì shuō Hànyǔ.",
+     "vi": "Tiểu Minh biết vẽ tranh, cũng biết nói tiếng Trung."
+    },
+    {
+     "zh": "我们是同学。",
+     "py": "Wǒmen shì tóngxué.",
+     "vi": "Chúng tôi là bạn học."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "小明的家在哪儿？",
+     "vi": "Nhà Tiểu Minh ở đâu?",
+     "opts": [
+      "商店",
+      "学校",
+      "医院",
+      "北京"
+     ],
+     "a": 3,
+     "why": "Bài viết “他家在北京”."
+    },
+    {
+     "zh": "小明的弟弟几岁？",
+     "vi": "Em trai Tiểu Minh mấy tuổi?",
+     "opts": [
+      "三岁",
+      "四岁",
+      "六岁",
+      "五岁"
+     ],
+     "a": 3,
+     "why": "Bài viết “弟弟五岁”."
+    },
+    {
+     "zh": "小明会做什么？",
+     "vi": "Tiểu Minh biết làm gì?",
+     "opts": [
+      "画画",
+      "睡觉",
+      "看电视",
+      "打电话"
+     ],
+     "a": 0,
+     "why": "Bài viết “小明会画画”."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Mua hoa quả",
+   "text": [
+    {
+     "zh": "妈妈和我去商店买水果。",
+     "py": "Māma hé wǒ qù shāngdiàn mǎi shuǐ guǒ.",
+     "vi": "Mẹ và tôi đến cửa hàng mua hoa quả."
+    },
+    {
+     "zh": "香蕉两块钱，苹果三块钱。",
+     "py": "Xiāngjiāo liǎng kuài qián, píngguǒ sān kuài qián.",
+     "vi": "Chuối hai tệ, táo ba tệ."
+    },
+    {
+     "zh": "我要两个香蕉，妈妈要三个苹果。",
+     "py": "Wǒ yào liǎng gè xiāngjiāo, māma yào sān gè píngguǒ.",
+     "vi": "Tôi muốn hai quả chuối, mẹ muốn ba quả táo."
+    },
+    {
+     "zh": "香蕉和苹果很好吃。",
+     "py": "Xiāngjiāo hé píngguǒ hěn hǎochī.",
+     "vi": "Chuối và táo rất ngon."
+    },
+    {
+     "zh": "我们很高兴。",
+     "py": "Wǒmen hěn gāoxìng.",
+     "vi": "Chúng tôi rất vui."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "香蕉多少钱？",
+     "vi": "Chuối bao nhiêu tiền?",
+     "opts": [
+      "一块钱",
+      "三块钱",
+      "两块钱",
+      "四块钱"
+     ],
+     "a": 2,
+     "why": "Bài viết “香蕉两块钱”."
+    },
+    {
+     "zh": "谁要三个苹果？",
+     "vi": "Ai muốn ba quả táo?",
+     "opts": [
+      "我",
+      "妈妈",
+      "爸爸",
+      "姐姐"
+     ],
+     "a": 1,
+     "why": "Bài viết “妈妈要三个苹果”."
+    },
+    {
+     "zh": "我要什么？",
+     "vi": "Tôi muốn gì?",
+     "opts": [
+      "两个香蕉",
+      "三个苹果",
+      "两个苹果",
+      "三个香蕉"
+     ],
+     "a": 0,
+     "why": "Bài viết “我要两个香蕉”."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Thú cưng của tôi",
+   "text": [
+    {
+     "zh": "我家有一只猫和一只鸟。",
+     "py": "Wǒ jiā yǒu yī zhī māo hé yī zhī niǎo.",
+     "vi": "Nhà tôi có một con mèo và một con chim."
+    },
+    {
+     "zh": "猫是黄色的，鸟是绿色的。",
+     "py": "Māo shì huáng sè de, niǎo shì lǜ sè de.",
+     "vi": "Mèo màu vàng, chim màu xanh lá."
+    },
+    {
+     "zh": "猫的眼睛很大，很漂亮。",
+     "py": "Māo de yǎnjing hěn dà, hěn piàoliang.",
+     "vi": "Mắt mèo rất to, rất đẹp."
+    },
+    {
+     "zh": "我爱猫，也爱鸟。",
+     "py": "Wǒ ài māo, yě ài niǎo.",
+     "vi": "Tôi yêu mèo, cũng yêu chim."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "猫是什么颜色的？",
+     "vi": "Mèo màu gì?",
+     "opts": [
+      "红色",
+      "绿色",
+      "红色和黄色",
+      "黄色"
+     ],
+     "a": 3,
+     "why": "Bài viết “猫是黄色的”."
+    },
+    {
+     "zh": "鸟是什么颜色的？",
+     "vi": "Chim màu gì?",
+     "opts": [
+      "绿色",
+      "黄色",
+      "红色",
+      "黄色和绿色"
+     ],
+     "a": 0,
+     "why": "Bài viết “鸟是绿色的”."
+    },
+    {
+     "zh": "我家有什么？",
+     "vi": "Nhà tôi có gì?",
+     "opts": [
+      "猫和狗",
+      "狗和鸟",
+      "鱼和猫",
+      "猫和鸟"
+     ],
+     "a": 3,
+     "why": "Bài viết “我家有一只猫和一只鸟”."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Cuộc gọi của bạn",
+   "text": [
+    {
+     "zh": "今天是星期六，我在家看电视。",
+     "py": "Jīntiān shì xīngqī liù, wǒ zài jiā kàn diànshì.",
+     "vi": "Hôm nay là thứ Bảy, tôi ở nhà xem ti vi."
+    },
+    {
+     "zh": "朋友打电话，他请我去他家玩。",
+     "py": "Péngyou dǎ diànhuà, tā qǐng wǒ qù tā jiā wán.",
+     "vi": "Bạn gọi điện, mời tôi đến nhà bạn chơi."
+    },
+    {
+     "zh": "我说，好，我现在去。",
+     "py": "Wǒ shuō, hǎo, wǒ xiànzài qù.",
+     "vi": "Tôi nói: được, bây giờ tôi đi."
+    },
+    {
+     "zh": "他家在学校里面，很漂亮。",
+     "py": "Tā jiā zài xuéxiào lǐmiàn, hěn piàoliang.",
+     "vi": "Nhà bạn ở trong trường, rất đẹp."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "今天星期几？",
+     "vi": "Hôm nay là thứ mấy?",
+     "opts": [
+      "星期四",
+      "星期五",
+      "星期六",
+      "星期三"
+     ],
+     "a": 2,
+     "why": "Bài viết “今天是星期六”."
+    },
+    {
+     "zh": "我在家做什么？",
+     "vi": "Tôi ở nhà làm gì?",
+     "opts": [
+      "睡觉",
+      "买水果",
+      "学习汉语",
+      "看电视"
+     ],
+     "a": 3,
+     "why": "Bài viết “我在家看电视”."
+    },
+    {
+     "zh": "谁打电话？",
+     "vi": "Ai gọi điện?",
+     "opts": [
+      "哥哥",
+      "老师",
+      "妈妈",
+      "朋友"
+     ],
+     "a": 3,
+     "why": "Bài viết “朋友打电话”."
+    }
+   ]
+  }
+ ]
+}

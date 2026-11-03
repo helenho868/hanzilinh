@@ -29,6 +29,21 @@
     ul.appendChild(li);
   });
 
+  var yl = document.getElementById("levelsYct");
+  if (yl && typeof YCT_LEVELS !== "undefined") YCT_LEVELS.forEach(function (l) {
+    var li = el("li");
+    var card = el(l.ready ? "a" : "div", "level" + (l.ready ? "" : " soon"));
+    if (l.ready) card.href = l.href;
+    var head = el("span", "lhead");
+    head.appendChild(el("span", "lv", "YCT " + l.id));
+    head.appendChild(el("span", "zh", "YCT" + l.zh));
+    head.appendChild(el("span", "state", l.ready ? "→" : "Sắp có"));
+    card.appendChild(head);
+    card.appendChild(el("span", "words", l.words.toLocaleString("vi-VN") + " từ" + (l.id > 1 ? ", gồm " + l.new.toLocaleString("vi-VN") + " từ mới" : "")));
+    li.appendChild(card);
+    yl.appendChild(li);
+  });
+
   var tl = document.getElementById("tools");
   TOOLS.forEach(function (t) {
     var li = el("li");

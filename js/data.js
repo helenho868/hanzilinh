@@ -12,6 +12,15 @@ var LEVELS = [
   { id: 7, name: "7–9", zh: "七至九级", words: 11000, words3: 11000, new3: 5600, has2: false, ready: true, href: "vocab.html?level=7" }
 ];
 
+/* YCT (kỳ thi tiếng Trung cho thiếu nhi), 4 cấp viết. words: tổng số từ (cộng dồn), new: số từ mới của cấp.
+   ready: true khi cấp đó đã có dữ liệu. */
+var YCT_LEVELS = [
+  { id: 1, zh: "一级", words: 80,  new: 80,  ready: true,  href: "vocab.html?series=yct&level=1" },
+  { id: 2, zh: "二级", words: 150, new: 70,  ready: true,  href: "vocab.html?series=yct&level=2" },
+  { id: 3, zh: "三级", words: 300, new: 150, ready: false, href: "vocab.html?series=yct&level=3" },
+  { id: 4, zh: "四级", words: 600, new: 300, ready: false, href: "vocab.html?series=yct&level=4" }
+];
+
 /* Các công cụ học. ready: true khi đã làm xong. */
 var TOOLS = [
   { ic: "词", name: "Từ vựng",         desc: "Thẻ từ vựng theo cấp HSK, đánh dấu từ đã thuộc.", ready: true, href: "vocab.html?level=1" },

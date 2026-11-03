@@ -106,8 +106,8 @@
   HL.renderLevelChips("levelChips");
   $("title").textContent = "Hội thoại " + HL.label().replace(/ \(chuẩn.*\)/, "");
   document.title = $("title").textContent + " - HanziLinh";
-  $("toVocab").href = "vocab.html?level=" + HL.level + "&std=3";
-  fetch("data/hsk" + HL.level + "-dialogues.json")
+  $("toVocab").href = "vocab.html?level=" + HL.level + "&std=3" + HL.sq();
+  fetch("data/" + HL.series + HL.level + "-dialogues.json")
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {
       data = d; renderList();

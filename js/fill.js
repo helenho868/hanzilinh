@@ -195,7 +195,7 @@
   HL.renderStdChips("stdChips");
   $("title").textContent = "Điền chỗ trống " + HL.label();
   document.title = "Điền chỗ trống " + HL.label() + " - HanziLinh";
-  $("toCards").href = "vocab.html?level=" + HL.level + "&std=" + HL.std;
+  $("toCards").href = "vocab.html?level=" + HL.level + "&std=" + HL.std + HL.sq();
   fetch(HL.dataUrl())
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {

@@ -1,0 +1,357 @@
+{
+ "level": 1,
+ "standard": "YCT",
+ "count": 5,
+ "passages": [
+  {
+   "id": 1,
+   "title": "Nhà tôi",
+   "text": [
+    {
+     "zh": "我家有四口人。",
+     "py": "Wǒ jiā yǒu sì kǒu rén.",
+     "vi": "Nhà tôi có bốn người."
+    },
+    {
+     "zh": "爸爸，妈妈，姐姐和我。",
+     "py": "Bàba, māma, jiějie hé wǒ.",
+     "vi": "Bố, mẹ, chị gái và tôi."
+    },
+    {
+     "zh": "爸爸是老师，他在学校。",
+     "py": "Bàba shì lǎoshī, tā zài xuéxiào.",
+     "vi": "Bố là thầy giáo, bố ở trường."
+    },
+    {
+     "zh": "妈妈在商店。",
+     "py": "Māma zài shāngdiàn.",
+     "vi": "Mẹ ở cửa hàng."
+    },
+    {
+     "zh": "姐姐八岁，她很高。",
+     "py": "Jiějie bā suì, tā hěn gāo.",
+     "vi": "Chị gái tám tuổi, chị rất cao."
+    },
+    {
+     "zh": "我喜欢我的家。",
+     "py": "Wǒ xǐhuan wǒ de jiā.",
+     "vi": "Tôi thích nhà của tôi."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "我家有几口人？",
+     "vi": "Nhà tôi có mấy người?",
+     "opts": [
+      "三口人",
+      "四口人",
+      "五口人",
+      "六口人"
+     ],
+     "a": 1,
+     "why": "Bài viết “我家有四口人”, tức là bốn người."
+    },
+    {
+     "zh": "谁是老师？",
+     "vi": "Ai là thầy giáo?",
+     "opts": [
+      "妈妈",
+      "姐姐",
+      "爸爸",
+      "我"
+     ],
+     "a": 2,
+     "why": "Bài viết “爸爸是老师”, tức là bố là thầy giáo."
+    },
+    {
+     "zh": "姐姐几岁？",
+     "vi": "Chị gái mấy tuổi?",
+     "opts": [
+      "六岁",
+      "七岁",
+      "九岁",
+      "八岁"
+     ],
+     "a": 3,
+     "why": "Bài viết “姐姐八岁”, tức là tám tuổi."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Con mèo của tôi",
+   "text": [
+    {
+     "zh": "我喜欢猫。",
+     "py": "Wǒ xǐhuan māo.",
+     "vi": "Tôi thích mèo."
+    },
+    {
+     "zh": "我家有一个猫，猫很小。",
+     "py": "Wǒ jiā yǒu yī gè māo, māo hěn xiǎo.",
+     "vi": "Nhà tôi có một con mèo, mèo rất nhỏ."
+    },
+    {
+     "zh": "我的猫眼睛很大。",
+     "py": "Wǒ de māo yǎnjing hěn dà.",
+     "vi": "Mắt con mèo của tôi rất to."
+    },
+    {
+     "zh": "猫喜欢吃鱼，喜欢喝牛奶。",
+     "py": "Māo xǐhuan chī yú, xǐhuan hē niúnǎi.",
+     "vi": "Mèo thích ăn cá, thích uống sữa."
+    },
+    {
+     "zh": "我爱我的猫。",
+     "py": "Wǒ ài wǒ de māo.",
+     "vi": "Tôi yêu con mèo của tôi."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "猫喜欢吃什么？",
+     "vi": "Mèo thích ăn gì?",
+     "opts": [
+      "米饭",
+      "面条",
+      "苹果",
+      "鱼"
+     ],
+     "a": 3,
+     "why": "Bài viết “猫喜欢吃鱼”, mèo thích ăn cá."
+    },
+    {
+     "zh": "猫喜欢喝什么？",
+     "vi": "Mèo thích uống gì?",
+     "opts": [
+      "苹果",
+      "水",
+      "面条",
+      "牛奶"
+     ],
+     "a": 3,
+     "why": "Bài viết “喜欢喝牛奶”, thích uống sữa."
+    },
+    {
+     "zh": "我家有什么？",
+     "vi": "Nhà tôi có gì?",
+     "opts": [
+      "狗",
+      "鸟",
+      "猫",
+      "鱼"
+     ],
+     "a": 2,
+     "why": "Bài viết “我家有一个猫”, nhà có một con mèo."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Hôm nay",
+   "text": [
+    {
+     "zh": "今天是五月五号，星期三。",
+     "py": "Jīntiān shì wǔ yuè wǔ hào, xīngqī sān.",
+     "vi": "Hôm nay là mùng năm tháng Năm, thứ Tư."
+    },
+    {
+     "zh": "我在学校，老师很好。",
+     "py": "Wǒ zài xuéxiào, lǎoshī hěn hǎo.",
+     "vi": "Tôi ở trường, thầy cô rất tốt."
+    },
+    {
+     "zh": "现在十点，我吃苹果。",
+     "py": "Xiànzài shí diǎn, wǒ chī píngguǒ.",
+     "vi": "Bây giờ mười giờ, tôi ăn táo."
+    },
+    {
+     "zh": "我喝水。",
+     "py": "Wǒ hē shuǐ.",
+     "vi": "Tôi uống nước."
+    },
+    {
+     "zh": "明天星期四。",
+     "py": "Míngtiān xīngqī sì.",
+     "vi": "Ngày mai là thứ Năm."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "今天星期几？",
+     "vi": "Hôm nay là thứ mấy?",
+     "opts": [
+      "星期二",
+      "星期三",
+      "星期四",
+      "星期五"
+     ],
+     "a": 1,
+     "why": "Bài viết “今天是五月五号，星期三”."
+    },
+    {
+     "zh": "现在几点？",
+     "vi": "Bây giờ là mấy giờ?",
+     "opts": [
+      "八点",
+      "九点",
+      "十一点",
+      "十点"
+     ],
+     "a": 3,
+     "why": "Bài viết “现在十点”, tức là mười giờ."
+    },
+    {
+     "zh": "今天是几月几号？",
+     "vi": "Hôm nay là ngày mấy tháng mấy?",
+     "opts": [
+      "四月五号",
+      "五月四号",
+      "五月五号",
+      "六月五号"
+     ],
+     "a": 2,
+     "why": "Bài viết “今天是五月五号”."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Ở cửa hàng",
+   "text": [
+    {
+     "zh": "我和妈妈去商店。",
+     "py": "Wǒ hé māma qù shāngdiàn.",
+     "vi": "Tôi và mẹ đi đến cửa hàng."
+    },
+    {
+     "zh": "商店很大。",
+     "py": "Shāngdiàn hěn dà.",
+     "vi": "Cửa hàng rất lớn."
+    },
+    {
+     "zh": "妈妈看苹果，我看鱼。",
+     "py": "Māma kàn píngguǒ, wǒ kàn yú.",
+     "vi": "Mẹ xem táo, tôi xem cá."
+    },
+    {
+     "zh": "我喜欢大苹果，妈妈喜欢小苹果。",
+     "py": "Wǒ xǐhuan dà píngguǒ, māma xǐhuan xiǎo píngguǒ.",
+     "vi": "Tôi thích táo to, mẹ thích táo nhỏ."
+    },
+    {
+     "zh": "我们很高兴。",
+     "py": "Wǒmen hěn gāoxìng.",
+     "vi": "Chúng tôi rất vui."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "谁去商店？",
+     "vi": "Ai đi đến cửa hàng?",
+     "opts": [
+      "我和爸爸",
+      "我和姐姐",
+      "我和哥哥",
+      "我和妈妈"
+     ],
+     "a": 3,
+     "why": "Bài viết “我和妈妈去商店”."
+    },
+    {
+     "zh": "妈妈看什么？",
+     "vi": "Mẹ xem gì?",
+     "opts": [
+      "牛奶",
+      "鱼",
+      "面条",
+      "苹果"
+     ],
+     "a": 3,
+     "why": "Bài viết “妈妈看苹果”."
+    },
+    {
+     "zh": "商店大吗？",
+     "vi": "Cửa hàng có to không?",
+     "opts": [
+      "很小",
+      "很大",
+      "不大",
+      "很高"
+     ],
+     "a": 1,
+     "why": "Bài viết “商店很大”, cửa hàng rất lớn."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Anh trai tôi",
+   "text": [
+    {
+     "zh": "我哥哥十岁。",
+     "py": "Wǒ gēge shí suì.",
+     "vi": "Anh trai tôi mười tuổi."
+    },
+    {
+     "zh": "他很高，头发很长。",
+     "py": "Tā hěn gāo, tóufa hěn cháng.",
+     "vi": "Anh ấy rất cao, tóc rất dài."
+    },
+    {
+     "zh": "他喜欢看鸟。",
+     "py": "Tā xǐhuan kàn niǎo.",
+     "vi": "Anh ấy thích ngắm chim."
+    },
+    {
+     "zh": "他喜欢吃面条和米饭。",
+     "py": "Tā xǐhuan chī miàntiáo hé mǐfàn.",
+     "vi": "Anh ấy thích ăn mì và cơm."
+    },
+    {
+     "zh": "我爱我哥哥。",
+     "py": "Wǒ ài wǒ gēge.",
+     "vi": "Tôi yêu anh trai tôi."
+    }
+   ],
+   "questions": [
+    {
+     "zh": "哥哥几岁？",
+     "vi": "Anh trai mấy tuổi?",
+     "opts": [
+      "九岁",
+      "十岁",
+      "八岁",
+      "七岁"
+     ],
+     "a": 1,
+     "why": "Bài viết “我哥哥十岁”, tức là mười tuổi."
+    },
+    {
+     "zh": "哥哥喜欢看什么？",
+     "vi": "Anh trai thích ngắm gì?",
+     "opts": [
+      "鱼",
+      "猫",
+      "狗",
+      "鸟"
+     ],
+     "a": 3,
+     "why": "Bài viết “他喜欢看鸟”, anh thích ngắm chim."
+    },
+    {
+     "zh": "哥哥喜欢吃什么？",
+     "vi": "Anh trai thích ăn gì?",
+     "opts": [
+      "苹果和鱼",
+      "鱼和面条",
+      "牛奶和水",
+      "面条和米饭"
+     ],
+     "a": 3,
+     "why": "Bài viết “他喜欢吃面条和米饭”."
+    }
+   ]
+  }
+ ]
+}

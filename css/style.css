@@ -78,3 +78,6 @@ a.tool .state{color:var(--jade)}
   .level .state{display:none}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.chip.ser{font-weight:700}
+.chipsep{color:var(--line);align-self:center;padding:0 2px}

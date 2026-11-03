@@ -183,7 +183,7 @@
   HL.renderStdChips("stdChips");
   $("title").textContent = "Từ vựng " + HL.label();
   document.title = "Từ vựng " + HL.label() + " - HanziLinh";
-  $("toQuiz").href = "quiz.html?level=" + HL.level + "&std=" + HL.std;
+  $("toQuiz").href = "quiz.html?level=" + HL.level + "&std=" + HL.std + HL.sq();
   fetch(HL.dataUrl())
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {

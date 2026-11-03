@@ -1,0 +1,343 @@
+{
+ "level": 2,
+ "standard": "YCT",
+ "count": 6,
+ "dialogues": [
+  {
+   "id": 1,
+   "title": "Mua hoa quả",
+   "scene": "Một bạn nhỏ mua hoa quả ở cửa hàng.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好，这个苹果多少钱？",
+     "py": "Nǐ hǎo, zhè gè píngguǒ duōshao qián?",
+     "vi": "Chào bác, quả táo này bao nhiêu tiền?"
+    },
+    {
+     "s": "B",
+     "zh": "这个苹果三块钱。",
+     "py": "Zhè gè píngguǒ sān kuài qián.",
+     "vi": "Quả táo này ba tệ."
+    },
+    {
+     "s": "A",
+     "zh": "那个香蕉呢？",
+     "py": "Nà gè xiāngjiāo ne?",
+     "vi": "Còn quả chuối kia thì sao?"
+    },
+    {
+     "s": "B",
+     "zh": "香蕉两块钱，很好吃！",
+     "py": "Xiāngjiāo liǎng kuài qián, hěn hǎochī!",
+     "vi": "Chuối hai tệ, rất ngon!"
+    },
+    {
+     "s": "A",
+     "zh": "我要两个苹果和三个香蕉。",
+     "py": "Wǒ yào liǎng gè píngguǒ hé sān gè xiāngjiāo.",
+     "vi": "Cháu muốn hai quả táo và ba quả chuối."
+    },
+    {
+     "s": "B",
+     "zh": "好，谢谢你！",
+     "py": "Hǎo, xièxie nǐ!",
+     "vi": "Được, cảm ơn cháu!"
+    },
+    {
+     "s": "A",
+     "zh": "不客气。",
+     "py": "Bú kèqi.",
+     "vi": "Không có gì."
+    },
+    {
+     "s": "B",
+     "zh": "再见！",
+     "py": "Zàijiàn!",
+     "vi": "Tạm biệt!"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Thời tiết",
+   "scene": "Hai bạn nói chuyện về thời tiết.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "今天天气怎么样？",
+     "py": "Jīntiān tiānqì zěnmeyàng?",
+     "vi": "Hôm nay thời tiết thế nào?"
+    },
+    {
+     "s": "B",
+     "zh": "今天很冷，昨天很热。",
+     "py": "Jīntiān hěn lěng, zuótiān hěn rè.",
+     "vi": "Hôm nay rất lạnh, hôm qua rất nóng."
+    },
+    {
+     "s": "A",
+     "zh": "明天天气怎么样？",
+     "py": "Míngtiān tiānqì zěnmeyàng?",
+     "vi": "Ngày mai thời tiết thế nào?"
+    },
+    {
+     "s": "B",
+     "zh": "明天也很冷。",
+     "py": "Míngtiān yě hěn lěng.",
+     "vi": "Ngày mai cũng rất lạnh."
+    },
+    {
+     "s": "A",
+     "zh": "我喜欢冷天气，你呢？",
+     "py": "Wǒ xǐhuan lěng tiānqì, nǐ ne?",
+     "vi": "Tôi thích trời lạnh, còn bạn?"
+    },
+    {
+     "s": "B",
+     "zh": "我喜欢热天气。",
+     "py": "Wǒ xǐhuan rè tiānqì.",
+     "vi": "Tôi thích trời nóng."
+    },
+    {
+     "s": "A",
+     "zh": "你在家做什么？",
+     "py": "Nǐ zài jiā zuò shénme?",
+     "vi": "Bạn ở nhà làm gì?"
+    },
+    {
+     "s": "B",
+     "zh": "我在家看电视。",
+     "py": "Wǒ zài jiā kàn diànshì.",
+     "vi": "Tôi ở nhà xem ti vi."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Một ngày của tôi",
+   "scene": "Hai bạn hỏi về giờ giấc trong ngày.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你几点起床？",
+     "py": "Nǐ jǐ diǎn qǐchuáng?",
+     "vi": "Bạn mấy giờ dậy?"
+    },
+    {
+     "s": "B",
+     "zh": "我早上七点起床。",
+     "py": "Wǒ zǎoshang qī diǎn qǐchuáng.",
+     "vi": "Tôi bảy giờ sáng dậy."
+    },
+    {
+     "s": "A",
+     "zh": "你几点去学校？",
+     "py": "Nǐ jǐ diǎn qù xuéxiào?",
+     "vi": "Bạn mấy giờ đến trường?"
+    },
+    {
+     "s": "B",
+     "zh": "我八点去学校。",
+     "py": "Wǒ bā diǎn qù xuéxiào.",
+     "vi": "Tôi tám giờ đến trường."
+    },
+    {
+     "s": "A",
+     "zh": "你晚上几点睡觉？",
+     "py": "Nǐ wǎnshang jǐ diǎn shuìjiào?",
+     "vi": "Buổi tối bạn mấy giờ đi ngủ?"
+    },
+    {
+     "s": "B",
+     "zh": "我晚上九点睡觉。你呢？",
+     "py": "Wǒ wǎnshang jiǔ diǎn shuìjiào. Nǐ ne?",
+     "vi": "Tôi chín giờ tối đi ngủ. Còn bạn?"
+    },
+    {
+     "s": "A",
+     "zh": "我也九点睡觉。",
+     "py": "Wǒ yě jiǔ diǎn shuìjiào.",
+     "vi": "Tôi cũng chín giờ đi ngủ."
+    },
+    {
+     "s": "B",
+     "zh": "好，明天见！",
+     "py": "Hǎo, míngtiān jiàn!",
+     "vi": "Được, ngày mai gặp nhé!"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Làm quen bạn mới",
+   "scene": "Hai bạn gặp nhau lần đầu.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好，我叫小明。你叫什么名字？",
+     "py": "Nǐ hǎo, wǒ jiào Xiǎo Míng. Nǐ jiào shénme míngzi?",
+     "vi": "Chào bạn, tôi tên là Tiểu Minh. Bạn tên là gì?"
+    },
+    {
+     "s": "B",
+     "zh": "我叫大明，我是你的同学。",
+     "py": "Wǒ jiào Đại Míng, wǒ shì nǐ de tóngxué.",
+     "vi": "Tôi tên là Đại Minh, tôi là bạn học của bạn."
+    },
+    {
+     "s": "A",
+     "zh": "你家在北京吗？",
+     "py": "Nǐ jiā zài Běijīng ma?",
+     "vi": "Nhà bạn ở Bắc Kinh phải không?"
+    },
+    {
+     "s": "B",
+     "zh": "对，我家在北京。你呢？",
+     "py": "Duì, wǒ jiā zài Běijīng. Nǐ ne?",
+     "vi": "Đúng, nhà tôi ở Bắc Kinh. Còn bạn?"
+    },
+    {
+     "s": "A",
+     "zh": "我家也在北京。",
+     "py": "Wǒ jiā yě zài Běijīng.",
+     "vi": "Nhà tôi cũng ở Bắc Kinh."
+    },
+    {
+     "s": "B",
+     "zh": "真好！我们是好朋友。",
+     "py": "Zhēn hǎo! Wǒmen shì hǎo péngyou.",
+     "vi": "Tuyệt quá! Chúng ta là bạn tốt."
+    },
+    {
+     "s": "A",
+     "zh": "谢谢你！",
+     "py": "Xièxie nǐ!",
+     "vi": "Cảm ơn bạn!"
+    },
+    {
+     "s": "B",
+     "zh": "不客气。",
+     "py": "Bú kèqi.",
+     "vi": "Đừng khách sáo."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Phòng của tôi",
+   "scene": "Hai bạn nói về căn phòng của mình.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你的房间大吗？",
+     "py": "Nǐ de fángjiān dà ma?",
+     "vi": "Phòng của bạn có to không?"
+    },
+    {
+     "s": "B",
+     "zh": "我的房间很大，里面有桌子和椅子。",
+     "py": "Wǒ de fángjiān hěn dà, lǐmiàn yǒu zhuōzi hé yǐzi.",
+     "vi": "Phòng tôi rất to, bên trong có bàn và ghế."
+    },
+    {
+     "s": "A",
+     "zh": "桌子上边有什么？",
+     "py": "Zhuōzi shàngbian yǒu shénme?",
+     "vi": "Trên bàn có gì?"
+    },
+    {
+     "s": "B",
+     "zh": "桌子上边有书包和铅笔。",
+     "py": "Zhuōzi shàngbian yǒu shūbāo hé qiānbǐ.",
+     "vi": "Trên bàn có cặp sách và bút chì."
+    },
+    {
+     "s": "A",
+     "zh": "你的书包是什么颜色？",
+     "py": "Nǐ de shūbāo shì shénme yánsè?",
+     "vi": "Cặp sách của bạn màu gì?"
+    },
+    {
+     "s": "B",
+     "zh": "我的书包是红色的。",
+     "py": "Wǒ de shūbāo shì hóng sè de.",
+     "vi": "Cặp sách của tôi màu đỏ."
+    },
+    {
+     "s": "A",
+     "zh": "真漂亮！",
+     "py": "Zhēn piàoliang!",
+     "vi": "Đẹp quá!"
+    },
+    {
+     "s": "B",
+     "zh": "谢谢！你的房间呢？",
+     "py": "Xièxie! Nǐ de fángjiān ne?",
+     "vi": "Cảm ơn! Còn phòng của bạn?"
+    },
+    {
+     "s": "A",
+     "zh": "我的房间很小，里面有一只猫。",
+     "py": "Wǒ de fángjiān hěn xiǎo, lǐmiàn yǒu yī zhī māo.",
+     "vi": "Phòng tôi rất nhỏ, bên trong có một con mèo."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Gọi điện thoại",
+   "scene": "Hai bạn gọi điện cho nhau.",
+   "lines": [
+    {
+     "s": "A",
+     "zh": "你好，你是大明吗？",
+     "py": "Nǐ hǎo, nǐ shì Đại Míng ma?",
+     "vi": "Xin chào, bạn là Đại Minh phải không?"
+    },
+    {
+     "s": "B",
+     "zh": "对，我是大明。你是谁？",
+     "py": "Duì, wǒ shì Đại Míng. Nǐ shì shéi?",
+     "vi": "Đúng, tôi là Đại Minh. Bạn là ai?"
+    },
+    {
+     "s": "A",
+     "zh": "我是小明。你在家吗？",
+     "py": "Wǒ shì Xiǎo Míng. Nǐ zài jiā ma?",
+     "vi": "Tôi là Tiểu Minh. Bạn có ở nhà không?"
+    },
+    {
+     "s": "B",
+     "zh": "在，我在家看电视。",
+     "py": "Zài, wǒ zài jiā kàn diànshì.",
+     "vi": "Có, tôi ở nhà xem ti vi."
+    },
+    {
+     "s": "A",
+     "zh": "你来我家玩，好吗？",
+     "py": "Nǐ lái wǒ jiā wán, hǎo ma?",
+     "vi": "Bạn đến nhà tôi chơi nhé?"
+    },
+    {
+     "s": "B",
+     "zh": "好，我现在去。",
+     "py": "Hǎo, wǒ xiànzài qù.",
+     "vi": "Được, bây giờ tôi đi."
+    },
+    {
+     "s": "A",
+     "zh": "请你来！",
+     "py": "Qǐng nǐ lái!",
+     "vi": "Mời bạn đến!"
+    },
+    {
+     "s": "B",
+     "zh": "谢谢，再见！",
+     "py": "Xièxie, zàijiàn!",
+     "vi": "Cảm ơn, hẹn gặp lại!"
+    }
+   ]
+  }
+ ]
+}
