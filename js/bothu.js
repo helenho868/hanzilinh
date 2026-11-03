@@ -91,11 +91,28 @@
   $("t1").onclick = function () { tab(1); }; $("t2").onclick = function () { tab(2); };
 
   /* ---- Kiểm tra ---- */
-  var qs = [], qi = 0, qsc = 0;
+  var qs = [], qi = 0, qsc = 0, perQ = 0, endAt = 0, startAt = 0, timerId = null, finished = false;
   function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function bk() { return mode + (perQ ? "_t" + perQ : ""); }
+  function fmt(s) { s = Math.max(0, s); var m = Math.floor(s / 60), r = s % 60; return m + ":" + (r < 10 ? "0" : "") + r; }
   function showBest() {
-    var b = load(BK)[mode]; $("qBest").textContent = b !== undefined ? "Điểm cao nhất: " + b + "/10" : "Chưa có điểm. Mỗi lần làm 10 bộ thủ ngẫu nhiên.";
+    var b = load(BK)[bk()];
+    if (b && typeof b === "object") $("qBest").textContent = "Điểm cao nhất: " + b.score + "/10, thời gian " + fmt(b.secs) + ".";
+    else if (typeof b === "number") $("qBest").textContent = "Điểm cao nhất: " + b + "/10.";
+    else $("qBest").textContent = "Chưa có điểm. Mỗi lần làm 10 bộ thủ ngẫu nhiên.";
   }
+  function stopTimer() { if (timerId) { clearInterval(timerId); timerId = null; } $("qTimer").classList.add("hide"); }
+  function tick() {
+    var left = Math.ceil((endAt - Date.now()) / 1000), t = $("qTimer");
+    t.textContent = "⏱ " + fmt(left); t.classList.toggle("low", left <= 15);
+    if (left <= 0) finish(true);
+  }
+  document.querySelectorAll("#qTime .chip").forEach(function (b) {
+    b.onclick = function () {
+      document.querySelectorAll("#qTime .chip").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+      b.setAttribute("aria-pressed", "true"); perQ = parseInt(b.getAttribute("data-t"), 10) || 0; showBest();
+    };
+  });
   document.querySelectorAll("#qMode .chip").forEach(function (b) {
     b.onclick = function () {
       document.querySelectorAll("#qMode .chip").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
@@ -127,17 +144,22 @@
       box.appendChild(b);
     });
   }
-  function finish() {
+  function finish(timeout) {
+    if (finished) return; finished = true; stopTimer();
+    var secs = Math.round((Date.now() - startAt) / 1000);
+    if (perQ) secs = Math.min(secs, perQ * 10);
     $("qPlay").classList.add("hide"); $("qEnd").classList.remove("hide");
-    var b = load(BK), old = b[mode];
-    if (!(old >= qsc)) { b[mode] = qsc; save(BK, b); }
-    $("qRes").textContent = "Bạn đúng " + qsc + "/10 câu." + (qsc === 10 ? " Rất tốt!" : " Hãy xem lại các bộ thủ trong danh sách rồi thử lại.");
+    var b = load(BK), key = bk(), old = b[key], oldScore = old && typeof old === "object" ? old.score : old;
+    var oldSecs = old && typeof old === "object" ? old.secs : 1e9;
+    if (!(oldScore > qsc) && !(oldScore === qsc && oldSecs <= secs)) { b[key] = { score: qsc, secs: secs }; save(BK, b); }
+    $("qRes").textContent = (timeout ? "Hết giờ. " : "") + "Bạn đúng " + qsc + "/10 câu, thời gian " + fmt(secs) + "." + (qsc === 10 ? " Rất tốt!" : " Hãy xem lại các bộ thủ trong danh sách rồi thử lại.");
   }
   $("qStart").onclick = function () {
-    qs = shuffle(RS.slice()).slice(0, 10); qi = 0; qsc = 0;
+    qs = shuffle(RS.slice()).slice(0, 10); qi = 0; qsc = 0; finished = false; startAt = Date.now(); stopTimer();
+    if (perQ) { endAt = startAt + perQ * 10 * 1000; $("qTimer").classList.remove("hide"); tick(); timerId = setInterval(tick, 250); }
     $("qSetup").classList.add("hide"); $("qEnd").classList.add("hide"); $("qPlay").classList.remove("hide"); ask();
   };
-  $("qNext").onclick = function () { if (qi === 9) finish(); else { qi++; ask(); } };
+  $("qNext").onclick = function () { if (qi === 9) finish(false); else { qi++; ask(); } };
   $("qAgain").onclick = function () { $("qEnd").classList.add("hide"); $("qSetup").classList.remove("hide"); showBest(); };
 
   fetch("data/radicals.json").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) {

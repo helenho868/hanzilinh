@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif+SC:wght@600;900&family=Noto+Sans:wght@500;600&family=Noto+Sans+SC:wght@500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=5">
 <link rel="stylesheet" href="css/vocab.css">
-<link rel="stylesheet" href="css/bothu.css?v=3">
+<link rel="stylesheet" href="css/bothu.css?v=4">
 </head>
 <body>
 <header class="top">
@@ -45,11 +45,15 @@
         <button class="chip" type="button" data-m="hv" aria-pressed="true">Hỏi tên Hán Việt</button>
         <button class="chip" type="button" data-m="vi" aria-pressed="false">Hỏi nghĩa</button>
       </div>
+      <div class="chips" id="qTime" role="group" aria-label="Thời gian">
+        <button class="chip" type="button" data-t="0" aria-pressed="true">Không tính giờ</button>
+        <button class="chip" type="button" data-t="15" aria-pressed="false">Đếm ngược (15 giây mỗi câu)</button>
+      </div>
       <p class="meta" id="qBest"></p>
       <button class="btn2 p" id="qStart" type="button">Bắt đầu (10 câu)</button>
     </div>
     <div id="qPlay" class="hide">
-      <p class="meta"><span id="qNo"></span><span id="qScore"></span></p>
+      <p class="meta"><span id="qNo"></span><span id="qTimer" class="qtimer hide" role="timer" aria-label="Thời gian còn lại"></span><span id="qScore"></span></p>
       <div class="qbox"><span class="qch" id="qCh"></span></div>
       <p class="qask" id="qAsk"></p>
       <div class="qopts" id="qOpts"></div>
@@ -88,6 +92,6 @@
   <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
 </footer>
 
-<script src="js/bothu.js?v=2"></script>
+<script src="js/bothu.js?v=3"></script>
 </body>
 </html>

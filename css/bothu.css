@@ -41,3 +41,5 @@
 .filters .search{flex:1 1 260px;margin-bottom:0}
 .sel{flex:1 1 100%;max-width:100%;font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);cursor:pointer}
 .sel:focus,.filters .search:focus{outline:2px solid var(--jade);outline-offset:1px}
+.qtimer{font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
+.qtimer.low{color:var(--seal)}
