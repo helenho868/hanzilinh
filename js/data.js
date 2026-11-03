@@ -20,5 +20,5 @@ var TOOLS = [
   { ic: "拖", name: "Kéo thả",        desc: "Kéo từ vào đúng câu ví dụ, mỗi phần 5 câu.", ready: true, href: "drag.html?level=1" },
   { ic: "话", name: "Hội thoại",       desc: "Đoạn hội thoại ngắn theo chủ đề, có nghe và tập vai.", ready: true, href: "dialogue.html?level=1" },
   { ic: "读", name: "Đọc hiểu",        desc: "Bài đọc ngắn từ dễ đến khó, kèm câu hỏi trắc nghiệm.", ready: true, href: "reading.html?level=1" },
-  { ic: "部", name: "Bộ thủ",          desc: "214 bộ thủ và cách nhớ chữ Hán.", ready: false }
+  { ic: "部", name: "Bộ thủ",          desc: "214 bộ thủ: tên Hán Việt, nghĩa, ví dụ và bài kiểm tra.", ready: true, href: "bothu.html" }
 ];

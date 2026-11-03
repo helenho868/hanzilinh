@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bộ thủ chữ Hán - HanziLinh</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif+SC:wght@600;900&family=Noto+Sans:wght@500;600&family=Noto+Sans+SC:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/vocab.css">
+<link rel="stylesheet" href="css/bothu.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html" aria-label="HanziLinh, trang chủ">
+    <span class="seal" aria-hidden="true">学</span>
+    <span class="brand-name">HanziLinh</span>
+  </a>
+  <nav aria-label="Menu chính">
+    <a href="index.html#cap-do">Cấp độ HSK</a>
+    <a href="index.html#cong-cu">Công cụ học</a>
+  </nav>
+</header>
+
+<main class="narrow">
+  <h1>Bộ thủ chữ Hán</h1>
+  <p class="lead" id="info">Đang tải dữ liệu...</p>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="t1" aria-selected="true" type="button">Danh sách</button>
+    <button class="tab" role="tab" id="t2" aria-selected="false" type="button">Kiểm tra</button>
+  </div>
+
+  <section id="p1">
+    <input class="search" id="q" type="search" placeholder="Tìm theo chữ, phiên âm, tên Hán Việt hoặc nghĩa" aria-label="Tìm bộ thủ">
+    <div class="chips" id="strokeChips" role="group" aria-label="Lọc theo số nét"></div>
+    <p class="meta" id="count"></p>
+    <ul class="rgrid" id="grid"></ul>
+  </section>
+
+  <section id="p2" class="hide">
+    <div id="qSetup">
+      <div class="chips" id="qMode" role="group" aria-label="Kiểu câu hỏi">
+        <button class="chip" type="button" data-m="hv" aria-pressed="true">Hỏi tên Hán Việt</button>
+        <button class="chip" type="button" data-m="vi" aria-pressed="false">Hỏi nghĩa</button>
+      </div>
+      <p class="meta" id="qBest"></p>
+      <button class="btn2 p" id="qStart" type="button">Bắt đầu (10 câu)</button>
+    </div>
+    <div id="qPlay" class="hide">
+      <p class="meta"><span id="qNo"></span><span id="qScore"></span></p>
+      <div class="qbox"><span class="qch" id="qCh"></span></div>
+      <p class="qask" id="qAsk"></p>
+      <div class="qopts" id="qOpts"></div>
+      <p class="qfb hide" id="qFb"></p>
+      <button class="btn2 p hide" id="qNext" type="button">Câu tiếp theo</button>
+    </div>
+    <div id="qEnd" class="hide">
+      <p class="rscore" id="qRes"></p>
+      <button class="btn2 p" id="qAgain" type="button">Làm lại</button>
+    </div>
+  </section>
+
+  <dialog id="dlg" class="rdlg">
+    <button class="btn2 close" id="dClose" type="button" aria-label="Đóng">Đóng</button>
+    <div class="dhead">
+      <span class="dch" id="dCh"></span>
+      <div>
+        <p class="dpy" id="dPy"></p>
+        <p class="dhv" id="dHv"></p>
+      </div>
+    </div>
+    <p class="dvi" id="dVi"></p>
+    <p class="dmeta" id="dMeta"></p>
+    <h3 class="dex">Ví dụ trong từ vựng HSK</h3>
+    <ul class="exl" id="dEx"></ul>
+    <p class="voice-note hide" id="voiceNote"></p>
+    <button class="btn2" id="dKnown" type="button" aria-pressed="false">Đánh dấu đã nhớ</button>
+    <div class="row ctrl nav">
+      <button class="btn2" id="dPrev" type="button">&larr; Trước</button>
+      <button class="btn2 p" id="dNext" type="button">Sau &rarr;</button>
+    </div>
+  </dialog>
+</main>
+
+<footer class="foot">
+  <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
+</footer>
+
+<script src="js/bothu.js"></script>
+</body>
+</html>
