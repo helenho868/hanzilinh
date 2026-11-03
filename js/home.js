@@ -115,30 +115,4 @@
     if (typeof YCT_LEVELS !== "undefined") YCT_LEVELS.forEach(function (l) { if (l.ready) add("YCT " + l.id, cnt("hanzilinh_known_yct" + l.id), l.new, best("hanzilinh_exambest_yct" + l.id)); });
     if (!rows) pb.appendChild(el("p", "muted", "Chưa có số liệu. Ở trang Từ vựng, bấm \"Đã thuộc\" cho từ bạn nhớ, tiến độ sẽ hiện ở đây. Dữ liệu chỉ lưu trên máy này."));
   })();
-
-  /* ---- Từ của hôm nay: mỗi ngày một từ, cùng một từ cho cả ngày trên máy này ---- */
-  (function () {
-    var box = document.getElementById("wotdBody");
-    var now = new Date(), day = Math.floor((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - new Date(2024, 0, 1)) / 86400000);
-    var files = ["hsk1-v3", "hsk2-v3", "hsk3-v3"];
-    if (book === "yct") files = ["yct1", "yct2"];
-    var f = files[day % files.length];
-    fetch("data/" + f + "-vocab.json").then(function (r) { return r.json(); }).then(function (d) {
-      var ws = d.words.filter(function (w) { return w.ex && w.ex.zh; });
-      var w = ws[(day * 7919) % ws.length];
-      box.innerHTML = "";
-      box.appendChild(el("p", "wd-zh", w.hanzi));
-      box.appendChild(el("p", "wd-py", w.pinyin));
-      box.appendChild(el("p", "wd-vi", (w.emoji ? w.emoji + " " : "") + w.vi));
-      var ex = el("div", "wd-ex"); ex.appendChild(el("p", "z", w.ex.zh)); ex.appendChild(el("p", "p", w.ex.py)); ex.appendChild(el("p", "v", w.ex.vi)); box.appendChild(ex);
-      var lv = f.indexOf("yct") === 0 ? "YCT " + f.charAt(3) : "HSK " + f.charAt(3);
-      box.appendChild(el("p", "muted", "Lấy từ " + lv));
-      if (window.speechSynthesis && typeof SpeechSynthesisUtterance !== "undefined") {
-        var row = el("div", "btnrow"), b = el("button", "mini alt", "▶ Nghe từ"), b2 = el("button", "mini alt", "▶ Nghe câu");
-        function say(t) { try { speechSynthesis.cancel(); var u = new SpeechSynthesisUtterance(t); u.lang = "zh-CN"; u.rate = 0.85; var vs = speechSynthesis.getVoices() || []; for (var i = 0; i < vs.length; i++) if (/^zh/i.test(vs[i].lang)) { u.voice = vs[i]; break; } speechSynthesis.speak(u); } catch (e) {} }
-        b.type = b2.type = "button"; b.onclick = function () { say(w.hanzi); }; b2.onclick = function () { say(w.ex.zh); };
-        row.appendChild(b); row.appendChild(b2); box.appendChild(row);
-      }
-    }).catch(function () { box.innerHTML = ""; box.appendChild(el("p", "muted", "Chưa tải được từ hôm nay.")); });
-  })();
 })();

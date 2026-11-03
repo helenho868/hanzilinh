@@ -104,15 +104,8 @@ a.tool .state{color:var(--jade)}
 .prow .pl b{font-weight:700}
 .pbar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:4px}
 .pbar i{display:block;height:100%;background:var(--jade)}
-.wd-zh{font-family:"Noto Serif SC","Songti SC",serif;font-weight:900;font-size:3rem;line-height:1.15;margin:0;color:var(--ink)}
-.wd-py{color:var(--jade);font-weight:600;margin:0}
-.wd-vi{margin:2px 0 8px}
-.wd-ex{border-top:1px solid var(--line);padding-top:8px;font-size:.92rem}
-.wd-ex .z{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;font-size:1.05rem;margin:0}
-.wd-ex .p,.wd-ex .v{margin:2px 0 0;color:var(--mute)}
 @media (min-width:1480px){
   .page{display:grid;grid-template-columns:minmax(200px,1fr) 1040px minmax(200px,1fr);align-items:start}
   .page main{order:0;grid-column:2;grid-row:1}
   #sideL{order:0;grid-column:1;grid-row:1;grid-template-columns:1fr;max-width:300px;justify-self:end;margin:0 16px 0 0;padding:96px 0 0;position:sticky;top:12px}
-  #sideR{order:0;grid-column:3;grid-row:1;grid-template-columns:1fr;max-width:300px;justify-self:start;margin:0 0 0 16px;padding:96px 0 0;position:sticky;top:12px}
 }
