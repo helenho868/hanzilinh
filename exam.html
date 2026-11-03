@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luyện theo cấp độ - HanziLinh</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Sans+SC:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=7">
+<link rel="stylesheet" href="css/vocab.css">
+<link rel="stylesheet" href="css/exam.css?v=1">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html" aria-label="HanziLinh, trang chủ">
+    <span class="seal" aria-hidden="true">学</span>
+    <span class="brand-name">HanziLinh</span>
+  </a>
+  <nav aria-label="Menu chính">
+    <a href="index.html#cap-do">Cấp độ HSK</a>
+    <a href="index.html#cong-cu">Công cụ học</a>
+  </nav>
+</header>
+
+<main class="narrow">
+  <h1 id="title">Luyện theo cấp độ</h1>
+  <div class="chips std" id="levelChips" role="group" aria-label="Cấp độ"></div>
+  <p class="lead" id="info">Đang tải dữ liệu...</p>
+
+  <section id="setup" class="panel hide">
+    <p class="lbl">Cấu trúc đề</p>
+    <ul class="struct" id="struct"></ul>
+    <p class="lbl">Thời gian</p>
+    <div class="chips" id="timeChips" role="group" aria-label="Thời gian làm bài">
+      <button class="chip" type="button" data-v="on" aria-pressed="true">Đếm ngược</button>
+      <button class="chip" type="button" data-v="off" aria-pressed="false">Không giới hạn</button>
+    </div>
+    <p class="timenote" id="tnote"></p>
+    <p class="srcnote" id="srcnote"></p>
+    <p class="best" id="best"></p>
+    <button class="btn2 p full" id="start" type="button">Bắt đầu làm bài</button>
+  </section>
+
+  <p id="nospeech" class="warn hide">Trình duyệt này không phát được giọng đọc, nên phần nghe sẽ không có tiếng. Bạn mở trang bằng Chrome hoặc Safari rồi làm lại nhé.</p>
+
+  <section id="result" class="panel hide">
+    <p class="score" id="sc"></p>
+    <p class="msg" id="scd"></p>
+    <p class="msg" id="scm"></p>
+    <div class="row"><button class="btn2 p" id="again" type="button">Làm đề mới</button></div>
+    <p class="msg small">Kéo xuống để xem đáp án, lời nghe và giải thích của từng câu.</p>
+  </section>
+
+  <div id="paper" class="hide"></div>
+</main>
+
+<div class="ebar hide" id="bar">
+  <span id="bdone">Đã làm 0/0</span>
+  <span id="btimer" class="btimer" role="timer" aria-label="Thời gian còn lại"></span>
+  <button class="btn2 p" id="submit" type="button">Nộp bài</button>
+</div>
+
+<footer class="foot">
+  <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
+</footer>
+
+<script src="js/data.js?v=3"></script>
+<script src="js/common.js"></script>
+<script src="js/exam.js?v=1"></script>
+</body>
+</html>
