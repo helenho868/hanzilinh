@@ -44,11 +44,12 @@ main{max-width:1040px;margin:0 auto;padding:0 20px}
 .lead{color:var(--mute);margin:0 0 20px}
 
 .levels{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.level{display:flex;flex-direction:column;gap:4px;padding:20px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);text-decoration:none;min-height:150px}
+.level{display:flex;flex-direction:column;gap:6px;padding:16px 18px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);text-decoration:none}
+.level .lhead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .level .lv{font-weight:700;font-size:1.25rem}
 .level .zh{font-family:"Noto Serif SC","Songti SC",serif;font-weight:600;color:var(--jade);font-size:1.1rem}
 .level .words{color:var(--mute);font-size:.95rem}
-.level .state{margin-top:auto;font-size:.9rem;font-weight:600;color:var(--mute)}
+.level .state{margin-left:auto;font-size:.85rem;font-weight:600;color:var(--mute)}
 a.level:hover{border-color:var(--jade)}
 a.level .state{color:var(--jade)}
 .level.soon{opacity:.75}

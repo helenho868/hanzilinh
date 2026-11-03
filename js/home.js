@@ -11,8 +11,11 @@
     var li = el("li");
     var card = el(l.ready ? "a" : "div", "level" + (l.ready ? "" : " soon"));
     if (l.ready) card.href = l.href;
-    card.appendChild(el("span", "lv", "HSK " + (l.name || l.id)));
-    card.appendChild(el("span", "zh", "HSK" + l.zh));
+    var head = el("span", "lhead");
+    head.appendChild(el("span", "lv", "HSK " + (l.name || l.id)));
+    head.appendChild(el("span", "zh", "HSK" + l.zh));
+    head.appendChild(el("span", "state", l.ready ? "Vào học →" : "Sắp có"));
+    card.appendChild(head);
     var wt;
     if (l.words3 && l.has2 === false) {
       wt = l.words3.toLocaleString("vi-VN") + " từ (HSK 3.0)" + (l.new3 ? ", gồm " + l.new3 + " từ mới" : "");
@@ -22,7 +25,6 @@
       wt = l.words.toLocaleString("vi-VN") + " từ";
     }
     card.appendChild(el("span", "words", wt));
-    card.appendChild(el("span", "state", l.ready ? "Vào học" : "Sắp có"));
     li.appendChild(card);
     ul.appendChild(li);
   });
