@@ -14,7 +14,7 @@
     var head = el("span", "lhead");
     head.appendChild(el("span", "lv", "HSK " + (l.name || l.id)));
     head.appendChild(el("span", "zh", "HSK" + l.zh));
-    head.appendChild(el("span", "state", l.ready ? "Vào học →" : "Sắp có"));
+    head.appendChild(el("span", "state", l.ready ? "→" : "Sắp có"));
     card.appendChild(head);
     var wt;
     if (l.words3 && l.has2 === false) {
