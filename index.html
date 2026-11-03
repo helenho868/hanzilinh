@@ -7,7 +7,7 @@
 <meta name="description" content="HanziLinh: học từ vựng, ôn tập từ vựng và luyện tập tiếng Trung theo từng cấp HSK 1 đến 9 và YCT.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif+SC:wght@600;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=8">
+<link rel="stylesheet" href="css/style.css?v=9">
 </head>
 <body>
 <header class="top">
@@ -21,6 +21,18 @@
     <a href="#cong-cu">Công cụ học</a>
   </nav>
 </header>
+
+<div class="page">
+<aside class="side" id="sideL" aria-label="Tiến độ của bạn">
+  <section class="card" id="resume" aria-labelledby="t-resume">
+    <h2 id="t-resume">Tiếp tục học</h2>
+    <div id="resumeBody"></div>
+  </section>
+  <section class="card" id="progress" aria-labelledby="t-progress">
+    <h2 id="t-progress">Tiến độ của bạn</h2>
+    <div id="progressBody"></div>
+  </section>
+</aside>
 
 <main>
   <section class="hero">
@@ -64,11 +76,19 @@
   </section>
 </main>
 
+<aside class="side" id="sideR" aria-label="Từ của hôm nay">
+  <section class="card" id="wotd" aria-labelledby="t-wotd">
+    <h2 id="t-wotd">Từ của hôm nay</h2>
+    <div id="wotdBody"><p class="muted">Đang tải...</p></div>
+  </section>
+</aside>
+</div>
+
 <footer class="foot">
   <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
 </footer>
 
 <script src="js/data.js?v=4"></script>
-<script src="js/home.js?v=6"></script>
+<script src="js/home.js?v=7"></script>
 </body>
 </html>
