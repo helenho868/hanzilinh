@@ -81,3 +81,9 @@ a.tool .state{color:var(--jade)}
 
 .chip.ser{font-weight:700}
 .chipsep{color:var(--line);align-self:center;padding:0 2px}
+.chip.soon,.chip:disabled{opacity:.55;cursor:default}
+.books{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.books .chip{font:inherit;font-size:1rem;font-weight:700;padding:9px 20px;border:1.5px solid var(--line);border-radius:24px;background:var(--card);color:var(--ink);cursor:pointer}
+.books .chip[aria-pressed="true"]{background:var(--jade);border-color:var(--jade);color:var(--jade-ink)}
+.books .chip:disabled{font-weight:600}
+.hide{display:none!important}

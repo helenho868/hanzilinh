@@ -21,6 +21,14 @@ var YCT_LEVELS = [
   { id: 4, zh: "四级", words: 600, new: 300, ready: false, href: "vocab.html?series=yct&level=4" }
 ];
 
+/* Giáo trình / bộ đề. ready: true khi đã có nội dung. Boya và 301 câu dự kiến thêm sau. */
+var BOOKS = [
+  { id: "hsk",  name: "HSK",     ready: true },
+  { id: "yct",  name: "YCT",     ready: true },
+  { id: "boya", name: "Boya",    ready: false },
+  { id: "301",  name: "301 câu", ready: false }
+];
+
 /* Các công cụ học. ready: true khi đã làm xong. */
 var TOOLS = [
   { ic: "词", name: "Từ vựng",         desc: "Thẻ từ vựng theo cấp HSK, đánh dấu từ đã thuộc.", ready: true, href: "vocab.html?level=1" },

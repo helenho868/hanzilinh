@@ -83,15 +83,17 @@
     var box = document.getElementById(id);
     if (!box) return;
     box.innerHTML = "";
-    [["hsk", "HSK"], ["yct", "YCT"]].forEach(function (s) {
+    var books = typeof BOOKS === "undefined" ? [{ id: "hsk", name: "HSK", ready: true }, { id: "yct", name: "YCT", ready: true }] : BOOKS;
+    books.forEach(function (s) {
       var b = document.createElement("button");
-      b.type = "button"; b.className = "chip ser"; b.textContent = s[1];
-      b.setAttribute("aria-pressed", HL.series === s[0] ? "true" : "false");
+      b.type = "button"; b.className = "chip ser"; b.textContent = s.name + (s.ready ? "" : " (sắp có)");
+      b.setAttribute("aria-pressed", HL.series === s.id ? "true" : "false");
+      if (!s.ready) { b.disabled = true; b.classList.add("soon"); }
       b.onclick = function () {
-        if (HL.series === s[0]) return;
+        if (HL.series === s.id || !s.ready) return;
         var q = new URLSearchParams(location.search);
         q.set("level", 1); q.delete("std");
-        if (s[0] === "yct") q.set("series", "yct"); else q.delete("series");
+        if (s.id === "yct") q.set("series", "yct"); else q.delete("series");
         location.search = q.toString();
       };
       box.appendChild(b);

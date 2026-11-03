@@ -44,11 +44,32 @@
     yl.appendChild(li);
   });
 
+  /* Chọn giáo trình: chỉ hiện cấp độ của giáo trình đã chọn, và các công cụ mở đúng bộ đó. */
+  var book = "hsk";
+  try { var sv = localStorage.getItem("hanzilinh_book"); if (sv === "yct") book = "yct"; } catch (e) {}
+  var secs = { hsk: document.getElementById("cap-do"), yct: document.getElementById("cap-do-yct") };
+  function applyBook() {
+    Object.keys(secs).forEach(function (k) { if (secs[k]) secs[k].classList.toggle("hide", k !== book); });
+    document.querySelectorAll("#books .chip").forEach(function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-id") === book ? "true" : "false"); });
+    document.querySelectorAll("#tools a.tool").forEach(function (a) {
+      var h = a.getAttribute("data-base"); if (!h) return;
+      a.href = (h.indexOf("bothu") >= 0 || book === "hsk") ? h : h + "&series=yct";
+    });
+  }
+  var bx = document.getElementById("books");
+  if (bx && typeof BOOKS !== "undefined") BOOKS.forEach(function (b) {
+    var btn = el("button", "chip", b.name + (b.ready ? "" : " (sắp có)"));
+    btn.type = "button"; btn.setAttribute("data-id", b.id);
+    if (!b.ready) btn.disabled = true;
+    else btn.onclick = function () { book = b.id; try { localStorage.setItem("hanzilinh_book", book); } catch (e) {} applyBook(); };
+    bx.appendChild(btn);
+  });
+
   var tl = document.getElementById("tools");
   TOOLS.forEach(function (t) {
     var li = el("li");
     var card = el(t.ready && t.href ? "a" : "div", "tool");
-    if (t.ready && t.href) card.href = t.href;
+    if (t.ready && t.href) { card.href = t.href; card.setAttribute("data-base", t.href); }
     card.appendChild(el("span", "ic", t.ic));
     var box = el("div");
     box.appendChild(el("h3", "", t.name));
@@ -58,4 +79,5 @@
     li.appendChild(card);
     tl.appendChild(li);
   });
+  applyBook();
 })();
