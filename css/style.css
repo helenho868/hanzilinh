@@ -109,3 +109,5 @@ a.tool .state{color:var(--jade)}
   .page main{order:0;grid-column:2;grid-row:1}
   #sideL{order:0;grid-column:1;grid-row:1;grid-template-columns:1fr;max-width:300px;justify-self:end;margin:0 16px 0 0;padding:96px 0 0;position:sticky;top:12px}
 }
+.bookrow{flex-basis:100%;display:flex;align-items:center;gap:10px;margin:0 0 2px;font-weight:600;color:var(--mute);font-size:.92rem}
+.booksel{font:inherit;font-size:.95rem;font-weight:700;padding:7px 34px 7px 14px;border:1.5px solid var(--jade);border-radius:20px;background:var(--card);color:var(--ink);cursor:pointer}

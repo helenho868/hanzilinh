@@ -84,22 +84,23 @@
     if (!box) return;
     box.innerHTML = "";
     var books = typeof BOOKS === "undefined" ? [{ id: "hsk", name: "HSK", ready: true }, { id: "yct", name: "YCT", ready: true }] : BOOKS;
+    var row = document.createElement("label"); row.className = "bookrow";
+    var cap = document.createElement("span"); cap.textContent = "Giáo trình"; row.appendChild(cap);
+    var sel = document.createElement("select"); sel.className = "booksel"; sel.setAttribute("aria-label", "Giáo trình");
     books.forEach(function (s) {
-      var b = document.createElement("button");
-      b.type = "button"; b.className = "chip ser"; b.textContent = s.name + (s.ready ? "" : " (sắp có)");
-      b.setAttribute("aria-pressed", HL.series === s.id ? "true" : "false");
-      if (!s.ready) { b.disabled = true; b.classList.add("soon"); }
-      b.onclick = function () {
-        if (HL.series === s.id || !s.ready) return;
-        var q = new URLSearchParams(location.search);
-        q.set("level", 1); q.delete("std");
-        if (s.id === "yct") q.set("series", "yct"); else q.delete("series");
-        location.search = q.toString();
-      };
-      box.appendChild(b);
+      var o = document.createElement("option"); o.value = s.id; o.textContent = s.name + (s.ready ? "" : " (sắp có)");
+      if (!s.ready) o.disabled = true;
+      if (s.id === HL.series) o.selected = true;
+      sel.appendChild(o);
     });
-    var sep = document.createElement("span"); sep.className = "chipsep"; sep.setAttribute("aria-hidden", "true"); sep.textContent = "|";
-    box.appendChild(sep);
+    sel.onchange = function () {
+      if (sel.value === HL.series) return;
+      var q = new URLSearchParams(location.search);
+      q.set("level", 1); q.delete("std");
+      if (sel.value === "yct") q.set("series", "yct"); else q.delete("series");
+      location.search = q.toString();
+    };
+    row.appendChild(sel); box.appendChild(row);
     HL.levelList().filter(function (l) { return l.ready; }).forEach(function (l) {
       var b = document.createElement("button");
       b.type = "button"; b.className = "chip"; b.textContent = (HL.series === "yct" ? "YCT " : "HSK ") + (l.name || l.id);
