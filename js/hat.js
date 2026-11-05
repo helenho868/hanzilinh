@@ -1,5 +1,5 @@
 /* Trang Hát tiếng Trung: danh sách video YouTube (có phụ đề) trong data/songs.json.
-   Mỗi bài: { "url": "link YouTube hoặc mã video", "title": "...", "level": "HSK 1" (tùy chọn), "note": "..." (tùy chọn) } */
+   Mỗi bài: { "cc": "zh-HK" (tùy chọn, mã ngôn ngữ phụ đề muốn bật sẵn), "url": "link YouTube hoặc mã video", "title": "...", "level": "HSK 1" (tùy chọn), "note": "..." (tùy chọn) } */
 (function () {
   var $ = function (id) { return document.getElementById(id); };
   function mk(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
@@ -14,7 +14,7 @@
 
   function play(s, scroll) {
     var id = s.id;
-    $("yt").src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&cc_load_policy=1&hl=vi&rel=0&playsinline=1&modestbranding=1";
+    $("yt").src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&cc_load_policy=1&hl=vi&rel=0&playsinline=1&modestbranding=1" + (s.cc ? "&cc_lang_pref=" + encodeURIComponent(s.cc) : "");
     $("ptitle").textContent = s.title;
     $("pnote").textContent = s.note || "";
     $("pyt").href = "https://www.youtube.com/watch?v=" + id;
@@ -61,7 +61,7 @@
 
   $("close").onclick = stop;
   fetch("data/songs.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
-    songs = (d.songs || []).map(function (s) { return { id: vid(s.url || s.id), vertical: /\/shorts\//.test(String(s.url || "")) || s.vertical === true, title: s.title || "Video hát", level: s.level || "", note: s.note || "" }; }).filter(function (s) { return s.id; });
+    songs = (d.songs || []).map(function (s) { return { id: vid(s.url || s.id), vertical: /\/shorts\//.test(String(s.url || "")) || s.vertical === true, title: s.title || "Video hát", level: s.level || "", note: s.note || "", cc: s.cc || "" }; }).filter(function (s) { return s.id; });
     tags(); list();
     var q = new URLSearchParams(location.search).get("v");
     if (q) { var f = songs.filter(function (s) { return s.id === q; })[0]; if (f) play(f, false); }
