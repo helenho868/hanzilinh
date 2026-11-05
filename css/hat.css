@@ -19,3 +19,4 @@
 .song .tt{display:block;font-weight:700}
 .song .tg{display:block;color:var(--jade);font-size:.82rem;font-weight:600;margin-top:2px}
 .song .nt{display:block;color:var(--mute);font-size:.88rem;margin-top:2px}
+.frame.vertical{aspect-ratio:9/16;max-width:360px;margin:0 auto}

@@ -19,6 +19,7 @@
     $("pnote").textContent = s.note || "";
     $("pyt").href = "https://www.youtube.com/watch?v=" + id;
     $("player").classList.remove("hide");
+    document.querySelector(".frame").classList.toggle("vertical", !!s.vertical);
     document.querySelectorAll(".song").forEach(function (b) { b.classList.toggle("on", b.getAttribute("data-id") === id); });
     try { history.replaceState(null, "", "?v=" + id); } catch (e) {}
     if (scroll) $("player").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -60,7 +61,7 @@
 
   $("close").onclick = stop;
   fetch("data/songs.json").then(function (r) { return r.json(); }).then(function (d) {
-    songs = (d.songs || []).map(function (s) { return { id: vid(s.url || s.id), title: s.title || "Video hát", level: s.level || "", note: s.note || "" }; }).filter(function (s) { return s.id; });
+    songs = (d.songs || []).map(function (s) { return { id: vid(s.url || s.id), vertical: /\/shorts\//.test(String(s.url || "")) || s.vertical === true, title: s.title || "Video hát", level: s.level || "", note: s.note || "" }; }).filter(function (s) { return s.id; });
     tags(); list();
     var q = new URLSearchParams(location.search).get("v");
     if (q) { var f = songs.filter(function (s) { return s.id === q; })[0]; if (f) play(f, false); }
