@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hát tiếng Trung - HanziLinh</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Sans+SC:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=12">
+<link rel="stylesheet" href="css/hat.css?v=1">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html" aria-label="HanziLinh, trang chủ">
+    <span class="seal" aria-hidden="true">学</span>
+    <span class="brand-name">HanziLinh</span>
+  </a>
+  <nav aria-label="Menu chính">
+    <a href="index.html#cong-cu">Công cụ học</a>
+  </nav>
+</header>
+
+<main class="narrow">
+  <h1>Hát tiếng Trung</h1>
+  <p class="lead">Xem video hát có phụ đề (chữ Hán, phiên âm, nghĩa tiếng Việt) và hát theo. Bấm vào một video, video sẽ tự phát.</p>
+  <div class="chips" id="tags" role="group" aria-label="Lọc theo cấp độ"></div>
+
+  <section id="player" class="hide" aria-live="polite">
+    <div class="frame"><iframe id="yt" title="Video hát" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+    <h2 id="ptitle"></h2>
+    <p class="pnote" id="pnote"></p>
+    <p class="pnote">Không thấy phụ đề? Bấm nút CC (phụ đề) trên video. <a id="pyt" href="#" target="_blank" rel="noopener">Mở trên YouTube</a></p>
+    <button class="btn2" id="close" type="button">Đóng video</button>
+  </section>
+
+  <p class="lead" id="empty">Đang tải danh sách...</p>
+  <ul class="songs" id="songs"></ul>
+</main>
+
+<footer class="foot">
+  <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
+</footer>
+<script src="js/hat.js?v=1"></script>
+<script src="js/track.js?v=1"></script>
+</body>
+</html>

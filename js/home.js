@@ -61,7 +61,7 @@
     document.querySelectorAll("#books .chip").forEach(function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-id") === book ? "true" : "false"); });
     document.querySelectorAll("#tools a.tool").forEach(function (a) {
       var h = a.getAttribute("data-base"); if (!h) return;
-      a.href = (h.indexOf("bothu") >= 0 || book !== "yct") ? h : h + "&series=yct";
+      a.href = (h.indexOf("bothu") >= 0 || h.indexOf("hat.html") >= 0 || book !== "yct") ? h : h + "&series=yct";
     });
   }
   var bx = document.getElementById("books");
