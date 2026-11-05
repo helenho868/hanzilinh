@@ -60,7 +60,7 @@
   }
 
   $("close").onclick = stop;
-  fetch("data/songs.json").then(function (r) { return r.json(); }).then(function (d) {
+  fetch("data/songs.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
     songs = (d.songs || []).map(function (s) { return { id: vid(s.url || s.id), vertical: /\/shorts\//.test(String(s.url || "")) || s.vertical === true, title: s.title || "Video hát", level: s.level || "", note: s.note || "" }; }).filter(function (s) { return s.id; });
     tags(); list();
     var q = new URLSearchParams(location.search).get("v");
