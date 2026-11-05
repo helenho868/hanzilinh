@@ -53,3 +53,15 @@
 .next-step{margin:24px 0 0}
 .linkbtn{display:block;text-align:center;text-decoration:none}
 .hide{display:none!important}
+
+/* Mặt sau thẻ gọn: emoji, phiên âm, nghĩa trên một hàng; ví dụ gồm câu Hán và một đoạn phiên âm + nghĩa */
+.fc.flip{min-height:0;padding:12px 14px}
+.fc.flip .zh{font-size:3rem;line-height:1.15}
+.fc.flip .back{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:0 10px;margin-top:4px}
+.fc .back .em{font-size:1.5rem;margin:0;line-height:1.3}
+.fc .back .py{margin:0;font-size:1.2rem}
+.fc .back .vi{margin:0;font-size:1.05rem}
+.fc .back .ex{flex:0 0 100%;margin-top:8px;padding-top:8px}
+.fc .back .exz{font-size:1.15rem}
+.fc .back .exp,.fc .back .exv{display:inline;font-size:.9rem}
+.fc .back .exv:before{content:" · ";color:var(--mute)}
