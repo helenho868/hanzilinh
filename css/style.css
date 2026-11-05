@@ -111,3 +111,4 @@ a.tool .state{color:var(--jade)}
 }
 .bookrow{flex-basis:100%;display:flex;align-items:center;gap:10px;margin:0 0 2px;font-weight:600;color:var(--mute);font-size:.92rem}
 .booksel{font:inherit;font-size:.95rem;font-weight:700;padding:7px 34px 7px 14px;border:1.5px solid var(--jade);border-radius:20px;background:var(--card);color:var(--ink);cursor:pointer}
+.levels.two{grid-template-columns:repeat(2,1fr)}

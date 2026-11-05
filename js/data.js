@@ -21,11 +21,18 @@ var YCT_LEVELS = [
   { id: 4, zh: "四级", words: 600, new: 300, ready: false, href: "vocab.html?series=yct&level=4" }
 ];
 
-/* Giáo trình / bộ đề. ready: true khi đã có nội dung. Boya và 301 câu dự kiến thêm sau. */
+/* Boya (博雅汉语), sơ cấp: Khởi bước (起步篇) I và II. Chia theo cấp độ. Chưa có nội dung. */
+var BOYA_LEVELS = [
+  { id: 1, name: "Khởi bước I",  zh: "起步篇 I",  ready: false },
+  { id: 2, name: "Khởi bước II", zh: "起步篇 II", ready: false }
+];
+
+/* Giáo trình / bộ đề. ready: true khi đã có nội dung (dùng được trong các công cụ).
+   frame: true khi trang chủ đã có khung cấp độ nhưng chưa có nội dung. */
 var BOOKS = [
   { id: "hsk",  name: "HSK",     ready: true },
   { id: "yct",  name: "YCT",     ready: true },
-  { id: "boya", name: "Boya",    ready: false },
+  { id: "boya", name: "Boya",    ready: false, frame: true },
   { id: "301",  name: "301 câu", ready: false }
 ];
 

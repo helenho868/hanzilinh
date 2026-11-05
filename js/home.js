@@ -44,23 +44,31 @@
     yl.appendChild(li);
   });
 
+  var bl = document.getElementById("levelsBoya");
+  if (bl && typeof BOYA_LEVELS !== "undefined") BOYA_LEVELS.forEach(function (l) {
+    var li = el("li"), card = el("div", "level soon"), head = el("span", "lhead");
+    head.appendChild(el("span", "lv", l.name)); head.appendChild(el("span", "zh", l.zh)); head.appendChild(el("span", "state", "Sắp có"));
+    card.appendChild(head); card.appendChild(el("span", "words", "Nội dung đang chuẩn bị"));
+    li.appendChild(card); bl.appendChild(li);
+  });
+
   /* Chọn giáo trình: chỉ hiện cấp độ của giáo trình đã chọn, và các công cụ mở đúng bộ đó. */
   var book = "hsk";
-  try { var sv = localStorage.getItem("hanzilinh_book"); if (sv === "yct") book = "yct"; } catch (e) {}
-  var secs = { hsk: document.getElementById("cap-do"), yct: document.getElementById("cap-do-yct") };
+  try { var sv = localStorage.getItem("hanzilinh_book"); if (sv === "yct" || sv === "boya") book = sv; } catch (e) {}
+  var secs = { hsk: document.getElementById("cap-do"), yct: document.getElementById("cap-do-yct"), boya: document.getElementById("cap-do-boya") };
   function applyBook() {
     Object.keys(secs).forEach(function (k) { if (secs[k]) secs[k].classList.toggle("hide", k !== book); });
     document.querySelectorAll("#books .chip").forEach(function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-id") === book ? "true" : "false"); });
     document.querySelectorAll("#tools a.tool").forEach(function (a) {
       var h = a.getAttribute("data-base"); if (!h) return;
-      a.href = (h.indexOf("bothu") >= 0 || book === "hsk") ? h : h + "&series=yct";
+      a.href = (h.indexOf("bothu") >= 0 || book !== "yct") ? h : h + "&series=yct";
     });
   }
   var bx = document.getElementById("books");
   if (bx && typeof BOOKS !== "undefined") BOOKS.forEach(function (b) {
     var btn = el("button", "chip", b.name + (b.ready ? "" : " (sắp có)"));
     btn.type = "button"; btn.setAttribute("data-id", b.id);
-    if (!b.ready) btn.disabled = true;
+    if (!b.ready && !b.frame) btn.disabled = true;
     else btn.onclick = function () { book = b.id; try { localStorage.setItem("hanzilinh_book", book); } catch (e) {} applyBook(); };
     bx.appendChild(btn);
   });
