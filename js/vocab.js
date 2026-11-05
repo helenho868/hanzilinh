@@ -52,6 +52,15 @@
   }
 
   $("fc").onclick = function () { this.classList.toggle("flip"); };
+  /* Nút "Xem phiên âm, nghĩa": lật thẻ giống bấm vào thẻ; nhãn đổi theo trạng thái thẻ. */
+  function syncReveal() {
+    var on = $("fc").classList.contains("flip");
+    $("reveal").textContent = on ? "Ẩn phiên âm, nghĩa" : "Xem phiên âm, nghĩa";
+    $("reveal").setAttribute("aria-pressed", on ? "true" : "false");
+  }
+  $("reveal").onclick = function () { if (deck.length) $("fc").classList.toggle("flip"); };
+  new MutationObserver(syncReveal).observe($("fc"), { attributes: true, attributeFilter: ["class"] });
+  syncReveal();
   $("nxt").onclick = function () { go(1); };
   $("prev").onclick = function () { go(-1); };
   /* Phím mũi tên trái/phải để lùi/tiến khi đang ở tab thẻ và không gõ vào ô tìm kiếm. */
