@@ -2,6 +2,8 @@
   var $ = function (id) { return document.getElementById(id); };
   var KEY = HL.knownKey();
 
+  var revealMode = false;
+  try { revealMode = localStorage.getItem("hanzilinh_reveal") === "1"; } catch (e) {}
   var all = [], deck = [], ci = 0, known = {}, onlyNew = false, shuffled = false;
 
   try { (JSON.parse(localStorage.getItem(KEY) || "[]")).forEach(function (k) { known[k] = 1; }); } catch (e) {}
@@ -40,7 +42,7 @@
     var d = deck[ci];
     $("fz").textContent = d.hanzi;
     setBack(d);
-    $("fc").classList.remove("flip");
+    $("fc").classList.toggle("flip", revealMode);
     $("fcount").textContent = "Thẻ " + (ci + 1) + " / " + deck.length;
     $("fknown").textContent = "Đã thuộc " + knownCount() + " / " + all.length;
   }
@@ -51,14 +53,16 @@
     ci = 0; card();
   }
 
-  $("fc").onclick = function () { this.classList.toggle("flip"); };
+  /* Khi đã bật "Xem phiên âm, nghĩa", các thẻ kế tiếp tự hiện sẵn phiên âm và nghĩa (nhớ cả lần sau). */
+  function setMode(on) { revealMode = on; try { localStorage.setItem("hanzilinh_reveal", on ? "1" : "0"); } catch (e) {} }
+  $("fc").onclick = function () { this.classList.toggle("flip"); setMode(this.classList.contains("flip")); };
   /* Nút "Xem phiên âm, nghĩa": lật thẻ giống bấm vào thẻ; nhãn đổi theo trạng thái thẻ. */
   function syncReveal() {
     var on = $("fc").classList.contains("flip");
     $("reveal").textContent = on ? "Ẩn phiên âm, nghĩa" : "Xem phiên âm, nghĩa";
     $("reveal").setAttribute("aria-pressed", on ? "true" : "false");
   }
-  $("reveal").onclick = function () { if (deck.length) $("fc").classList.toggle("flip"); };
+  $("reveal").onclick = function () { if (deck.length) { $("fc").classList.toggle("flip"); setMode($("fc").classList.contains("flip")); } };
   new MutationObserver(syncReveal).observe($("fc"), { attributes: true, attributeFilter: ["class"] });
   syncReveal();
   $("nxt").onclick = function () { go(1); };
