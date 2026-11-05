@@ -9,10 +9,8 @@
 .fc .zh{font-family:"Noto Serif SC","Songti SC",serif;font-weight:900;font-size:4rem;color:var(--jade);line-height:1.2;display:block}
 .fc .back{display:none}
 .fc.flip .back{display:block}
-.fc.flip .hint{display:none}
 .py{font-size:1.35rem;font-weight:600;display:block;margin-top:4px}
 .vi{font-size:1.1rem;display:block;margin-top:4px}
-.hint{color:var(--mute);font-size:.88rem;display:block;margin-top:14px}
 .row{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
 .btn2{font:inherit;font-weight:600;flex:1;min-width:110px;padding:12px;border:1.5px solid var(--jade);border-radius:10px;background:transparent;color:var(--jade);cursor:pointer}
 .btn2.p,.btn2[aria-pressed="true"]{background:var(--jade);color:var(--jade-ink)}
