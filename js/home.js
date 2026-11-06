@@ -75,6 +75,7 @@
 
   var tl = document.getElementById("tools");
   TOOLS.forEach(function (t) {
+    if (t.hidden) return; /* tạm ẩn khỏi trang chủ, trang vẫn còn trong thư mục */
     var li = el("li");
     var card = el(t.ready && t.href ? "a" : "div", "tool");
     if (t.ready && t.href) { card.href = t.href; card.setAttribute("data-base", t.href); }
