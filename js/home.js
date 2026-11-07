@@ -112,16 +112,21 @@
     var pb = document.getElementById("progressBody"), rows = 0;
     function cnt(key) { try { return (JSON.parse(localStorage.getItem(key) || "[]") || []).length; } catch (e) { return 0; } }
     function best(key) { try { return JSON.parse(localStorage.getItem(key) || "null"); } catch (e) { return null; } }
-    function add(label, known, total, ex) {
-      if (!known && !ex) return; rows++;
+    function add(label, known, total, ex, last, href) {
+      if (!known && !ex && !last) return; rows++;
       var r = el("div", "prow"), l = el("div", "pl");
       l.appendChild(el("b", "", label)); l.appendChild(el("span", "", known + "/" + total + " từ" + (ex ? " · đề thi " + ex.pct + "%" : "")));
       r.appendChild(l);
       var bar = el("div", "pbar"), i = document.createElement("i"); i.style.width = Math.min(100, Math.round(known * 100 / total)) + "%"; bar.appendChild(i); r.appendChild(bar);
+      if (last && last.h) {
+        var c = el("p", "pcont"); c.appendChild(document.createTextNode("Từ cuối: "));
+        c.appendChild(el("span", "zh", last.h)); c.appendChild(document.createTextNode(" (" + last.p + "), thẻ " + last.i + "/" + last.n + " "));
+        var a = el("a", "plink", "Học tiếp"); a.href = href; c.appendChild(a); r.appendChild(c);
+      }
       pb.appendChild(r);
     }
-    LEVELS.forEach(function (l) { if (l.ready) add("HSK " + (l.name || l.id), cnt("hanzilinh_known_hsk" + l.id + "_v3"), l.new3 || l.words3, best("hanzilinh_exambest_hsk" + l.id)); });
-    if (typeof YCT_LEVELS !== "undefined") YCT_LEVELS.forEach(function (l) { if (l.ready) add("YCT " + l.id, cnt("hanzilinh_known_yct" + l.id), l.new, best("hanzilinh_exambest_yct" + l.id)); });
+    LEVELS.forEach(function (l) { if (l.ready) add("HSK " + (l.name || l.id), cnt("hanzilinh_known_hsk" + l.id + "_v3"), l.new3 || l.words3, best("hanzilinh_exambest_hsk" + l.id), best("hanzilinh_lastword_hsk" + l.id + "_v3"), "vocab.html?level=" + l.id); });
+    if (typeof YCT_LEVELS !== "undefined") YCT_LEVELS.forEach(function (l) { if (l.ready) add("YCT " + l.id, cnt("hanzilinh_known_yct" + l.id), l.new, best("hanzilinh_exambest_yct" + l.id), best("hanzilinh_lastword_yct" + l.id), "vocab.html?series=yct&level=" + l.id); });
     if (!rows) pb.appendChild(el("p", "muted", "Chưa có số liệu. Ở trang Từ vựng, bấm \"Đã thuộc\" cho từ bạn nhớ, tiến độ sẽ hiện ở đây. Dữ liệu chỉ lưu trên máy này."));
   })();
 })();

@@ -1,6 +1,7 @@
 (function () {
   var $ = function (id) { return document.getElementById(id); };
   var KEY = HL.knownKey();
+  var LKEY = KEY.replace("hanzilinh_known_", "hanzilinh_lastword_"), saveOn = false;
 
   var revealMode = false;
   try { revealMode = localStorage.getItem("hanzilinh_reveal") === "1"; } catch (e) {}
@@ -45,8 +46,10 @@
     $("fc").classList.toggle("flip", revealMode);
     $("fcount").textContent = "Thẻ " + (ci + 1) + " / " + deck.length;
     $("fknown").textContent = "Đã thuộc " + knownCount() + " / " + all.length;
+    /* Nhớ từ đang học để lần sau học tiếp (mỗi cấp độ một từ). */
+    if (saveOn) { try { localStorage.setItem(LKEY, JSON.stringify({ k: d.key, h: d.hanzi, p: d.pinyin, i: all.indexOf(d) + 1, n: all.length, t: Date.now() })); } catch (e) {} }
   }
-  function go(n) { if (!deck.length) return; ci = (ci + n + deck.length) % deck.length; card(); }
+  function go(n) { if (!deck.length) return; $("resume").classList.add("hide"); ci = (ci + n + deck.length) % deck.length; card(); }
   function rebuild(doShuffle) {
     var base = onlyNew ? all.filter(function (w) { return !known[w.key]; }) : all;
     deck = doShuffle ? shuffle(base) : base.slice();
@@ -206,6 +209,19 @@
         : withEx ? "Đã có câu ví dụ cho " + withEx + " từ, các từ còn lại sẽ được thêm dần." : "";
       $("info").textContent = d.count + " từ, theo chuẩn " + d.standard + ". " + (d.note ? d.note + " " : "") + exText + " Tiến độ được lưu trên trình duyệt của bạn.";
       rebuild(false); renderList();
+      /* Học tiếp: mở lại đúng từ cuối của lần học trước và báo cho người học biết. */
+      var last = null;
+      try { last = JSON.parse(localStorage.getItem(LKEY) || "null"); } catch (e) {}
+      if (last && last.k) {
+        var at = deck.map(function (w) { return w.key; }).indexOf(last.k);
+        if (at > 0) {
+          ci = at; card();
+          $("resumeText").textContent = "Học tiếp từ lần trước: " + last.h + " (" + last.p + "), thẻ " + (at + 1) + "/" + deck.length + ".";
+          $("resume").classList.remove("hide");
+        }
+      }
+      $("restart").onclick = function () { ci = 0; $("resume").classList.add("hide"); card(); };
+      saveOn = true; card();
     })
     .catch(function () {
       $("info").textContent = "Chưa có dữ liệu cho cấp độ này hoặc không tải được. Hãy thử tải lại trang.";

@@ -113,3 +113,7 @@ a.tool .state{color:var(--jade)}
 .booksel{font:inherit;font-size:.95rem;font-weight:700;padding:7px 34px 7px 14px;border:1.5px solid var(--jade);border-radius:20px;background:var(--card);color:var(--ink);cursor:pointer}
 .levels.two{grid-template-columns:repeat(2,1fr)}
 .tools.one{grid-template-columns:1fr}
+.pcont{margin:4px 0 0;font-size:.86rem;color:var(--mute)}
+.pcont .zh{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;font-weight:700;color:var(--ink)}
+.plink{color:var(--jade);font-weight:700;text-decoration:none;margin-left:4px}
+.plink:hover{text-decoration:underline}
