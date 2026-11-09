@@ -1,0 +1,753 @@
+{
+ "count": 57,
+ "note": "Phiên âm theo dạng từ điển (không đổi thanh biến điệu). Giải nghĩa, câu chuyện tóm tắt và ví dụ do HanziLinh viết, chưa có người bản ngữ kiểm tra.",
+ "items": [
+  {
+   "zh": "一石二鸟",
+   "py": "yī shí èr niǎo",
+   "hv": "nhất thạch nhị điểu",
+   "vi": "Một hòn đá trúng hai con chim; làm một việc mà đạt được hai mục đích.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "骑自行车上班，既锻炼身体又省钱，真是一石二鸟。",
+    "py": "Qí zì xíng chē shàng bān, jì duàn liàn shēn tǐ yòu shěng qián, zhēn shì yī shí èr niǎo.",
+    "vi": "Đạp xe đi làm vừa rèn luyện sức khỏe vừa tiết kiệm tiền, đúng là một công đôi việc."
+   },
+   "vn": "một công đôi việc"
+  },
+  {
+   "zh": "一箭双雕",
+   "py": "yī jiàn shuāng diāo",
+   "hv": "nhất tiễn song điêu",
+   "vi": "Một mũi tên bắn trúng hai con chim điêu; một việc đạt hai mục đích (nghĩa gần với 一石二鸟).",
+   "topic": "Con số",
+   "ex": {
+    "zh": "这个办法能一箭双雕。",
+    "py": "Zhè gè bàn fǎ néng yī jiàn shuāng diāo.",
+    "vi": "Cách này có thể một công đôi việc."
+   },
+   "vn": "một mũi tên trúng hai đích"
+  },
+  {
+   "zh": "一心一意",
+   "py": "yī xīn yī yì",
+   "hv": "nhất tâm nhất ý",
+   "vi": "Chuyên tâm, dồn hết tâm trí vào một việc.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "他一心一意地准备考试。",
+    "py": "Tā yī xīn yī yì de zhǔn bèi kǎo shì.",
+    "vi": "Anh ấy dồn hết tâm trí chuẩn bị cho kỳ thi."
+   },
+   "vn": "toàn tâm toàn ý"
+  },
+  {
+   "zh": "三心二意",
+   "py": "sān xīn èr yì",
+   "hv": "tam tâm nhị ý",
+   "vi": "Không chuyên tâm, lưỡng lự, hay thay đổi ý định.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "学习不能三心二意。",
+    "py": "Xué xí bù néng sān xīn èr yì.",
+    "vi": "Học tập không thể thiếu tập trung."
+   },
+   "vn": "đứng núi này trông núi nọ"
+  },
+  {
+   "zh": "一帆风顺",
+   "py": "yī fān fēng shùn",
+   "hv": "nhất phàm phong thuận",
+   "vi": "Thuận buồm xuôi gió; mọi việc đều suôn sẻ.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "祝你工作一帆风顺！",
+    "py": "Zhù nǐ gōng zuò yī fān fēng shùn!",
+    "vi": "Chúc bạn công việc thuận buồm xuôi gió!"
+   },
+   "vn": "thuận buồm xuôi gió"
+  },
+  {
+   "zh": "一见钟情",
+   "py": "yī jiàn zhōng qíng",
+   "hv": "nhất kiến chung tình",
+   "vi": "Vừa gặp đã yêu.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "他们第一次见面就一见钟情。",
+    "py": "Tā men dì yī cì jiàn miàn jiù yī jiàn zhōng qíng.",
+    "vi": "Họ vừa gặp lần đầu đã yêu nhau."
+   },
+   "vn": "tiếng sét ái tình"
+  },
+  {
+   "zh": "四面八方",
+   "py": "sì miàn bā fāng",
+   "hv": "tứ diện bát phương",
+   "vi": "Khắp nơi, mọi phía.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "客人从四面八方赶来。",
+    "py": "Kè rén cóng sì miàn bā fāng gǎn lái.",
+    "vi": "Khách từ khắp nơi kéo đến."
+   },
+   "vn": "bốn phương tám hướng"
+  },
+  {
+   "zh": "五颜六色",
+   "py": "wǔ yán liù sè",
+   "hv": "ngũ nhan lục sắc",
+   "vi": "Đủ màu sắc, rực rỡ nhiều màu.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "花园里开着五颜六色的花。",
+    "py": "Huā yuán lǐ kāi zhe wǔ yán liù sè de huā.",
+    "vi": "Trong vườn nở đủ loại hoa nhiều màu."
+   },
+   "vn": "muôn màu muôn sắc"
+  },
+  {
+   "zh": "七上八下",
+   "py": "qī shàng bā xià",
+   "hv": "thất thượng bát hạ",
+   "vi": "Lòng thấp thỏm, bồn chồn không yên.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "成绩还没出来，我心里七上八下。",
+    "py": "Chéng jì hái méi chū lái, wǒ xīn lǐ qī shàng bā xià.",
+    "vi": "Điểm chưa có, lòng tôi thấp thỏm không yên."
+   }
+  },
+  {
+   "zh": "九牛一毛",
+   "py": "jiǔ niú yī máo",
+   "hv": "cửu ngưu nhất mao",
+   "vi": "Chín con trâu mất một sợi lông; số lượng rất nhỏ, không đáng kể.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "这点钱对他来说只是九牛一毛。",
+    "py": "Zhè diǎn qián duì tā lái shuō zhǐ shì jiǔ niú yī máo.",
+    "vi": "Số tiền này với anh ấy chỉ như muối bỏ bể."
+   },
+   "vn": "muối bỏ bể"
+  },
+  {
+   "zh": "十全十美",
+   "py": "shí quán shí měi",
+   "hv": "thập toàn thập mỹ",
+   "vi": "Hoàn hảo, trọn vẹn, không có khuyết điểm.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "世上没有十全十美的人。",
+    "py": "Shì shàng méi yǒu shí quán shí měi de rén.",
+    "vi": "Trên đời không có người nào hoàn hảo tuyệt đối."
+   },
+   "vn": "mười phân vẹn mười"
+  },
+  {
+   "zh": "千方百计",
+   "py": "qiān fāng bǎi jì",
+   "hv": "thiên phương bách kế",
+   "vi": "Nghĩ đủ mọi cách, dùng đủ mọi biện pháp.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "他千方百计地想帮助朋友。",
+    "py": "Tā qiān fāng bǎi jì de xiǎng bāng zhù péng yǒu.",
+    "vi": "Anh ấy nghĩ đủ mọi cách để giúp bạn."
+   },
+   "vn": "trăm phương nghìn kế"
+  },
+  {
+   "zh": "万无一失",
+   "py": "wàn wú yī shī",
+   "hv": "vạn vô nhất thất",
+   "vi": "Chắc chắn, không thể có sai sót.",
+   "topic": "Con số",
+   "ex": {
+    "zh": "这个计划万无一失。",
+    "py": "Zhè gè jì huà wàn wú yī shī.",
+    "vi": "Kế hoạch này chắc chắn không có sai sót."
+   },
+   "vn": "chắc như đinh đóng cột"
+  },
+  {
+   "zh": "守株待兔",
+   "py": "shǒu zhū dài tù",
+   "hv": "thủ chu đãi thố",
+   "vi": "Ôm cây đợi thỏ; không chịu nỗ lực mà chỉ trông chờ may mắn.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "成功不能守株待兔，要自己努力。",
+    "py": "Chéng gōng bù néng shǒu zhū dài tù, yào zì jǐ nǔ lì.",
+    "vi": "Muốn thành công không thể ngồi chờ may mắn, phải tự mình cố gắng."
+   },
+   "vn": "há miệng chờ sung",
+   "story": "Một người nông dân thấy con thỏ chạy đâm vào gốc cây mà chết, liền bỏ cày ngồi canh gốc cây đợi thỏ khác. Anh ta chẳng bắt thêm được con nào, ruộng thì bỏ hoang. (Theo sách Hàn Phi Tử.)"
+  },
+  {
+   "zh": "亡羊补牢",
+   "py": "wáng yáng bǔ láo",
+   "hv": "vong dương bổ lao",
+   "vi": "Mất cừu rồi mới sửa chuồng; sai rồi biết sửa thì vẫn chưa muộn.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "发现错误后马上改正，亡羊补牢还不晚。",
+    "py": "Fā xiàn cuò wù hòu mǎ shàng gǎi zhèng, wáng yáng bǔ láo hái bù wǎn.",
+    "vi": "Phát hiện sai lầm mà sửa ngay thì vẫn chưa muộn."
+   },
+   "vn": "mất bò mới lo làm chuồng",
+   "story": "Một người chăn cừu để chuồng bị thủng, sói vào tha mất một con. Có người khuyên sửa chuồng, anh ta không nghe và tiếp tục mất cừu. Sau khi anh ta sửa chuồng thì không mất thêm con nào. (Theo sách Chiến quốc sách.)"
+  },
+  {
+   "zh": "对牛弹琴",
+   "py": "duì niú dàn qín",
+   "hv": "đối ngưu đàn cầm",
+   "vi": "Đàn cho trâu nghe; nói điều hay cho người không hiểu, uổng công vô ích.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "跟他讲道理简直是对牛弹琴。",
+    "py": "Gēn tā jiǎng dào lǐ jiǎn zhí shì duì niú dàn qín.",
+    "vi": "Nói lý với anh ta đúng là đàn gảy tai trâu."
+   },
+   "vn": "đàn gảy tai trâu",
+   "story": "Có người đàn khúc nhạc hay cho con trâu nghe, trâu vẫn cúi đầu gặm cỏ như không nghe thấy. Câu chuyện dùng để chê người nói không đúng đối tượng. (Theo sách Lý hoặc luận của Mâu Tử.)"
+  },
+  {
+   "zh": "井底之蛙",
+   "py": "jǐng dǐ zhī wā",
+   "hv": "tỉnh để chi oa",
+   "vi": "Ếch ngồi đáy giếng; người hiểu biết hẹp hòi, tầm nhìn nhỏ bé.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "多出去看看，别做井底之蛙。",
+    "py": "Duō chū qù kàn kàn, bié zuò jǐng dǐ zhī wā.",
+    "vi": "Hãy ra ngoài mở mang, đừng làm ếch ngồi đáy giếng."
+   },
+   "vn": "ếch ngồi đáy giếng",
+   "story": "Con ếch sống trong giếng cạn tưởng bầu trời chỉ rộng bằng miệng giếng. Khi gặp con rùa từ biển đến kể chuyện biển lớn, nó mới biết mình hiểu biết nông cạn. (Theo sách Trang Tử.)"
+  },
+  {
+   "zh": "掩耳盗铃",
+   "py": "yǎn ěr dào líng",
+   "hv": "yểm nhĩ đạo linh",
+   "vi": "Bịt tai trộm chuông; tự lừa dối mình, giấu đầu hở đuôi.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "错了就承认，别掩耳盗铃。",
+    "py": "Cuò le jiù chéng rèn, bié yǎn ěr dào líng.",
+    "vi": "Sai thì nhận, đừng tự lừa dối mình."
+   },
+   "vn": "bịt tai trộm chuông",
+   "story": "Có người muốn trộm chuông nhưng sợ chuông kêu, bèn bịt tai mình lại, tưởng rằng mình không nghe thấy thì người khác cũng không nghe thấy. (Theo sách Lã thị Xuân Thu.)"
+  },
+  {
+   "zh": "刻舟求剑",
+   "py": "kè zhōu qiú jiàn",
+   "hv": "khắc chu cầu kiếm",
+   "vi": "Khắc dấu lên thuyền để tìm kiếm; cứng nhắc, không biết biến đổi theo hoàn cảnh.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "时代变了，不能刻舟求剑。",
+    "py": "Shí dài biàn le, bù néng kè zhōu qiú jiàn.",
+    "vi": "Thời đại đã thay đổi, không thể cứng nhắc theo cách cũ."
+   },
+   "vn": "khắc thuyền tìm kiếm",
+   "story": "Người nước Sở làm rơi kiếm xuống sông, liền khắc dấu vào mạn thuyền chỗ kiếm rơi. Thuyền cập bến, anh ta xuống nước tìm theo dấu khắc, nhưng thuyền đã đi xa còn kiếm vẫn ở chỗ cũ. (Theo sách Lã thị Xuân Thu.)"
+  },
+  {
+   "zh": "画蛇添足",
+   "py": "huà shé tiān zú",
+   "hv": "họa xà thiêm túc",
+   "vi": "Vẽ rắn thêm chân; làm việc thừa, làm hỏng việc.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "这句话多余了，真是画蛇添足。",
+    "py": "Zhè jù huà duō yú le, zhēn shì huà shé tiān zú.",
+    "vi": "Câu này thừa rồi, đúng là vẽ rắn thêm chân."
+   },
+   "vn": "vẽ rắn thêm chân",
+   "story": "Mấy người thi nhau vẽ rắn, ai xong trước thì được rượu. Một người vẽ xong trước, thấy còn thừa thời gian bèn vẽ thêm chân cho rắn. Rắn không có chân nên người ấy mất phần thưởng. (Theo sách Chiến quốc sách.)"
+  },
+  {
+   "zh": "狐假虎威",
+   "py": "hú jiǎ hǔ wēi",
+   "hv": "hồ giả hổ uy",
+   "vi": "Cáo mượn oai hổ; dựa vào thế lực của người khác để dọa người.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "他靠老板的名字狐假虎威。",
+    "py": "Tā kào lǎo bǎn de míng zì hú jiǎ hǔ wēi.",
+    "vi": "Anh ta dựa vào tên ông chủ để làm oai."
+   },
+   "vn": "cáo mượn oai hùm",
+   "story": "Con hổ bắt được một con cáo. Cáo bảo hổ đi theo sau mình để xem các con thú có sợ không. Thú thấy cả hai thì bỏ chạy, hổ tưởng chúng sợ cáo mà không biết chúng sợ mình. (Theo sách Chiến quốc sách.)"
+  },
+  {
+   "zh": "杯弓蛇影",
+   "py": "bēi gōng shé yǐng",
+   "hv": "bôi cung xà ảnh",
+   "vi": "Thấy bóng cung trong chén tưởng là rắn; nghi ngờ hão huyền, tự làm mình sợ.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "别杯弓蛇影，那只是风的声音。",
+    "py": "Bié bēi gōng shé yǐng, nà zhǐ shì fēng de shēng yīn.",
+    "vi": "Đừng nghi thần nghi quỷ, đó chỉ là tiếng gió."
+   },
+   "vn": "nghi thần nghi quỷ",
+   "story": "Có người uống rượu, thấy trong chén có bóng con rắn, uống xong thì sinh bệnh. Sau mới biết đó là bóng của chiếc cung treo trên tường soi xuống chén; biết ra rồi, bệnh khỏi ngay. (Theo sách Tấn thư.)"
+  },
+  {
+   "zh": "塞翁失马",
+   "py": "sāi wēng shī mǎ",
+   "hv": "tái ông thất mã",
+   "vi": "Ông lão ở biên ải mất ngựa; việc xấu có thể hóa tốt, họa phúc khó lường.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "丢了工作也许是塞翁失马，说不定是好事。",
+    "py": "Diū le gōng zuò yě xǔ shì sāi wēng shī mǎ, shuō bù dìng shì hǎo shì.",
+    "vi": "Mất việc có thể là trong cái rủi có cái may, biết đâu lại là chuyện tốt."
+   },
+   "vn": "trong cái rủi có cái may",
+   "story": "Một ông lão ở vùng biên ải bị mất ngựa, mọi người tiếc nhưng ông nói biết đâu là phúc. Sau ngựa tự quay về còn dẫn thêm ngựa tốt. Con ông ngã ngựa gãy chân, nhờ vậy khỏi phải ra trận. (Theo sách Hoài Nam Tử.)"
+  },
+  {
+   "zh": "愚公移山",
+   "py": "yú gōng yí shān",
+   "hv": "ngu công di sơn",
+   "vi": "Ngu Công dời núi; quyết tâm bền bỉ thì việc khó mấy cũng làm được.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "只要有愚公移山的精神，就没有做不成的事。",
+    "py": "Zhǐ yào yǒu yú gōng yí shān de jīng shén, jiù méi yǒu zuò bù chéng de shì.",
+    "vi": "Chỉ cần có tinh thần Ngu Công dời núi thì không có việc gì không làm nên."
+   },
+   "vn": "có công mài sắt có ngày nên kim",
+   "story": "Ông già Ngu Công gần chín mươi tuổi quyết dời hai quả núi chắn trước nhà. Có người cười ông, ông đáp con cháu đời đời sẽ đào tiếp. Cuối cùng trời đất cảm động, sai thần dời núi giúp. (Theo sách Liệt Tử.)"
+  },
+  {
+   "zh": "叶公好龙",
+   "py": "yè gōng hǎo lóng",
+   "hv": "diệp công hiếu long",
+   "vi": "Diệp Công thích rồng; ngoài miệng nói thích nhưng thực ra không thật lòng.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "他说爱读书，其实是叶公好龙。",
+    "py": "Tā shuō ài dú shū, qí shí shì yè gōng hǎo lóng.",
+    "vi": "Anh ta nói thích đọc sách, thực ra chỉ thích trên miệng."
+   },
+   "vn": "thích hão",
+   "story": "Diệp Công rất thích rồng, vẽ rồng khắp nhà. Khi rồng thật đến thăm, ông sợ hãi bỏ chạy. Câu chuyện chê những người miệng nói yêu thích mà không thật sự yêu thích. (Theo sách Tân tự.)"
+  },
+  {
+   "zh": "画龙点睛",
+   "py": "huà lóng diǎn jīng",
+   "hv": "họa long điểm tinh",
+   "vi": "Vẽ rồng rồi điểm mắt; chỉ thêm một nét then chốt làm cho tác phẩm sống động hẳn lên.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "最后这一句话真是画龙点睛。",
+    "py": "Zuì hòu zhè yī jù huà zhēn shì huà lóng diǎn jīng.",
+    "vi": "Câu cuối này đúng là nét điểm nhãn."
+   },
+   "story": "Họa sĩ Trương Tăng Do vẽ bốn con rồng trên tường chùa nhưng không vẽ mắt. Ông nói vẽ mắt thì rồng sẽ bay đi. Khi ông điểm mắt cho hai con, chúng liền bay lên trời. (Theo sách Lịch đại danh họa ký.)"
+  },
+  {
+   "zh": "自相矛盾",
+   "py": "zì xiāng máo dùn",
+   "hv": "tự tương mâu thuẫn",
+   "vi": "Lời nói hoặc việc làm trước sau tự mâu thuẫn nhau.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "你的话自相矛盾。",
+    "py": "Nǐ de huà zì xiāng máo dùn.",
+    "vi": "Lời anh nói tự mâu thuẫn với nhau."
+   },
+   "vn": "tự mâu thuẫn",
+   "story": "Một người bán giáo và khiên khoe giáo của mình đâm thủng mọi khiên, rồi khoe khiên của mình không gì đâm thủng được. Có người hỏi: lấy giáo của ông đâm khiên của ông thì sao? Ông ta không đáp được. (Theo sách Hàn Phi Tử.)"
+  },
+  {
+   "zh": "胸有成竹",
+   "py": "xiōng yǒu chéng zhú",
+   "hv": "hung hữu thành trúc",
+   "vi": "Trong lòng đã có sẵn cây trúc; đã có sẵn kế hoạch, rất tự tin.",
+   "topic": "Truyện ngụ ngôn",
+   "ex": {
+    "zh": "他对这次比赛胸有成竹。",
+    "py": "Tā duì zhè cì bǐ sài xiōng yǒu chéng zhú.",
+    "vi": "Anh ấy rất tự tin vào cuộc thi lần này."
+   },
+   "story": "Nhà họa sĩ Văn Đồng yêu trúc, ngày ngày quan sát nên khi vẽ, hình ảnh cây trúc đã hiện sẵn trong lòng, ông chỉ việc vẽ ra. (Theo sách của Tô Thức.)"
+  },
+  {
+   "zh": "温故知新",
+   "py": "wēn gù zhī xīn",
+   "hv": "ôn cố tri tân",
+   "vi": "Ôn lại điều cũ để hiểu ra điều mới.",
+   "topic": "Học tập, chăm chỉ",
+   "ex": {
+    "zh": "温故知新，复习能帮助我们进步。",
+    "py": "Wēn gù zhī xīn, fù xí néng bāng zhù wǒ men jìn bù.",
+    "vi": "Ôn cũ biết mới, ôn tập giúp chúng ta tiến bộ."
+   },
+   "vn": "ôn cũ biết mới"
+  },
+  {
+   "zh": "举一反三",
+   "py": "jǔ yī fǎn sān",
+   "hv": "cử nhất phản tam",
+   "vi": "Học một điều mà suy ra nhiều điều khác.",
+   "topic": "Học tập, chăm chỉ",
+   "ex": {
+    "zh": "他很聪明，能举一反三。",
+    "py": "Tā hěn cōng míng, néng jǔ yī fǎn sān.",
+    "vi": "Cậu ấy rất thông minh, học một biết mười."
+   },
+   "vn": "học một biết mười"
+  },
+  {
+   "zh": "学以致用",
+   "py": "xué yǐ zhì yòng",
+   "hv": "học dĩ trí dụng",
+   "vi": "Học để vận dụng vào thực tế.",
+   "topic": "Học tập, chăm chỉ",
+   "ex": {
+    "zh": "学习语言要学以致用。",
+    "py": "Xué xí yǔ yán yào xué yǐ zhì yòng.",
+    "vi": "Học ngôn ngữ phải biết vận dụng."
+   },
+   "vn": "học đi đôi với hành"
+  },
+  {
+   "zh": "持之以恒",
+   "py": "chí zhī yǐ héng",
+   "hv": "trì chi dĩ hằng",
+   "vi": "Kiên trì bền bỉ, làm đều đặn không bỏ.",
+   "topic": "Học tập, chăm chỉ",
+   "ex": {
+    "zh": "学汉语需要持之以恒。",
+    "py": "Xué hàn yǔ xū yào chí zhī yǐ héng.",
+    "vi": "Học tiếng Trung cần kiên trì bền bỉ."
+   }
+  },
+  {
+   "zh": "精益求精",
+   "py": "jīng yì qiú jīng",
+   "hv": "tinh ích cầu tinh",
+   "vi": "Đã tốt rồi vẫn muốn tốt hơn nữa.",
+   "topic": "Học tập, chăm chỉ",
+   "ex": {
+    "zh": "他对工作精益求精。",
+    "py": "Tā duì gōng zuò jīng yì qiú jīng.",
+    "vi": "Anh ấy luôn muốn công việc càng tốt hơn nữa."
+   },
+   "vn": "đã giỏi còn muốn giỏi hơn"
+  },
+  {
+   "zh": "废寝忘食",
+   "py": "fèi qǐn wàng shí",
+   "hv": "phế tẩm vong thực",
+   "vi": "Bỏ ngủ quên ăn; chăm chú hết mức vào một việc.",
+   "topic": "Học tập, chăm chỉ",
+   "ex": {
+    "zh": "他为了做研究，废寝忘食。",
+    "py": "Tā wèi le zuò yán jiū, fèi qǐn wàng shí.",
+    "vi": "Vì làm nghiên cứu, anh ấy quên ăn quên ngủ."
+   },
+   "vn": "quên ăn quên ngủ"
+  },
+  {
+   "zh": "半途而废",
+   "py": "bàn tú ér fèi",
+   "hv": "bán đồ nhi phế",
+   "vi": "Làm nửa chừng thì bỏ.",
+   "topic": "Học tập, chăm chỉ",
+   "ex": {
+    "zh": "做事不能半途而废。",
+    "py": "Zuò shì bù néng bàn tú ér fèi.",
+    "vi": "Làm việc không thể bỏ dở giữa chừng."
+   },
+   "vn": "bỏ dở giữa chừng"
+  },
+  {
+   "zh": "自强不息",
+   "py": "zì qiáng bù xī",
+   "hv": "tự cường bất tức",
+   "vi": "Không ngừng tự rèn luyện, nỗ lực vươn lên.",
+   "topic": "Học tập, chăm chỉ",
+   "ex": {
+    "zh": "我们要自强不息，不断学习。",
+    "py": "Wǒ men yào zì qiáng bù xī, bù duàn xué xí.",
+    "vi": "Chúng ta phải không ngừng nỗ lực và học hỏi."
+   },
+   "vn": "tự lực tự cường"
+  },
+  {
+   "zh": "实事求是",
+   "py": "shí shì qiú shì",
+   "hv": "thực sự cầu thị",
+   "vi": "Làm việc dựa trên sự thật, tôn trọng thực tế.",
+   "topic": "Học tập, chăm chỉ",
+   "ex": {
+    "zh": "做研究要实事求是。",
+    "py": "Zuò yán jiū yào shí shì qiú shì.",
+    "vi": "Làm nghiên cứu phải tôn trọng sự thật."
+   }
+  },
+  {
+   "zh": "鹤立鸡群",
+   "py": "hè lì jī qún",
+   "hv": "hạc lập kê quần",
+   "vi": "Con hạc đứng giữa bầy gà; người nổi bật hơn hẳn những người xung quanh.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "他个子很高，站在人群中鹤立鸡群。",
+    "py": "Tā gè zi hěn gāo, zhàn zài rén qún zhōng hè lì jī qún.",
+    "vi": "Anh ấy rất cao, đứng giữa đám đông nổi bật hẳn lên."
+   },
+   "vn": "nổi bật giữa đám đông"
+  },
+  {
+   "zh": "守口如瓶",
+   "py": "shǒu kǒu rú píng",
+   "hv": "thủ khẩu như bình",
+   "vi": "Giữ miệng kín như bình; giữ bí mật tuyệt đối.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "这件事你要守口如瓶。",
+    "py": "Zhè jiàn shì nǐ yào shǒu kǒu rú píng.",
+    "vi": "Chuyện này bạn phải giữ kín như bưng."
+   },
+   "vn": "kín như bưng"
+  },
+  {
+   "zh": "笑逐颜开",
+   "py": "xiào zhú yán kāi",
+   "hv": "tiếu trục nhan khai",
+   "vi": "Cười tươi rạng rỡ, vẻ mặt vui mừng.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "孩子们收到礼物，笑逐颜开。",
+    "py": "Hái zi men shōu dào lǐ wù, xiào zhú yán kāi.",
+    "vi": "Bọn trẻ nhận được quà, mặt mày hớn hở."
+   },
+   "vn": "mặt mày hớn hở"
+  },
+  {
+   "zh": "目瞪口呆",
+   "py": "mù dèng kǒu dāi",
+   "hv": "mục trừng khẩu ngai",
+   "vi": "Mắt trợn, miệng há; sững sờ vì quá ngạc nhiên hoặc sợ hãi.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "他看到这个结果，目瞪口呆。",
+    "py": "Tā kàn dào zhè gè jié guǒ, mù dèng kǒu dāi.",
+    "vi": "Anh ấy thấy kết quả này thì sững sờ."
+   },
+   "vn": "há hốc mồm"
+  },
+  {
+   "zh": "手忙脚乱",
+   "py": "shǒu máng jiǎo luàn",
+   "hv": "thủ mang cước loạn",
+   "vi": "Tay chân cuống cuồng, luống cuống không biết làm sao.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "客人突然来了，我手忙脚乱。",
+    "py": "Kè rén tū rán lái le, wǒ shǒu máng jiǎo luàn.",
+    "vi": "Khách đến bất ngờ, tôi luống cuống chân tay."
+   },
+   "vn": "chân tay cuống cuồng"
+  },
+  {
+   "zh": "全心全意",
+   "py": "quán xīn quán yì",
+   "hv": "toàn tâm toàn ý",
+   "vi": "Dốc hết tâm sức, hết lòng với việc gì.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "她全心全意地照顾孩子。",
+    "py": "Tā quán xīn quán yì de zhào gù hái zi.",
+    "vi": "Cô ấy hết lòng chăm sóc con."
+   },
+   "vn": "hết lòng hết dạ"
+  },
+  {
+   "zh": "饮水思源",
+   "py": "yǐn shuǐ sī yuán",
+   "hv": "ẩm thủy tư nguyên",
+   "vi": "Uống nước nhớ nguồn; nhớ ơn người đã giúp mình.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "我们要饮水思源，感谢老师。",
+    "py": "Wǒ men yào yǐn shuǐ sī yuán, gǎn xiè lǎo shī.",
+    "vi": "Chúng ta phải uống nước nhớ nguồn, biết ơn thầy cô."
+   },
+   "vn": "uống nước nhớ nguồn"
+  },
+  {
+   "zh": "礼尚往来",
+   "py": "lǐ shàng wǎng lái",
+   "hv": "lễ thượng vãng lai",
+   "vi": "Lễ phép coi trọng có qua có lại.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "你请我吃饭，我也请你，这叫礼尚往来。",
+    "py": "Nǐ qǐng wǒ chī fàn, wǒ yě qǐng nǐ, zhè jiào lǐ shàng wǎng lái.",
+    "vi": "Bạn mời tôi ăn thì tôi cũng mời bạn, đó là có đi có lại."
+   },
+   "vn": "có đi có lại"
+  },
+  {
+   "zh": "如鱼得水",
+   "py": "rú yú dé shuǐ",
+   "hv": "như ngư đắc thủy",
+   "vi": "Như cá gặp nước; được ở nơi hợp với mình, làm việc thuận lợi.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "他到了新公司，如鱼得水。",
+    "py": "Tā dào le xīn gōng sī, rú yú dé shuǐ.",
+    "vi": "Anh ấy đến công ty mới như cá gặp nước."
+   },
+   "vn": "như cá gặp nước"
+  },
+  {
+   "zh": "兔死狐悲",
+   "py": "tù sǐ hú bēi",
+   "hv": "thố tử hồ bi",
+   "vi": "Thỏ chết cáo buồn; thương xót đồng loại khi họ gặp nạn (thường chỉ những kẻ cùng một giuộc).",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "朋友出事，他有兔死狐悲的感觉。",
+    "py": "Péng yǒu chū shì, tā yǒu tù sǐ hú bēi de gǎn jué.",
+    "vi": "Bạn gặp chuyện, anh ấy cảm thấy thương xót như đồng bệnh tương lân."
+   },
+   "vn": "đồng bệnh tương lân"
+  },
+  {
+   "zh": "入乡随俗",
+   "py": "rù xiāng suí sú",
+   "hv": "nhập hương tùy tục",
+   "vi": "Đến nơi nào thì theo phong tục nơi đó.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "到了国外，要入乡随俗。",
+    "py": "Dào le guó wài, yào rù xiāng suí sú.",
+    "vi": "Ra nước ngoài thì phải nhập gia tùy tục."
+   },
+   "vn": "nhập gia tùy tục"
+  },
+  {
+   "zh": "不言而喻",
+   "py": "bù yán ér yù",
+   "hv": "bất ngôn nhi dụ",
+   "vi": "Không cần nói cũng hiểu.",
+   "topic": "Tính cách, tình cảm",
+   "ex": {
+    "zh": "他的意思不言而喻。",
+    "py": "Tā de yì sī bù yán ér yù.",
+    "vi": "Ý của anh ấy không cần nói cũng hiểu."
+   },
+   "vn": "không nói cũng biết"
+  },
+  {
+   "zh": "风和日丽",
+   "py": "fēng hé rì lì",
+   "hv": "phong hòa nhật lệ",
+   "vi": "Gió nhẹ, trời nắng đẹp.",
+   "topic": "Thiên nhiên, cuộc sống",
+   "ex": {
+    "zh": "今天风和日丽，我们去公园吧。",
+    "py": "Jīn tiān fēng hé rì lì, wǒ men qù gōng yuán ba.",
+    "vi": "Hôm nay trời đẹp, chúng ta đi công viên nhé."
+   },
+   "vn": "trời quang mây tạnh"
+  },
+  {
+   "zh": "春暖花开",
+   "py": "chūn nuǎn huā kāi",
+   "hv": "xuân noãn hoa khai",
+   "vi": "Mùa xuân ấm áp, hoa nở.",
+   "topic": "Thiên nhiên, cuộc sống",
+   "ex": {
+    "zh": "春暖花开的时候，我们去旅行。",
+    "py": "Chūn nuǎn huā kāi de shí hòu, wǒ men qù lǚ xíng.",
+    "vi": "Khi xuân ấm hoa nở, chúng ta đi du lịch."
+   }
+  },
+  {
+   "zh": "鸟语花香",
+   "py": "niǎo yǔ huā xiāng",
+   "hv": "điểu ngữ hoa hương",
+   "vi": "Chim hót hoa thơm; cảnh sắc mùa xuân tươi đẹp.",
+   "topic": "Thiên nhiên, cuộc sống",
+   "ex": {
+    "zh": "公园里鸟语花香，真美。",
+    "py": "Gōng yuán lǐ niǎo yǔ huā xiāng, zhēn měi.",
+    "vi": "Trong công viên chim hót hoa thơm, thật đẹp."
+   }
+  },
+  {
+   "zh": "山清水秀",
+   "py": "shān qīng shuǐ xiù",
+   "hv": "sơn thanh thủy tú",
+   "vi": "Núi xanh nước đẹp; phong cảnh tươi đẹp.",
+   "topic": "Thiên nhiên, cuộc sống",
+   "ex": {
+    "zh": "这里山清水秀，空气很好。",
+    "py": "Zhè lǐ shān qīng shuǐ xiù, kōng qì hěn hǎo.",
+    "vi": "Nơi đây non xanh nước biếc, không khí rất trong lành."
+   },
+   "vn": "non xanh nước biếc"
+  },
+  {
+   "zh": "天长地久",
+   "py": "tiān zhǎng dì jiǔ",
+   "hv": "thiên trường địa cửu",
+   "vi": "Trời đất dài lâu; tình cảm hoặc sự việc bền vững mãi mãi.",
+   "topic": "Thiên nhiên, cuộc sống",
+   "ex": {
+    "zh": "祝你们的爱情天长地久。",
+    "py": "Zhù nǐ men de ài qíng tiān zhǎng dì jiǔ.",
+    "vi": "Chúc tình yêu của hai bạn bền lâu mãi mãi."
+   }
+  },
+  {
+   "zh": "水落石出",
+   "py": "shuǐ luò shí chū",
+   "hv": "thủy lạc thạch xuất",
+   "vi": "Nước rút thì đá lộ ra; sự thật được phơi bày.",
+   "topic": "Thiên nhiên, cuộc sống",
+   "ex": {
+    "zh": "事情终于水落石出了。",
+    "py": "Shì qíng zhōng yú shuǐ luò shí chū le.",
+    "vi": "Cuối cùng sự thật cũng được phơi bày."
+   }
+  },
+  {
+   "zh": "白手起家",
+   "py": "bái shǒu qǐ jiā",
+   "hv": "bạch thủ khởi gia",
+   "vi": "Hai bàn tay trắng gây dựng cơ nghiệp.",
+   "topic": "Thiên nhiên, cuộc sống",
+   "ex": {
+    "zh": "他白手起家，开了一家公司。",
+    "py": "Tā bái shǒu qǐ jiā, kāi le yī jiā gōng sī.",
+    "vi": "Anh ấy tay trắng gây dựng, mở được một công ty."
+   },
+   "vn": "hai bàn tay trắng làm nên"
+  },
+  {
+   "zh": "马到成功",
+   "py": "mǎ dào chéng gōng",
+   "hv": "",
+   "vi": "Ngựa vừa đến là thành công; chúc làm việc gì cũng nhanh chóng thành công.",
+   "topic": "Thiên nhiên, cuộc sống",
+   "ex": {
+    "zh": "祝你考试马到成功！",
+    "py": "Zhù nǐ kǎo shì mǎ dào chéng gōng!",
+    "vi": "Chúc bạn thi cử thành công ngay!"
+   },
+   "vn": "mã đáo thành công"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thành ngữ tiếng Trung - HanziLinh</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Sans+SC:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=15">
+<link rel="stylesheet" href="css/thanhngu.css?v=1">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html" aria-label="HanziLinh, trang chủ">
+    <span class="seal" aria-hidden="true">学</span>
+    <span class="brand-name">HanziLinh</span>
+  </a>
+  <nav aria-label="Menu chính">
+    <a href="index.html#cong-cu">Công cụ học</a>
+    <a href="index.html#vui-hoc">Vui học</a>
+  </nav>
+</header>
+<main class="narrow">
+  <h1>Thành ngữ tiếng Trung</h1>
+  <p class="lead">Thành ngữ 四字 (bốn chữ) thường gặp, có phiên âm, âm Hán Việt, nghĩa và ví dụ. Một số thành ngữ có kèm câu chuyện ngụ ngôn.</p>
+  <div class="tabs" role="group" aria-label="Chế độ">
+    <button class="chip" id="tLearn" type="button" aria-pressed="true">Học</button>
+    <button class="chip" id="tQuiz" type="button" aria-pressed="false">Làm bài trắc nghiệm</button>
+  </div>
+  <section id="learn">
+    <div class="chips" id="topics" role="group" aria-label="Lọc theo chủ đề"></div>
+    <input class="search" id="q" type="search" placeholder="Tìm theo chữ Hán, phiên âm hoặc nghĩa" aria-label="Tìm thành ngữ">
+    <p class="count" id="count"></p>
+    <ul class="cy" id="list"></ul>
+  </section>
+  <section id="quiz" class="hide" aria-live="polite"></section>
+  <p class="note" id="note"></p>
+</main>
+<footer class="foot"><p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p></footer>
+<script src="js/thanhngu.js?v=1"></script>
+<script src="js/track.js?v=1"></script>
+</body>
+</html>
