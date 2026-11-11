@@ -45,5 +45,6 @@ var TOOLS = [
   { ic: "话", name: "Hội thoại",       desc: "Đoạn hội thoại ngắn theo chủ đề, có nghe và tập vai.", ready: true, href: "dialogue.html?level=1" },
   { ic: "读", name: "Đọc hiểu",        desc: "Bài đọc ngắn từ dễ đến khó, kèm câu hỏi trắc nghiệm.", ready: true, href: "reading.html?level=1" },
   { ic: "考", name: "Luyện theo cấp độ", desc: "Đề thi thử từng cấp, có phần nghe, đọc, viết, đếm ngược và chấm điểm.", ready: false, href: "exam.html?level=1" },
+  { ic: "构", name: "Cấu trúc đề thi", desc: "Số câu, thời gian và điểm từng phần của HSK 3.0 và YCT 1–4.", ready: true, href: "cautruc.html" },
   { ic: "部", name: "Bộ thủ",          desc: "214 bộ thủ: tên Hán Việt, nghĩa, ví dụ và bài kiểm tra.", ready: true, href: "bothu.html" }
 ];
