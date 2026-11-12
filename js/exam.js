@@ -3,9 +3,13 @@
 (function () {
   var $ = function (id) { return document.getElementById(id); };
   function mk(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined && text !== null) e.textContent = text; return e; }
-  function shuffle(a) { a = a.slice(); for (var k = a.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)); var t = a[k]; a[k] = a[j]; a[j] = t; } return a; }
-  function pick(a) { return a[Math.floor(Math.random() * a.length)]; }
-  var LET = "ABCDEF";
+  var rng = Math.random; function rnd() { return rng(); }
+  function shuffle(a) { a = a.slice(); for (var k = a.length - 1; k > 0; k--) { var j = Math.floor(rnd() * (k + 1)); var t = a[k]; a[k] = a[j]; a[j] = t; } return a; }
+  function pick(a) { return a[Math.floor(rnd() * a.length)]; }
+  var LET = "ABCDEF", testNo = 0, NTEST = 10;
+  /* Đề số n luôn có cùng nội dung: tạo từ bộ số ngẫu nhiên có hạt giống cố định theo (HSK/YCT, cấp, số đề). */
+  function seedOf(str) { var h = 2166136261; for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+  function mulberry(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; var t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
   var TF = ["✓ Đúng", "✗ Sai"];
 
   /* Cấu trúc đề. L = nghe, R = đọc, W = viết. g = loại câu (xem GEN), n = số câu, bank = dùng bảng đáp án chung A–F. */
@@ -146,7 +150,7 @@
   var GEN = {
     pic_tf: function (n) {
       return take(withEmoji(D.words), n).map(function (w) {
-        var t = Math.random() < 0.5, other = pick(withEmoji(D.words).filter(function (o) { return o.emoji !== w.emoji; }));
+        var t = rnd() < 0.5, other = pick(withEmoji(D.words).filter(function (o) { return o.emoji !== w.emoji; }));
         return mc(Object.assign({ audio: w.hanzi, big: t ? w.emoji : other.emoji, why: "Từ nghe được: " + w.hanzi + " (" + w.pinyin + "), " + w.vi + ".", script: scriptW(w) }, tf(t)));
       });
     },
@@ -168,7 +172,7 @@
     tf_sentence: function (n) {
       var ws = take(withEx(D.words), n);
       return ws.map(function (w) {
-        var t = Math.random() < 0.5, o = pick(withEx(D.words).filter(function (x) { return x.ex.zh !== w.ex.zh; }));
+        var t = rnd() < 0.5, o = pick(withEx(D.words).filter(function (x) { return x.ex.zh !== w.ex.zh; }));
         return mc(Object.assign({ audio: w.ex.zh, text: (t ? w.ex : o.ex).zh, why: "Câu nghe được: " + w.ex.zh + " (" + w.ex.vi + ").", script: w.ex }, tf(t)));
       });
     },
@@ -192,7 +196,7 @@
     passage: function (n) { return passageQs(n, false); },
     pinyin_tf: function (n) {
       return take(D.words, n).map(function (w) {
-        var t = Math.random() < 0.5, sy = w.pinyin.split(/\s+/).length;
+        var t = rnd() < 0.5, sy = w.pinyin.split(/\s+/).length;
         var same = D.words.filter(function (x) { return x.pinyin !== w.pinyin && x.pinyin.split(/\s+/).length === sy; });
         var o = pick(same.length ? same : D.words.filter(function (x) { return x.pinyin !== w.pinyin; }));
         return mc(Object.assign({ text: w.hanzi, sub: t ? w.pinyin : o.pinyin, why: w.hanzi + " đọc là " + w.pinyin + " (" + w.vi + ").", script: scriptW(w), zhText: true }, tf(t)));
@@ -200,7 +204,7 @@
     },
     pic_word_tf: function (n) {
       return take(withEmoji(D.words), n).map(function (w) {
-        var t = Math.random() < 0.5, o = pick(withEmoji(D.words).filter(function (x) { return x.emoji !== w.emoji; }));
+        var t = rnd() < 0.5, o = pick(withEmoji(D.words).filter(function (x) { return x.emoji !== w.emoji; }));
         return mc(Object.assign({ text: w.hanzi, big: t ? w.emoji : o.emoji, zhText: true, why: w.hanzi + " (" + w.pinyin + "): " + w.vi + ".", script: scriptW(w) }, tf(t)));
       });
     },
@@ -490,7 +494,8 @@
     $("scd").textContent = rows.join("  ·  ");
     var pct = tot ? Math.round(right * 100 / tot) : 0;
     $("scm").textContent = (auto ? "Hết giờ, bài đã được nộp. " : "") + "Tỷ lệ đúng " + pct + "%. Điểm này chỉ là số câu đúng, không quy đổi sang thang điểm chính thức.";
-    try { var k = "hanzilinh_exambest_" + HL.series + HL.level, old = JSON.parse(localStorage.getItem(k) || "null"); if (!old || pct > old.pct) localStorage.setItem(k, JSON.stringify({ pct: pct, r: right, t: tot })); } catch (e) {}
+    try { var k = "hanzilinh_exambest_" + HL.series + HL.level, old = JSON.parse(localStorage.getItem(k) || "null"); if (!old || pct > old.pct) localStorage.setItem(k, JSON.stringify({ pct: pct, r: right, t: tot }));
+      if (testNo > 0) { var k2 = TKEY(testNo), o2 = JSON.parse(localStorage.getItem(k2) || "null"); localStorage.setItem(k2, JSON.stringify({ pct: pct, r: right, t: tot, best: o2 ? Math.max(o2.best || o2.pct, pct) : pct, n: (o2 && o2.n || 0) + 1 })); } } catch (e) {}
     $("result").classList.remove("hide"); $("bar").classList.add("hide");
     window.scrollTo(0, 0);
   }
@@ -498,6 +503,7 @@
   /* ---------- khởi động ---------- */
   function start() {
     spec = (SPEC[HL.series] || {})[HL.level];
+    rng = testNo > 0 ? mulberry(seedOf(HL.series + HL.level + ":" + testNo)) : Math.random;
     buildTest(); submitted = false; render(); updateCount();
     $("setup").classList.add("hide"); $("result").classList.add("hide"); $("paper").classList.remove("hide"); $("bar").classList.remove("hide");
     if (cfgTime) { endAt = Date.now() + spec.min * 60000; $("btimer").classList.remove("hide"); tick(); timerId = setInterval(tick, 500); }
@@ -507,6 +513,7 @@
   }
 
   var cfgTime = true;
+  function TKEY(n) { return "hanzilinh_examtest_" + HL.series + HL.level + "_" + n; }
   function loadJson(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u); return r.json(); }); }
   function loadAll() {
     var lv = HL.level, ser = HL.series, lvls = [lv];
@@ -538,6 +545,32 @@
     });
   }
 
+  function renderCatalog() {
+    var box = $("tests"); box.textContent = ""; $("catalog").classList.remove("hide");
+    var nq = 0, essay = 0, sk = {}; spec.parts.forEach(function (p) { if (p.g === "essay") essay += p.n; else nq += p.n; sk[p.s] = 1; });
+    var skills = ["L", "R", "W"].filter(function (k) { return sk[k]; }).map(function (k) { return SEC[k].replace(/^Phần \d: /, ""); }).join(", ");
+    for (var n = 1; n <= NTEST; n++) (function (n) {
+      var st = null; try { st = JSON.parse(localStorage.getItem(TKEY(n)) || "null"); } catch (e) {}
+      var c = mk("button", "tcard"); c.type = "button";
+      c.appendChild(mk("span", "tn", "Đề " + n));
+      c.appendChild(mk("span", "ti", nq + " câu" + (essay ? " + " + essay + " bài viết" : "") + " · " + spec.min + " phút"));
+      c.appendChild(mk("span", "ti", skills));
+      if (st) {
+        var bar = mk("span", "tbar"), fill = mk("i"); fill.style.width = (st.best || st.pct) + "%"; bar.appendChild(fill); c.appendChild(bar);
+        c.appendChild(mk("span", "tdone", "Lần gần nhất " + st.r + "/" + st.t + " (" + st.pct + "%) · Cao nhất " + (st.best || st.pct) + "%"));
+      }
+      c.appendChild(mk("span", "tgo", st ? "Làm lại" : "Bắt đầu"));
+      c.onclick = function () { chooseTest(n); };
+      box.appendChild(c);
+    })(n);
+  }
+  function chooseTest(n) {
+    testNo = n;
+    $("testName").textContent = n > 0 ? "Đề số " + n : "Đề ngẫu nhiên";
+    var st = null; try { st = n > 0 ? JSON.parse(localStorage.getItem(TKEY(n)) || "null") : null; } catch (e) {}
+    $("best").textContent = st ? "Bạn đã làm đề này " + (st.n || 1) + " lần. Cao nhất: " + (st.best || st.pct) + "%." : "";
+    $("setup").classList.remove("hide"); $("setup").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
   function showSetup() {
     spec = (SPEC[HL.series] || {})[HL.level];
     var lab = HL.series === "yct" ? "YCT " + HL.level : "HSK " + HL.levelName(HL.level);
@@ -553,9 +586,7 @@
       tb.appendChild(mk("li", "", p.t + " (" + p.n + (p.g === "essay" ? " bài" : " câu") + ")"));
       if (p.s === "L") L += p.n; else if (p.s === "R") R += p.n; else if (p.g !== "essay") W += p.n;
     });
-    $("setup").classList.remove("hide");
     $("tnote").textContent = "Thời gian làm bài: " + spec.min + " phút.";
-    try { var b = JSON.parse(localStorage.getItem("hanzilinh_exambest_" + HL.series + HL.level) || "null"); $("best").textContent = b ? "Kết quả tốt nhất của bạn: " + b.r + "/" + b.t + " (" + b.pct + "%)" : ""; } catch (e) {}
     $("srcnote").textContent = spec.src === "official"
       ? "Cấu trúc các phần lấy từ đề mẫu chính thức của Hanban. Hình trong đề thật được thay bằng biểu tượng emoji, câu hỏi do HanziLinh tạo từ từ vựng, hội thoại và bài đọc của trang. Một số câu điền từ có thể có hơn một đáp án hợp lý; bài chỉ chấm theo từ trong câu gốc."
       : "Số câu từng phần lấy theo thông tin công bố về HSK 3.0. Các nguồn tôi tìm được không nêu dạng câu của từng phần, nên dạng câu ở đây là mô phỏng, không phải bản sao đề thật. Một số câu điền từ có thể có hơn một đáp án hợp lý; bài chỉ chấm theo từ trong câu gốc.";
@@ -564,11 +595,12 @@
     });
     $("start").onclick = function () { $("start").disabled = true; $("start").textContent = "Đang tạo đề..."; start(); };
     $("start").disabled = true; $("start").textContent = "Đang tải dữ liệu...";
-    loadAll().then(function () { $("start").disabled = false; $("start").textContent = "Bắt đầu làm bài"; })
+    loadAll().then(function () { $("start").disabled = false; $("start").textContent = "Bắt đầu làm bài"; renderCatalog(); })
       .catch(function () { $("info").textContent = "Không tải được dữ liệu. Bạn thử tải lại trang."; });
   }
 
   $("submit").onclick = function () { submit(false); };
   $("again").onclick = function () { location.reload(); };
+  $("rand").onclick = function () { chooseTest(0); };
   showSetup();
 })();

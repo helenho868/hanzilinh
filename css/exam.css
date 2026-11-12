@@ -52,3 +52,15 @@
 #paper{padding-bottom:80px}
 @media (max-width:560px){.eopts.bk{gap:4px}}
 .lnk{color:var(--jade);font-weight:600}
+
+.ch{font-size:1.15rem;margin:18px 0 6px}
+.linkbtn{font:inherit;background:none;border:0;padding:0;color:var(--jade);font-weight:600;text-decoration:underline;cursor:pointer}
+.tests{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin:10px 0 18px}
+.tcard{position:relative;display:flex;flex-direction:column;gap:3px;text-align:left;font:inherit;padding:12px 14px 40px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);cursor:pointer;min-height:130px}
+.tcard:hover{border-color:var(--jade)}
+.tcard .tn{font-weight:700;font-size:1.05rem}
+.tcard .ti{color:var(--mute);font-size:.85rem}
+.tcard .tdone{color:var(--ink);font-size:.82rem;margin-top:2px}
+.tcard .tbar{display:block;height:6px;border-radius:3px;background:var(--line);overflow:hidden;margin-top:6px}
+.tcard .tbar i{display:block;height:100%;background:var(--jade)}
+.tcard .tgo{position:absolute;right:12px;bottom:10px;font-size:.82rem;font-weight:700;padding:4px 14px;border-radius:14px;background:var(--jade);color:var(--jade-ink)}
