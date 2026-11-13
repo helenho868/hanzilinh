@@ -1,0 +1,3 @@
+# Bộ nhớ tạm của wrangler (Cloudflare) khi chạy thử trên máy
+.wrangler/
+node_modules/
