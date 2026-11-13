@@ -46,6 +46,6 @@ var TOOLS = [
   { ic: "听", name: "Nâng cao kỹ năng nghe nói", desc: "Bài nghe có phụ đề, nghe hiểu rồi nói theo từng câu.", ready: true, href: "nghenoi.html" },
   { ic: "读", name: "Đọc hiểu",        desc: "Bài đọc ngắn từ dễ đến khó, kèm câu hỏi trắc nghiệm.", ready: true, href: "reading.html?level=1" },
   { ic: "考", name: "Luyện theo cấp độ", desc: "Đề thi thử từng cấp, có phần nghe, đọc, viết, đếm ngược và chấm điểm.", ready: true, href: "exam.html?level=1" },
-  { ic: "构", name: "Cấu trúc đề thi", desc: "Số câu, thời gian và điểm từng phần của HSK 3.0 và YCT 1–4.", ready: true, href: "cautruc.html" },
+  { ic: "构", name: "Cấu trúc đề thi", desc: "Số câu, thời gian và điểm từng phần.", ready: true, href: "cautruc.html" },
   { ic: "部", name: "Bộ thủ",          desc: "214 bộ thủ: tên Hán Việt, nghĩa, ví dụ và bài kiểm tra.", ready: true, href: "bothu.html" }
 ];
