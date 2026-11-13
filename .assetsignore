@@ -1,0 +1,8 @@
+# Các file không đăng lên web khi chạy trên Cloudflare
+.git
+.github
+tools
+wrangler.jsonc
+.assetsignore
+CNAME
+README.md

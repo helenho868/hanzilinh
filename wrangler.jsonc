@@ -1,0 +1,10 @@
+// Cấu hình để Cloudflare Workers đăng web tĩnh HanziLinh (hanzilinh.com).
+// Web không có bước build: toàn bộ file ở thư mục gốc repo được đăng nguyên trạng.
+{
+  "name": "hanzilinh",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "none"
+  }
+}
