@@ -3,6 +3,7 @@
 (function () {
   var $ = function (id) { return document.getElementById(id); };
   function mk(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
+  var B = document.body.dataset, SRC = B.src || "data/songs.json", EMPTY = B.empty || "Các video hát đang được chuẩn bị. Bạn quay lại sau nhé.", DEF = B.deftitle || "Video hát";
   var songs = [], tag = "";
 
   /* Lấy mã video từ link youtube.com/watch?v=, youtu.be/, /shorts/, /embed/ hoặc chính mã 11 ký tự. */
@@ -60,8 +61,8 @@
   }
 
   $("close").onclick = stop;
-  fetch("data/songs.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
-    songs = (d.songs || []).map(function (s) { return { id: vid(s.url || s.id), vertical: /\/shorts\//.test(String(s.url || "")) || s.vertical === true, title: s.title || "Video hát", level: s.level || "", note: s.note || "", cc: s.cc || "" }; }).filter(function (s) { return s.id; });
+  fetch(SRC, { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
+    songs = (d.songs || d.items || []).map(function (s) { return { id: vid(s.url || s.id), vertical: /\/shorts\//.test(String(s.url || "")) || s.vertical === true, title: s.title || DEF, level: s.level || "", note: s.note || "", cc: s.cc || "" }; }).filter(function (s) { return s.id; });
     tags(); list();
     var q = new URLSearchParams(location.search).get("v");
     if (q) { var f = songs.filter(function (s) { return s.id === q; })[0]; if (f) play(f, false); }
