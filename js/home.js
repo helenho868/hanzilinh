@@ -69,13 +69,8 @@
       });
       $("fPartsWrap").hidden = !(w.parts && w.parts.length);
       $("fInfoWrap").hidden = hasEx; $("fBackMean").textContent = w.vi;
-      $("fTag").textContent = meta ? "Chữ " + meta.name + " · " + (meta.review ? "ôn lại" : "chưa thuộc") : "Chữ của bạn hôm nay";
-      var nx = $("fNext"); nx.replaceChildren();
-      if (meta) {
-        var t = new Date((slotNow() + 1) * SLOT);
-        nx.appendChild(document.createTextNode("Chữ mới lúc " + String(t.getHours()).padStart(2, "0") + ":" + String(t.getMinutes()).padStart(2, "0") + " · "));
-        var a = el("a", "", "Học " + meta.name); a.href = meta.href; nx.appendChild(a);
-      }
+      /* Cấp độ đang dùng ghi vào nhãn đọc màn hình của thẻ (không hiện dòng chữ trên/dưới thẻ). */
+      card.setAttribute("data-level", meta ? meta.name : "");
       setFace(false);
     }
     function label() {
@@ -83,7 +78,7 @@
       var back = card.getAttribute("aria-pressed") === "true";
       card.setAttribute("aria-label", back
         ? "Mặt sau thẻ " + cur.hanzi + (cur.ex && cur.ex.zh ? ": ví dụ " + cur.ex.zh + ", " + (cur.ex.vi || "") : ": " + cur.vi) + ". Bấm để lật lại."
-        : "Thẻ " + cur.hanzi + ", " + cur.pinyin + ", nghĩa " + cur.vi + ". Bấm để lật xem ví dụ.");
+        : "Thẻ " + (card.getAttribute("data-level") ? "chữ " + card.getAttribute("data-level") + ": " : "") + cur.hanzi + ", " + cur.pinyin + ", nghĩa " + cur.vi + ". Bấm để lật xem ví dụ.");
     }
     function setFace(back) {
       card.setAttribute("aria-pressed", back ? "true" : "false");
