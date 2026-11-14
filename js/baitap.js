@@ -1,7 +1,7 @@
 (function () {
   var $ = function (i) { return document.getElementById(i); };
-  var SK = "hanzilinh_ta_key", BEST = "hanzilinh_ta_best_";
-  var key = "", mod = null, submitted = false;
+  var BEST = "hanzilinh_ta_best_";
+  var mod = null, submitted = false;
   function mk(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
   // chỉ cho phép thẻ <u> trong nội dung đề
   function rich(el, s) {
@@ -11,47 +11,77 @@
       if (part) cur.appendChild(document.createTextNode(part)); return cur;
     }, el);
   }
-  function b2u(s) { var b = atob(s), u = new Uint8Array(b.length); for (var i = 0; i < b.length; i++) u[i] = b.charCodeAt(i); return u; }
-  async function open(file, k) {
-    var r = await fetch(file, { cache: "no-cache" }); if (!r.ok) throw new Error("fetch");
-    var j = await r.json();
-    var base = await crypto.subtle.importKey("raw", new TextEncoder().encode(k), "PBKDF2", false, ["deriveKey"]);
-    var ak = await crypto.subtle.deriveKey({ name: "PBKDF2", salt: b2u(j.s), iterations: j.it, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
-    var pt = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b2u(j.i) }, ak, b2u(j.c));
-    return JSON.parse(new TextDecoder().decode(pt));
-  }
+  /* Gọi API trên máy chủ Cloudflare. Key chỉ gửi một lần khi mở khóa; sau đó dùng phiên (token) có hạn 2 giờ.
+     Không lưu key trên máy. Phiên lưu trong sessionStorage, tự mất khi đóng tab. */
+  var TK = "hanzilinh_ta_tok", token = "", list = [];
   function ss(f) { try { return f(); } catch (e) { return null; } }
-
-  async function unlock(k, quiet) {
-    var btn = $("unlockBtn"); btn.disabled = true; $("lockErr").textContent = "";
-    try {
-      if (!window.crypto || !crypto.subtle) throw new Error("nocrypto");
-      var list = await open("data/baitap/manifest.enc", k);
-      key = k; ss(function () { sessionStorage.setItem(SK, k); });
-      showList(list);
-    } catch (e) {
-      ss(function () { sessionStorage.removeItem(SK); });
-      if (!quiet) $("lockErr").textContent = e.message === "nocrypto" ? "Trình duyệt không hỗ trợ mở khóa (cần mở bằng https)." : "Key không đúng hoặc không tải được dữ liệu. Vui lòng thử lại.";
-    }
-    btn.disabled = false;
+  function api(path, payload) {
+    var ctl = typeof AbortController !== "undefined" ? new AbortController() : null;
+    var t = ctl ? setTimeout(function () { ctl.abort(); }, 15000) : 0;
+    return fetch("/api/baitap/" + path, {
+      method: "POST", credentials: "same-origin", cache: "no-store",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload), signal: ctl ? ctl.signal : undefined
+    }).then(function (r) {
+      clearTimeout(t);
+      return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok, status: r.status, data: j || {} }; });
+    }, function () { clearTimeout(t); return { ok: false, status: 0, data: {} }; });
   }
-  function showList(list) {
+  function errText(res) {
+    if (res.status === 429) return "Bạn thử quá nhiều lần. Vui lòng đợi một phút rồi thử lại.";
+    if (res.status === 401 || res.status === 400 || res.status === 403) return "Key không đúng. Vui lòng kiểm tra lại.";
+    if (res.status === 0) return "Không kết nối được máy chủ. Kiểm tra mạng rồi thử lại.";
+    return "Có lỗi xảy ra. Vui lòng thử lại sau.";
+  }
+  function busy(on, msg) {
+    var btn = $("unlockBtn"); btn.disabled = on; btn.textContent = on ? "Đang mở..." : "Mở khóa";
+    $("lock").setAttribute("aria-busy", on ? "true" : "false");
+    if (msg != null) $("lockErr").textContent = msg;
+  }
+  function backToLock(msg) {
+    token = ""; mod = null; list = []; ss(function () { sessionStorage.removeItem(TK); sessionStorage.removeItem("hanzilinh_ta_key"); });
+    $("list").classList.add("hide"); $("run").classList.add("hide"); $("lock").classList.remove("hide");
+    $("key").value = ""; $("lockErr").textContent = msg || ""; $("key").focus();
+  }
+
+  function unlock(k) {
+    if (!k) { $("lockErr").textContent = "Vui lòng nhập key."; return; }
+    busy(true, "");
+    api("unlock", { key: k }).then(function (res) {
+      busy(false);
+      if (!res.ok || typeof res.data.token !== "string" || !Array.isArray(res.data.list)) { $("lockErr").textContent = errText(res); return; }
+      token = res.data.token; list = res.data.list;
+      ss(function () { sessionStorage.setItem(TK, JSON.stringify({ t: token, l: list })); });
+      $("key").value = "";
+      showList(list);
+    });
+  }
+  function showList(l) {
     $("lock").classList.add("hide"); $("run").classList.add("hide"); $("list").classList.remove("hide");
-    var ul = $("mods"); ul.textContent = "";
-    list.forEach(function (m) {
+    $("listErr").textContent = "";
+    var ul = $("mods"); ul.replaceChildren();
+    l.forEach(function (m) {
+      if (!m || typeof m.id !== "string") return;
       var li = mk("li"), b = mk("button", "mod"); b.type = "button";
-      b.appendChild(mk("b", "", m.title));
-      b.appendChild(mk("span", "", m.desc + " (" + m.n + " câu tính điểm)"));
+      b.appendChild(mk("b", "", String(m.title || "")));
+      b.appendChild(mk("span", "", String(m.desc || "") + " (" + (Number(m.n) || 0) + " câu tính điểm)"));
       var best = ss(function () { return localStorage.getItem(BEST + m.id); });
-      if (best) b.appendChild(mk("span", "best", "Điểm cao nhất: " + best));
-      b.onclick = function () { start(m); };
+      if (best && /^\d+(\.\d+)?$/.test(best)) b.appendChild(mk("span", "best", "Điểm cao nhất: " + best));
+      b.addEventListener("click", function () { start(m, b); });
       li.appendChild(b); ul.appendChild(li);
     });
     window.scrollTo(0, 0);
   }
-  async function start(m) {
-    try { mod = await open("data/baitap/" + m.id + ".enc", key); } catch (e) { alert("Không tải được bài. Vui lòng thử lại."); return; }
-    submitted = false; render(); $("list").classList.add("hide"); $("run").classList.remove("hide"); window.scrollTo(0, 0);
+  function start(m, btn) {
+    btn.disabled = true; btn.setAttribute("aria-busy", "true"); $("listErr").textContent = "Đang tải bài...";
+    api("module", { token: token, id: m.id }).then(function (res) {
+      btn.disabled = false; btn.removeAttribute("aria-busy");
+      if (res.status === 401) { backToLock("Phiên đã hết hạn. Vui lòng nhập lại key."); return; }
+      if (!res.ok || !res.data.module || !Array.isArray(res.data.module.sections)) { $("listErr").textContent = errText(res); return; }
+      $("listErr").textContent = "";
+      mod = res.data.module; submitted = false; render();
+      $("list").classList.add("hide"); $("run").classList.remove("hide"); window.scrollTo(0, 0);
+    });
   }
   function norm(s) { return String(s).toLowerCase().replace(/[’‘`]/g, "'").replace(/[^a-z0-9' ]+/g, " ").replace(/\s+/g, " ").trim(); }
   function items() { var a = []; mod.sections.forEach(function (s) { s.items.forEach(function (i) { a.push(i); }); }); return a; }
@@ -73,26 +103,24 @@
         var k = kind(i);
         if (k === "mc") i.o.forEach(function (o, n) {
           var l = mk("label", "opt"), r = document.createElement("input"); r.type = "radio"; r.name = "q" + i.n; r.value = n;
-          r.onchange = count; l.appendChild(r); var t = mk("span"); t.appendChild(mk("b", "", "ABCD"[n] + ". ")); rich(t, o); l.appendChild(t); q.appendChild(l); l._n = n;
+          r.addEventListener("change", count); l.appendChild(r); var t = mk("span"); t.appendChild(mk("b", "", "ABCD"[n] + ". ")); rich(t, o); l.appendChild(t); q.appendChild(l); l._n = n;
         });
         else if (k === "tf") ["T", "F"].forEach(function (v) {
-          var l = mk("label", "opt"), r = document.createElement("input"); r.type = "radio"; r.name = "q" + i.n; r.value = v; r.onchange = count;
+          var l = mk("label", "opt"), r = document.createElement("input"); r.type = "radio"; r.name = "q" + i.n; r.value = v; r.addEventListener("change", count);
           l.appendChild(r); l.appendChild(mk("span", "", v === "T" ? "True" : "False")); q.appendChild(l); l._n = v;
         });
         else if (i.a !== null) {
-          var t = document.createElement("input"); t.type = "text"; t.autocomplete = "off"; t.autocapitalize = "off"; t.spellcheck = false; t.name = "q" + i.n; t.setAttribute("aria-label", "Câu " + i.n); t.oninput = count; q.appendChild(t);
+          var t = document.createElement("input"); t.type = "text"; t.autocomplete = "off"; t.autocapitalize = "off"; t.spellcheck = false; t.name = "q" + i.n; t.setAttribute("aria-label", "Câu " + i.n); t.addEventListener("input", count); q.appendChild(t);
         }
         sec.appendChild(q);
       });
       box.appendChild(sec);
     });
     var bar = mk("div", "bar"); var cnt = mk("span", "cnt"); cnt.id = "cnt"; bar.appendChild(cnt);
-    var sub = mk("button", "btn", "Nộp bài"); sub.type = "button"; sub.id = "submit"; sub.onclick = submit; bar.appendChild(sub);
-    var back = mk("button", "btn2", "Về danh sách"); back.type = "button"; back.onclick = function () { $("run").classList.add("hide"); $("list").classList.remove("hide"); refreshList(); }; bar.appendChild(back);
+    var sub = mk("button", "btn", "Nộp bài"); sub.type = "button"; sub.id = "submit"; sub.addEventListener("click", submit); bar.appendChild(sub);
+    var back = mk("button", "btn2", "Về danh sách"); back.type = "button"; back.addEventListener("click", function () { $("run").classList.add("hide"); $("list").classList.remove("hide"); showList(list); }); bar.appendChild(back);
     box.appendChild(bar); count();
   }
-  var cachedList = null;
-  function refreshList() { open("data/baitap/manifest.enc", key).then(showList).catch(function () {}); }
   function val(i) {
     var q = i._el; if (i.a === null) return null;
     if (kind(i) === "tx") return q.querySelector("input[type=text]").value.trim();
@@ -144,16 +172,14 @@
     var prev = ss(function () { return parseFloat(localStorage.getItem(BEST + mod.id)); });
     if (isNaN(prev) || ok / tot * 10 > prev) ss(function () { localStorage.setItem(BEST + mod.id, String(s10)); });
     $("submit").classList.add("hide"); $("cnt").textContent = "Đã nộp bài";
-    var again = mk("button", "btn", "Làm lại"); again.type = "button"; again.onclick = function () { submitted = false; render(); window.scrollTo(0, 0); };
+    var again = mk("button", "btn", "Làm lại"); again.type = "button"; again.addEventListener("click", function () { submitted = false; render(); window.scrollTo(0, 0); });
     $("cnt").parentNode.insertBefore(again, $("cnt").nextSibling);
     window.scrollTo(0, 0);
   }
 
   $("lockForm").addEventListener("submit", function (e) { e.preventDefault(); unlock($("key").value.trim()); });
-  $("relock").onclick = function () {
-    key = ""; mod = null; ss(function () { sessionStorage.removeItem(SK); });
-    $("list").classList.add("hide"); $("run").classList.add("hide"); $("lock").classList.remove("hide"); $("key").value = "";
-  };
-  var saved = ss(function () { return sessionStorage.getItem(SK); });
-  if (saved) unlock(saved, true);
+  $("relock").addEventListener("click", function () { backToLock(""); });
+  ss(function () { sessionStorage.removeItem("hanzilinh_ta_key"); }); /* xóa key cũ do bản trước lưu */
+  var saved = ss(function () { return JSON.parse(sessionStorage.getItem(TK) || "null"); });
+  if (saved && typeof saved.t === "string" && Array.isArray(saved.l)) { token = saved.t; list = saved.l; showList(list); }
 })();

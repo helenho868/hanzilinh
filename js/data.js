@@ -36,6 +36,9 @@ var BOOKS = [
   { id: "301",  name: "301 câu", ready: false }
 ];
 
+/* Quy ước chung: mục có ready: false được giữ trong cấu hình nhưng KHÔNG hiện trên giao diện.
+   Muốn mở lại một mục, chỉ cần đổi ready thành true (và thêm href nếu là trang mới). */
+
 /* Các công cụ học. ready: true khi đã làm xong. */
 var TOOLS = [
   { ic: "词", name: "Từ vựng",         desc: "Thẻ từ vựng theo cấp HSK, đánh dấu từ đã thuộc.", ready: true, href: "vocab.html?level=1" },
@@ -49,3 +52,18 @@ var TOOLS = [
   { ic: "构", name: "Cấu trúc đề thi", desc: "Số câu, thời gian và điểm từng phần.", ready: true, href: "cautruc.html" },
   { ic: "部", name: "Bộ thủ",          desc: "214 bộ thủ: tên Hán Việt, nghĩa, ví dụ và bài kiểm tra.", ready: true, href: "bothu.html" }
 ];
+
+/* Vui học tiếng Trung. cta: chữ trên nút mở. */
+var FUN = [
+  { ic: "歌", name: "Hát tiếng Trung", desc: "Video hát có phụ đề, hát theo từng câu.", ready: true, href: "hat.html", cta: "Vào xem" },
+  { ic: "寓", name: "Truyện ngụ ngôn", desc: "Đọc truyện ngắn, có phiên âm và nghĩa.", ready: false },
+  { ic: "成", name: "Thành ngữ", desc: "Thành ngữ thường gặp, kèm ý nghĩa, ví dụ và bài trắc nghiệm.", ready: true, href: "thanhngu.html" },
+  { ic: "玩", name: "Trò chơi", desc: "Chơi game để nhớ từ vựng và chữ Hán.", ready: false }
+];
+
+/* Thẻ mẫu ở đầu trang chủ (lấy từ dữ liệu HSK 1 chuẩn 3.0 và bảng bộ thủ của trang). */
+var HERO_WORD = {
+  hanzi: "好", pinyin: "hǎo", vi: "tốt, khỏe",
+  ex: { zh: "你好吗？我很好。", py: "Nǐ hǎo ma? Wǒ hěn hǎo.", vi: "Bạn khỏe không? Tôi rất khỏe." },
+  parts: [{ ch: "女", hv: "nữ", vi: "phụ nữ", radical: true }, { ch: "子", hv: "tử", vi: "con, đứa trẻ" }]
+};

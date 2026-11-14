@@ -63,7 +63,7 @@
   }
 
   function render() {
-    var bank = $("bank"); bank.innerHTML = "";
+    var bank = $("bank"); bank.replaceChildren();
     bankOrder.forEach(function (w) {
       if (isPlaced(w)) return;
       var b = document.createElement("button");
@@ -71,7 +71,7 @@
       b.setAttribute("data-w", w); b.disabled = checked;
       bank.appendChild(b);
     });
-    var box = $("items"); box.innerHTML = "";
+    var box = $("items"); box.replaceChildren();
     pw.forEach(function (word, s) {
       var d = document.createElement("div"); d.className = "item";
       var p = document.createElement("p"); p.className = "sent";
@@ -187,7 +187,7 @@
     $("tm").textContent = "Thời gian làm bài: " + fmtTime(secs);
     var best = getBest(), pct = Math.round(r * 100);
     if (!best || pct > best.pct || (pct === best.pct && (best.secs == null || secs < best.secs))) setBest({ pct: pct, score: score, total: total, secs: secs });
-    var rv = $("rv"); rv.innerHTML = "";
+    var rv = $("rv"); rv.replaceChildren();
     if (wrong.length) {
       var hd = document.createElement("p"); hd.className = "revhead"; hd.textContent = "Các từ cần ôn lại";
       rv.appendChild(hd);

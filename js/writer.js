@@ -28,7 +28,7 @@
   function note(t) { $("wnote").textContent = t; }
 
   function renderChips() {
-    var box = $("wchars"); box.innerHTML = "";
+    var box = $("wchars"); box.replaceChildren();
     $("wchars").classList.toggle("hide", chars.length < 2);
     chars.forEach(function (c, i) {
       var b = document.createElement("button");
@@ -43,7 +43,7 @@
   function show(i) {
     idx = i; renderChips();
     if (writer) { try { writer.cancelQuiz(); } catch (e) {} }
-    var stage = $("wstage"); stage.innerHTML = ""; note("Đang tải nét viết...");
+    var stage = $("wstage"); stage.replaceChildren(); note("Đang tải nét viết...");
     var size = Math.max(200, Math.min(280, window.innerWidth - 90));
     stage.style.width = size + "px"; stage.style.height = size + "px";
     var ch = chars[i];
@@ -96,7 +96,7 @@
   }
   function close() {
     if (writer) { try { writer.cancelQuiz(); } catch (e) {} }
-    $("wstage").innerHTML = ""; writer = null;
+    $("wstage").replaceChildren(); writer = null;
     var dlg = $("wdlg");
     if (dlg.open && typeof dlg.close === "function") dlg.close(); else dlg.removeAttribute("open");
   }

@@ -114,7 +114,7 @@
     $("qtype").textContent = q.label;
     var m = $("qmain"); m.textContent = q.prompt; m.className = "qmain" + (q.promptZh ? " zh" : "");
     $("fb").classList.add("hide"); $("next").classList.add("hide");
-    var box = $("opts"); box.innerHTML = "";
+    var box = $("opts"); box.replaceChildren();
     q.options.forEach(function (t) {
       var b = document.createElement("button");
       b.type = "button"; b.className = "opt" + (q.optZh ? " zh" : ""); b.textContent = t;
@@ -138,7 +138,7 @@
     if (ok) score++; else wrong.push(q.w);
     $("qscore").textContent = "Đúng " + score;
     var f = $("fb"); f.className = "fb " + (ok ? "ok" : "no");
-    f.innerHTML = "";
+    f.replaceChildren();
     var b = document.createElement("b"); b.textContent = ok ? "Chính xác! " : "Chưa đúng. ";
     f.appendChild(b); f.appendChild(document.createTextNode(explain(q.w)));
     var nx = $("next"); nx.textContent = i < qs.length - 1 ? "Câu tiếp theo" : "Xem kết quả";
@@ -160,7 +160,7 @@
     $("tm").textContent = "Thời gian làm bài: " + fmtTime(secs) + (cfg.time === "on" ? " (đếm ngược " + total + " phút)" : "");
     var best = getBest(), pct = Math.round(r * 100);
     if (!best || pct > best.pct || (pct === best.pct && (best.secs == null || secs < best.secs))) setBest({ pct: pct, score: score, total: total, secs: secs });
-    var rv = $("rv"); rv.innerHTML = "";
+    var rv = $("rv"); rv.replaceChildren();
     if (wrong.length) {
       var hd = document.createElement("p"); hd.className = "revhead"; hd.textContent = "Các từ cần ôn lại";
       rv.appendChild(hd);

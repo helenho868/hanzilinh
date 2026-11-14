@@ -46,7 +46,7 @@
   }
 
   function renderList() {
-    var ul = $("rlist"); ul.innerHTML = ""; var b = bests();
+    var ul = $("rlist"); ul.replaceChildren(); var b = bests();
     data.passages.forEach(function (p, i) {
       var li = mk("li"), btn = mk("button", "dcard"); btn.type = "button";
       btn.appendChild(mk("span", "n", String(i + 1)));
@@ -59,7 +59,7 @@
     });
   }
   function renderPassage() {
-    var p = data.passages[cur], box = $("passage"); box.innerHTML = "";
+    var p = data.passages[cur], box = $("passage"); box.replaceChildren();
     p.text.forEach(function (l) {
       var d = mk("div", "para");
       d.appendChild(mk("span", "zh", l.zh)); d.appendChild(mk("span", "py", l.py)); d.appendChild(mk("span", "vi", l.vi));
@@ -71,7 +71,7 @@
     var v = $("rdView"); v.classList.toggle("hidepy", !showPy); v.classList.toggle("hidevi", !showVi);
   }
   function renderQs() {
-    var p = data.passages[cur], box = $("qs"); box.innerHTML = ""; answered = 0; correct = 0;
+    var p = data.passages[cur], box = $("qs"); box.replaceChildren(); answered = 0; correct = 0;
     $("rscore").classList.add("hide");
     p.questions.forEach(function (q, qi) {
       var card = mk("div", "q");

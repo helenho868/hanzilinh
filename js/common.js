@@ -61,7 +61,7 @@
   HL.renderStdChips = function (id) {
     var box = document.getElementById(id);
     if (!box) return;
-    box.innerHTML = "";
+    box.replaceChildren();
     if (HL.series === "yct") return;
     var opts = HL.hasStd2() ? [["3", "Chuẩn HSK 3.0"], ["2", "Chuẩn HSK 2.0"]] : [["3", "Chuẩn HSK 3.0"]];
     opts.forEach(function (x) {
@@ -82,14 +82,14 @@
   HL.renderLevelChips = function (id) {
     var box = document.getElementById(id);
     if (!box) return;
-    box.innerHTML = "";
+    box.replaceChildren();
     var books = typeof BOOKS === "undefined" ? [{ id: "hsk", name: "HSK", ready: true }, { id: "yct", name: "YCT", ready: true }] : BOOKS;
     var row = document.createElement("label"); row.className = "bookrow";
     var cap = document.createElement("span"); cap.textContent = "Giáo trình"; row.appendChild(cap);
     var sel = document.createElement("select"); sel.className = "booksel"; sel.setAttribute("aria-label", "Giáo trình");
     books.forEach(function (s) {
-      var o = document.createElement("option"); o.value = s.id; o.textContent = s.name + (s.ready ? "" : " (sắp có)");
-      if (!s.ready) o.disabled = true;
+      if (!s.ready) return; /* giáo trình chưa sẵn sàng: ẩn khỏi danh sách */
+      var o = document.createElement("option"); o.value = s.id; o.textContent = s.name;
       if (s.id === HL.series) o.selected = true;
       sel.appendChild(o);
     });

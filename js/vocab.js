@@ -136,7 +136,7 @@
   }
   function renderList() {
     var q = norm($("q").value.trim());
-    var ul = $("list"); ul.innerHTML = "";
+    var ul = $("list"); ul.replaceChildren();
     var shown = all.filter(function (w) {
       return !q || w.hanzi.indexOf(q) >= 0 || norm(w.pinyin).indexOf(q) >= 0 || norm(w.vi).indexOf(q) >= 0;
     });

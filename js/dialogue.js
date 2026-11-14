@@ -40,7 +40,7 @@
   }
 
   function renderList() {
-    var ul = $("dlist"); ul.innerHTML = "";
+    var ul = $("dlist"); ul.replaceChildren();
     data.dialogues.forEach(function (d, i) {
       var li = mk("li"), b = mk("button", "dcard"); b.type = "button";
       b.appendChild(mk("span", "n", String(i + 1)));
@@ -52,7 +52,7 @@
   }
 
   function renderChat() {
-    var d = data.dialogues[cur], chat = $("chat"); chat.innerHTML = "";
+    var d = data.dialogues[cur], chat = $("chat"); chat.replaceChildren();
     d.lines.forEach(function (l) {
       var m = mk("div", "msg " + l.s + (role === l.s ? " covered" : ""));
       m.appendChild(mk("span", "who", "Vai " + l.s));

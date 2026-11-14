@@ -30,7 +30,7 @@
       var hay = [r.hanzi, r.trad, r.variants.join(" "), r.py, r.hv, r.vi].join(" ");
       return norm(hay).indexOf(q) >= 0;
     });
-    var g = $("grid"); g.innerHTML = "";
+    var g = $("grid"); g.replaceChildren();
     view.forEach(function (r, i) {
       var li = mk("li"), b = mk("button", "rcard" + (known[r.n] ? " known" : "")); b.type = "button";
       b.appendChild(mk("span", "c", r.hanzi)); b.appendChild(mk("span", "h", r.hv)); b.appendChild(mk("span", "p", r.py));
@@ -43,7 +43,7 @@
   function buildChips() {
     var sel = $("strokeSel"), cnt = {};
     RS.forEach(function (r) { cnt[r.strokes] = (cnt[r.strokes] || 0) + 1; });
-    sel.innerHTML = "";
+    sel.replaceChildren();
     var o0 = mk("option", "", "Tất cả số nét (" + RS.length + " bộ)"); o0.value = "0"; sel.appendChild(o0);
     Object.keys(cnt).map(Number).sort(function (x, y) { return x - y; }).forEach(function (n) {
       var o = mk("option", "", n + " nét (" + cnt[n] + " bộ)"); o.value = String(n); sel.appendChild(o);
@@ -60,7 +60,7 @@
     if (r.trad) m.push("dạng phồn thể: " + r.trad);
     if (r.variants.length) m.push("dạng biến thể: " + r.variants.join(" "));
     $("dMeta").textContent = m.join(" · ");
-    var ul = $("dEx"); ul.innerHTML = "";
+    var ul = $("dEx"); ul.replaceChildren();
     if (!r.ex.length) { ul.appendChild(mk("li", "m", "Chưa có ví dụ trong từ vựng HSK 1 đến 7–9 của trang này (bộ thủ ít gặp).")); }
     r.ex.forEach(function (e) {
       var li = mk("li"), w = mk("span", "w");
@@ -128,7 +128,7 @@
     var opts = [r], pool = shuffle(RS.filter(function (x) { return x.n !== r.n && field(x) !== field(r); }));
     for (var k = 0; opts.length < 4 && k < pool.length; k++) if (!opts.some(function (o) { return field(o) === field(pool[k]); })) opts.push(pool[k]);
     shuffle(opts);
-    var box = $("qOpts"); box.innerHTML = ""; $("qFb").classList.add("hide"); $("qNext").classList.add("hide");
+    var box = $("qOpts"); box.replaceChildren(); $("qFb").classList.add("hide"); $("qNext").classList.add("hide");
     var done = false, btns = [];
     opts.forEach(function (o) {
       var b = mk("button", "qopt", field(o)); b.type = "button"; btns.push(b);

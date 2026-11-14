@@ -32,7 +32,7 @@
   }
 
   function list() {
-    var ul = $("songs"); ul.innerHTML = "";
+    var ul = $("songs"); ul.replaceChildren();
     var shown = songs.filter(function (s) { return !tag || s.level === tag; });
     shown.forEach(function (s) {
       var li = mk("li"), b = mk("button", "song"); b.type = "button"; b.setAttribute("data-id", s.id);
@@ -49,7 +49,7 @@
   }
 
   function tags() {
-    var box = $("tags"); box.innerHTML = "";
+    var box = $("tags"); box.replaceChildren();
     var set = [];
     songs.forEach(function (s) { if (s.level && set.indexOf(s.level) < 0) set.push(s.level); });
     if (set.length < 2) return;

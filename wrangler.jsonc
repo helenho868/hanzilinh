@@ -1,10 +1,20 @@
-// Cấu hình để Cloudflare Workers đăng web tĩnh HanziLinh (hanzilinh.com).
-// Web không có bước build: toàn bộ file ở thư mục gốc repo được đăng nguyên trạng.
+// Cấu hình Cloudflare Worker cho HanziLinh (hanzilinh.com).
+// - Trang tĩnh: mọi file ở thư mục gốc repo (trừ những gì liệt kê trong .assetsignore), header bảo mật trong _headers.
+// - Mã máy chủ worker/index.js chỉ chạy cho đường dẫn /api/* (API Bài tập tiếng Anh).
+// - Secret ACCESS_KEY đặt trên dashboard Cloudflare, KHÔNG ghi vào file này.
 {
   "name": "hanzilinh",
+  "main": "worker/index.js",
   "compatibility_date": "2026-11-01",
   "assets": {
     "directory": "./",
-    "not_found_handling": "none"
-  }
+    "binding": "ASSETS",
+    "not_found_handling": "none",
+    "run_worker_first": ["/api/*"]
+  },
+  // Giới hạn thử key: 10 lần mỗi 60 giây cho mỗi địa chỉ IP.
+  "ratelimits": [
+    { "name": "LIMITER", "namespace_id": "1001", "simple": { "limit": 10, "period": 60 } }
+  ],
+  "observability": { "enabled": true }
 }

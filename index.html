@@ -2,26 +2,40 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com; media-src 'self'; connect-src 'self'; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>HanziLinh - Ôn tập tiếng Trung và luyện thi HSK, YCT</title>
-<meta name="description" content="HanziLinh: học từ vựng, ôn tập từ vựng và luyện tập tiếng Trung theo từng cấp HSK 1 đến 9 và YCT.">
+<meta name="description" content="Ôn tập tiếng Trung, luyện thi HSK và YCT miễn phí: thẻ từ vựng, đề thi thử, hội thoại, nghe nói theo từng cấp độ.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Serif+SC:wght@600;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=15">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=16">
 </head>
 <body>
+<a class="skip" href="#hoc">Bỏ qua, đến phần chọn cấp độ</a>
 <header class="top">
   <a class="brand" href="index.html" aria-label="HanziLinh, trang chủ">
     <span class="seal" aria-hidden="true">学</span>
     <span class="brand-name">HanziLinh</span>
   </a>
   <nav aria-label="Menu chính">
-    <a href="#giao-trinh">Giáo trình</a>
-    <a href="#cap-do">Cấp độ</a>
+    <a href="#hoc">Cấp độ</a>
     <a href="#cong-cu">Công cụ học</a>
     <a href="#vui-hoc">Vui học</a>
   </nav>
 </header>
+
+<!-- Thanh tiến độ gọn: chỉ hiện trên màn hình nhỏ -->
+<div class="strip" id="strip" aria-label="Tiến độ của bạn">
+  <div class="strip-in">
+    <a class="strip-go" id="stripGo" href="vocab.html?level=1">
+      <span class="strip-k">Tiếp tục</span>
+      <span class="strip-v" id="stripTxt">Bắt đầu với HSK 1</span>
+    </a>
+    <span class="strip-n" id="stripKnown" aria-live="polite"></span>
+    <button class="strip-b" type="button" data-open-backup aria-haspopup="dialog">Sao lưu</button>
+  </div>
+</div>
 
 <div class="page">
 <aside class="side" id="sideL" aria-label="Tiến độ của bạn">
@@ -32,92 +46,103 @@
   <section class="card" id="progress" aria-labelledby="t-progress">
     <h2 id="t-progress">Tiến độ của bạn</h2>
     <div id="progressBody"></div>
+    <div class="btnrow">
+      <button class="mini alt" type="button" data-open-backup aria-haspopup="dialog">Sao lưu / Khôi phục</button>
+    </div>
   </section>
 </aside>
 
 <main>
-  <section class="hero">
+  <section class="hero" aria-labelledby="t-hero">
     <div class="hero-text">
-      <h1>Học tiếng Trung từng chữ, từng cấp HSK và YCT</h1>
+      <h1 id="t-hero">Học tiếng Trung từng chữ, từng cấp HSK và YCT</h1>
       <p>Ôn từ vựng, làm bài trắc nghiệm và thi thử theo đúng cấp độ HSK hoặc YCT của bạn. Miễn phí, học được trên điện thoại.</p>
       <div class="cta">
-        <a class="btn primary" href="#giao-trinh">Chọn giáo trình để bắt đầu</a>
+        <a class="btn primary" href="#hoc">Chọn cấp độ để bắt đầu</a>
         <a class="btn" href="#cong-cu">Xem các công cụ học</a>
       </div>
     </div>
-    <div class="hero-char" aria-hidden="true">
-      <span class="big">好</span>
-      <span class="read">hǎo</span>
-      <span class="mean">tốt, khỏe</span>
+
+    <div class="flash" id="flash">
+      <button class="fcard" id="fcard" type="button" aria-pressed="false" aria-describedby="fhint">
+        <span class="face front" id="fFront">
+          <span class="big zh" id="fHanzi" lang="zh-CN"></span>
+          <span class="read" id="fPinyin"></span>
+          <span class="mean" id="fMean"></span>
+        </span>
+        <span class="face back" id="fBack">
+          <span class="blabel">Ví dụ</span>
+          <span class="bzh zh" id="fExZh" lang="zh-CN"></span>
+          <span class="bpy" id="fExPy"></span>
+          <span class="bvi" id="fExVi"></span>
+          <span class="blabel">Cấu tạo chữ</span>
+          <span class="bparts" id="fParts"></span>
+        </span>
+      </button>
+      <div class="fctl">
+        <button class="ibtn" id="fSay" type="button" aria-label="Nghe phát âm" hidden><span aria-hidden="true">🔊</span> Nghe</button>
+        <button class="ibtn" id="fFlip" type="button" aria-controls="fcard">Lật thẻ</button>
+      </div>
+      <p class="fhint" id="fhint">Bấm vào thẻ để xem ví dụ và cấu tạo chữ.</p>
     </div>
   </section>
 
-  <section id="giao-trinh" class="block">
-    <h2>Chọn giáo trình</h2>
-    <p class="lead">Chọn bộ đề bạn muốn học. Boya và 301 câu dự kiến sẽ được thêm sau.</p>
-    <div class="books" id="books" role="group" aria-label="Giáo trình"></div>
+  <section id="hoc" class="block" aria-labelledby="t-hoc">
+    <h2 id="t-hoc">Chọn giáo trình và cấp độ</h2>
+    <div class="tabs" role="tablist" aria-label="Giáo trình" id="bookTabs"></div>
+    <div id="bookPanels"></div>
   </section>
 
-  <section id="cap-do" class="block">
-    <h2>Chọn cấp độ HSK</h2>
-    <p class="lead">Số từ là tổng số từ cần biết ở cấp đó, theo chuẩn HSK 2.0. HSK 1 có cả hai chuẩn, HSK 2 hiện có bản chuẩn HSK 3.0.</p>
-    <ul class="levels" id="levels"></ul>
-  </section>
-
-  <section id="cap-do-yct" class="block">
-    <h2>Chọn cấp độ YCT</h2>
-    <p class="lead">YCT là kỳ thi tiếng Trung dành cho thiếu nhi, có 4 cấp viết. Số từ là tổng số từ cần biết ở cấp đó, theo bảng từ chính thức. Bạn có thể đổi giữa HSK và YCT ở đầu mỗi công cụ.</p>
-    <ul class="levels" id="levelsYct"></ul>
-  </section>
-
-  <section id="cap-do-boya" class="block">
-    <h2>Chọn cấp độ Boya</h2>
-    <p class="lead">Boya Hán ngữ (博雅汉语), bộ sơ cấp. Nội dung đang được chuẩn bị. Các công cụ bên dưới tạm mở HSK.</p>
-    <ul class="levels two" id="levelsBoya"></ul>
-  </section>
-
-  <section id="cong-cu" class="block">
-    <h2>Công cụ học</h2>
-    <p class="lead">Các mục dưới đây sẽ được thêm dần. Mục nào đã sẵn sàng sẽ có nút mở.</p>
+  <section id="cong-cu" class="block" aria-labelledby="t-tools">
+    <h2 id="t-tools">Công cụ học</h2>
+    <p class="lead" id="toolsLead">Mỗi công cụ mở đúng giáo trình bạn đang chọn ở trên.</p>
     <ul class="tools" id="tools"></ul>
   </section>
 
-  <section id="vui-hoc" class="block">
-    <h2>Vui học tiếng Trung</h2>
-    <p class="lead">Học qua bài hát, truyện, thành ngữ và trò chơi. Mục nào đã sẵn sàng sẽ có nút mở.</p>
-    <ul class="tools">
-      <li><a class="tool" href="hat.html">
-        <span class="ic">歌</span>
-        <div><h3>Hát tiếng Trung</h3><p>Video hát có phụ đề, hát theo từng câu.</p><span class="state">Vào xem</span></div>
-      </a></li>
-      <li><div class="tool">
-        <span class="ic">寓</span>
-        <div><h3>Truyện ngụ ngôn</h3><p>Đọc truyện ngắn, có phiên âm và nghĩa.</p><span class="state">Sắp có</span></div>
-      </div></li>
-      <li><a class="tool" href="thanhngu.html">
-        <span class="ic">成</span>
-        <div><h3>Thành ngữ</h3><p>Thành ngữ thường gặp, kèm ý nghĩa, ví dụ và bài trắc nghiệm.</p><span class="state">Vào học</span></div>
-      </a></li>
-      <li><a class="tool" href="baitap.html">
-        <span class="ic">英</span>
-        <div><h3>Bài tập tiếng Anh</h3><p>Đề luyện tập tiếng Anh, cần nhập key để mở.</p><span class="state">Cần key</span></div>
-      </a></li>
-      <li><div class="tool">
-        <span class="ic">玩</span>
-        <div><h3>Trò chơi</h3><p>Chơi game để nhớ từ vựng và chữ Hán.</p><span class="state">Sắp có</span></div>
-      </div></li>
-    </ul>
+  <section id="vui-hoc" class="block" aria-labelledby="t-fun">
+    <h2 id="t-fun">Vui học tiếng Trung</h2>
+    <p class="lead">Học qua bài hát và thành ngữ.</p>
+    <ul class="tools" id="fun"></ul>
   </section>
 </main>
-
-
 </div>
 
 <footer class="foot">
+  <nav class="foot-links" aria-label="Liên kết khác">
+    <a href="baitap.html">Bài tập tiếng Anh (cần key)</a>
+    <button class="linkbtn" type="button" data-open-backup aria-haspopup="dialog">Sao lưu / khôi phục tiến độ</button>
+  </nav>
   <p>HanziLinh, trang ôn tập tiếng Trung do Helen xây dựng.</p>
 </footer>
 
-<script src="js/data.js?v=15"></script>
-<script src="js/home.js?v=11"></script>
+<dialog class="bk" id="backup" aria-labelledby="t-bk">
+  <div class="bk-head">
+    <h2 id="t-bk">Sao lưu và khôi phục tiến độ</h2>
+    <button class="ibtn" type="button" id="bkClose" aria-label="Đóng">✕</button>
+  </div>
+  <p class="muted">Tiến độ học chỉ lưu trên trình duyệt này. Dùng mã sao lưu để chuyển sang điện thoại hoặc máy tính khác.</p>
+  <h3>1. Sao lưu</h3>
+  <p class="muted" id="bkInfo"></p>
+  <label class="sr" for="bkOut">Mã sao lưu</label>
+  <textarea id="bkOut" readonly rows="3" spellcheck="false"></textarea>
+  <div class="btnrow">
+    <button class="mini" type="button" id="bkCopy">Chép mã</button>
+    <button class="mini alt" type="button" id="bkSave">Tải file .txt</button>
+    <span class="bk-msg" id="bkOutMsg" role="status" aria-live="polite"></span>
+  </div>
+  <h3>2. Khôi phục</h3>
+  <p class="muted">Dán mã sao lưu từ máy khác. Dữ liệu trùng sẽ được thay bằng dữ liệu trong mã.</p>
+  <label class="sr" for="bkIn">Dán mã sao lưu</label>
+  <textarea id="bkIn" rows="3" spellcheck="false" maxlength="51200" placeholder="HZL1...."></textarea>
+  <div class="btnrow">
+    <button class="mini" type="button" id="bkRestore">Khôi phục</button>
+    <label class="mini alt filebtn">Chọn file .txt<input type="file" id="bkFile" accept=".txt,text/plain"></label>
+  </div>
+  <p class="bk-msg" id="bkInMsg" role="status" aria-live="polite"></p>
+</dialog>
+
+<script src="js/data.js?v=16"></script>
+<script src="js/backup.js?v=1"></script>
+<script src="js/home.js?v=12"></script>
 </body>
 </html>

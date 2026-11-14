@@ -365,7 +365,7 @@
   /* ---------- vẽ đề ---------- */
   var secDone = {};
   function render() {
-    var box = $("paper"); box.innerHTML = ""; secDone = {};
+    var box = $("paper"); box.replaceChildren(); secDone = {};
     var lastSec = "";
     parts.forEach(function (p, pi) {
       if (p.s !== lastSec) { lastSec = p.s; box.appendChild(mk("h2", "esec", SEC[p.s])); }
@@ -579,7 +579,7 @@
     HL.renderLevelChips("levelChips");
     if (!spec) { $("info").textContent = HL.series === "hsk" && HL.level === 7 ? "HSK 7–9 chưa có đề: các nguồn công bố về cấu trúc đề (số câu 91 hay 98) còn khác nhau nên mình chưa dựng. Bạn chọn HSK 1–6 hoặc YCT 1–2 nhé." : "Cấp độ này chưa có đề."; return; }
     $("info").textContent = spec.note;
-    var tb = $("struct"); tb.innerHTML = "";
+    var tb = $("struct"); tb.replaceChildren();
     var last = "", L = 0, R = 0, W = 0;
     spec.parts.forEach(function (p) {
       if (p.s !== last) { last = p.s; tb.appendChild(mk("li", "sh", SEC[p.s])); }

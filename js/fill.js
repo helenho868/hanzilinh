@@ -71,7 +71,7 @@
 
   function renderSentence(q, fill, cls) {
     var parts = q.w.ex.zh.split(q.w.hanzi), s = $("sent");
-    s.innerHTML = "";
+    s.replaceChildren();
     parts.forEach(function (p, n) {
       s.appendChild(document.createTextNode(p));
       if (n < parts.length - 1) {
@@ -89,7 +89,7 @@
     renderSentence(q);
     $("hint").textContent = "Nghĩa câu: " + q.w.ex.vi;
     $("fb").classList.add("hide"); $("next").classList.add("hide");
-    var box = $("opts"); box.innerHTML = "";
+    var box = $("opts"); box.replaceChildren();
     q.options.forEach(function (t) {
       var b = document.createElement("button");
       b.type = "button"; b.className = "opt zh"; b.textContent = t;
@@ -109,7 +109,7 @@
     if (ok) score++; else wrong.push(q.w);
     $("qscore").textContent = "Đúng " + score;
     renderSentence(q, q.answer, ok ? "ok" : "no");
-    var f = $("fb"); f.className = "fb " + (ok ? "ok" : "no"); f.innerHTML = "";
+    var f = $("fb"); f.className = "fb " + (ok ? "ok" : "no"); f.replaceChildren();
     var b = document.createElement("b"); b.textContent = ok ? "Chính xác! " : "Chưa đúng. Đáp án: " + q.answer + ". ";
     f.appendChild(b);
     f.appendChild(document.createTextNode(q.w.hanzi + " (" + q.w.pinyin + ") nghĩa là: " + q.w.vi + "."));
@@ -133,7 +133,7 @@
     $("tm").textContent = "Thời gian làm bài: " + fmtTime(secs) + (cfg.time === "on" ? " (đếm ngược " + total + " phút)" : "");
     var best = getBest(), pct = Math.round(r * 100);
     if (!best || pct > best.pct || (pct === best.pct && (best.secs == null || secs < best.secs))) setBest({ pct: pct, score: score, total: total, secs: secs });
-    var rv = $("rv"); rv.innerHTML = "";
+    var rv = $("rv"); rv.replaceChildren();
     if (wrong.length) {
       var hd = document.createElement("p"); hd.className = "revhead"; hd.textContent = "Các từ cần ôn lại";
       rv.appendChild(hd);
