@@ -240,3 +240,20 @@ a.tool:hover .tname{color:var(--jade)}
 .tgh{font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin:0 0 8px}
 
 #vui-hoc{scroll-margin-top:70px}
+
+/* ---------- Đầu trang: dòng phụ + số liệu (2026-11-14) ---------- */
+.hero .eyebrow{display:inline-block;margin:0 0 10px;padding:4px 12px;border-radius:999px;background:var(--jade-soft);color:var(--jade);font-size:.82rem;font-weight:700;letter-spacing:.02em}
+.hero h1{margin-bottom:10px}
+.hero .sub{margin:0 0 16px;color:var(--mute);font-size:1.05rem;max-width:44ch;line-height:1.55}
+.stats{list-style:none;margin:0 0 20px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.stats li{display:flex;align-items:baseline;gap:6px;padding:6px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);font-size:.88rem;color:var(--mute)}
+.stats b{font-size:1.05rem;color:var(--ink)}
+@media (max-width:767px){
+  .hero{align-items:start}
+  .hero .eyebrow{font-size:.72rem;padding:3px 10px;margin-bottom:6px}
+  .hero .sub{font-size:.9rem;margin-bottom:10px}
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:12px}
+  .stats li{flex-direction:column;align-items:flex-start;gap:0;padding:5px 9px;font-size:.72rem;line-height:1.25}
+  .stats li span{white-space:nowrap}
+  .stats b{font-size:1rem}
+}

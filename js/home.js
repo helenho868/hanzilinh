@@ -48,6 +48,18 @@
     schedule();
   })();
 
+  /* ================= Số liệu ở đầu trang (tính từ dữ liệu thật của trang) ================= */
+  (function () {
+    var ul = $("heroStats"); if (!ul) return;
+    var maxWords = 0; LEVELS.filter(visible).forEach(function (l) { maxWords = Math.max(maxWords, l.words3 || l.words || 0); });
+    var examLevels = LEVELS.filter(function (l) { return visible(l) && l.id <= 6; }).length +
+      (typeof YCT_LEVELS !== "undefined" ? YCT_LEVELS.filter(function (l) { return visible(l) && l.id <= 2; }).length : 0);
+    var nTools = TOOLS.filter(function (t) { return visible(t) && t.href; }).length + (typeof FUN !== "undefined" ? FUN.filter(function (t) { return visible(t) && t.href; }).length : 0);
+    [[fmt(maxWords), "từ vựng HSK 3.0"], [fmt(examLevels * 10), "đề thi thử"], ["214", "bộ thủ"], [String(nTools), "công cụ học"]].forEach(function (x) {
+      var li = el("li"); li.appendChild(el("b", "", x[0])); li.appendChild(el("span", "", x[1])); ul.appendChild(li);
+    });
+  })();
+
   /* ================= Thẻ cấp độ ================= */
   function levelCard(prefix, l, words) {
     var li = el("li"), a = el("a", "level");
