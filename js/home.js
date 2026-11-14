@@ -15,37 +15,112 @@
   function visible(x) { return !!x && x.ready === true; } /* mục chưa sẵn sàng giữ trong cấu hình nhưng không hiện */
   var fmt = function (n) { return Number(n).toLocaleString("vi-VN"); };
 
-  /* ================= Thẻ ở đầu trang (tự lật) ================= */
+  /* ================= Thẻ chữ ở đầu trang =================
+     - Mỗi 2 giờ đổi sang một chữ mới, lấy từ đúng cấp độ người dùng đang học (theo "Tiếp tục học").
+     - Ưu tiên chữ CHƯA đánh dấu "Đã thuộc"; khi đã thuộc hết thì ôn lại toàn bộ cấp.
+     - Thứ tự xáo trộn cố định theo cấp, nên mỗi khung 2 giờ trên cùng một máy luôn ra cùng một chữ.
+     - Thẻ tự lật mỗi 1 phút; bấm vào thẻ để lật ngay. */
   (function () {
-    var w = typeof HERO_WORD !== "undefined" ? HERO_WORD : null, card = $("fcard");
-    if (!w || !card) return;
-    $("fHanzi").textContent = w.hanzi; $("fPinyin").textContent = w.pinyin; $("fMean").textContent = w.vi;
-    $("fExZh").textContent = w.ex.zh; $("fExPy").textContent = w.ex.py; $("fExVi").textContent = w.ex.vi;
-    var parts = $("fParts");
-    (w.parts || []).forEach(function (p, i) {
-      if (i) parts.appendChild(el("span", "plus", "+"));
-      var s = el("span", "part");
-      s.appendChild(el("b", "zh", p.ch)); s.lastChild.setAttribute("lang", "zh-CN");
-      s.appendChild(el("span", "", p.hv + " (" + p.vi + ")" + (p.radical ? ", bộ thủ" : "")));
-      parts.appendChild(s);
-    });
-    function label() {
-      var back = card.getAttribute("aria-pressed") === "true";
-      card.setAttribute("aria-label", back ? "Mặt sau thẻ " + w.hanzi + ": ví dụ " + w.ex.zh + ", " + w.ex.vi + ". Bấm để lật lại."
-                                           : "Thẻ " + w.hanzi + ", " + w.pinyin + ", nghĩa " + w.vi + ". Bấm để lật xem ví dụ.");
+    var card = $("fcard"); if (!card) return;
+    var SLOT = 2 * 60 * 60 * 1000, AUTO = 60000;
+    var cur = null, curSlot = -1, info = null;
+
+    function slotNow() { return Math.floor(Date.now() / SLOT); }
+    /* Cấp độ hiện tại: lấy từ trang học gần nhất; mặc định HSK 1 (chuẩn 3.0). */
+    function currentLevel() {
+      var r = { series: "hsk", level: 1, std: "3" };
+      var last = safeLast();
+      if (last) {
+        var q = new URLSearchParams((last.u.split("?")[1] || ""));
+        var lv = parseInt(q.get("level"), 10);
+        if (q.get("series") === "yct") r.series = "yct";
+        if (lv >= 1 && lv <= 9) r.level = lv;
+        if (q.get("std") === "2") r.std = "2";
+      } else if (book === "yct") r.series = "yct";
+      var list = r.series === "yct" ? (typeof YCT_LEVELS !== "undefined" ? YCT_LEVELS : []) : LEVELS;
+      var L = list.filter(visible).filter(function (l) { return l.id === r.level; })[0];
+      if (!L) { r.level = 1; L = list.filter(visible)[0] || { id: 1 }; }
+      if (r.series === "yct" || L.has2 === false) r.std = "3";
+      r.name = r.series === "yct" ? "YCT " + r.level : "HSK " + (L.name || L.id);
+      r.url = r.series === "yct" ? "data/yct" + r.level + "-vocab.json" : (r.std === "2" ? "data/hsk" + r.level + "-vocab.json" : "data/hsk" + r.level + "-v3-vocab.json");
+      r.known = r.series === "yct" ? "hanzilinh_known_yct" + r.level : "hanzilinh_known_hsk" + r.level + (r.std === "2" ? "" : "_v3");
+      r.href = "vocab.html?level=" + r.level + (r.series === "yct" ? "&series=yct" : "") + (r.std === "2" ? "&std=2" : "");
+      return r;
     }
-    function flip() {
-      var back = card.getAttribute("aria-pressed") !== "true";
+    /* Xáo trộn cố định (mulberry32) để thứ tự chữ không theo bảng chữ cái nhưng ổn định. */
+    function rng(seed) { return function () { seed |= 0; seed = seed + 0x6D2B79F5 | 0; var t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+    function seedOf(str) { var h = 2166136261; for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+    function keys(words) { var seen = {}; return words.map(function (w) { var k = seen[w.hanzi] ? w.hanzi + "#" + w.vi : w.hanzi; seen[w.hanzi] = 1; return k; }); }
+
+    function show(w, meta) {
+      cur = w;
+      $("fHanzi").textContent = w.hanzi; $("fPinyin").textContent = w.pinyin; $("fMean").textContent = w.vi;
+      $("fHanzi").classList.toggle("long", w.hanzi.length >= 3);
+      $("fHanzi").classList.toggle("mid", w.hanzi.length === 2);
+      var hasEx = !!(w.ex && w.ex.zh);
+      $("fExWrap").hidden = !hasEx;
+      if (hasEx) { $("fExZh").textContent = w.ex.zh; $("fExPy").textContent = w.ex.py || ""; $("fExVi").textContent = w.ex.vi || ""; }
+      var parts = $("fParts"); parts.replaceChildren();
+      (w.parts || []).forEach(function (p, i) {
+        if (i) parts.appendChild(el("span", "plus", "+"));
+        var s = el("span", "part"), b = el("b", "zh", p.ch); b.setAttribute("lang", "zh-CN");
+        s.appendChild(b); s.appendChild(el("span", "", p.hv + " (" + p.vi + ")" + (p.radical ? ", bộ thủ" : "")));
+        parts.appendChild(s);
+      });
+      $("fPartsWrap").hidden = !(w.parts && w.parts.length);
+      $("fInfoWrap").hidden = hasEx; $("fBackMean").textContent = w.vi;
+      $("fTag").textContent = meta ? "Chữ " + meta.name + " · " + (meta.review ? "ôn lại" : "chưa thuộc") : "Chữ của bạn hôm nay";
+      var nx = $("fNext"); nx.replaceChildren();
+      if (meta) {
+        var t = new Date((slotNow() + 1) * SLOT);
+        nx.appendChild(document.createTextNode("Chữ mới lúc " + String(t.getHours()).padStart(2, "0") + ":" + String(t.getMinutes()).padStart(2, "0") + " · "));
+        var a = el("a", "", "Học " + meta.name); a.href = meta.href; nx.appendChild(a);
+      }
+      setFace(false);
+    }
+    function label() {
+      if (!cur) return;
+      var back = card.getAttribute("aria-pressed") === "true";
+      card.setAttribute("aria-label", back
+        ? "Mặt sau thẻ " + cur.hanzi + (cur.ex && cur.ex.zh ? ": ví dụ " + cur.ex.zh + ", " + (cur.ex.vi || "") : ": " + cur.vi) + ". Bấm để lật lại."
+        : "Thẻ " + cur.hanzi + ", " + cur.pinyin + ", nghĩa " + cur.vi + ". Bấm để lật xem ví dụ.");
+    }
+    function setFace(back) {
       card.setAttribute("aria-pressed", back ? "true" : "false");
       card.classList.toggle("flipped", back);
       label();
     }
-    label();
-    /* Tự lật sau mỗi 1 phút; bấm vào thẻ để lật ngay (đếm lại từ đầu). Tạm dừng khi tab bị ẩn. */
-    var AUTO = 60000, timer = 0;
+    function flip() { setFace(card.getAttribute("aria-pressed") !== "true"); }
+
+    /* Chữ dự phòng khi chưa tải được dữ liệu. */
+    if (typeof HERO_WORD !== "undefined") show(HERO_WORD, null);
+
+    function pick() {
+      var lv = currentLevel(), slot = slotNow();
+      return fetch(lv.url).then(function (r) { if (!r.ok) throw new Error("data"); return r.json(); }).then(function (d) {
+        var words = (d && Array.isArray(d.words)) ? d.words.filter(function (w) { return w && typeof w.hanzi === "string" && w.hanzi; }) : [];
+        if (!words.length) return;
+        var ks = keys(words), known = {}, kn = jget(lv.known, []);
+        if (Array.isArray(kn)) kn.forEach(function (k) { known[k] = 1; });
+        var order = words.map(function (_, i) { return i; }), rnd = rng(seedOf(lv.url));
+        for (var i = order.length - 1; i > 0; i--) { var j = Math.floor(rnd() * (i + 1)), t = order[i]; order[i] = order[j]; order[j] = t; }
+        var fresh = order.filter(function (i) { return !known[ks[i]]; });
+        var review = !fresh.length, pool = review ? order : fresh;
+        var w = words[pool[slot % pool.length]];
+        curSlot = slot;
+        show(w, { name: lv.name, href: lv.href, review: review });
+      }).catch(function () { /* giữ chữ dự phòng */ });
+    }
+    Promise.resolve().then(pick); /* chạy sau khi trang chủ khởi tạo xong (tab giáo trình đã đọc) */
+
+    var timer = 0;
     function schedule() { clearInterval(timer); timer = setInterval(function () { if (!document.hidden) flip(); }, AUTO); }
     card.addEventListener("click", function () { flip(); schedule(); });
     schedule();
+    /* Đổi chữ khi sang khung 2 giờ mới (kiểm tra mỗi phút và khi quay lại tab). */
+    function checkSlot() { if (curSlot !== -1 && slotNow() !== curSlot) pick(); }
+    setInterval(checkSlot, 60000);
+    document.addEventListener("visibilitychange", function () { if (!document.hidden) checkSlot(); });
   })();
 
   /* ================= Số liệu ở đầu trang (tính từ dữ liệu thật của trang) ================= */
