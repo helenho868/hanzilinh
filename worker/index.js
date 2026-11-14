@@ -8,7 +8,8 @@
  *   POST /api/baitap/module   body {"token": "...", "id": "..."} → {"module": {...}}
  *
  * Biến môi trường cần có trên Cloudflare (Settings → Variables and Secrets):
- *   ACCESS_KEY  (Secret)  key mở bài tập. Đổi key = mọi phiên cũ tự hết hạn.
+ *   ACCESS_KEY  (Secret)  key mở bài tập.
+ *               Tối thiểu 4 ký tự. Key ngắn dễ bị đoán; giới hạn thử key (LIMITER) giúp làm chậm việc dò. Đổi key = mọi phiên cũ tự hết hạn.
  * Liên kết (bindings) khai báo trong wrangler.jsonc:
  *   BAITAP      Workers KV, khóa "baitap:v1" chứa {"list":[...], "modules":{"<id>":{...}}}
  *   LIMITER     Rate Limiting, giới hạn số lần thử key theo địa chỉ IP
@@ -123,7 +124,7 @@ async function handleApi(request, env, url) {
   if (!originOk(origin, env)) return json({ error: MSG_FAIL }, 403, null);
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: securityHeaders(origin) });
   if (request.method !== "POST") return json({ error: MSG_FAIL }, 405, origin);
-  if (!env.ACCESS_KEY || String(env.ACCESS_KEY).length < 8) return json({ error: MSG_ERR }, 503, origin);
+  if (!env.ACCESS_KEY || String(env.ACCESS_KEY).length < 4) return json({ error: MSG_ERR }, 503, origin);
 
   const body = await readBody(request);
   if (!body) return json({ error: MSG_FAIL }, 400, origin);
