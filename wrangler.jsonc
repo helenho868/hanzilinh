@@ -12,6 +12,10 @@
     "not_found_handling": "none",
     "run_worker_first": ["/api/*"]
   },
+  // Kho dữ liệu đề Bài tập tiếng Anh (khóa "baitap:v1"). Nội dung đề nằm ở đây, không nằm trong repo.
+  "kv_namespaces": [
+    { "binding": "BAITAP", "id": "b214729f62d44cf89ee68caf87bd9544" }
+  ],
   // Giới hạn thử key: 10 lần mỗi 60 giây cho mỗi địa chỉ IP.
   "ratelimits": [
     { "name": "LIMITER", "namespace_id": "1001", "simple": { "limit": 10, "period": 60 } }
