@@ -150,9 +150,15 @@
     list.forEach(function (t) { ul.appendChild(toolCard(t)); });
     box.appendChild(ul); tl.appendChild(box);
   });
-  var fl = $("fun");
-  if (typeof FUN !== "undefined") FUN.filter(function (t) { return visible(t) && t.href; }).forEach(function (t) { fl.appendChild(toolCard(t)); });
-  if (!fl.children.length) $("vui-hoc").hidden = true;
+  /* Vui học tiếng Trung: một nhóm cuối trong Công cụ học (giữ id "vui-hoc" để các liên kết cũ vẫn tới đúng chỗ). */
+  var funList = typeof FUN !== "undefined" ? FUN.filter(function (t) { return visible(t) && t.href; }) : [];
+  if (funList.length) {
+    var fbox = el("div", "tgroup"); fbox.id = "vui-hoc";
+    var fh = el("h3", "tgh", "Vui học"); fh.id = "tg-vuihoc"; fbox.appendChild(fh);
+    var ful = el("ul", "tools"); ful.setAttribute("aria-labelledby", "tg-vuihoc");
+    funList.forEach(function (t) { ful.appendChild(toolCard(t)); });
+    fbox.appendChild(ful); tl.appendChild(fbox);
+  }
   if (tabs.length) choose(book, false);
 
   /* ================= Tiếp tục học + tiến độ ================= */
