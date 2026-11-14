@@ -15,27 +15,7 @@
   function visible(x) { return !!x && x.ready === true; } /* mục chưa sẵn sàng giữ trong cấu hình nhưng không hiện */
   var fmt = function (n) { return Number(n).toLocaleString("vi-VN"); };
 
-  /* ================= Phát âm (Web Speech API) ================= */
-  var canSpeak = "speechSynthesis" in window && typeof SpeechSynthesisUtterance === "function";
-  function zhVoice() {
-    var v = canSpeak ? speechSynthesis.getVoices() : [];
-    for (var i = 0; i < v.length; i++) if (/^zh(-|_)?(CN|Hans)?/i.test(v[i].lang) && !/HK|TW|yue/i.test(v[i].lang)) return v[i];
-    for (var j = 0; j < v.length; j++) if (/^zh/i.test(v[j].lang)) return v[j];
-    return null;
-  }
-  function speak(text, btn) {
-    if (!canSpeak) return;
-    try {
-      speechSynthesis.cancel();
-      var u = new SpeechSynthesisUtterance(text);
-      u.lang = "zh-CN"; u.rate = 0.85;
-      var v = zhVoice(); if (v) u.voice = v;
-      if (btn) { btn.setAttribute("aria-busy", "true"); var off = function () { btn.removeAttribute("aria-busy"); }; u.addEventListener("end", off); u.addEventListener("error", off); }
-      speechSynthesis.speak(u);
-    } catch (e) {}
-  }
-
-  /* ================= Thẻ ở đầu trang (lật + nghe) ================= */
+  /* ================= Thẻ ở đầu trang (tự lật) ================= */
   (function () {
     var w = typeof HERO_WORD !== "undefined" ? HERO_WORD : null, card = $("fcard");
     if (!w || !card) return;
@@ -58,21 +38,14 @@
       var back = card.getAttribute("aria-pressed") !== "true";
       card.setAttribute("aria-pressed", back ? "true" : "false");
       card.classList.toggle("flipped", back);
-      $("fFlipTxt").textContent = back ? " Lật lại" : " Lật thẻ"; $("fFlip").setAttribute("aria-label", back ? "Lật lại" : "Lật thẻ");
       label();
     }
     label();
-    card.addEventListener("click", flip);
-    $("fFlip").addEventListener("click", flip);
-    var say = $("fSay");
-    if (canSpeak) {
-      say.hidden = false;
-      say.addEventListener("click", function () {
-        var back = card.getAttribute("aria-pressed") === "true";
-        speak(back ? w.ex.zh : w.hanzi, say);
-      });
-      if (speechSynthesis.getVoices().length === 0 && "onvoiceschanged" in speechSynthesis) speechSynthesis.addEventListener("voiceschanged", zhVoice);
-    }
+    /* Tự lật sau mỗi 1 phút; bấm vào thẻ để lật ngay (đếm lại từ đầu). Tạm dừng khi tab bị ẩn. */
+    var AUTO = 60000, timer = 0;
+    function schedule() { clearInterval(timer); timer = setInterval(function () { if (!document.hidden) flip(); }, AUTO); }
+    card.addEventListener("click", function () { flip(); schedule(); });
+    schedule();
   })();
 
   /* ================= Thẻ cấp độ ================= */
