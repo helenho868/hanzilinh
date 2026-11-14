@@ -39,18 +39,26 @@ var BOOKS = [
 /* Quy ước chung: mục có ready: false được giữ trong cấu hình nhưng KHÔNG hiện trên giao diện.
    Muốn mở lại một mục, chỉ cần đổi ready thành true (và thêm href nếu là trang mới). */
 
-/* Các công cụ học. ready: true khi đã làm xong. */
+/* Nhóm công cụ trên trang chủ, theo thứ tự hiển thị. */
+var TOOL_GROUPS = [
+  { id: "tuvung", name: "Từ vựng" },
+  { id: "kynang", name: "Kỹ năng nghe, nói, đọc" },
+  { id: "thi",    name: "Luyện thi" },
+  { id: "chuhan", name: "Chữ Hán" }
+];
+
+/* Các công cụ học. ready: true khi đã làm xong. group: id nhóm ở TOOL_GROUPS. */
 var TOOLS = [
-  { ic: "词", name: "Từ vựng",         desc: "Thẻ từ vựng theo cấp HSK, đánh dấu từ đã thuộc.", ready: true, href: "vocab.html?level=1" },
-  { ic: "题", name: "Ôn tập từ vựng", desc: "Trắc nghiệm từ vựng, có chấm điểm và giải thích.", ready: true, href: "quiz.html?level=1" },
-  { ic: "填", name: "Điền chỗ trống",  desc: "Chọn từ đúng để điền vào chỗ trống trong câu ví dụ.", ready: true, href: "fill.html?level=1" },
-  { ic: "拖", name: "Kéo thả",        desc: "Kéo từ vào đúng câu ví dụ, mỗi phần 5 câu.", ready: true, href: "drag.html?level=1" },
-  { ic: "话", name: "Hội thoại",       desc: "Đoạn hội thoại ngắn theo chủ đề, có nghe và tập vai.", ready: true, href: "dialogue.html?level=1" },
-  { ic: "听", name: "Nâng cao kỹ năng nghe nói", desc: "Bài nghe có phụ đề, nghe hiểu rồi nói theo từng câu.", ready: true, href: "nghenoi.html" },
-  { ic: "读", name: "Đọc hiểu",        desc: "Bài đọc ngắn từ dễ đến khó, kèm câu hỏi trắc nghiệm.", ready: true, href: "reading.html?level=1" },
-  { ic: "考", name: "Luyện theo cấp độ", desc: "Đề thi thử từng cấp, nghe, đọc, viết.", ready: true, href: "exam.html?level=1" },
-  { ic: "构", name: "Cấu trúc đề thi", desc: "Số câu, thời gian và điểm từng phần.", ready: true, href: "cautruc.html" },
-  { ic: "部", name: "Bộ thủ",          desc: "214 bộ thủ: tên Hán Việt, nghĩa, ví dụ và bài kiểm tra.", ready: true, href: "bothu.html" }
+  { ic: "词", name: "Từ vựng", group: "tuvung",         desc: "Thẻ từ vựng theo cấp HSK, đánh dấu từ đã thuộc.", ready: true, href: "vocab.html?level=1" },
+  { ic: "题", name: "Ôn tập từ vựng", group: "tuvung", desc: "Trắc nghiệm từ vựng, có chấm điểm và giải thích.", ready: true, href: "quiz.html?level=1" },
+  { ic: "填", name: "Điền chỗ trống", group: "tuvung",  desc: "Chọn từ đúng để điền vào chỗ trống trong câu ví dụ.", ready: true, href: "fill.html?level=1" },
+  { ic: "拖", name: "Kéo thả", group: "tuvung",        desc: "Kéo từ vào đúng câu ví dụ, mỗi phần 5 câu.", ready: true, href: "drag.html?level=1" },
+  { ic: "话", name: "Hội thoại", group: "kynang",       desc: "Đoạn hội thoại ngắn theo chủ đề, có nghe và tập vai.", ready: true, href: "dialogue.html?level=1" },
+  { ic: "听", name: "Nâng cao kỹ năng nghe nói", group: "kynang", desc: "Bài nghe có phụ đề, nghe hiểu rồi nói theo từng câu.", ready: true, href: "nghenoi.html" },
+  { ic: "读", name: "Đọc hiểu", group: "kynang",        desc: "Bài đọc ngắn từ dễ đến khó, kèm câu hỏi trắc nghiệm.", ready: true, href: "reading.html?level=1" },
+  { ic: "考", name: "Luyện theo cấp độ", group: "thi", desc: "Đề thi thử từng cấp, nghe, đọc, viết.", ready: true, href: "exam.html?level=1" },
+  { ic: "构", name: "Cấu trúc đề thi", group: "thi", desc: "Số câu, thời gian và điểm từng phần.", ready: true, href: "cautruc.html" },
+  { ic: "部", name: "Bộ thủ", group: "chuhan",          desc: "214 bộ thủ: tên Hán Việt, nghĩa, ví dụ và bài kiểm tra.", ready: true, href: "bothu.html" }
 ];
 
 /* Vui học tiếng Trung. cta: chữ trên nút mở. */

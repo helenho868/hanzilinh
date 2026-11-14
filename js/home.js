@@ -139,7 +139,17 @@
     return li;
   }
   var tl = $("tools");
-  TOOLS.filter(function (t) { return visible(t) && t.href && !t.hidden; }).forEach(function (t) { tl.appendChild(toolCard(t)); });
+  var shown = TOOLS.filter(function (t) { return visible(t) && t.href && !t.hidden; });
+  var groups = (typeof TOOL_GROUPS !== "undefined" ? TOOL_GROUPS : []).concat([{ id: "", name: "Khác" }]);
+  groups.forEach(function (g) {
+    var list = shown.filter(function (t) { return g.id ? t.group === g.id : !groups.some(function (x) { return x.id && x.id === t.group; }); });
+    if (!list.length) return;
+    var box = el("div", "tgroup"), hid = "tg-" + (g.id || "khac");
+    var h = el("h3", "tgh", g.name); h.id = hid; box.appendChild(h);
+    var ul = el("ul", "tools"); ul.setAttribute("aria-labelledby", hid);
+    list.forEach(function (t) { ul.appendChild(toolCard(t)); });
+    box.appendChild(ul); tl.appendChild(box);
+  });
   var fl = $("fun");
   if (typeof FUN !== "undefined") FUN.filter(function (t) { return visible(t) && t.href; }).forEach(function (t) { fl.appendChild(toolCard(t)); });
   if (!fl.children.length) $("vui-hoc").hidden = true;
