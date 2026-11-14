@@ -3,8 +3,8 @@
 .chip{font:inherit;font-size:.92rem;padding:7px 16px;border:1.5px solid var(--line);border-radius:22px;background:var(--card);color:var(--ink);cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--jade);border-color:var(--jade);color:var(--jade-ink)}
 .btn2{font:inherit;font-weight:600;padding:9px 18px;border:1.5px solid var(--jade);border-radius:22px;background:var(--card);color:var(--jade);cursor:pointer}
-#player{margin:6px 0 22px}
-.frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000}
+#player{margin:6px 0 22px;max-width:720px}
+.frame{position:relative;width:100%;max-width:720px;margin:0 auto;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000}
 .frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 #player h2{font-size:1.15rem;margin:12px 0 4px}
 .pnote{color:var(--mute);font-size:.92rem;margin:2px 0 8px}
