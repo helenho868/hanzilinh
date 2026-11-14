@@ -127,21 +127,21 @@
   }
 
   /* ================= Công cụ học và Vui học ================= */
-  function toolCard(t, cta) {
+  /* Thẻ gọn: biểu tượng + tên. Mô tả hiện khi rê chuột (title) và được đọc cho trình đọc màn hình. */
+  function toolCard(t) {
     var li = el("li"), a = el("a", "tool");
     a.href = t.href; a.setAttribute("data-base", t.href);
+    if (t.desc) a.title = t.desc;
     var ic = el("span", "ic", t.ic); ic.setAttribute("aria-hidden", "true"); a.appendChild(ic);
-    var box = el("div");
-    box.appendChild(el("h3", "", t.name));
-    box.appendChild(el("p", "", t.desc));
-    box.appendChild(el("span", "state", cta));
-    a.appendChild(box); li.appendChild(a);
+    a.appendChild(el("span", "tname", t.name));
+    if (t.desc) a.appendChild(el("span", "sr", ": " + t.desc));
+    li.appendChild(a);
     return li;
   }
   var tl = $("tools");
-  TOOLS.filter(function (t) { return visible(t) && t.href && !t.hidden; }).forEach(function (t) { tl.appendChild(toolCard(t, "Vào học")); });
+  TOOLS.filter(function (t) { return visible(t) && t.href && !t.hidden; }).forEach(function (t) { tl.appendChild(toolCard(t)); });
   var fl = $("fun");
-  if (typeof FUN !== "undefined") FUN.filter(function (t) { return visible(t) && t.href; }).forEach(function (t) { fl.appendChild(toolCard(t, t.cta || "Vào học")); });
+  if (typeof FUN !== "undefined") FUN.filter(function (t) { return visible(t) && t.href; }).forEach(function (t) { fl.appendChild(toolCard(t)); });
   if (!fl.children.length) $("vui-hoc").hidden = true;
   if (tabs.length) choose(book, false);
 
