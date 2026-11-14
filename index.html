@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=16">
+<link rel="stylesheet" href="css/style.css?v=17">
 </head>
 <body>
 <a class="skip" href="#hoc">Bỏ qua, đến phần chọn cấp độ</a>
@@ -55,12 +55,8 @@
 <main>
   <section class="hero" aria-labelledby="t-hero">
     <div class="hero-text">
-      <h1 id="t-hero">Học tiếng Trung từng chữ, từng cấp HSK và YCT</h1>
-      <p>Ôn từ vựng, làm bài trắc nghiệm và thi thử theo đúng cấp độ HSK hoặc YCT của bạn. Miễn phí, học được trên điện thoại.</p>
-      <div class="cta">
-        <a class="btn primary" href="#hoc">Chọn cấp độ để bắt đầu</a>
-        <a class="btn" href="#cong-cu">Xem các công cụ học</a>
-      </div>
+      <h1 id="t-hero">Học tiếng Trung theo cấp HSK, YCT</h1>
+      <a class="btn primary" href="#hoc">Chọn cấp độ để bắt đầu</a>
     </div>
 
     <div class="flash" id="flash">
@@ -80,10 +76,10 @@
         </span>
       </button>
       <div class="fctl">
-        <button class="ibtn" id="fSay" type="button" aria-label="Nghe phát âm" hidden><span aria-hidden="true">🔊</span> Nghe</button>
-        <button class="ibtn" id="fFlip" type="button" aria-controls="fcard">Lật thẻ</button>
+        <button class="ibtn" id="fSay" type="button" aria-label="Nghe phát âm" hidden><span aria-hidden="true">🔊</span><span class="lbl"> Nghe</span></button>
+        <button class="ibtn" id="fFlip" type="button" aria-controls="fcard" aria-label="Lật thẻ"><span aria-hidden="true">↻</span><span class="lbl" id="fFlipTxt"> Lật thẻ</span></button>
       </div>
-      <p class="fhint" id="fhint">Bấm vào thẻ để xem ví dụ và cấu tạo chữ.</p>
+      <p class="sr" id="fhint">Bấm vào thẻ để xem ví dụ và cấu tạo chữ.</p>
     </div>
   </section>
 
@@ -143,6 +139,6 @@
 
 <script src="js/data.js?v=16"></script>
 <script src="js/backup.js?v=1"></script>
-<script src="js/home.js?v=12"></script>
+<script src="js/home.js?v=13"></script>
 </body>
 </html>

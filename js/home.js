@@ -58,7 +58,7 @@
       var back = card.getAttribute("aria-pressed") !== "true";
       card.setAttribute("aria-pressed", back ? "true" : "false");
       card.classList.toggle("flipped", back);
-      $("fFlip").textContent = back ? "Lật lại" : "Lật thẻ";
+      $("fFlipTxt").textContent = back ? " Lật lại" : " Lật thẻ"; $("fFlip").setAttribute("aria-label", back ? "Lật lại" : "Lật thẻ");
       label();
     }
     label();
