@@ -364,3 +364,55 @@ a.tool:hover .tname{color:var(--jade)}
   .hero .stats li span{white-space:normal}
   .hero .fcard::before{inset:4px -4px -4px 4px;border-radius:14px}
 }
+
+/* ---------- Chọn giáo trình và cấp độ: tab dạng nút, thẻ cấp có số màu theo độ khó (2026-11-15) ---------- */
+#hoc .tabs{display:inline-flex;gap:4px;padding:4px;margin:10px 0 14px;border:1.5px solid var(--line);border-radius:999px;background:var(--card)}
+#hoc .tab{margin:0;padding:7px 22px;border:0;border-radius:999px;font-size:.95rem;transition:background .15s,color .15s}
+#hoc .tab[aria-selected="true"]{background:var(--jade);color:var(--jade-ink);border:0}
+#hoc .tab:not([aria-selected="true"]):hover{background:var(--jade-soft);color:var(--jade)}
+#hoc .lead{font-size:.9rem;color:var(--mute);margin:0 0 14px}
+#hoc .levels{gap:12px}
+/* Màu tăng dần theo cấp: xanh lá (dễ) → xanh dương → tím → đỏ ấn (khó) */
+#hoc .levels li{--lc0:#1E7A5A}
+#hoc .levels li:nth-child(2){--lc0:#24788C}
+#hoc .levels li:nth-child(3){--lc0:#2E5FA8}
+#hoc .levels li:nth-child(4){--lc0:#1B3A6B}
+#hoc .levels li:nth-child(5){--lc0:#6B3FA0}
+#hoc .levels li:nth-child(6){--lc0:#963270}
+#hoc .levels li:nth-child(7){--lc0:#B3261E}
+#hoc .level{--lc:var(--lc0);flex-direction:row;align-items:stretch;gap:12px;padding:14px;border:1.5px solid var(--line);border-radius:16px;
+  transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}
+#hoc a.level:hover{transform:translateY(-2px);border-color:var(--lc);box-shadow:0 12px 24px -18px var(--lc)}
+#hoc .lnum{flex:none;align-self:flex-start;display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:color-mix(in srgb,var(--lc) 13%,var(--card));color:var(--lc);
+  font-weight:800;font-size:1.35rem;line-height:1;border:1.5px solid color-mix(in srgb,var(--lc) 30%,transparent)}
+#hoc .lnum.wide{font-size:.95rem;letter-spacing:-.02em}
+#hoc a.level:hover .lnum{background:var(--lc);color:#fff;border-color:var(--lc)}
+#hoc .lbody{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+#hoc .level .lhead{flex-wrap:nowrap}
+#hoc .level .lv{font-size:1.02rem}
+#hoc .level .zh{font-size:.82rem;color:var(--lc);line-height:1.3}
+#hoc .level .words{font-size:.75rem;margin:2px 0 10px}
+#hoc .level .state{color:var(--mute);transition:transform .15s,color .15s}
+#hoc a.level:hover .state{color:var(--lc);transform:translateX(3px)}
+#hoc .lbar{display:block;flex:none;height:4px;margin-top:auto;border-radius:999px;background:color-mix(in srgb,var(--lc) 12%,var(--line))}
+#hoc .lbar span{display:block;height:100%;border-radius:inherit;background:var(--lc)}
+/* Thẻ lẻ cuối hàng (ví dụ HSK 7–9) kéo dài cho kín hàng */
+@media (min-width:768px){#hoc .levels:not(.two) li:last-child:nth-child(4n+3){grid-column:span 2}}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #hoc .level{--lc:color-mix(in srgb,var(--lc0) 55%,#fff)}
+  :root:not([data-theme="light"]) #hoc a.level:hover .lnum{color:#0E141C}}
+:root[data-theme="dark"] #hoc .level{--lc:color-mix(in srgb,var(--lc0) 55%,#fff)}
+:root[data-theme="dark"] #hoc a.level:hover .lnum{color:#0E141C}
+@media (prefers-reduced-motion:reduce){#hoc .level,#hoc .level .state{transition:none}#hoc a.level:hover{transform:none}}
+@media (max-width:767px){
+  #hoc .tabs{display:flex;width:100%}
+  #hoc .tab{flex:1;padding:7px 10px}
+  #hoc .levels{gap:8px}
+  #hoc .level{gap:9px;padding:10px}
+  #hoc .lnum{width:34px;height:34px;border-radius:9px;font-size:1.05rem}
+  #hoc .lnum.wide{font-size:.72rem}
+  #hoc .level .lv{font-size:.92rem}
+  #hoc .level .words{font-size:.68rem}
+  #hoc .lbar{height:3px}
+  #hoc .levels:not(.two) li:last-child:nth-child(odd){grid-column:span 2}
+  #hoc .level .words{margin-bottom:7px}
+}

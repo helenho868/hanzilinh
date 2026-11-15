@@ -131,15 +131,28 @@
   })();
 
   /* ================= Thẻ cấp độ ================= */
-  function levelCard(prefix, l, words) {
+  function levelCard(prefix, l, words, count, max) {
     var li = el("li"), a = el("a", "level");
     a.href = l.href;
+    if (prefix) {
+      var num = el("span", "lnum", String(l.name || l.id)); num.setAttribute("aria-hidden", "true");
+      if (String(l.name || l.id).length > 2) num.className += " wide";
+      a.appendChild(num);
+    }
+    var body = el("span", "lbody");
     var head = el("span", "lhead");
     head.appendChild(el("span", "lv", prefix + " " + (l.name || l.id)));
-    var zh = el("span", "zh", prefix + l.zh); zh.setAttribute("lang", "zh-CN"); head.appendChild(zh);
     head.appendChild(el("span", "state", "→")); head.lastChild.setAttribute("aria-hidden", "true");
-    a.appendChild(head);
-    a.appendChild(el("span", "words", words));
+    body.appendChild(head);
+    var zh = el("span", "zh", prefix + l.zh); zh.setAttribute("lang", "zh-CN"); body.appendChild(zh);
+    body.appendChild(el("span", "words", words));
+    if (count && max) {
+      /* Thanh độ khó: dài theo số từ của cấp (căn bậc hai để cấp thấp vẫn thấy rõ) */
+      var bar = el("span", "lbar"); bar.setAttribute("aria-hidden", "true");
+      var fill = el("span"); fill.style.width = Math.max(8, Math.round(Math.sqrt(count / max) * 100)) + "%";
+      bar.appendChild(fill); body.appendChild(bar);
+    }
+    a.appendChild(body);
     li.appendChild(a);
     return li;
   }
@@ -151,13 +164,19 @@
   var PANELS = {
     hsk: {
       lead: "Lộ trình HSK 3.0: cấp 1 đến 6 và cấp 7–9. Số từ là tổng số từ cần biết ở cấp đó. HSK 1 có thêm bản theo chuẩn HSK 2.0.",
-      cards: function (ul) { LEVELS.filter(visible).forEach(function (l) { ul.appendChild(levelCard("HSK", l, hskWords(l))); }); }
+      cards: function (ul) {
+        var ls = LEVELS.filter(visible), mx = 0;
+        ls.forEach(function (l) { mx = Math.max(mx, l.words3 || l.words || 0); });
+        ls.forEach(function (l) { ul.appendChild(levelCard("HSK", l, hskWords(l), l.words3 || l.words, mx)); });
+      }
     },
     yct: {
       lead: "YCT là kỳ thi tiếng Trung dành cho thiếu nhi. Số từ là tổng số từ cần biết ở cấp đó, theo bảng từ chính thức.",
       cards: function (ul) {
         if (typeof YCT_LEVELS === "undefined") return;
-        YCT_LEVELS.filter(visible).forEach(function (l) { ul.appendChild(levelCard("YCT", l, fmt(l.words) + " từ" + (l.id > 1 ? ", gồm " + fmt(l.new) + " từ mới" : ""))); });
+        var ys = YCT_LEVELS.filter(visible), my = 0;
+        ys.forEach(function (l) { my = Math.max(my, l.words || 0); });
+        ys.forEach(function (l) { ul.appendChild(levelCard("YCT", l, fmt(l.words) + " từ" + (l.id > 1 ? ", gồm " + fmt(l.new) + " từ mới" : ""), l.words, my)); });
       }
     },
     boya: {
