@@ -216,6 +216,7 @@
     if (t.desc) a.title = t.desc;
     var ic = el("span", "ic", t.ic); ic.setAttribute("aria-hidden", "true"); a.appendChild(ic);
     a.appendChild(el("span", "tname", t.name));
+    var go = el("span", "tgo", "›"); go.setAttribute("aria-hidden", "true"); a.appendChild(go);
     if (t.desc) a.appendChild(el("span", "sr", ": " + t.desc));
     li.appendChild(a);
     return li;
@@ -226,7 +227,7 @@
   groups.forEach(function (g) {
     var list = shown.filter(function (t) { return g.id ? t.group === g.id : !groups.some(function (x) { return x.id && x.id === t.group; }); });
     if (!list.length) return;
-    var box = el("div", "tgroup"), hid = "tg-" + (g.id || "khac");
+    var box = el("div", "tgroup"), hid = "tg-" + (g.id || "khac"); box.setAttribute("data-g", g.id || "khac");
     var h = el("h3", "tgh", g.name); h.id = hid; box.appendChild(h);
     var ul = el("ul", "tools"); ul.setAttribute("aria-labelledby", hid);
     list.forEach(function (t) { ul.appendChild(toolCard(t)); });
@@ -235,7 +236,7 @@
   /* Vui học tiếng Trung: một nhóm cuối trong Công cụ học (giữ id "vui-hoc" để các liên kết cũ vẫn tới đúng chỗ). */
   var funList = typeof FUN !== "undefined" ? FUN.filter(function (t) { return visible(t) && t.href; }) : [];
   if (funList.length) {
-    var fbox = el("div", "tgroup"); fbox.id = "vui-hoc";
+    var fbox = el("div", "tgroup"); fbox.id = "vui-hoc"; fbox.setAttribute("data-g", "vui");
     var fh = el("h3", "tgh", "Vui học"); fh.id = "tg-vuihoc"; fbox.appendChild(fh);
     var ful = el("ul", "tools"); ful.setAttribute("aria-labelledby", "tg-vuihoc");
     funList.forEach(function (t) { ful.appendChild(toolCard(t)); });

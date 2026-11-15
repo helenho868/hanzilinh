@@ -287,3 +287,37 @@ a.tool:hover .tname{color:var(--jade)}
   .hero .stats{grid-column:1/-1;grid-row:3;grid-template-columns:repeat(4,1fr)}
   .hero .stats li{padding:5px 7px}
 }
+
+/* ---------- Công cụ học: mỗi nhóm là một khối, xếp kiểu cột báo (2026-11-15) ---------- */
+.tgroup{--g:var(--jade);--gs:var(--jade-soft)}
+.tgroup[data-g="kynang"]{--g:#1E7A5A;--gs:#D5EEE4}
+.tgroup[data-g="thi"]{--g:#A15C07;--gs:#F7E6CC}
+.tgroup[data-g="chuhan"]{--g:#6B3FA0;--gs:#E7DDF5}
+.tgroup[data-g="vui"]{--g:#B3261E;--gs:#F6DAD8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tgroup[data-g="kynang"]{--g:#6FD3A8;--gs:#163A2E}
+  :root:not([data-theme="light"]) .tgroup[data-g="thi"]{--g:#F2B866;--gs:#3A2A12}
+  :root:not([data-theme="light"]) .tgroup[data-g="chuhan"]{--g:#C4A6EE;--gs:#2D2140}
+  :root:not([data-theme="light"]) .tgroup[data-g="vui"]{--g:#F08A82;--gs:#3D1A18}}
+#tools{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media (min-width:601px){#tools{grid-template-areas:"tv kn" "tv ch" "thi vui"}
+  #tools [data-g="tuvung"]{grid-area:tv}#tools [data-g="kynang"]{grid-area:kn}#tools [data-g="thi"]{grid-area:thi}#tools [data-g="chuhan"]{grid-area:ch}#tools [data-g="vui"]{grid-area:vui}}
+@media (min-width:901px){#tools{grid-template-columns:repeat(3,1fr);grid-template-areas:"tv kn thi" "tv ch vui"}}
+#tools .tgroup{margin:0;padding:14px 14px 10px;border:1.5px solid var(--line);border-radius:16px;background:var(--card);border-top:4px solid var(--g)}
+#tools .tgh{display:flex;align-items:center;gap:8px;margin:0 0 8px;color:var(--g);font-size:.78rem}
+#tools .tools{display:flex;flex-direction:column;gap:2px}
+#tools .tool{display:flex;align-items:center;gap:12px;min-height:0;padding:8px 8px;border:0;border-radius:10px;background:transparent;transition:background .15s}
+#tools a.tool:hover{background:var(--gs)}
+#tools .tool .ic{width:38px;height:38px;border-radius:10px;background:var(--gs);color:var(--g);font-size:1.15rem}
+#tools .tname{flex:1;font-weight:600;font-size:.98rem}
+#tools .tgo{color:var(--mute);font-size:1.3rem;line-height:1;transition:transform .15s,color .15s}
+#tools a.tool:hover .tgo{transform:translateX(3px);color:var(--g)}
+#tools a.tool:hover .tname{color:inherit}
+@media (max-width:600px){
+  #tools{grid-template-columns:1fr;gap:12px}
+  #tools .tgroup{padding:12px 12px 8px}
+  #tools .tools{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+  #tools .tool{gap:8px;padding:7px 6px}
+  #tools .tool .ic{width:32px;height:32px;font-size:1rem}
+  #tools .tname{font-size:.88rem}
+  #tools .tgo{display:none}
+}
