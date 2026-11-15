@@ -355,11 +355,10 @@ a.tool:hover .tname{color:var(--jade)}
 :root[data-theme="dark"] .hero .stats li:nth-child(4){--c:#6FD3A8}
 @media (max-width:767px){
   .hero{padding:18px 16px;border-radius:18px;margin:4px 0 14px}
-  .hero .eyebrow{grid-column:1/-1;grid-row:1;justify-self:start;margin:0}
-  .hero h1{grid-row:2;font-size:1.7rem}
-  .hero .flash{grid-row:2}
-  .hero .sub{grid-row:3;font-size:.9rem;margin:2px 0 0}
-  .hero .stats{grid-row:4;max-width:none;gap:6px}
+  .hero h1{grid-row:1;font-size:1.7rem}
+  .hero .flash{grid-row:1}
+  .hero .sub{grid-row:2;font-size:.9rem;margin:2px 0 0}
+  .hero .stats{grid-row:3;max-width:none;gap:6px}
   .hero .stats li{padding:6px 6px 6px 8px;border-left-width:3px;font-size:.66rem}
   .hero .stats b{font-size:1.05rem}
   .hero .stats li span{white-space:normal}
