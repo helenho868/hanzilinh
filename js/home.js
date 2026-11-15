@@ -283,6 +283,7 @@
       var row = el("div", "btnrow"), a = el("a", "mini", "Học tiếp"); a.href = last.u; row.appendChild(a); rb.appendChild(row);
       $("stripTxt").textContent = last.n + (last.l ? " · " + last.l : ""); $("stripGo").href = last.u;
     } else {
+      rb.appendChild(el("p", "resume-t", "Bắt đầu hành trình của bạn"));
       rb.appendChild(el("p", "muted", "Bạn chưa học gì trên máy này. Chọn một cấp độ và mở Từ vựng để bắt đầu."));
       var r2 = el("div", "btnrow"), b = el("a", "mini", "Bắt đầu với HSK 1"); b.href = "vocab.html?level=1"; r2.appendChild(b); rb.appendChild(r2);
       $("stripTxt").textContent = "Bắt đầu với HSK 1"; $("stripGo").href = "vocab.html?level=1";
@@ -290,10 +291,12 @@
 
     var pb = $("progressBody"), rows = 0, total = 0; pb.replaceChildren();
     function cnt(key) { var v = jget(key, []); return Array.isArray(v) ? v.length : 0; }
-    function add(label, known, all, ex, lw, href) {
+    var PC = ["#1E7A5A", "#24788C", "#2E5FA8", "#1B3A6B", "#6B3FA0", "#963270", "#B3261E"];
+    function add(label, known, all, ex, lw, href, ci) {
       total += known;
       if (!known && !ex && !lw) return; rows++;
       var r = el("div", "prow"), l = el("div", "pl");
+      if (typeof ci === "number") r.style.setProperty("--pc", PC[Math.min(ci, PC.length - 1)]);
       l.appendChild(el("b", "", label));
       l.appendChild(el("span", "", known + "/" + all + " từ" + (ex && typeof ex.pct === "number" ? " · đề thi " + ex.pct + "%" : "")));
       r.appendChild(l);
@@ -309,9 +312,15 @@
       }
       pb.appendChild(r);
     }
-    LEVELS.filter(visible).forEach(function (l) { add("HSK " + (l.name || l.id), cnt("hanzilinh_known_hsk" + l.id + "_v3"), l.new3 || l.words3, jget("hanzilinh_exambest_hsk" + l.id, null), jget("hanzilinh_lastword_hsk" + l.id + "_v3", null), "vocab.html?level=" + l.id); });
-    if (typeof YCT_LEVELS !== "undefined") YCT_LEVELS.filter(visible).forEach(function (l) { add("YCT " + l.id, cnt("hanzilinh_known_yct" + l.id), l.new, jget("hanzilinh_exambest_yct" + l.id, null), jget("hanzilinh_lastword_yct" + l.id, null), "vocab.html?series=yct&level=" + l.id); });
-    if (!rows) pb.appendChild(el("p", "muted", "Chưa có số liệu. Ở trang Từ vựng, bấm \"Đã thuộc\" cho từ bạn nhớ, tiến độ sẽ hiện ở đây. Dữ liệu chỉ lưu trên máy này."));
+    LEVELS.filter(visible).forEach(function (l) { add("HSK " + (l.name || l.id), cnt("hanzilinh_known_hsk" + l.id + "_v3"), l.new3 || l.words3, jget("hanzilinh_exambest_hsk" + l.id, null), jget("hanzilinh_lastword_hsk" + l.id + "_v3", null), "vocab.html?level=" + l.id, l.id - 1); });
+    if (typeof YCT_LEVELS !== "undefined") YCT_LEVELS.filter(visible).forEach(function (l) { add("YCT " + l.id, cnt("hanzilinh_known_yct" + l.id), l.new, jget("hanzilinh_exambest_yct" + l.id, null), jget("hanzilinh_lastword_yct" + l.id, null), "vocab.html?series=yct&level=" + l.id, l.id - 1); });
+    if (!rows) {
+      /* Chưa có số liệu: hướng dẫn 3 bước ngắn thay cho một đoạn chữ dài */
+      var ol = el("ol", "psteps");
+      ["Mở Từ vựng của một cấp độ", "Bấm \"Đã thuộc\" cho từ bạn nhớ", "Tiến độ từng cấp sẽ hiện ở đây"].forEach(function (x) { ol.appendChild(el("li", "", x)); });
+      pb.appendChild(ol);
+      pb.appendChild(el("p", "pnote", "Dữ liệu chỉ lưu trên máy này. Dùng Sao lưu để chuyển sang máy khác."));
+    }
     $("stripKnown").textContent = total ? "Đã thuộc " + fmt(total) + " từ" : "";
   }
   renderProgress();

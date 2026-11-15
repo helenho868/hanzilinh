@@ -416,3 +416,35 @@ a.tool:hover .tname{color:var(--jade)}
   #hoc .levels:not(.two) li:last-child:nth-child(odd){grid-column:span 2}
   #hoc .level .words{margin-bottom:7px}
 }
+
+/* ---------- Tiếp tục học + Tiến độ của bạn (2026-11-15) ---------- */
+.side .card{position:relative;overflow:hidden;padding:20px 22px;border-radius:18px;box-shadow:0 1px 0 var(--line),0 14px 30px -26px rgba(16,21,28,.4)}
+.side .card h2{display:flex;align-items:center;gap:10px;font-size:1.05rem;margin:0 0 12px}
+.cbadge{flex:none;display:grid;place-items:center;width:32px;height:32px;border-radius:9px;background:var(--seal);color:var(--seal-ink);
+  font-family:"Noto Serif SC","Songti SC",serif;font-weight:900;font-size:1.05rem;line-height:1}
+.cbadge.blue{background:var(--jade);color:var(--jade-ink)}
+#resume{background:radial-gradient(90% 120% at 100% 0%,color-mix(in srgb,var(--seal) 9%,transparent) 0%,transparent 60%),var(--card)}
+#progress{background:radial-gradient(90% 120% at 100% 0%,var(--jade-soft) 0%,transparent 60%),var(--card)}
+.side .resume-t{font-size:1.08rem;margin:0 0 4px}
+.side .card .muted{font-size:.88rem;line-height:1.55}
+.side .card .btnrow{margin-top:14px}
+.side .card .mini{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:999px;transition:transform .15s,box-shadow .15s,background .15s}
+.side .card a.mini::after{content:"→";transition:transform .15s}
+.side .card .mini:hover{box-shadow:0 8px 18px -12px var(--jade)}
+.side .card a.mini:hover::after{transform:translateX(3px)}
+.side .card .mini.alt:hover{background:var(--jade-soft)}
+/* Hướng dẫn 3 bước khi chưa có tiến độ */
+.psteps{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;gap:8px}
+.psteps li{counter-increment:s;display:flex;align-items:center;gap:10px;font-size:.88rem;color:var(--ink);line-height:1.35}
+.psteps li::before{content:counter(s);flex:none;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;
+  background:var(--jade-soft);color:var(--jade);font-weight:800;font-size:.78rem}
+.pnote{margin:12px 0 0;padding-top:10px;border-top:1px dashed var(--line);font-size:.78rem;color:var(--mute)}
+/* Dòng tiến độ: màu theo cấp, thanh dày và bo tròn */
+.side .prow{--pc:var(--jade);padding:10px 12px;margin:0 0 8px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.side .prow .pl b{color:var(--pc)}
+.side .prow .pl span{font-variant-numeric:tabular-nums;color:var(--mute)}
+.side .pbar{height:8px;border-radius:999px;background:color-mix(in srgb,var(--pc) 12%,var(--line));margin-top:6px}
+.side .pbar i{background:var(--pc);border-radius:999px}
+:root[data-theme="dark"] .side .prow .pl b,:root[data-theme="dark"] .side .pbar i{filter:brightness(1.6)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .side .prow .pl b,:root:not([data-theme="light"]) .side .pbar i{filter:brightness(1.6)}}
+@media (prefers-reduced-motion:reduce){.side .card .mini,.side .card a.mini::after{transition:none}}
